@@ -19,6 +19,17 @@ PDF. Допомагає командам B2C-продуктів вирішити
 | План розвитку | [`docs/roadmap.md`](skills/wikipedia-interest-analysis/docs/roadmap.md) |
 | Приклади й PDF-звіти | [`examples/`](skills/wikipedia-interest-analysis/examples/README.md) |
 
+Щоб Claude Code підхоплював навичку в цьому репозиторії, додайте локальне
+посилання (воно в `.gitignore`):
+
+```bash
+mkdir -p .claude/skills
+ln -s ../../skills/wikipedia-interest-analysis .claude/skills/wikipedia-interest-analysis
+```
+
+Або скопіюйте теку навички в `~/.claude/skills/`, щоб вона була доступна в усіх
+проєктах.
+
 Вимоги: Python 3.8+, лише стандартна бібліотека, мережа для Wikidata й
 Wikimedia Pageviews API. Тести без мережі:
 

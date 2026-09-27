@@ -6,3 +6,5 @@ __pycache__/
 basket.json
 *.basket.json
 !skills/wikipedia-interest-analysis/examples/*.basket.json
+# локальне посилання для Claude Code (у репозиторій не входить)
+.claude/skills/

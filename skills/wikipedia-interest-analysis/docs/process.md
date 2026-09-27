@@ -14,7 +14,6 @@
 .
 ├── README.md                     # коротко про репозиторій і посилання сюди
 ├── LICENSE                       # MIT
-├── .claude/skills/wikipedia-interest-analysis → ../../skills/wikipedia-interest-analysis
 └── skills/wikipedia-interest-analysis/
     ├── SKILL.md                  # інструкції для агента
     ├── scripts/                  # увесь код — лише стандартна бібліотека Python 3.8+, без залежностей
@@ -35,8 +34,14 @@
 ```
 
 Навичка лежить у `skills/`, як у репозиторії навичок Anthropic
-(`anthropics/skills`). У `.claude/skills/` — символічне посилання на неї, щоб
-Claude Code підхоплював навичку автоматично, коли репозиторій відкрито в ньому.
+(`anthropics/skills`). Щоб Claude Code підхоплював її автоматично, достатньо
+локального символічного посилання (у репозиторій воно не входить):
+
+```bash
+mkdir -p .claude/skills
+ln -s ../../skills/wikipedia-interest-analysis .claude/skills/wikipedia-interest-analysis
+```
+
 Завдання вимагає, щоб усі матеріали й код були в директорії навички, тож і хід
 роботи, і опис завдання лежать у `docs/`; поза навичкою — лише короткий
 `README.md` і `LICENSE`.
