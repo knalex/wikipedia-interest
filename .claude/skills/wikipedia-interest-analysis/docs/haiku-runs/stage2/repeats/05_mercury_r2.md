@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_2/basket.json
+  --out <tmp>/x/05_2/basket.json
 ```
 
 ## Відповідь агента
@@ -39,12 +39,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
   --entity Q308 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_2/basket.json
+  --out <tmp>/x/05_2/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_2/basket.json \
+  --basket <tmp>/x/05_2/basket.json \
   --last 12 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_2/views.json
+  --out <tmp>/x/05_2/views.json
 ```
 
 ## Відповідь агента

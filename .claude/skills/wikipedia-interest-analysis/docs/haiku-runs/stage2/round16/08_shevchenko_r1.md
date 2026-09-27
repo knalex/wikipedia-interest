@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:Шевченко" \
   --query "en:Taras Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/08_1/basket.json
+  --out <tmp>/y/08_1/basket.json
 ```
 
 ## Відповідь агента
@@ -25,10 +25,10 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/08_1/basket.json \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/y/08_1/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/08_1/views.json
+  --out <tmp>/y/08_1/views.json
 ```
 
 ## Відповідь агента

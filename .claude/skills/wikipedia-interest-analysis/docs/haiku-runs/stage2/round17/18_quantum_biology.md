@@ -8,10 +8,10 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:quantum biology" \
   --targets sv \
   --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/18/basket.json
+  --out <tmp>/z/18/basket.json
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/18/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/18/views.json
+  --basket <tmp>/z/18/basket.json \
+  --out <tmp>/z/18/views.json
 ```
 
 ## Відповідь агента

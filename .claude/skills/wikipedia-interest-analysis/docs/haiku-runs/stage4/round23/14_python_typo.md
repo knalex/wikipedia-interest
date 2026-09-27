@@ -4,9 +4,9 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "en:Python programming" --query "en:Python (programming language)" --targets en,de --user-message "Порівняй тренд \"Pyhton programming\" між англійською та німецькою Wikipedia." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/basket.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/views.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/analysis.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "en:Python programming" --query "en:Python (programming language)" --targets en,de --user-message "Порівняй тренд \"Pyhton programming\" між англійською та німецькою Wikipedia." --out <tmp>/r/14/basket.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/r/14/basket.json --last 24 --out <tmp>/r/14/views.json
+cd <skill> && python3 scripts/analyze_trend.py --views <tmp>/r/14/views.json --out <tmp>/r/14/analysis.json
 ```
 
 ## Відповідь агента
@@ -27,7 +27,7 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 - en +1 %, de −15 %.
 - Найкраща відносна динаміка (сама по собі — без явної зміни) — Англійська Wikipedia (en), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/14/views.svg
+Графік: <tmp>/r/14/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

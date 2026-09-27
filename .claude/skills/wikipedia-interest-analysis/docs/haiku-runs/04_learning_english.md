@@ -32,7 +32,7 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 .claude/skills/wikipedia-inte
   --query "en:English as a second or foreign language" \
   --targets uk,pl,de,es \
   --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r12/04/basket.json
+  --out <tmp>/r12/04/basket.json
 ```
 
 ## Відповідь агента

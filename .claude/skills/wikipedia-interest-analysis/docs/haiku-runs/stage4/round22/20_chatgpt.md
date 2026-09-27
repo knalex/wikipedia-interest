@@ -7,16 +7,16 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:ChatGPT" \
   --targets de,fr \
   --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/basket.json
+  --out <tmp>/s/20/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/basket.json \
+  --basket <tmp>/s/20/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/views.json
+  --out <tmp>/s/20/views.json
 
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/analysis.json
+  --views <tmp>/s/20/views.json \
+  --out <tmp>/s/20/analysis.json
 ```
 
 ## Відповідь агента
@@ -35,7 +35,7 @@ python3 scripts/analyze_trend.py \
 - fr −1 %, de −5 %.
 - Різниця між мовами менша за 10 п. п. — вважайте динаміку однаковою.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/views.svg
+Графік: <tmp>/s/20/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
@@ -47,9 +47,9 @@ python3 scripts/analyze_trend.py \
 ## Команди агента
 ```bash
 python3 scripts/build_report.py \
-  --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/analysis.json \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/report.pdf \
+  --analysis <tmp>/s/20/analysis.json \
+  --views <tmp>/s/20/views.json \
+  --out <tmp>/s/20/report.pdf \
   --question "Is interest in ChatGPT growing faster in the German or the French Wikipedia?"
 ```
 
@@ -69,8 +69,8 @@ python3 scripts/build_report.py \
 - fr −1 %, de −5 %.
 - Різниця між мовами менша за 10 п. п. — вважайте динаміку однаковою.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/views.svg
+Графік: <tmp>/s/20/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
-Звіт на одну сторінку (PDF): /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/20/report.pdf
+Звіт на одну сторінку (PDF): <tmp>/s/20/report.pdf

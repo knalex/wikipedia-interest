@@ -3,9 +3,9 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:кава" --query "en:coffee" --query "pl:kawa" --query "cs:káva" --targets pl,cs --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:кава" --query "en:coffee" --query "pl:kawa" --query "cs:káva" --targets pl,cs --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." --out <tmp>/y/11_3/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/basket.json --last 36 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/y/11_3/basket.json --last 36 --out <tmp>/y/11_3/views.json
 ```
 
 ## Відповідь агента
@@ -22,9 +22,9 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py 
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:кава" --query "en:coffee" --query "pl:kawa" --query "cs:káva" --query "sk:kává" --targets pl,cs,sk --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:кава" --query "en:coffee" --query "pl:kawa" --query "cs:káva" --query "sk:kává" --targets pl,cs,sk --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." --out <tmp>/y/11_3/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/basket.json --last 36 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_3/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/y/11_3/basket.json --last 36 --out <tmp>/y/11_3/views.json
 ```
 
 ## Відповідь агента

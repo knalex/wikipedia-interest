@@ -9,7 +9,7 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 .claude/skills/wikipedia-inte
   --query "en:artificial intelligence" \
   --targets uk,pl \
   --user-message "Порівняй, як змінився інтерес до ШІ в українській і польській Wikipedia з 2023 року." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/06_2/basket.json
+  --out <tmp>/x/06_2/basket.json
 ```
 
 ## Відповідь агента
@@ -31,9 +31,9 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 .claude/skills/wikipedia-inte
 ## Команди агента
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/06_2/basket.json \
+  --basket <tmp>/x/06_2/basket.json \
   --start 2023-01 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/06_2/views.json
+  --out <tmp>/x/06_2/views.json
 ```
 
 ## Відповідь агента
@@ -51,4 +51,4 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 .claude/skills/wikipedia-inte
 
 ⚠️ **Важливо:** Дані про абсолютні числа не можна порівнювати як міру інтересу — мовні розділи мають дуже різну аудиторію. Коректне порівняння (відносні зміни, тренди, графіки) буде доступне на етапі 3, який поки що в розробці.
 
-Повні дані зберігаються в `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/06_2/views.json`.
+Повні дані зберігаються в `<tmp>/x/06_2/views.json`.

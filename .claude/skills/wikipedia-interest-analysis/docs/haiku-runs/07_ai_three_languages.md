@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:artificial intelligence" \
   --targets "uk,pl,cs" \
   --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/07/basket.json"
+  --out "<tmp>/r13/07/basket.json"
 ```
 
 ## Відповідь агента

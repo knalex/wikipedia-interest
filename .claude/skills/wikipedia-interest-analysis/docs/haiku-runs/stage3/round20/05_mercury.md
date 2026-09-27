@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:Меркурий" \
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/basket.json
+  --out <tmp>/u/05/basket.json
 ```
 
 ## Відповідь агента
@@ -25,21 +25,21 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:Меркурий" \
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
   --entity Q308 \
   --user-message "Планета, конечно." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/basket.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/basket.json \
+  --out <tmp>/u/05/basket.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/u/05/basket.json \
   --last 12 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/views.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/analysis.json
+  --out <tmp>/u/05/views.json
+cd <skill> && python3 scripts/analyze_trend.py \
+  --views <tmp>/u/05/views.json \
+  --out <tmp>/u/05/analysis.json
 ```
 
 ## Відповідь агента
@@ -59,6 +59,6 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 - pl +11 %, cs −32 %.
 - Відносно найшвидше зростає інтерес — Польська Wikipedia (pl), довіра: середня.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/05/views.svg
+Графік: <tmp>/u/05/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

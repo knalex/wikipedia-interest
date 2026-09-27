@@ -8,12 +8,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Python programming" \
   --targets en,de \
   --user-message "Порівняй тренд \"Pyhton programming\" між англійською та німецькою Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/14/basket.json
+  --out <tmp>/z/14/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/14/basket.json \
+  --basket <tmp>/z/14/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/14/views.json
+  --out <tmp>/z/14/views.json
 ```
 
 ## Відповідь агента

@@ -3,17 +3,17 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:вегетаріанство" \
   --query "en:vegetarianism" \
   --targets de \
   --user-message "Як змінювався інтерес до теми \"вегетаріанство\" в німецькій Wikipedia за 3 роки?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_2/basket.json
+  --out <tmp>/x/13_2/basket.json
 
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_2/basket.json \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/x/13_2/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_2/views.json
+  --out <tmp>/x/13_2/views.json
 ```
 
 ## Відповідь агента
@@ -32,5 +32,5 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 **Важливо:** Це дані про кількість переглядів. Аналіз тренду й висновків про те, чи справді зростає чи падає інтерес (етап 3), ще в розробці.
 
 Дані збережено у файлах:
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_2/basket.json` (кошик статей)
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_2/views.json` (переглядів по місяцях)
+- `<tmp>/x/13_2/basket.json` (кошик статей)
+- `<tmp>/x/13_2/views.json` (переглядів по місяцях)

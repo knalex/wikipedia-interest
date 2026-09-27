@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:інтервальне голодування" \
   --query "en:intermittent fasting" \
   --targets pl,cs \
   --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/01/basket.json
+  --out <tmp>/w/01/basket.json
 ```
 
 ## Відповідь агента
@@ -28,12 +28,12 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:інтервальне голодування" \
   --query "en:intermittent fasting" \
   --targets cs \
   --user-message "Дивимось тільки ческу Вікіпедію." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/01/basket.json
+  --out <tmp>/w/01/basket.json
 ```
 
 ## Відповідь агента
@@ -45,6 +45,6 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
   - Уся cs.wikipedia за той самий час: −13 %; з поправкою на це зміна теми −47 %.
   - Разовий сплеск у квітні 2025: 958 переглядів, у 4,1 раза вище за медіану; без нього висновок той самий (−45 %).
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/01/views.svg
+Графік: <tmp>/w/01/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

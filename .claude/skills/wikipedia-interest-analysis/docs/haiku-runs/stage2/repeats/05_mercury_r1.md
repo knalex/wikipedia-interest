@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-in
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_1/basket.json
+  --out <tmp>/x/05_1/basket.json
 ```
 
 ## Відповідь агента
@@ -39,12 +39,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-in
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
   --entity Q308 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_1/basket.json
+  --out <tmp>/x/05_1/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_1/basket.json \
+  --basket <tmp>/x/05_1/basket.json \
   --last 12 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/05_1/views.json
+  --out <tmp>/x/05_1/views.json
 ```
 
 ## Відповідь агента

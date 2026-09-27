@@ -3,8 +3,8 @@
 
 ## Команди агента
 ```bash
-mkdir -p /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/
-cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets pl,cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --out basket.json
+mkdir -p <tmp>/r/01/
+cd <tmp>/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets pl,cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --out basket.json
 ```
 
 ## Відповідь агента
@@ -31,9 +31,9 @@ cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d6
 
 ## Команди агента (Хід 2)
 ```bash
-cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --user-message "Дивимось тільки ческу Вікіпедію." --out basket.json
-cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket basket.json --last 24 --out views.json
-cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views views.json --out analysis.json
+cd <tmp>/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --user-message "Дивимось тільки ческу Вікіпедію." --out basket.json
+cd <tmp>/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/fetch_pageviews.py --basket basket.json --last 24 --out views.json
+cd <tmp>/r/01/ && python3 <skill>/scripts/analyze_trend.py --views views.json --out analysis.json
 ```
 
 ## Відповідь агента (Хід 2)
@@ -45,7 +45,7 @@ cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d6
   - Уся cs.wikipedia за той самий час: −13 %; з поправкою на це зміна теми −47 %.
   - Разовий сплеск у квітні 2025: 958 переглядів, у 4,1 раза вище за медіану; без нього висновок той самий (−45 %).
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/views.svg
+Графік: <tmp>/r/01/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

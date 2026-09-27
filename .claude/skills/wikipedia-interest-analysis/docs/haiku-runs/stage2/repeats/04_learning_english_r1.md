@@ -30,7 +30,7 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py --query "uk:вивчення англійської" --query "en:English as a second or foreign language" --targets uk,pl,de,es --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" --user-message "Українська, польська, німецька та іспанська." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/04_1/basket.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py --query "uk:вивчення англійської" --query "en:English as a second or foreign language" --targets uk,pl,de,es --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" --user-message "Українська, польська, німецька та іспанська." --out <tmp>/x/04_1/basket.json
 ```
 
 ## Відповідь агента
@@ -68,7 +68,7 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/04_1/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/04_1/views.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py --basket <tmp>/x/04_1/basket.json --last 24 --out <tmp>/x/04_1/views.json
 ```
 
 ## Відповідь агента

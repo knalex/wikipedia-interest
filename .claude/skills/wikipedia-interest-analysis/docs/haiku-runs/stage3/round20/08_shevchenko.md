@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/basket.json"
+  --out "<tmp>/u/08/basket.json"
 ```
 
 ```bash
@@ -17,7 +17,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Taras Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/basket.json"
+  --out "<tmp>/u/08/basket.json"
 ```
 
 ## Відповідь агента
@@ -33,15 +33,15 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 ## Команди агента (етап 2–3)
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/basket.json" \
+  --basket "<tmp>/u/08/basket.json" \
   --last 24 \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/views.json"
+  --out "<tmp>/u/08/views.json"
 ```
 
 ```bash
 python3 scripts/analyze_trend.py \
-  --views "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/views.json" \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/analysis.json"
+  --views "<tmp>/u/08/views.json" \
+  --out "<tmp>/u/08/analysis.json"
 ```
 
 ## Відповідь агента (етап 2–3)
@@ -60,7 +60,7 @@ python3 scripts/analyze_trend.py \
 - pl +33 %, cs −11 %.
 - Відносно найшвидше зростає інтерес — Польська Wikipedia (pl), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/u/08/views.svg
+Графік: <tmp>/u/08/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

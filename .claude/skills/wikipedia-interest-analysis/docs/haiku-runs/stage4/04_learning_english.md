@@ -16,7 +16,7 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/scripts/resolve_topic.py --query "uk:вивчення англійської" --query "en:English as a second or foreign language" --targets uk,pl,de,es --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <repo>/scripts/resolve_topic.py --query "uk:вивчення англійської" --query "en:English as a second or foreign language" --targets uk,pl,de,es --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" --out <tmp>/t/04/basket.json
 ```
 
 ## Відповідь агента
@@ -28,11 +28,11 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikiped
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/fetch_pageviews.py --basket <tmp>/t/04/basket.json --last 24 --out <tmp>/t/04/views.json
 
-python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/analysis.json
+python3 <skill>/scripts/analyze_trend.py --views <tmp>/t/04/views.json --out <tmp>/t/04/analysis.json
 
-python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/build_report.py --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/analysis.json --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/04/report.pdf --question "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?"
+python3 <skill>/scripts/build_report.py --analysis <tmp>/t/04/analysis.json --views <tmp>/t/04/views.json --out <tmp>/t/04/report.pdf --question "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?"
 ```
 
 ## Відповідь агента

@@ -10,12 +10,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "cs:kava" \
   --targets pl,cs \
   --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json
+  --out <tmp>/s2r/11/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json \
+  --basket <tmp>/s2r/11/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json
+  --out <tmp>/s2r/11/views.json
 ```
 
 ## Відповідь агента
@@ -29,8 +29,8 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py 
   - 4 перенаправлення: 922 переглядів
 
 Повні дані з місячною розбивкою збережені у файлах:
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json` — кошик статей
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json` — переглядали по місяцях
+- `<tmp>/s2r/11/basket.json` — кошик статей
+- `<tmp>/s2r/11/views.json` — переглядали по місяцях
 
 **Важливе уточнення:** Абсолютні числа переглядів не мають порівнюватися як міра інтересу між мовними розділами, оскільки вони мають дуже різну аудиторію. Аналіз тренду, графіки та звіти (етап 3) ще в розробці — там можна буде зробити коректні висновки про зростання чи зниження інтересу.
 
@@ -50,12 +50,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets pl,cs,sk \
   --user-message "Додай ще словацьку Wikipedia до порівняння." \
   --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json
+  --out <tmp>/s2r/11/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json \
+  --basket <tmp>/s2r/11/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json
+  --out <tmp>/s2r/11/views.json
 ```
 
 ## Відповідь агента
@@ -70,7 +70,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py 
 - **Словацька Wikipedia (sk.wikipedia):** 18 494 переглядів статті "Káva" за 36 місяців
 
 Повні дані з місячною розбивкою збережені у файлах:
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json` — кошик статей
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json` — переглядали по місяцях
+- `<tmp>/s2r/11/basket.json` — кошик статей
+- `<tmp>/s2r/11/views.json` — переглядали по місяцях
 
 **Важливе уточнення:** Абсолютні числа переглядів не мають порівнюватися як міра інтересу між мовними розділами, оскільки вони мають дуже різну аудиторію. Аналіз тренду, графіки та звіти (етап 3) ще в розробці — там можна буде зробити коректні висновки про зростання чи зниження інтересу.

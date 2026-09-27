@@ -3,16 +3,16 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
   --query "uk:електромобіль" \
   --query "en:electric car" \
   --targets en,de,fr,ja \
   --user-message "Порівняй \"електромобілі\" в англійській, німецькій, французькій та японській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_3/basket.json
+  --out <tmp>/x/16_3/basket.json
 
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_3/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_3/views.json
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+  --basket <tmp>/x/16_3/basket.json \
+  --out <tmp>/x/16_3/views.json
 ```
 
 ## Відповідь агента
@@ -51,4 +51,4 @@ cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@exa
 - Не порівнюй абсолютні числа між мовами як міру популярності теми. Розділи мають дуже різну аудиторію (англійська має найбільшу).
 - Аналіз динаміки інтересу (чи зростає/падає), графіки та звіти (Етап 3) ще в розробці.
 
-Дані збережено в `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_3/`.
+Дані збережено в `<tmp>/x/16_3/`.

@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
   --query "ru:Шевченко" \
   --query "en:Taras Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/basket.json
+  --out <tmp>/r/08/basket.json
 ```
 
 ## Відповідь агента
@@ -27,16 +27,16 @@ cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@exa
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/basket.json \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+  --basket <tmp>/r/08/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/views.json
+  --out <tmp>/r/08/views.json
 ```
 
 ```bash
-cd /home/alex/Interest/wikipedia-interest && python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/analysis.json
+cd <repo> && python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
+  --views <tmp>/r/08/views.json \
+  --out <tmp>/r/08/analysis.json
 ```
 
 ## Відповідь агента
@@ -55,7 +55,7 @@ cd /home/alex/Interest/wikipedia-interest && python3 .claude/skills/wikipedia-in
 - pl +33 %, cs −11 %.
 - Відносно найшвидше зростає інтерес — Польська Wikipedia (pl), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/08/views.svg
+Графік: <tmp>/r/08/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

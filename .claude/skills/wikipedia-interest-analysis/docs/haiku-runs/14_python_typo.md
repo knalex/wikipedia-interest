@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+cd <skill> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Python programming" \
   --targets en,de \
   --user-message "Порівняй тренд \"Pyhton programming\" між англійською та німецькою Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/14/basket.json
+  --out <tmp>/r13/14/basket.json
 ```
 
 ## Відповідь агента

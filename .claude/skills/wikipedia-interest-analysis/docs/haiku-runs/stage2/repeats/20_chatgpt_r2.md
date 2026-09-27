@@ -3,15 +3,15 @@ Is interest in ChatGPT growing faster in the German or the French Wikipedia?
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "en:ChatGPT" \
   --targets de,fr \
   --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/20_2/basket.json
+  --out <tmp>/x/20_2/basket.json
 
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/20_2/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/20_2/views.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/x/20_2/basket.json \
+  --out <tmp>/x/20_2/views.json
 ```
 
 ## Відповідь агента

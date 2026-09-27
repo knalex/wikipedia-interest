@@ -3,17 +3,17 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
   --query "uk:вегетаріанство" \
   --query "en:vegetarianism" \
   --targets de \
   --user-message "Як змінювався інтерес до теми \"вегетаріанство\" в німецькій Wikipedia за 3 роки?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_1/basket.json
+  --out <tmp>/x/13_1/basket.json
 
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_1/basket.json \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+  --basket <tmp>/x/13_1/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_1/views.json
+  --out <tmp>/x/13_1/views.json
 ```
 
 ## Відповідь агента
@@ -35,4 +35,4 @@ cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@exa
 
 Більше за всього користувачів переглядали основну статтю "Vegetarismus" (160 883 переглядів), а також перенаправлення "Vegetarier" та "Vegetarisch".
 
-Деталі зібрані в файли basket.json та views.json у папці /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/13_1/
+Деталі зібрані в файли basket.json та views.json у папці <tmp>/x/13_1/

@@ -3,9 +3,9 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:штучний інтелект" --query "en:artificial intelligence" --query "pl:sztuczna inteligencja" --query "cs:umělá inteligence" --targets uk,pl,cs --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/basket.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/basket.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/analysis.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:штучний інтелект" --query "en:artificial intelligence" --query "pl:sztuczna inteligencja" --query "cs:umělá inteligence" --targets uk,pl,cs --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." --out <tmp>/t/07/basket.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/t/07/basket.json --out <tmp>/t/07/views.json
+cd <skill> && python3 scripts/analyze_trend.py --views <tmp>/t/07/views.json --out <tmp>/t/07/analysis.json
 ```
 
 ## Відповідь агента
@@ -30,7 +30,7 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.svg
+Графік: <tmp>/t/07/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
@@ -39,10 +39,10 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/build_report.py --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/analysis.json --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/report.pdf --question "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia."
+cd <skill> && python3 scripts/build_report.py --analysis <tmp>/t/07/analysis.json --views <tmp>/t/07/views.json --out <tmp>/t/07/report.pdf --question "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia."
 ```
 
 ## Відповідь агента
-Звіт на одну сторінку готовий: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/report.pdf
+Звіт на одну сторінку готовий: <tmp>/t/07/report.pdf
 
 На сторінці: головний висновок, таблиця по мовах, графік, причини рівня довіри та рекомендації для рішення.

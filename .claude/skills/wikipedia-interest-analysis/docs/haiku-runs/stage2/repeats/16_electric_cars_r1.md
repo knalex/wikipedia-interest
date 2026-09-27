@@ -3,18 +3,18 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:електромобіль" \
   --query "en:electric car" \
   --targets en,de,fr,ja \
   --user-message "Порівняй \"електромобілі\" в англійській, німецькій, французькій та японській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_1/basket.json
+  --out <tmp>/x/16_1/basket.json
 ```
 
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_1/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_1/views.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/x/16_1/basket.json \
+  --out <tmp>/x/16_1/views.json
 ```
 
 ## Відповідь агента
@@ -41,7 +41,7 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 **Важливе примітання**: період не було вказано у вашому запиті, тому взято останні завершені 24 місяці (вересень 2024 — серпень 2026).
 
 Дані збережено в файлах:
-- Кошик статей: `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_1/basket.json`
-- Переглади: `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/16_1/views.json`
+- Кошик статей: `<tmp>/x/16_1/basket.json`
+- Переглади: `<tmp>/x/16_1/views.json`
 
 Аналіз трендів, графіків і детальних висновків про зростання/падіння інтересу (етап 3) ще перебуває в розробці.

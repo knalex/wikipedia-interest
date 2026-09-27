@@ -3,12 +3,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:Шевченко" \
   --query "en:Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/basket.json"
+  --out "<tmp>/w/08/basket.json"
 ```
 
 ## Відповідь агента
@@ -27,12 +27,12 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:Тарас Шевченко" \
   --query "en:Taras Shevchenko" \
   --targets pl,cs \
   --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/basket.json"
+  --out "<tmp>/w/08/basket.json"
 ```
 
 ## Відповідь агента
@@ -51,13 +51,13 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/basket.json" \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/views.json"
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket "<tmp>/w/08/basket.json" \
+  --out "<tmp>/w/08/views.json"
 
 python3 scripts/analyze_trend.py \
-  --views "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/views.json" \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/analysis.json"
+  --views "<tmp>/w/08/views.json" \
+  --out "<tmp>/w/08/analysis.json"
 ```
 
 ## Відповідь агента
@@ -79,6 +79,6 @@ python3 scripts/analyze_trend.py \
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/08/views.svg
+Графік: <tmp>/w/08/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

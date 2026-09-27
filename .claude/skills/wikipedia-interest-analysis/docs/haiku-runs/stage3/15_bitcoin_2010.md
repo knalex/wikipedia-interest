@@ -25,17 +25,17 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets en \
   --user-message "Покажи тренд переглядів статті \"Bitcoin\" з 2010 по 2015 рік в англійській Wikipedia." \
   --user-message "Добре, покажи з липня по грудень 2015." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/basket.json
+  --out <tmp>/w/15/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/basket.json \
+  --basket <tmp>/w/15/basket.json \
   --start 2015-07 \
   --end 2015-12 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/views.json
+  --out <tmp>/w/15/views.json
 
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/analysis.json
+  --views <tmp>/w/15/views.json \
+  --out <tmp>/w/15/analysis.json
 ```
 
 ## Відповідь агента
@@ -47,6 +47,6 @@ python3 scripts/analyze_trend.py \
   - Уся en.wikipedia за той самий час: −1 %; з поправкою на це зміна теми +8 %.
   - Період коротший за 2 роки, тож порівнюються дві його половини і сезонність не врахована.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/15/views.svg
+Графік: <tmp>/w/15/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

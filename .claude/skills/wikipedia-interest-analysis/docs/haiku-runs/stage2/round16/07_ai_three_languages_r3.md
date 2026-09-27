@@ -3,18 +3,18 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+cd <skill> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:штучний інтелект" \
   --query "en:artificial intelligence" \
   --targets uk,pl,cs \
   --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/07_3/basket.json
+  --out <tmp>/y/07_3/basket.json
 
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+cd <skill> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/07_3/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/07_3/views.json
+  --basket <tmp>/y/07_3/basket.json \
+  --out <tmp>/y/07_3/views.json
 ```
 
 ## Відповідь агента

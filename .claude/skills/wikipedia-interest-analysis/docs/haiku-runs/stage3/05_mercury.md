@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/basket.json
+  --out <tmp>/w/05/basket.json
 ```
 
 ## Відповідь агента
@@ -42,16 +42,16 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
   --entity Q308 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/basket.json
+  --out <tmp>/w/05/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/basket.json \
+  --basket <tmp>/w/05/basket.json \
   --last 12 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/views.json
+  --out <tmp>/w/05/views.json
 
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/analysis.json
+  --views <tmp>/w/05/views.json \
+  --out <tmp>/w/05/analysis.json
 ```
 
 ## Відповідь агента
@@ -71,6 +71,6 @@ python3 scripts/analyze_trend.py \
 - pl +11 %, cs −32 %.
 - Відносно найшвидше зростає інтерес — Польська Wikipedia (pl), довіра: середня.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/05/views.svg
+Графік: <tmp>/w/05/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

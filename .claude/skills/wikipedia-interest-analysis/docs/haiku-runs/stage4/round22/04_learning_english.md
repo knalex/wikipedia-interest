@@ -40,7 +40,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets uk,pl,de,es \
   --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" \
   --user-message "Українська, польська, німецька та іспанська, за останні 2 роки. Якщо в якихось мовах статті немає — залишай як є, обмеження зрозумілі." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/basket.json"
+  --out "<tmp>/s/04/basket.json"
 ```
 
 ## Відповідь агента
@@ -76,21 +76,21 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --user-message "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?" \
   --user-message "Українська, польська, німецька та іспанська, за останні 2 роки. Якщо в якихось мовах статті немає — залишай як є, обмеження зрозумілі." \
   --entity Q130192 \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/basket.json"
+  --out "<tmp>/s/04/basket.json"
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/basket.json" \
+  --basket "<tmp>/s/04/basket.json" \
   --last 24 \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/views.json"
+  --out "<tmp>/s/04/views.json"
 
 python3 scripts/analyze_trend.py \
-  --views "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/views.json" \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/analysis.json"
+  --views "<tmp>/s/04/views.json" \
+  --out "<tmp>/s/04/analysis.json"
 
 python3 scripts/build_report.py \
-  --analysis "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/analysis.json" \
-  --views "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/views.json" \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/report.pdf" \
+  --analysis "<tmp>/s/04/analysis.json" \
+  --views "<tmp>/s/04/views.json" \
+  --out "<tmp>/s/04/report.pdf" \
   --question "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому?"
 ```
 
@@ -120,8 +120,8 @@ python3 scripts/build_report.py \
 - Немає статті, пов'язаної з Q130192, у розділах: uk, pl.
 - У різних мовах вимірюються різні набори понять; порівняння між мовами нерівноцінне.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/views.svg
+Графік: <tmp>/s/04/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
-Звіт на одну сторінку (PDF): /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s/04/report.pdf
+Звіт на одну сторінку (PDF): <tmp>/s/04/report.pdf

@@ -4,16 +4,16 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "en:Python programming" \
   --query "en:Python (programming language)" \
   --targets en,de \
   --user-message "Порівняй тренд \"Pyhton programming\" між англійською та німецькою Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/14_2/basket.json
+  --out <tmp>/x/14_2/basket.json
 
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/14_2/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/14_2/views.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/x/14_2/basket.json \
+  --out <tmp>/x/14_2/views.json
 ```
 
 ## Відповідь агента
@@ -37,6 +37,6 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 3. Аналіз тренду, графіки і детальні висновки (етап 3) ще в розробці
 
 Дані збережено у файлах:
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/14_2/basket.json`
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/14_2/views.json`
+- `<tmp>/x/14_2/basket.json`
+- `<tmp>/x/14_2/views.json`
 

@@ -3,23 +3,23 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && \
+cd <repo> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
   --query "uk:астрономія" \
   --query "en:astronomy" \
   --targets "uk" \
   --user-message "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/basket.json
+  --out <tmp>/t/03/basket.json
 
-cd /home/alex/Interest/wikipedia-interest && \
+cd <repo> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/views.json
+  --basket <tmp>/t/03/basket.json \
+  --out <tmp>/t/03/views.json
 
-cd /home/alex/Interest/wikipedia-interest && \
+cd <repo> && \
 python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/analysis.json
+  --views <tmp>/t/03/views.json \
+  --out <tmp>/t/03/analysis.json
 ```
 
 ## Відповідь агента
@@ -35,7 +35,7 @@ python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/views.svg`
+Графік: `<tmp>/t/03/views.svg`
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
@@ -44,15 +44,15 @@ python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && \
+cd <repo> && \
 python3 .claude/skills/wikipedia-interest-analysis/scripts/build_report.py \
-  --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/analysis.json \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/report.pdf \
+  --analysis <tmp>/t/03/analysis.json \
+  --views <tmp>/t/03/views.json \
+  --out <tmp>/t/03/report.pdf \
   --question "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?"
 ```
 
 ## Відповідь агента
-Звіт на одну сторінку готовий. Шлях до файлу: `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/03/report.pdf`
+Звіт на одну сторінку готовий. Шлях до файлу: `<tmp>/t/03/report.pdf`
 
 Звіт містить головний висновок, таблицю по мовах, графік, причини рівня довіри та що з цього випливає для рішення. Ви можете передати його команді.

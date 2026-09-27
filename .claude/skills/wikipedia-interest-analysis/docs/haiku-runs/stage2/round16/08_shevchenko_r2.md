@@ -3,7 +3,7 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/resolve_topic.py \
   --query "ru:Шевченко" \
   --query "en:Shevchenko" \
   --targets pl,cs \
@@ -24,7 +24,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikiped
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/resolve_topic.py \
   --query "uk:Тарас Шевченко" \
   --query "en:Taras Shevchenko" \
   --targets pl,cs \
@@ -40,7 +40,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikiped
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 <skill>/scripts/fetch_pageviews.py \
   --basket basket.json \
   --last 24 \
   --out views.json

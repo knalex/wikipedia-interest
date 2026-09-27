@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-in
   --query "en:quantum borscht Borodin" \
   --targets uk,cs \
   --user-message "Перевір, чи росте інтерес до квантового борщу Бородіна в українській і чеській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/10_3/basket.json
+  --out <tmp>/x/10_3/basket.json
 ```
 
 ## Відповідь агента

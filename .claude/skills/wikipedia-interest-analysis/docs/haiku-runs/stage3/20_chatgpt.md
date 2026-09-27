@@ -3,11 +3,11 @@ Is interest in ChatGPT growing faster in the German or the French Wikipedia?
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "en:ChatGPT" --targets "de,fr" --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "en:ChatGPT" --targets "de,fr" --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" --out <tmp>/w/20/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/w/20/basket.json --last 24 --out <tmp>/w/20/views.json
 
-python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/analysis.json
+python3 scripts/analyze_trend.py --views <tmp>/w/20/views.json --out <tmp>/w/20/analysis.json
 ```
 
 ## Відповідь агента
@@ -26,6 +26,6 @@ python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest---
 - fr −1 %, de −5 %.
 - Різниця між першими двома менша за 10 п. п. — вважайте динаміку однаковою.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/20/views.svg
+Графік: <tmp>/w/20/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

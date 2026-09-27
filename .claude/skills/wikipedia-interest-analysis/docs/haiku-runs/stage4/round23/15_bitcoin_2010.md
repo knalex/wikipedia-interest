@@ -21,11 +21,11 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:Біткойн" --query "en:Bitcoin" --targets en --user-message "Покажи тренд переглядів статті \"Bitcoin\" з 2010 по 2015 рік в англійській Wikipedia." --user-message "Добре, покажи з липня по грудень 2015." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/basket.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:Біткойн" --query "en:Bitcoin" --targets en --user-message "Покажи тренд переглядів статті \"Bitcoin\" з 2010 по 2015 рік в англійській Wikipedia." --user-message "Добре, покажи з липня по грудень 2015." --out <tmp>/r/15/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/basket.json --start 2015-07 --end 2015-12 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/r/15/basket.json --start 2015-07 --end 2015-12 --out <tmp>/r/15/views.json
 
-python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/analysis.json --chart /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/chart.svg
+python3 scripts/analyze_trend.py --views <tmp>/r/15/views.json --out <tmp>/r/15/analysis.json --chart <tmp>/r/15/chart.svg
 ```
 
 ## Відповідь агента
@@ -37,7 +37,7 @@ python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest---
   - Уся en.wikipedia за той самий час: −1 %; з поправкою на це зміна теми +8 %.
   - Період коротший за 2 роки, тож порівнюються дві його половини і сезонність не врахована.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/15/chart.svg
+Графік: <tmp>/r/15/chart.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

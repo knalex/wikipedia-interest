@@ -9,14 +9,14 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "en:vegetarianism" \
   --targets de \
   --user-message "Як змінювався інтерес до теми \"вегетаріанство\" в німецькій Wikipedia за 3 роки?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/13/basket.json
+  --out <tmp>/z/13/basket.json
 ```
 
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/13/basket.json \
+  --basket <tmp>/z/13/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/13/views.json
+  --out <tmp>/z/13/views.json
 ```
 
 ## Відповідь агента

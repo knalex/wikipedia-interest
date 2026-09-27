@@ -3,11 +3,11 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:астрономія" --query "en:astronomy" --targets uk --user-message "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:астрономія" --query "en:astronomy" --targets uk --user-message "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?" --out <tmp>/r/03/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/basket.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket <tmp>/r/03/basket.json --out <tmp>/r/03/views.json
 
-python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/analysis.json
+python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views <tmp>/r/03/views.json --out <tmp>/r/03/analysis.json
 ```
 
 ## Відповідь агента
@@ -23,7 +23,7 @@ python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --vi
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/views.svg
+Графік: <tmp>/r/03/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
@@ -34,7 +34,7 @@ python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --vi
 
 ## Команди агента
 ```bash
-python3 .claude/skills/wikipedia-interest-analysis/scripts/build_report.py --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/analysis.json --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/report.pdf --question "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?"
+python3 .claude/skills/wikipedia-interest-analysis/scripts/build_report.py --analysis <tmp>/r/03/analysis.json --views <tmp>/r/03/views.json --out <tmp>/r/03/report.pdf --question "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?"
 ```
 
 ## Відповідь агента
@@ -50,8 +50,8 @@ python3 .claude/skills/wikipedia-interest-analysis/scripts/build_report.py --ana
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/views.svg
+Графік: <tmp>/r/03/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
-Звіт на одну сторінку (PDF): /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/03/report.pdf
+Звіт на одну сторінку (PDF): <tmp>/r/03/report.pdf

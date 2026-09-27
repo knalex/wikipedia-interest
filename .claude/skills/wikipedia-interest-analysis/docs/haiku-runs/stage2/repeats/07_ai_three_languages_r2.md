@@ -4,18 +4,18 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:штучний інтелект" \
   --query "en:artificial intelligence" \
   --query "pl:sztuczna inteligencja" \
   --query "cs:umělá inteligence" \
   --targets uk,pl,cs \
   --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_2/basket.json
+  --out <tmp>/x/07_2/basket.json
 
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_2/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_2/views.json
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket <tmp>/x/07_2/basket.json \
+  --out <tmp>/x/07_2/views.json
 ```
 
 ## Відповідь агента
@@ -40,4 +40,4 @@ cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-anal
 
 **Важлива застереження:** Абсолютні числа переглядів не можна порівнювати між мовами як міру інтересу, оскільки мовні розділи Вікіпедії мають дуже різну аудиторію. Детальний аналіз тренду та коректне порівняння (відносні зміни) буде доступний на етапі 3, який ще перебуває в розробці.
 
-Детальні дані (включаючи помісячні перегляди) збережено в `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_2/views.json`.
+Детальні дані (включаючи помісячні перегляди) збережено в `<tmp>/x/07_2/views.json`.

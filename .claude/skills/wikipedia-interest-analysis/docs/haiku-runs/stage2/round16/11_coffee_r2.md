@@ -10,12 +10,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "cs:káva" \
   --targets pl,cs \
   --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/basket.json
+  --out <tmp>/y/11_2/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/basket.json \
+  --basket <tmp>/y/11_2/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/views.json
+  --out <tmp>/y/11_2/views.json
 ```
 
 ## Відповідь агента
@@ -41,12 +41,12 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --targets pl,cs,sk \
   --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
   --user-message "Додай ще словацьку Wikipedia до порівняння." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/basket.json
+  --out <tmp>/y/11_2/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/basket.json \
+  --basket <tmp>/y/11_2/basket.json \
   --last 36 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/11_2/views.json
+  --out <tmp>/y/11_2/views.json
 ```
 
 ## Відповідь агента

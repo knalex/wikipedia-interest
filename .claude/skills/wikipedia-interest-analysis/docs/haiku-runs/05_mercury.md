@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "en:Mercury" \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/05/basket.json
+  --out <tmp>/r13/05/basket.json
 ```
 
 ## Відповідь агента
@@ -45,7 +45,7 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --targets pl,cs \
   --user-message "Сравни интерес к Меркурию в польской и чешской Википедии за последний год." \
   --entity Q308 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/05/basket.json
+  --out <tmp>/r13/05/basket.json
 ```
 
 ## Відповідь агента
@@ -59,6 +59,6 @@ WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
 Основна стаття: Merkur (planeta)
 Включено: 1 основна стаття + 2 перенаправлення
 
-**Кошик готовий:** `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/05/basket.json`
+**Кошик готовий:** `<tmp>/r13/05/basket.json`
 
 Проте етап 2 (збір статистики переглядів за останній рік) та етап 3 (порівняльні графіки) ще в розробці. Коли вони будуть готові, зможу показати тобі детальне порівняння інтересу до Меркурія в цих мовних розділах.

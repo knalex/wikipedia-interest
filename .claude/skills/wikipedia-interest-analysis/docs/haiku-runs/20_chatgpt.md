@@ -3,11 +3,11 @@ Is interest in ChatGPT growing faster in the German or the French Wikipedia?
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "en:ChatGPT" \
   --targets de,fr \
   --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1323-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/20/basket.json
+  --out <tmp>
 ```
 
 ## Відповідь агента

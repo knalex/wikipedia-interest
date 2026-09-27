@@ -3,11 +3,11 @@
 
 ## Команди агента
 ```bash
-python3 ./.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:квантова біологія" --query "en:quantum biology" --targets sv --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/basket.json
+python3 ./.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:квантова біологія" --query "en:quantum biology" --targets sv --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" --out <tmp>/r/18/basket.json
 
-python3 ./.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/views.json
+python3 ./.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket <tmp>/r/18/basket.json --last 24 --out <tmp>/r/18/views.json
 
-python3 ./.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/analysis.json
+python3 ./.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views <tmp>/r/18/views.json --out <tmp>/r/18/analysis.json
 ```
 
 ## Відповідь агента
@@ -19,7 +19,7 @@ python3 ./.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --
   - Уся sv.wikipedia за той самий час: −2 %; з поправкою на це зміна теми −25 %.
   - Мало переглядів (у середньому ~23 на місяць): випадкові коливання дають великі відсотки.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/views.svg
+Графік: <tmp>/r/18/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
@@ -30,7 +30,7 @@ python3 ./.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --
 
 ## Команди агента
 ```bash
-python3 ./.claude/skills/wikipedia-interest-analysis/scripts/build_report.py --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/analysis.json --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/report.pdf --question "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?"
+python3 ./.claude/skills/wikipedia-interest-analysis/scripts/build_report.py --analysis <tmp>/r/18/analysis.json --views <tmp>/r/18/views.json --out <tmp>/r/18/report.pdf --question "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?"
 ```
 
 ## Відповідь агента
@@ -42,8 +42,8 @@ python3 ./.claude/skills/wikipedia-interest-analysis/scripts/build_report.py --a
   - Уся sv.wikipedia за той самий час: −2 %; з поправкою на це зміна теми −25 %.
   - Мало переглядів (у середньому ~23 на місяць): випадкові коливання дають великі відсотки.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/views.svg
+Графік: <tmp>/r/18/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 
-Звіт на одну сторінку (PDF): /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/18/report.pdf
+Звіт на одну сторінку (PDF): <tmp>/r/18/report.pdf

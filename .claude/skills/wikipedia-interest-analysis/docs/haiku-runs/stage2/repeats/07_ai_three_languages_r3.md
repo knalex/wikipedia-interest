@@ -8,11 +8,11 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:artificial intelligence" \
   --targets uk,pl,cs \
   --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json
+  --out <tmp>/x/07_3/basket.json
 
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/views.json
+  --basket <tmp>/x/07_3/basket.json \
+  --out <tmp>/x/07_3/views.json
 ```
 
 ## Відповідь агента
@@ -40,5 +40,5 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py 
 Період вибрано за замовчуванням (останні 24 завершені місяці), оскільки вказаний період не був названий.
 
 Детальні дані збережено у файлах:
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json`
-- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/views.json`
+- `<tmp>/x/07_3/basket.json`
+- `<tmp>/x/07_3/views.json`

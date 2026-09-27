@@ -10,7 +10,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "pl:sztuczna inteligencja" \
   --targets uk,pl \
   --user-message "Порівняй, як змінився інтерес до ШІ в українській і польській Wikipedia з 2023 року." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/basket.json
+  --out <tmp>/v/06/basket.json
 ```
 
 ## Відповідь агента
@@ -26,13 +26,13 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 ## Команди агента
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/basket.json \
+  --basket <tmp>/v/06/basket.json \
   --start 2023-01 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/views.json
+  --out <tmp>/v/06/views.json
 
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/analysis.json
+  --views <tmp>/v/06/views.json \
+  --out <tmp>/v/06/analysis.json
 ```
 
 ## Відповідь агента
@@ -53,6 +53,6 @@ python3 scripts/analyze_trend.py \
 - uk −14 %, pl −28 %.
 - Відносно найменше падіння інтересу — Українська Wikipedia (uk), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/v/06/views.svg
+Графік: <tmp>/v/06/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

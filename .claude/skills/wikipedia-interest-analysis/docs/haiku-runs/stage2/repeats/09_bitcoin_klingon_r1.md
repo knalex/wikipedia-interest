@@ -8,7 +8,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Bitcoin" \
   --targets pl,tlh \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_1/basket.json
+  --out <tmp>/x/09_1/basket.json
 ```
 
 ## Відповідь агента
@@ -35,7 +35,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Bitcoin" \
   --targets pl,en \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_1/basket.json
+  --out <tmp>/x/09_1/basket.json
 ```
 
 ## Відповідь агента
@@ -52,8 +52,8 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 ## Команди агента
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_1/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_1/views.json
+  --basket <tmp>/x/09_1/basket.json \
+  --out <tmp>/x/09_1/views.json
 ```
 
 ## Відповідь агента

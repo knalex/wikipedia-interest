@@ -3,9 +3,9 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:квантова біологія" --query "en:quantum biology" --targets sv --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/18_2/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:квантова біологія" --query "en:quantum biology" --targets sv --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" --out <tmp>/x/18_2/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/18_2/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/18_2/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket <tmp>/x/18_2/basket.json --last 24 --out <tmp>/x/18_2/views.json
 ```
 
 ## Відповідь агента

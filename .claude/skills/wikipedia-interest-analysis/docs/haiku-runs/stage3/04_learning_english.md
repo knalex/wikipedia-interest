@@ -67,15 +67,15 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 ## Команди агента
 ```bash
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/04/basket.json \
+  --basket <tmp>/w/04/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/04/views.json
+  --out <tmp>/w/04/views.json
 ```
 
 ```bash
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/04/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/04/analysis.json
+  --views <tmp>/w/04/views.json \
+  --out <tmp>/w/04/analysis.json
 ```
 
 ## Відповідь агента
@@ -106,7 +106,7 @@ python3 scripts/analyze_trend.py \
 - Немає статті, пов'язаної з Q130192, у розділах: uk, pl.
 - У різних мовах вимірюються різні набори понять; порівняння між мовами нерівноцінне.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/04/views.svg
+Графік: <tmp>/w/04/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

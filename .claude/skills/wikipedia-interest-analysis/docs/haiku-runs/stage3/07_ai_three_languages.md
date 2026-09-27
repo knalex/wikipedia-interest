@@ -3,11 +3,11 @@
 
 ## Команди агента
 ```bash
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:штучний інтелект" --query "en:artificial intelligence" --targets uk,pl,cs --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/basket.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:штучний інтелект" --query "en:artificial intelligence" --targets uk,pl,cs --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." --out <tmp>/w/07/basket.json
 
-WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/basket.json --last 24 --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/views.json
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket <tmp>/w/07/basket.json --last 24 --out <tmp>/w/07/views.json
 
-python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/analysis.json
+python3 scripts/analyze_trend.py --views <tmp>/w/07/views.json --out <tmp>/w/07/analysis.json
 ```
 
 ## Відповідь агента
@@ -29,6 +29,6 @@ python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest---
 - uk −14 %, pl −28 %, cs −28 %.
 - Відносно найменше падіння інтересу — Українська Wikipedia (uk), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/07/views.svg
+Графік: <tmp>/w/07/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

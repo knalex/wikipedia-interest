@@ -3,13 +3,13 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+cd <skill> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:биткоин" \
   --query "en:bitcoin" \
   --targets pl,tlh \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_3/basket.json"
+  --out "<tmp>/x/09_3/basket.json"
 ```
 
 ## Відповідь агента
@@ -29,14 +29,14 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+cd <skill> && \
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "ru:биткоин" \
   --query "en:bitcoin" \
   --targets pl,en \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
   --user-message "Тогда английскую вместо клингонской." \
-  --out "/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/09_3/basket.json"
+  --out "<tmp>/x/09_3/basket.json"
 ```
 
 ## Відповідь агента

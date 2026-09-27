@@ -3,14 +3,14 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:інтервальне голодування" \
   --query "en:intermittent fasting" \
   --query "pl:post przerywany" \
   --query "cs:přerушované hladovění" \
   --targets pl,cs \
   --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/01/basket.json
+  --out <tmp>/r13/01/basket.json
 ```
 
 ## Відповідь агента

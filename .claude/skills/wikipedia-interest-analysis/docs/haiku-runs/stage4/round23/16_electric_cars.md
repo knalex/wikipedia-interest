@@ -3,21 +3,21 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
   --query "uk:електромобіль" \
   --query "en:electric car" \
   --targets en,de,fr,ja \
   --user-message "Порівняй \"електромобілі\" в англійській, німецькій, французькій та японській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/basket.json
+  --out <tmp>/r/16/basket.json
 
-cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/basket.json \
+cd <repo> && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 .claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+  --basket <tmp>/r/16/basket.json \
   --last 24 \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/views.json
+  --out <tmp>/r/16/views.json
 
-cd /home/alex/Interest/wikipedia-interest && python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/analysis.json
+cd <repo> && python3 .claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py \
+  --views <tmp>/r/16/views.json \
+  --out <tmp>/r/16/analysis.json
 ```
 
 ## Відповідь агента
@@ -42,7 +42,7 @@ cd /home/alex/Interest/wikipedia-interest && python3 .claude/skills/wikipedia-in
 - de −9 %, fr −23 %, ja −27 %, en −33 %.
 - Найкраща відносна динаміка (сама по собі — без явної зміни) — Німецька Wikipedia (de), довіра: висока.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/16/views.svg
+Графік: <tmp>/r/16/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
 

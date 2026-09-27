@@ -9,7 +9,7 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Bitcoin" \
   --targets pl,tlh \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/basket.json
+  --out <tmp>/w/09/basket.json
 ```
 
 ## Відповідь агента
@@ -26,17 +26,17 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "en:Bitcoin" \
   --targets pl,en \
   --user-message "Сравни интерес к биткоину в польской и клингонской Википедии." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/basket.json
+  --out <tmp>/w/09/basket.json
 
 # Stage 2: Fetch pageviews for Bitcoin in Polish and English Wikipedia
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
-  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/basket.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/views.json
+  --basket <tmp>/w/09/basket.json \
+  --out <tmp>/w/09/views.json
 
 # Stage 3: Analyze trend and generate comparison chart
 python3 scripts/analyze_trend.py \
-  --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/views.json \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/analysis.json
+  --views <tmp>/w/09/views.json \
+  --out <tmp>/w/09/analysis.json
 ```
 
 ## Відповідь агента
@@ -58,6 +58,6 @@ python3 scripts/analyze_trend.py \
 Зверніть увагу:
 - Період не названо, тому взято типовий: 24 останні завершені місяці.
 
-Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/w/09/views.svg
+Графік: <tmp>/w/09/views.svg
 Поріг: зміна менша за ±10 % вважається «без явної зміни».
 Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

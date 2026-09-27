@@ -4,12 +4,12 @@
 
 ## Команди агента
 ```bash
-cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+cd <skill> && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
   --query "uk:квантовий борщ Бородіна" \
   --query "en:quantum borscht" \
   --targets uk,cs \
   --user-message "Перевір, чи росте інтерес до квантового борщу Бородіна в українській і чеській Wikipedia." \
-  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/10/basket.json
+  --out <tmp>/r13/10/basket.json
 ```
 
 ## Відповідь агента
