@@ -39,6 +39,7 @@ BREAK_RATIO = 2.5                # різка зміна медіани сусі
 BREAK_PERSIST = 1.8              # і стійка: медіана всього «після» проти «до»
 PERIODS_PER_YEAR = {"monthly": 12, "daily": 365}
 CONFIDENCE_ORDER = ["висока", "середня", "низька"]
+REPORT_OFFER = "Можу зробити з цього звіт на одну сторінку (PDF), яким зручно поділитися з командою."
 TREND_WORDS = {"growing": "інтерес зростає", "declining": "інтерес падає", "flat": "без явної зміни",
                "new": "перегляди з'явилися лише посеред періоду", "none": "даних для висновку замало"}
 UNIT_GEN = {"monthly": ("місяць", "місяці", "місяців"), "daily": ("день", "дні", "днів")}
@@ -261,8 +262,11 @@ def compare(results: list, threshold: float, stage2_codes: set) -> dict:
         return out
     top, second = out["ranking"][0], out["ranking"][1]
     reliable = [r for r in out["ranking"] if r["confidence"] != "низька"]
-    if top["change_pct"] - second["change_pct"] < threshold:
-        out["verdict"] = "similar"
+    if top["change_pct"] - out["ranking"][-1]["change_pct"] < threshold:
+        out["verdict"] = "similar"  # усі мови в межах порогу
+    elif top["change_pct"] - second["change_pct"] < threshold:
+        out["verdict"] = "close_leaders"  # кілька лідерів поруч, решта відстає
+        out["leaders"] = [r["lang"] for r in out["ranking"] if top["change_pct"] - r["change_pct"] < threshold]
     elif top["confidence"] == "низька":
         out["verdict"] = "leader_unreliable"
     else:
@@ -329,8 +333,13 @@ def comparison_lines(cmp: dict, results: dict, threshold: float) -> list:
     lines.append(f"- {ranked}.")
     top = results[cmp["ranking"][0]["lang"]]
     if cmp["verdict"] == "similar":
-        lines.append(f"- Різниця між першими двома менша за {GROWTH_THRESHOLD:.0f} п. п. — вважайте динаміку "
-                     f"однаковою.")
+        lines.append(f"- Різниця між мовами менша за {threshold:g} п. п. — вважайте динаміку однаковою.")
+    elif cmp["verdict"] == "close_leaders":
+        editions = [results[l]["edition"] for l in cmp["leaders"]]
+        names = ", ".join(editions[:-1]) + " і " + editions[-1]
+        low = [l for l in cmp["leaders"] if results[l]["confidence"] == "низька"]
+        lines.append(f"- Найкраща відносна динаміка — {names}: різниця між ними менша за {threshold:g} п. п., "
+                     f"решта відстає." + (f" Довіра низька для: {', '.join(low)}." if low else ""))
     elif cmp["verdict"] == "leader_unreliable":
         lines.append(f"- Найкраща відносна динаміка — {top['edition']}, але довіра до неї низька, тож висновок про "
                      f"лідера ненадійний.")
@@ -372,6 +381,7 @@ def summary_uk(analysis: dict, chart_path) -> str:
                  f"Поріг: зміна менша за ±{analysis['threshold']:g} % вважається «без явної зміни».")
     lines.append("Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією "
                  "мовою і залежать від пошукових систем, новин і назв статей.")
+    lines += ["", REPORT_OFFER]
     return "\n".join(lines)
 
 
@@ -382,11 +392,16 @@ def next_steps(analysis: dict) -> list:
         "що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після — питання, якщо користувач мусить "
         "щось вирішити.",
         "Не додавай власних висновків, пояснень причин чи рекомендацій понад `summary_uk` і не порівнюй мови за "
-        "абсолютними числами. Звіт на одну сторінку (етап 4) ще в розробці.",
+        "абсолютними числами. Висновки для рішення (які аудиторії досліджувати) дає звіт етапу 4.",
     ]
     if analysis.get("chart"):
         steps.append(f"Графік уже створено: {analysis['chart']}. Дай користувачу цей шлях до файлу. Не малюй інших "
                      f"графіків, не пиши для цього коду і нікуди не публікуй та не завантажуй графік.")
+    steps.append("Звіт на одну сторінку (PDF): якщо користувач уже просив звіт, PDF чи щось, чим можна "
+                 "поділитися, — не показуй цей `summary_uk`, а одразу запусти етап 4: `python3 scripts/build_report.py "
+                 "--analysis <файл --out цього запуску> --views <views.json етапу 2> --out <шлях>.pdf --question "
+                 "\"<перше повідомлення користувача>\"` і перекажи його `reply_uk`. Якщо не просив — останній рядок "
+                 "`summary_uk` уже пропонує звіт; якщо користувач погодиться, запусти етап 4.")
     steps.append("Якщо користувач змінює припущення: інший період — перезапусти етап 2 з новим `--last`/`--start`, "
                  "потім цей скрипт; інший поріг «зростання» — лише цей скрипт з `--growth-threshold ЧИСЛО`.")
     return steps

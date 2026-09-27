@@ -1,0 +1,34 @@
+## Користувач
+Is interest in ChatGPT growing faster in the German or the French Wikipedia?
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "en:ChatGPT" --targets de,fr --user-message "Is interest in ChatGPT growing faster in the German or the French Wikipedia?" --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/basket.json
+
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/basket.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/views.json
+
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/analysis.json
+```
+
+## Відповідь агента
+Тема: «Чат Джі Пі Ті» (Q115564437).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+Порівнюю останні 12 місяців (вересень 2025 — серпень 2026) з попередніми 12 (вересень 2024 — серпень 2025) — так сезонні коливання не спотворюють висновок.
+
+- Німецька Wikipedia (de): інтерес падає, −12 % (3 322 022 перегляди проти 3 761 592). Довіра: висока.
+  - Уся de.wikipedia за той самий час: −7 %; з поправкою на це зміна теми −5 % — відносно всього розділу без явної зміни.
+  - Зміна стійка: переглядів достатньо, без зламів і сплесків, нахил ряду в той самий бік.
+- Францька Wikipedia (fr): інтерес падає, −12 % (2 335 064 перегляди проти 2 638 554). Довіра: висока.
+  - Уся fr.wikipedia за той самий час: −11 %; з поправкою на це зміна теми −1 % — відносно всього розділу без явної зміни.
+  - Зміна стійка: переглядів достатньо, без зламів і сплесків, нахил ряду в той самий бік.
+
+Порівняння мов (за відносною зміною з поправкою на загальну відвідуваність кожного розділу, не за абсолютними числами — розділи мають дуже різну аудиторію):
+- fr −1 %, de −5 %.
+- Різниця між мовами менша за 10 п. п. — вважайте динаміку однаковою.
+
+Зверніть увагу:
+- Період не названо, тому взято типовий: 24 останні завершені місяці.
+
+Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/20/views.svg
+Поріг: зміна менша за ±10 % вважається «без явної зміни».
+Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.

@@ -1,0 +1,48 @@
+## Користувач
+Порівняй інтерес до "штучного інтелекту" в українській, польській та чеській Wikipedia.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py --query "uk:штучний інтелект" --query "en:artificial intelligence" --query "pl:sztuczna inteligencja" --query "cs:umělá inteligence" --targets uk,pl,cs --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/basket.json
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/basket.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/analyze_trend.py --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/analysis.json
+```
+
+## Відповідь агента
+Тема: «штучний інтелект» (Q11660).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+Порівнюю останні 12 місяців (вересень 2025 — серпень 2026) з попередніми 12 (вересень 2024 — серпень 2025) — так сезонні коливання не спотворюють висновок.
+
+- Українська Wikipedia (uk): інтерес падає, −35 % (86 174 перегляди проти 132 725). Довіра: висока.
+  - Уся uk.wikipedia за той самий час: −25 %; з поправкою на це зміна теми −14 %.
+  - Зміна стійка: переглядів достатньо, без зламів і сплесків, нахил ряду в той самий бік.
+- Польська Wikipedia (pl): інтерес падає, −34 % (120 979 переглядів проти 184 328). Довіра: висока.
+  - Уся pl.wikipedia за той самий час: −9 %; з поправкою на це зміна теми −28 %.
+  - Зміна стійка: переглядів достатньо, без зламів і сплесків, нахил ряду в той самий бік.
+- Чеська Wikipedia (cs): інтерес падає, −38 % (55 383 перегляди проти 88 583). Довіра: висока.
+  - Уся cs.wikipedia за той самий час: −13 %; з поправкою на це зміна теми −28 %.
+  - Зміна стійка: переглядів достатньо, без зламів і сплесків, нахил ряду в той самий бік.
+
+Порівняння мов (за відносною зміною з поправкою на загальну відвідуваність кожного розділу, не за абсолютними числами — розділи мають дуже різну аудиторію):
+- uk −14 %, pl −28 %, cs −28 %.
+- Відносно найменше падіння інтересу — Українська Wikipedia (uk), довіра: висока.
+
+Зверніть увагу:
+- Період не названо, тому взято типовий: 24 останні завершені місяці.
+
+Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.svg
+Поріг: зміна менша за ±10 % вважається «без явної зміни».
+Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
+
+## Користувач
+Зроби з цього PDF-звіт на одну сторінку.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && python3 scripts/build_report.py --analysis /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/analysis.json --views /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/views.json --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/report.pdf --question "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia."
+```
+
+## Відповідь агента
+Звіт на одну сторінку готовий: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/t/07/report.pdf
+
+На сторінці: головний висновок, таблиця по мовах, графік, причини рівня довіри та рекомендації для рішення.

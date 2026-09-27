@@ -150,6 +150,15 @@ class ProjectAdjustmentAndComparison(unittest.TestCase):
         self.assertIn("Найкраща відносна динаміка (сама по собі — без явної зміни) — Англійська", text)
         self.assertNotIn("найшвидше зростає", text)
 
+    def test_close_leaders_are_not_called_equal_to_everyone(self):
+        a = analyze(make_views({"uk": [1000] * 12 + [1300] * 12, "pl": [1000] * 12 + [1230] * 12,
+                                "en": [1000] * 12 + [1160] * 12}))
+        cmp = a["comparison"]
+        self.assertEqual((cmp["verdict"], cmp["leaders"]), ("close_leaders", ["uk", "pl"]))
+        text = at.summary_uk(a, None)
+        self.assertNotIn("вважайте динаміку однаковою", text)
+        self.assertIn("Найкраща відносна динаміка — Українська Wikipedia (uk) і Польська Wikipedia (pl):", text)
+
     def test_threshold_is_configurable(self):
         r = analyze(make_views({"uk": [1000] * 12 + [1300] * 12}), threshold=50)["languages"]["uk"]
         self.assertEqual(r["trend"], "flat")
@@ -160,6 +169,9 @@ class Text(unittest.TestCase):
         self.assertEqual(at.in_period("2025-04", "monthly"), "у квітні 2025")
         self.assertEqual(at.from_period("2025-05", "monthly"), "з травня 2025")
         self.assertEqual(at.pct(-45.4), "−45 %")
+
+    def test_summary_offers_report(self):
+        self.assertTrue(at.summary_uk(analyze(make_views({"uk": [1000] * 24})), None).endswith(at.REPORT_OFFER))
 
     def test_stage2_warnings_are_carried(self):
         warn = [{"code": "period_defaulted", "detail": "період не названо, тому взято типовий"}]

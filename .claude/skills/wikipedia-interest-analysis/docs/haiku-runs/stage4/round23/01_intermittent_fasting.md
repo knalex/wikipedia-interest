@@ -1,0 +1,52 @@
+## Користувач
+Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки.
+
+## Команди агента
+```bash
+mkdir -p /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/
+cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets pl,cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --out basket.json
+```
+
+## Відповідь агента
+Результат етапу 1: знайдена тема "Інтервальне голодування" (Q1666254), але виявлена проблема.
+
+**Ситуація:**
+- У чеській Вікіпедії є стаття: "Přerušovaný půst"
+- У польській Вікіпедії немає окремої статті про інтервальне голодування
+
+**Варіанти на вибір:**
+
+1. **Порівняти Чехію з ширшою темою (піст)**: використати польський розділ про "Post" (загальний піст), але порівняння буде нерівноцінне — розширитимемо поняття для польської мови.
+
+2. **Порівняти лише Чехію**: виключити Польщу з аналізу.
+
+3. **Додати польський переклад**: якщо знаєте, як називається "інтервальне голодування" польською мовою, я можу перезапустити пошук (напр., "post przerywany" або "głodzenie przerwane").
+
+Який варіант вам найкраще підходить?
+
+---
+
+## Користувач (уточнення)
+Дивимось тільки ческу Вікіпедію.
+
+## Команди агента (Хід 2)
+```bash
+cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets cs --user-message "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки." --user-message "Дивимось тільки ческу Вікіпедію." --out basket.json
+cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket basket.json --last 24 --out views.json
+cd /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/ && python3 /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views views.json --out analysis.json
+```
+
+## Відповідь агента (Хід 2)
+Тема: «Інтервальне голодування» (Q1666254).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+Порівнюю останні 12 місяців (вересень 2025 — серпень 2026) з попередніми 12 (вересень 2024 — серпень 2025) — так сезонні коливання не спотворюють висновок.
+
+- Чеська Wikipedia (cs): інтерес падає, −54 % (2 198 переглядів проти 4 741). Довіра: висока.
+  - Уся cs.wikipedia за той самий час: −13 %; з поправкою на це зміна теми −47 %.
+  - Разовий сплеск у квітні 2025: 958 переглядів, у 4,1 раза вище за медіану; без нього висновок той самий (−45 %).
+
+Графік: /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r/01/views.svg
+Поріг: зміна менша за ±10 % вважається «без явної зміни».
+Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
+
+Можу зробити з цього звіт на одну сторінку (PDF), яким зручно поділитися з командою.
