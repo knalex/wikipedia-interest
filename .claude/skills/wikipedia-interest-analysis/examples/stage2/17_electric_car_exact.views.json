@@ -1,0 +1,773 @@
+{
+  "status": "ok",
+  "topic": {
+    "entity_id": "Q193692",
+    "label": "електромобіль"
+  },
+  "granularity": "monthly",
+  "period": {
+    "requested": {
+      "start": "2024-09",
+      "end": "2026-08"
+    },
+    "used": {
+      "start": "2024-09",
+      "end": "2026-08"
+    },
+    "points": 24
+  },
+  "source": "Wikimedia Pageviews API, agent=user, access=all-access",
+  "languages": {
+    "en": {
+      "project": "en.wikipedia",
+      "articles_count": 18,
+      "total_views": 387487,
+      "series": [
+        {
+          "period": "2024-09",
+          "views": 18451
+        },
+        {
+          "period": "2024-10",
+          "views": 20015
+        },
+        {
+          "period": "2024-11",
+          "views": 20357
+        },
+        {
+          "period": "2024-12",
+          "views": 19848
+        },
+        {
+          "period": "2025-01",
+          "views": 25267
+        },
+        {
+          "period": "2025-02",
+          "views": 21114
+        },
+        {
+          "period": "2025-03",
+          "views": 43461
+        },
+        {
+          "period": "2025-04",
+          "views": 15779
+        },
+        {
+          "period": "2025-05",
+          "views": 15479
+        },
+        {
+          "period": "2025-06",
+          "views": 12958
+        },
+        {
+          "period": "2025-07",
+          "views": 11874
+        },
+        {
+          "period": "2025-08",
+          "views": 13999
+        },
+        {
+          "period": "2025-09",
+          "views": 13359
+        },
+        {
+          "period": "2025-10",
+          "views": 12748
+        },
+        {
+          "period": "2025-11",
+          "views": 13303
+        },
+        {
+          "period": "2025-12",
+          "views": 12021
+        },
+        {
+          "period": "2026-01",
+          "views": 11599
+        },
+        {
+          "period": "2026-02",
+          "views": 10241
+        },
+        {
+          "period": "2026-03",
+          "views": 13024
+        },
+        {
+          "period": "2026-04",
+          "views": 13287
+        },
+        {
+          "period": "2026-05",
+          "views": 14689
+        },
+        {
+          "period": "2026-06",
+          "views": 12062
+        },
+        {
+          "period": "2026-07",
+          "views": 10996
+        },
+        {
+          "period": "2026-08",
+          "views": 11556
+        }
+      ],
+      "articles": [
+        {
+          "title": "Electric car",
+          "kind": "article",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 367240,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric cars",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 8901,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "All-electric car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 5639,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Battery-electric car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 1175,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric Car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 1113,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric automobile",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 1041,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric automobiles",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 588,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "List of best-selling electric cars",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 434,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric Cars",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 351,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "E-car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 261,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric SUV",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 205,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric car charging",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 166,
+          "first_period_with_views": "2024-10"
+        },
+        {
+          "title": "Electric Automobile",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 90,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electrical car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 77,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Mrph",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 61,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Mobi-green car",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 54,
+          "first_period_with_views": "2025-01"
+        },
+        {
+          "title": "Electric automotive",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 48,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Electric automotive industry",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 43,
+          "first_period_with_views": "2024-11"
+        }
+      ]
+    },
+    "de": {
+      "project": "de.wikipedia",
+      "articles_count": 7,
+      "total_views": 128804,
+      "series": [
+        {
+          "period": "2024-09",
+          "views": 5889
+        },
+        {
+          "period": "2024-10",
+          "views": 6839
+        },
+        {
+          "period": "2024-11",
+          "views": 5949
+        },
+        {
+          "period": "2024-12",
+          "views": 6387
+        },
+        {
+          "period": "2025-01",
+          "views": 7274
+        },
+        {
+          "period": "2025-02",
+          "views": 6416
+        },
+        {
+          "period": "2025-03",
+          "views": 6816
+        },
+        {
+          "period": "2025-04",
+          "views": 5271
+        },
+        {
+          "period": "2025-05",
+          "views": 5155
+        },
+        {
+          "period": "2025-06",
+          "views": 4968
+        },
+        {
+          "period": "2025-07",
+          "views": 4289
+        },
+        {
+          "period": "2025-08",
+          "views": 4761
+        },
+        {
+          "period": "2025-09",
+          "views": 4779
+        },
+        {
+          "period": "2025-10",
+          "views": 5441
+        },
+        {
+          "period": "2025-11",
+          "views": 5172
+        },
+        {
+          "period": "2025-12",
+          "views": 4575
+        },
+        {
+          "period": "2026-01",
+          "views": 5042
+        },
+        {
+          "period": "2026-02",
+          "views": 4013
+        },
+        {
+          "period": "2026-03",
+          "views": 4964
+        },
+        {
+          "period": "2026-04",
+          "views": 5149
+        },
+        {
+          "period": "2026-05",
+          "views": 5567
+        },
+        {
+          "period": "2026-06",
+          "views": 4893
+        },
+        {
+          "period": "2026-07",
+          "views": 4622
+        },
+        {
+          "period": "2026-08",
+          "views": 4573
+        }
+      ],
+      "articles": [
+        {
+          "title": "Elektroauto",
+          "kind": "article",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 126765,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "E-Auto",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 1486,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "E-Mobil",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 229,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Elektroautomobil",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 129,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Elektro-Auto",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 119,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Elektrisches Auto",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 67,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Elektro-Pkw",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 9,
+          "first_period_with_views": "2026-03"
+        }
+      ]
+    },
+    "fr": {
+      "project": "fr.wikipedia",
+      "articles_count": 5,
+      "total_views": 64615,
+      "series": [
+        {
+          "period": "2024-09",
+          "views": 2718
+        },
+        {
+          "period": "2024-10",
+          "views": 4595
+        },
+        {
+          "period": "2024-11",
+          "views": 4511
+        },
+        {
+          "period": "2024-12",
+          "views": 4049
+        },
+        {
+          "period": "2025-01",
+          "views": 3992
+        },
+        {
+          "period": "2025-02",
+          "views": 3465
+        },
+        {
+          "period": "2025-03",
+          "views": 3924
+        },
+        {
+          "period": "2025-04",
+          "views": 3232
+        },
+        {
+          "period": "2025-05",
+          "views": 2541
+        },
+        {
+          "period": "2025-06",
+          "views": 1867
+        },
+        {
+          "period": "2025-07",
+          "views": 1715
+        },
+        {
+          "period": "2025-08",
+          "views": 1667
+        },
+        {
+          "period": "2025-09",
+          "views": 2113
+        },
+        {
+          "period": "2025-10",
+          "views": 2849
+        },
+        {
+          "period": "2025-11",
+          "views": 2606
+        },
+        {
+          "period": "2025-12",
+          "views": 2104
+        },
+        {
+          "period": "2026-01",
+          "views": 2078
+        },
+        {
+          "period": "2026-02",
+          "views": 2036
+        },
+        {
+          "period": "2026-03",
+          "views": 2449
+        },
+        {
+          "period": "2026-04",
+          "views": 2507
+        },
+        {
+          "period": "2026-05",
+          "views": 2264
+        },
+        {
+          "period": "2026-06",
+          "views": 1915
+        },
+        {
+          "period": "2026-07",
+          "views": 1807
+        },
+        {
+          "period": "2026-08",
+          "views": 1611
+        }
+      ],
+      "articles": [
+        {
+          "title": "Voiture électrique",
+          "kind": "article",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 63385,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Automobile électrique",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 493,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Voiture electrique",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 422,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Voitures électriques",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 270,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "Idées reçues sur les voitures électriques",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 45,
+          "first_period_with_views": "2024-09"
+        }
+      ]
+    },
+    "ja": {
+      "project": "ja.wikipedia",
+      "articles_count": 10,
+      "total_views": 83234,
+      "series": [
+        {
+          "period": "2024-09",
+          "views": 4283
+        },
+        {
+          "period": "2024-10",
+          "views": 4513
+        },
+        {
+          "period": "2024-11",
+          "views": 5078
+        },
+        {
+          "period": "2024-12",
+          "views": 5095
+        },
+        {
+          "period": "2025-01",
+          "views": 5357
+        },
+        {
+          "period": "2025-02",
+          "views": 4610
+        },
+        {
+          "period": "2025-03",
+          "views": 3765
+        },
+        {
+          "period": "2025-04",
+          "views": 3572
+        },
+        {
+          "period": "2025-05",
+          "views": 3627
+        },
+        {
+          "period": "2025-06",
+          "views": 3237
+        },
+        {
+          "period": "2025-07",
+          "views": 2883
+        },
+        {
+          "period": "2025-08",
+          "views": 2920
+        },
+        {
+          "period": "2025-09",
+          "views": 2764
+        },
+        {
+          "period": "2025-10",
+          "views": 3150
+        },
+        {
+          "period": "2025-11",
+          "views": 3120
+        },
+        {
+          "period": "2025-12",
+          "views": 2930
+        },
+        {
+          "period": "2026-01",
+          "views": 3154
+        },
+        {
+          "period": "2026-02",
+          "views": 2282
+        },
+        {
+          "period": "2026-03",
+          "views": 2928
+        },
+        {
+          "period": "2026-04",
+          "views": 3019
+        },
+        {
+          "period": "2026-05",
+          "views": 3119
+        },
+        {
+          "period": "2026-06",
+          "views": 2663
+        },
+        {
+          "period": "2026-07",
+          "views": 2409
+        },
+        {
+          "period": "2026-08",
+          "views": 2756
+        }
+      ],
+      "articles": [
+        {
+          "title": "電気自動車",
+          "kind": "article",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 82728,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "EV車",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 236,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "電気自動車ネットワーク",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 73,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "EV充電ネットワーク",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 45,
+          "first_period_with_views": "2025-01"
+        },
+        {
+          "title": "電池自動車",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 33,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "EVネットワーク",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 32,
+          "first_period_with_views": "2025-01"
+        },
+        {
+          "title": "電気自動車充電ネットワーク",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 24,
+          "first_period_with_views": "2024-09"
+        },
+        {
+          "title": "エレクトリックカー",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 23,
+          "first_period_with_views": "2025-02"
+        },
+        {
+          "title": "ゼロエミッション規制",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 23,
+          "first_period_with_views": "2024-10"
+        },
+        {
+          "title": "エレクトリック・カー",
+          "kind": "redirect",
+          "entity_id": "Q193692",
+          "role": "core",
+          "views": 17,
+          "first_period_with_views": "2025-02"
+        }
+      ]
+    }
+  },
+  "warnings": [],
+  "reply_language": "uk",
+  "summary_uk": "Тема: «електромобіль» (Q193692).\nПеріод: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.\n\n- Англійська Wikipedia (en): 387 487 переглядів за період (стаття «Electric car» і 17 перенаправлень).\n- Німецька Wikipedia (de): 128 804 перегляди за період (стаття «Elektroauto» і 6 перенаправлень).\n- Французька Wikipedia (fr): 64 615 переглядів за період (стаття «Voiture électrique» і 4 перенаправлення).\n- Японська Wikipedia (ja): 83 234 перегляди за період (стаття «電気自動車» і 9 перенаправлень).\n\nЦе лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації. Абсолютні числа різних мовних розділів не можна порівнювати як міру інтересу: розділи мають дуже різну аудиторію, коректне порівняння (відносні зміни) буде на етапі 3.",
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перекажи користувачу `summary_uk` дослівно — це вся відповідь етапу 2. Перед ним можна додати лише те, що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після нього — питання, якщо користувач мусить щось вирішити.",
+    "Нічого не додавай про зміни в часі: не описуй перегляди по місяцях, не називай піків і спадів, не пиши «зростає», «падає», «стабільно», «тенденція». Ряд ще не перевірено на зломи й сезонність — це етап 3.",
+    "Не давай рекомендацій (яку мову, аудиторію чи тему обрати) і не порівнюй мови за абсолютними числами, навіть якщо користувач просив звіт чи рекомендації: скажи, що вони будуть після етапу 3.",
+    "Графіків ще немає. Якщо користувач просить графік, скажи, що графіки — етап 3 у розробці. Не пиши власного коду і не кажи, що графік є.",
+    "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3."
+  ]
+}

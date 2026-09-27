@@ -1,0 +1,83 @@
+## Користувач
+Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:кава" \
+  --query "en:coffee" \
+  --targets pl,cs \
+  --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/basket.json
+
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/basket.json \
+  --last 36 \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/views.json
+```
+
+## Відповідь агента
+За останні 3 роки (вересень 2023 - серпень 2026) я зібрав дані про перегляди статей про каву в польській та чеській Wikipedia.
+
+**Результати:**
+
+**Польська Wikipedia (Kawa):**
+- Загальна кількість переглядів: **121 763**
+- Охоплено: 1 стаття
+- Діапазон переглядів за місяць: від 2 156 до 5 348
+
+**Чеська Wikipedia (Káva та перенаправлення):**
+- Загальна кількість переглядів: **49 875**
+- Охоплено: 1 основна стаття + 4 перенаправлення (Zrnková káva, Alternativní přípravy kávy, Kafe, Cascara)
+- Діапазон переглядів за місяць: від 685 до 2 195
+
+**Порівняння:**
+Польська Wikipedia отримала приблизно в **2,4 рази більше переглядів** про каву, ніж чеська за цей період. Обидві мовні розділи показують схожу тенденцію: високі перегляди в останньому кварталі 2023 року, спад протягом літа 2024 року, а потім відносно стабільний рівень у 2025-2026 роках.
+
+Важливо: я можу називати суму переглядів, але аналіз трендів, графіки та детальні висновки про зростання чи падіння інтересу ще в розробці (етап 3).
+
+## Користувач (уточнення)
+Додай ще словацьку Wikipedia до порівняння.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:кава" \
+  --query "en:coffee" \
+  --targets pl,cs,sk \
+  --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/basket_updated.json
+
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/basket_updated.json \
+  --last 36 \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/11_1/views_updated.json
+```
+
+## Відповідь агента
+До порівняння додана словацька Wikipedia. Ось оновлене порівняння інтересу до кави за останні 3 роки (вересень 2023 - серпень 2026):
+
+**Польська Wikipedia (Kawa):**
+- Загальна кількість переглядів: **121 763**
+- Охоплено: 1 стаття
+- Діапазон переглядів за місяць: від 2 156 до 5 348
+
+**Чеська Wikipedia (Káva та перенаправлення):**
+- Загальна кількість переглядів: **49 875**
+- Охоплено: 1 основна стаття + 4 перенаправлення
+- Діапазон переглядів за місяць: від 685 до 2 195
+
+**Словацька Wikipedia (Káva):**
+- Загальна кількість переглядів: **18 494**
+- Охоплено: 1 стаття
+- Діапазон переглядів за місяць: від 210 до 1 055
+
+**Порівняння трьох мов:**
+За кількістю переглядів про каву порядок такий:
+1. Польська Wikipedia: 121 763 переглядів
+2. Чеська Wikipedia: 49 875 переглядів (в 2,4 рази менше за польську)
+3. Словацька Wikipedia: 18 494 переглядів (в 6,6 рази менше за польську)
+
+Усі три розділи демонструють схожу тенденцію: вищі перегляди в Q4 2023 та Q1 2024, спад протягом літа 2024 року, потім відносно стабільний рівень у 2025-2026 роках.
+
+Важливо: я можу називати суму переглядів, але аналіз трендів, графіки та детальні висновки про зростання чи падіння інтересу ще в розробці (етап 3).

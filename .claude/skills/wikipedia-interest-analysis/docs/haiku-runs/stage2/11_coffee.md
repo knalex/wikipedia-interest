@@ -1,0 +1,76 @@
+## Користувач
+Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки.
+
+## Команди агента
+```bash
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:кава" \
+  --query "en:coffee" \
+  --query "pl:kawa" \
+  --query "cs:kava" \
+  --targets pl,cs \
+  --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json
+
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json \
+  --last 36 \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json
+```
+
+## Відповідь агента
+Я зібрав дані про інтерес до кави в польській і чеській Wikipedia за період з вересня 2023 по серпень 2026 року (останні 3 роки).
+
+**Результати:**
+
+- **Польська Wikipedia (pl.wikipedia):** 121 763 переглядів статті "Kawa" за 36 місяців
+- **Чеська Wikipedia (cs.wikipedia):** 49 875 переглядів за 36 місяців:
+  - Основна стаття "Káva": 48 953 переглядів
+  - 4 перенаправлення: 922 переглядів
+
+Повні дані з місячною розбивкою збережені у файлах:
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json` — кошик статей
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json` — переглядали по місяцях
+
+**Важливе уточнення:** Абсолютні числа переглядів не мають порівнюватися як міра інтересу між мовними розділами, оскільки вони мають дуже різну аудиторію. Аналіз тренду, графіки та звіти (етап 3) ще в розробці — там можна буде зробити коректні висновки про зростання чи зниження інтересу.
+
+---
+
+## Користувач
+Додай ще словацьку Wikipedia до порівняння.
+
+## Команди агента
+```bash
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:кава" \
+  --query "en:coffee" \
+  --query "pl:kawa" \
+  --query "cs:kava" \
+  --query "sk:kava" \
+  --targets pl,cs,sk \
+  --user-message "Додай ще словацьку Wikipedia до порівняння." \
+  --user-message "Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json
+
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json \
+  --last 36 \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json
+```
+
+## Відповідь агента
+Додав словацьку Wikipedia до порівняння. Ось оновлені результати для всіх трьох мовних розділів за період з вересня 2023 по серпень 2026 року:
+
+**Результати:**
+
+- **Польська Wikipedia (pl.wikipedia):** 121 763 переглядів статті "Kawa" за 36 місяців
+- **Чеська Wikipedia (cs.wikipedia):** 49 875 переглядів за 36 місяців:
+  - Основна стаття "Káva": 48 953 переглядів
+  - 4 перенаправлення: 922 переглядів
+- **Словацька Wikipedia (sk.wikipedia):** 18 494 переглядів статті "Káva" за 36 місяців
+
+Повні дані з місячною розбивкою збережені у файлах:
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/basket.json` — кошик статей
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/s2r/11/views.json` — переглядали по місяцях
+
+**Важливе уточнення:** Абсолютні числа переглядів не мають порівнюватися як міра інтересу між мовними розділами, оскільки вони мають дуже різну аудиторію. Аналіз тренду, графіки та звіти (етап 3) ще в розробці — там можна буде зробити коректні висновки про зростання чи зниження інтересу.

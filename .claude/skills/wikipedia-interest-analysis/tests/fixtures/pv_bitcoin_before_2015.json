@@ -1,0 +1,1906 @@
+{
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/%CE%9CBTC/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "ΜBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/%E2%82%BF/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/%E2%82%BFitcoin/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/1-BTC/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 9
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1-BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 2
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/1_BTC/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 6
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 9
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "1_BTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/B%E2%83%A6/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 4
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "B⃦",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/BITCOIN/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bicoin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 45
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 52
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 22
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 13
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 25
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/BitCoin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 64
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 82
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 96
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 68
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 79
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 79
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/BitCoinJ/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 6
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 17
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 22
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitCoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 18
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bit_Coin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 18
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 13
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_Coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 12
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bit_coin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 646
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 649
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 551
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 657
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 629
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bit_coin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 704
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcent/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 6
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 35
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcent",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 6
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcents/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 9
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcents",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcion/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 25
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 29
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 26
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 18
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcion",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 22
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin-Qt/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 31
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 24
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 17
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 12
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 16
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin-Qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 11
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin.org/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 269067
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 282210
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 266639
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 239768
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 273343
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 366941
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/BitcoinJ/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 6
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinJ",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/BitcoinShop/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 19
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "BitcoinShop",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_%28cryptocurrency%29/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_Black_Friday/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_Black_Friday",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 2
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_Ponzi_scheme_and_pyramid_scheme_concerns/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_difficulty_adjustment/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_qt/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 4
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 12
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_qt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 4
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_wallet/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 111
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 150
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 153
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 194
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 168
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoin_wallet",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 172
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoin_whitepaper/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoinage/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinage",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 1
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoind/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 66
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 12
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 19
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoind",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 5
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoinj/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 11
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 9
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 4
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinj",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 1
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoinqt/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 2
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoinqt",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 1
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcoins/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 1531
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 2135
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 1555
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 1279
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 1565
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitcoins",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 1382
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitcorn/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bitocin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 11
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Bitocin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 11
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bticoin/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/CheckLockTimeVerify/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/CheckSequenceVerify/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/CoinCorner/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 79
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 212
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 286
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 214
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 240
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "CoinCorner",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 220
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Coinbit/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Edison%27s_renegade_currency/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 16
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Edison's_renegade_currency",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 4
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Laszlo_Hanyecz/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/MBTC/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 30
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 25
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 21
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "MBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 28
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Microcoin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 7
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 1
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Microcoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/MilliBitcoin/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Millibitcoin/monthly/2015070100/2015123100?": {
+  "_http_error": 404
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Millicoin/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Millicoin",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 0
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Satoshis/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 8
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 31
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 5
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 0
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 3
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "Satoshis",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 4
+   }
+  ]
+ },
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/UBTC/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 15
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 22
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 12
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 15
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 10
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "article": "UBTC",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 4
+   }
+  ]
+ }
+}

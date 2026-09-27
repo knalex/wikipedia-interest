@@ -1,0 +1,41 @@
+
+## Користувач
+Сравни интерес к Шевченко в польской и чешской Википедии.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+  --query "ru:Шевченко" \
+  --query "en:Taras Shevchenko" \
+  --targets pl,cs \
+  --user-message "Сравни интерес к Шевченко в польской и чешской Википедии." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/08_2/basket.json
+```
+
+## Відповідь агента
+Мушу спочатку уточнити — під «Шевченко» ви маєте на увазі **Шевченко Тарас Григорович** (український поет, прозаїк, художник, фольклорист, етнограф) чи когось або щось інше?
+
+Скрипт знайшов статті про нього в польській Вікіпедії (Taras Szewczenko) та чеській (Taras Ševčenko), але перед продовженням потрібна ваша підтвердження, оскільки «Шевченко» — це прізвище, яке може означати й інших людей.
+
+## Користувач
+Да, Тарас Шевченко.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && \
+WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/08_2/basket.json \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/08_2/views.json
+```
+
+## Відповідь агента
+Дякую за уточнення. Збрав дані про перегляди статей про Тараса Шевченка в польській та чеській Вікіпедії.
+
+**Період:** останні 24 місяці (вересень 2024 — серпень 2026).
+
+**Результати:**
+- **Польська Вікіпедія** (pl.wikipedia): 54 187 переглядів статті "Taras Szewczenko"
+- **Чеська Вікіпедія** (cs.wikipedia): 11 606 переглядів ("Taras Ševčenko" — основна стаття, плюс перенаправлення)
+
+Детальні дані за кожний місяць збережені у файлі для подальшого аналізу. Аналіз тренду, порівняння відносних змін та висновки про динаміку інтересу (етап 3) ще в розробці.

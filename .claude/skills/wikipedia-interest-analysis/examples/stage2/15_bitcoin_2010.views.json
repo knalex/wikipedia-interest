@@ -1,0 +1,455 @@
+{
+  "status": "ok",
+  "topic": {
+    "entity_id": "Q131723",
+    "label": "біткойн"
+  },
+  "granularity": "monthly",
+  "period": {
+    "requested": {
+      "start": "2010-01",
+      "end": "2015-12"
+    },
+    "used": {
+      "start": "2015-07",
+      "end": "2015-12"
+    },
+    "points": 6
+  },
+  "source": "Wikimedia Pageviews API, agent=user, access=all-access",
+  "languages": {
+    "en": {
+      "project": "en.wikipedia",
+      "articles_count": 48,
+      "total_views": 1715320,
+      "series": [
+        {
+          "period": "2015-07",
+          "views": 271753
+        },
+        {
+          "period": "2015-08",
+          "views": 285909
+        },
+        {
+          "period": "2015-09",
+          "views": 269460
+        },
+        {
+          "period": "2015-10",
+          "views": 242345
+        },
+        {
+          "period": "2015-11",
+          "views": 276194
+        },
+        {
+          "period": "2015-12",
+          "views": 369659
+        }
+      ],
+      "articles": [
+        {
+          "title": "Bitcoin",
+          "kind": "article",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 1697968,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoins",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 9447,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bit coin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 3836,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "CoinCorner",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 1251,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoin wallet",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 948,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "BitCoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 468,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bicoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 167,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "MBTC",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 146,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcion",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 141,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoind",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 133,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoin-Qt",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 111,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "UBTC",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 78,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "BitCoinJ",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 72,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitocin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 65,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bit Coin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 63,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Edison's renegade currency",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 56,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Satoshis",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 51,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcent",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 50,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoin qt",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 40,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "BitcoinShop",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 30,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "1-BTC",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 29,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoinj",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 29,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "1 BTC",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 27,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoinqt",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 18,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcents",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 15,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoin Black Friday",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 14,
+          "first_period_with_views": "2015-08"
+        },
+        {
+          "title": "Microcoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 13,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Bitcoinage",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 13,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "B⃦",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "BitcoinJ",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "Millicoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "ΜBTC",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 8,
+          "first_period_with_views": "2015-07"
+        },
+        {
+          "title": "₿",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "BITCOIN",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "CheckSequenceVerify",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "CheckLockTimeVerify",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcorn",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Coinbit",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcoin Ponzi scheme and pyramid scheme concerns",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcoin (cryptocurrency)",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Laszlo Hanyecz",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bticoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "₿itcoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcoin difficulty adjustment",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Millibitcoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "MilliBitcoin",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcoin.org",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        },
+        {
+          "title": "Bitcoin whitepaper",
+          "kind": "redirect",
+          "entity_id": "Q131723",
+          "role": "core",
+          "views": 0,
+          "first_period_with_views": null
+        }
+      ]
+    }
+  },
+  "warnings": [
+    {
+      "code": "period_before_data",
+      "detail": "запитано з 2010-01, але Pageviews API має дані лише з 1 липня 2015 року; період обрізано до 2015-07 — 2015-12"
+    }
+  ],
+  "reply_language": "uk",
+  "summary_uk": "Тема: «біткойн» (Q131723).\nПеріод: липень 2015 — грудень 2015 (6 місяців). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.\n\n- Англійська Wikipedia (en): 1 715 320 переглядів за період (стаття «Bitcoin» і 47 перенаправлень).\n\nЗверніть увагу:\n- Запитано з 2010-01, але Pageviews API має дані лише з 1 липня 2015 року; період обрізано до 2015-07 — 2015-12.\n\nЦе лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації.",
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перекажи користувачу `summary_uk` дослівно — це вся відповідь етапу 2. Перед ним можна додати лише те, що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після нього — питання, якщо користувач мусить щось вирішити.",
+    "Нічого не додавай про зміни в часі: не описуй перегляди по місяцях, не називай піків і спадів, не пиши «зростає», «падає», «стабільно», «тенденція». Ряд ще не перевірено на зломи й сезонність — це етап 3.",
+    "Не давай рекомендацій (яку мову, аудиторію чи тему обрати) і не порівнюй мови за абсолютними числами, навіть якщо користувач просив звіт чи рекомендації: скажи, що вони будуть після етапу 3.",
+    "Графіків ще немає. Якщо користувач просить графік, скажи, що графіки — етап 3 у розробці. Не пиши власного коду і не кажи, що графік є.",
+    "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3."
+  ]
+}

@@ -76,7 +76,9 @@ QID_RE = re.compile(r"^Q[1-9][0-9]*$")
 
 
 class ResolverError(Exception):
-    pass
+    def __init__(self, message: str, status=None):
+        super().__init__(message)
+        self.status = status
 
 
 class WikimediaClient:
@@ -95,7 +97,7 @@ class WikimediaClient:
                 if e.code in (429, 502, 503, 504) and attempt < self.retries:
                     time.sleep(_retry_delay(e.headers.get("Retry-After"), attempt))
                     continue
-                raise ResolverError(f"HTTP {e.code} для {full_url}") from e
+                raise ResolverError(f"HTTP {e.code} для {full_url}", status=e.code) from e
             except urllib.error.URLError as e:
                 raise ResolverError(f"Не вдалося з'єднатися з {url}: {e.reason}") from e
             if "error" in data:

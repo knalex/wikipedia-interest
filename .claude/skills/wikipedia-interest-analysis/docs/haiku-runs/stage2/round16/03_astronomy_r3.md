@@ -1,0 +1,25 @@
+## Користувач
+Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 ./.claude/skills/wikipedia-interest-analysis/scripts/resolve_topic.py \
+  --query "uk:астрономія" \
+  --query "en:astronomy" \
+  --targets uk \
+  --user-message "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?" \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/03_3/basket.json
+
+cd /home/alex/Interest/wikipedia-interest && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 ./.claude/skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/03_3/basket.json \
+  --last 24 \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/y/03_3/views.json
+```
+
+## Відповідь агента
+Тема: «астрономія» (Q333).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+
+- Українська Wikipedia (uk): 23 326 переглядів за період (стаття «Астрономія» і 1 перенаправлення).
+
+Це лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації.

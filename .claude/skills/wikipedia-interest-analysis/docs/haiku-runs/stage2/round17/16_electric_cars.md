@@ -1,0 +1,32 @@
+## Користувач
+Порівняй "електромобілі" в англійській, німецькій, французькій та японській Wikipedia.
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:електромобіль" \
+  --query "en:electric car" \
+  --targets en,de,fr,ja \
+  --user-message "Порівняй \"електромобілі\" в англійській, німецькій, французькій та японській Wikipedia." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/16/basket.json
+```
+
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/16/basket.json \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/z/16/views.json
+```
+
+## Відповідь агента
+Тема: «електромобіль» (Q193692).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+
+- Англійська Wikipedia (en): 387 487 переглядів за період (стаття «Electric car» і 17 перенаправлень).
+- Німецька Wikipedia (de): 128 804 перегляди за період (стаття «Elektroauto» і 6 перенаправлень).
+- Французька Wikipedia (fr): 64 615 переглядів за період (стаття «Voiture électrique» і 4 перенаправлення).
+- Японська Wikipedia (ja): 83 234 перегляди за період (стаття «電気自動車» і 9 перенаправлень).
+
+Зверніть увагу:
+- Період не названо, тому взято типовий: 24 останні завершені місяці.
+
+Це лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації. Абсолютні числа різних мовних розділів не можна порівнювати як міру інтересу: розділи мають дуже різну аудиторію, коректне порівняння (відносні зміни) буде на етапі 3.

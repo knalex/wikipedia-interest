@@ -27,7 +27,10 @@ class ReplayClient:
         key = rt.request_key(url, params)
         if key not in self.responses:
             raise AssertionError(f"незаписаний запит (перезапустіть record_fixtures.py): {key}")
-        return self.responses[key]
+        data = self.responses[key]
+        if "_http_error" in data:
+            raise rt.ResolverError(f"HTTP {data['_http_error']} (запис)", status=data["_http_error"])
+        return data
 
 
 class NoNetworkClient:

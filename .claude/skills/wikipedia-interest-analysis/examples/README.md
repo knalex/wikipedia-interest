@@ -49,3 +49,21 @@ WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
 
 Як поводився на цих запитах агент на Claude Haiku 4.5 — у
 [`../docs/haiku-evaluation.md`](../docs/haiku-evaluation.md).
+
+## Етап 2: перегляди
+
+У [`stage2/`](stage2/) — вивід `scripts/fetch_pageviews.py` для кошиків із
+таблиці вище (`NN_*.stdout.json` — стислий вигляд із готовою відповіддю
+користувачу `summary_uk`, без помісячного ряду; `NN_*.views.json` — повні
+ряди для етапу 3):
+
+| # | Аргументи | Що показує |
+|---|---|---|
+| 01 | `--last 24` | `partial`: для pl статей немає, нульовий ряд і попередження `no_articles_for_language` |
+| 03 | без періоду | `period_defaulted`: взято 24 місяці |
+| 12 | `--last 36` | три мови, основна стаття + перенаправлення |
+| 15 | `--start 2010-01 --end 2015-12` | `period_before_data`: обрізано до 2015-07 — 2015-12 |
+| 17 | `--last 24` | чотири мови з різною кількістю перенаправлень |
+| 19 | `--granularity daily --last 90` | денний ряд для свіжої події |
+
+Дата запуску — 2026-09-27, тож останній врахований місяць — 2026-08.

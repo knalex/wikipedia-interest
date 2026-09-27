@@ -1,0 +1,1171 @@
+{
+  "status": "ok",
+  "topic": {
+    "entity_id": "Q4630399",
+    "label": "Зимові Олімпійські ігри 2026"
+  },
+  "granularity": "daily",
+  "period": {
+    "requested": {
+      "start": "2026-06-29",
+      "end": "2026-09-26"
+    },
+    "used": {
+      "start": "2026-06-29",
+      "end": "2026-09-26"
+    },
+    "points": 90
+  },
+  "source": "Wikimedia Pageviews API, agent=user, access=all-access",
+  "languages": {
+    "en": {
+      "project": "en.wikipedia",
+      "articles_count": 47,
+      "total_views": 186406,
+      "series": [
+        {
+          "period": "2026-06-29",
+          "views": 2475
+        },
+        {
+          "period": "2026-06-30",
+          "views": 2732
+        },
+        {
+          "period": "2026-07-01",
+          "views": 2372
+        },
+        {
+          "period": "2026-07-02",
+          "views": 2527
+        },
+        {
+          "period": "2026-07-03",
+          "views": 2204
+        },
+        {
+          "period": "2026-07-04",
+          "views": 2523
+        },
+        {
+          "period": "2026-07-05",
+          "views": 2643
+        },
+        {
+          "period": "2026-07-06",
+          "views": 2953
+        },
+        {
+          "period": "2026-07-07",
+          "views": 3964
+        },
+        {
+          "period": "2026-07-08",
+          "views": 3403
+        },
+        {
+          "period": "2026-07-09",
+          "views": 2849
+        },
+        {
+          "period": "2026-07-10",
+          "views": 2641
+        },
+        {
+          "period": "2026-07-11",
+          "views": 2701
+        },
+        {
+          "period": "2026-07-12",
+          "views": 2967
+        },
+        {
+          "period": "2026-07-13",
+          "views": 2440
+        },
+        {
+          "period": "2026-07-14",
+          "views": 2536
+        },
+        {
+          "period": "2026-07-15",
+          "views": 2649
+        },
+        {
+          "period": "2026-07-16",
+          "views": 2538
+        },
+        {
+          "period": "2026-07-17",
+          "views": 2303
+        },
+        {
+          "period": "2026-07-18",
+          "views": 2744
+        },
+        {
+          "period": "2026-07-19",
+          "views": 3565
+        },
+        {
+          "period": "2026-07-20",
+          "views": 3584
+        },
+        {
+          "period": "2026-07-21",
+          "views": 2669
+        },
+        {
+          "period": "2026-07-22",
+          "views": 2298
+        },
+        {
+          "period": "2026-07-23",
+          "views": 2508
+        },
+        {
+          "period": "2026-07-24",
+          "views": 2430
+        },
+        {
+          "period": "2026-07-25",
+          "views": 2376
+        },
+        {
+          "period": "2026-07-26",
+          "views": 2514
+        },
+        {
+          "period": "2026-07-27",
+          "views": 2766
+        },
+        {
+          "period": "2026-07-28",
+          "views": 2672
+        },
+        {
+          "period": "2026-07-29",
+          "views": 2329
+        },
+        {
+          "period": "2026-07-30",
+          "views": 2438
+        },
+        {
+          "period": "2026-07-31",
+          "views": 2658
+        },
+        {
+          "period": "2026-08-01",
+          "views": 2927
+        },
+        {
+          "period": "2026-08-02",
+          "views": 2945
+        },
+        {
+          "period": "2026-08-03",
+          "views": 2682
+        },
+        {
+          "period": "2026-08-04",
+          "views": 2234
+        },
+        {
+          "period": "2026-08-05",
+          "views": 2067
+        },
+        {
+          "period": "2026-08-06",
+          "views": 2178
+        },
+        {
+          "period": "2026-08-07",
+          "views": 1893
+        },
+        {
+          "period": "2026-08-08",
+          "views": 1980
+        },
+        {
+          "period": "2026-08-09",
+          "views": 2009
+        },
+        {
+          "period": "2026-08-10",
+          "views": 1948
+        },
+        {
+          "period": "2026-08-11",
+          "views": 2038
+        },
+        {
+          "period": "2026-08-12",
+          "views": 1739
+        },
+        {
+          "period": "2026-08-13",
+          "views": 1681
+        },
+        {
+          "period": "2026-08-14",
+          "views": 1600
+        },
+        {
+          "period": "2026-08-15",
+          "views": 1626
+        },
+        {
+          "period": "2026-08-16",
+          "views": 1922
+        },
+        {
+          "period": "2026-08-17",
+          "views": 1735
+        },
+        {
+          "period": "2026-08-18",
+          "views": 1617
+        },
+        {
+          "period": "2026-08-19",
+          "views": 1443
+        },
+        {
+          "period": "2026-08-20",
+          "views": 1504
+        },
+        {
+          "period": "2026-08-21",
+          "views": 1417
+        },
+        {
+          "period": "2026-08-22",
+          "views": 1448
+        },
+        {
+          "period": "2026-08-23",
+          "views": 1931
+        },
+        {
+          "period": "2026-08-24",
+          "views": 1457
+        },
+        {
+          "period": "2026-08-25",
+          "views": 1474
+        },
+        {
+          "period": "2026-08-26",
+          "views": 1451
+        },
+        {
+          "period": "2026-08-27",
+          "views": 1466
+        },
+        {
+          "period": "2026-08-28",
+          "views": 1404
+        },
+        {
+          "period": "2026-08-29",
+          "views": 1411
+        },
+        {
+          "period": "2026-08-30",
+          "views": 1498
+        },
+        {
+          "period": "2026-08-31",
+          "views": 1466
+        },
+        {
+          "period": "2026-09-01",
+          "views": 1448
+        },
+        {
+          "period": "2026-09-02",
+          "views": 1606
+        },
+        {
+          "period": "2026-09-03",
+          "views": 1550
+        },
+        {
+          "period": "2026-09-04",
+          "views": 1382
+        },
+        {
+          "period": "2026-09-05",
+          "views": 1420
+        },
+        {
+          "period": "2026-09-06",
+          "views": 1608
+        },
+        {
+          "period": "2026-09-07",
+          "views": 1452
+        },
+        {
+          "period": "2026-09-08",
+          "views": 1371
+        },
+        {
+          "period": "2026-09-09",
+          "views": 1476
+        },
+        {
+          "period": "2026-09-10",
+          "views": 1633
+        },
+        {
+          "period": "2026-09-11",
+          "views": 1414
+        },
+        {
+          "period": "2026-09-12",
+          "views": 1418
+        },
+        {
+          "period": "2026-09-13",
+          "views": 1527
+        },
+        {
+          "period": "2026-09-14",
+          "views": 1453
+        },
+        {
+          "period": "2026-09-15",
+          "views": 1425
+        },
+        {
+          "period": "2026-09-16",
+          "views": 1663
+        },
+        {
+          "period": "2026-09-17",
+          "views": 1782
+        },
+        {
+          "period": "2026-09-18",
+          "views": 1743
+        },
+        {
+          "period": "2026-09-19",
+          "views": 1683
+        },
+        {
+          "period": "2026-09-20",
+          "views": 1756
+        },
+        {
+          "period": "2026-09-21",
+          "views": 1630
+        },
+        {
+          "period": "2026-09-22",
+          "views": 1702
+        },
+        {
+          "period": "2026-09-23",
+          "views": 1686
+        },
+        {
+          "period": "2026-09-24",
+          "views": 1715
+        },
+        {
+          "period": "2026-09-25",
+          "views": 1648
+        },
+        {
+          "period": "2026-09-26",
+          "views": 2053
+        }
+      ],
+      "articles": [
+        {
+          "title": "2026 Winter Olympics",
+          "kind": "article",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 184670,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 533,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milan-Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 148,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano-Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 141,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 132,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano Cortina",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 90,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "2026 Winter Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 90,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano Cortina 2026 Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 44,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "XXV Olympic Winter Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 43,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 42,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milan Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 40,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Olympics 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 36,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milano Cortina 2026 Olympic Winter Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 35,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Winter Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 27,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milan-Cortina",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 26,
+          "first_period_with_views": "2026-07-01"
+        },
+        {
+          "title": "Milano 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 24,
+          "first_period_with_views": "2026-07-08"
+        },
+        {
+          "title": "Milan–Cortina",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 23,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milan 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 21,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano Cortina 2026 Winter Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 20,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Winter Olympics 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 18,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Dreaming together",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 15,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano-Cortina",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 15,
+          "first_period_with_views": "2026-08-02"
+        },
+        {
+          "title": "2026 Cortina Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 15,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Cortina d'Ampezzo 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 13,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milan-Cortina d'Ampezzo 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 13,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "25th Winter Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 12,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Sognando insieme",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2026-07-17"
+        },
+        {
+          "title": "Milan–Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "2026 milan olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 11,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano-Cortina d'Ampezzo 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 10,
+          "first_period_with_views": "2026-07-15"
+        },
+        {
+          "title": "2026 Cortina Winter Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 10,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 9,
+          "first_period_with_views": "2026-07-20"
+        },
+        {
+          "title": "Milan-Cortina d'Ampezzo, Italy",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 9,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Miano-Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 7,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Olimpiadi invernali del 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 7,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "XXV Giochi olimpici",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 5,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Cortina Winter Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 5,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milan–Cortina d'Ampezzo 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 4,
+          "first_period_with_views": "2026-07-26"
+        },
+        {
+          "title": "Miano Cortina 2026 opening ceremony",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 3,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milano Cortina 2026 closing ceremony",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 3,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milan Cortina Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 3,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "XXV Winter Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 3,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Cortina Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 3,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Cortina Milan 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 2,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milano-Cortina 2026 Winter Olympic Games",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 2,
+          "first_period_with_views": "2026-09-26"
+        },
+        {
+          "title": "Milano Cortina 2026 opening ceremony",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 1,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "Milano–Cortina",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 1,
+          "first_period_with_views": "2026-08-08"
+        }
+      ]
+    },
+    "it": {
+      "project": "it.wikipedia",
+      "articles_count": 3,
+      "total_views": 12993,
+      "series": [
+        {
+          "period": "2026-06-29",
+          "views": 105
+        },
+        {
+          "period": "2026-06-30",
+          "views": 110
+        },
+        {
+          "period": "2026-07-01",
+          "views": 128
+        },
+        {
+          "period": "2026-07-02",
+          "views": 131
+        },
+        {
+          "period": "2026-07-03",
+          "views": 116
+        },
+        {
+          "period": "2026-07-04",
+          "views": 111
+        },
+        {
+          "period": "2026-07-05",
+          "views": 132
+        },
+        {
+          "period": "2026-07-06",
+          "views": 119
+        },
+        {
+          "period": "2026-07-07",
+          "views": 134
+        },
+        {
+          "period": "2026-07-08",
+          "views": 129
+        },
+        {
+          "period": "2026-07-09",
+          "views": 125
+        },
+        {
+          "period": "2026-07-10",
+          "views": 119
+        },
+        {
+          "period": "2026-07-11",
+          "views": 157
+        },
+        {
+          "period": "2026-07-12",
+          "views": 161
+        },
+        {
+          "period": "2026-07-13",
+          "views": 135
+        },
+        {
+          "period": "2026-07-14",
+          "views": 130
+        },
+        {
+          "period": "2026-07-15",
+          "views": 143
+        },
+        {
+          "period": "2026-07-16",
+          "views": 150
+        },
+        {
+          "period": "2026-07-17",
+          "views": 136
+        },
+        {
+          "period": "2026-07-18",
+          "views": 104
+        },
+        {
+          "period": "2026-07-19",
+          "views": 182
+        },
+        {
+          "period": "2026-07-20",
+          "views": 180
+        },
+        {
+          "period": "2026-07-21",
+          "views": 135
+        },
+        {
+          "period": "2026-07-22",
+          "views": 127
+        },
+        {
+          "period": "2026-07-23",
+          "views": 134
+        },
+        {
+          "period": "2026-07-24",
+          "views": 127
+        },
+        {
+          "period": "2026-07-25",
+          "views": 123
+        },
+        {
+          "period": "2026-07-26",
+          "views": 131
+        },
+        {
+          "period": "2026-07-27",
+          "views": 147
+        },
+        {
+          "period": "2026-07-28",
+          "views": 135
+        },
+        {
+          "period": "2026-07-29",
+          "views": 133
+        },
+        {
+          "period": "2026-07-30",
+          "views": 124
+        },
+        {
+          "period": "2026-07-31",
+          "views": 612
+        },
+        {
+          "period": "2026-08-01",
+          "views": 180
+        },
+        {
+          "period": "2026-08-02",
+          "views": 182
+        },
+        {
+          "period": "2026-08-03",
+          "views": 184
+        },
+        {
+          "period": "2026-08-04",
+          "views": 192
+        },
+        {
+          "period": "2026-08-05",
+          "views": 186
+        },
+        {
+          "period": "2026-08-06",
+          "views": 142
+        },
+        {
+          "period": "2026-08-07",
+          "views": 146
+        },
+        {
+          "period": "2026-08-08",
+          "views": 144
+        },
+        {
+          "period": "2026-08-09",
+          "views": 165
+        },
+        {
+          "period": "2026-08-10",
+          "views": 179
+        },
+        {
+          "period": "2026-08-11",
+          "views": 170
+        },
+        {
+          "period": "2026-08-12",
+          "views": 193
+        },
+        {
+          "period": "2026-08-13",
+          "views": 188
+        },
+        {
+          "period": "2026-08-14",
+          "views": 220
+        },
+        {
+          "period": "2026-08-15",
+          "views": 313
+        },
+        {
+          "period": "2026-08-16",
+          "views": 358
+        },
+        {
+          "period": "2026-08-17",
+          "views": 305
+        },
+        {
+          "period": "2026-08-18",
+          "views": 226
+        },
+        {
+          "period": "2026-08-19",
+          "views": 219
+        },
+        {
+          "period": "2026-08-20",
+          "views": 128
+        },
+        {
+          "period": "2026-08-21",
+          "views": 188
+        },
+        {
+          "period": "2026-08-22",
+          "views": 154
+        },
+        {
+          "period": "2026-08-23",
+          "views": 142
+        },
+        {
+          "period": "2026-08-24",
+          "views": 173
+        },
+        {
+          "period": "2026-08-25",
+          "views": 186
+        },
+        {
+          "period": "2026-08-26",
+          "views": 156
+        },
+        {
+          "period": "2026-08-27",
+          "views": 128
+        },
+        {
+          "period": "2026-08-28",
+          "views": 125
+        },
+        {
+          "period": "2026-08-29",
+          "views": 125
+        },
+        {
+          "period": "2026-08-30",
+          "views": 103
+        },
+        {
+          "period": "2026-08-31",
+          "views": 106
+        },
+        {
+          "period": "2026-09-01",
+          "views": 86
+        },
+        {
+          "period": "2026-09-02",
+          "views": 125
+        },
+        {
+          "period": "2026-09-03",
+          "views": 101
+        },
+        {
+          "period": "2026-09-04",
+          "views": 104
+        },
+        {
+          "period": "2026-09-05",
+          "views": 107
+        },
+        {
+          "period": "2026-09-06",
+          "views": 127
+        },
+        {
+          "period": "2026-09-07",
+          "views": 124
+        },
+        {
+          "period": "2026-09-08",
+          "views": 89
+        },
+        {
+          "period": "2026-09-09",
+          "views": 88
+        },
+        {
+          "period": "2026-09-10",
+          "views": 109
+        },
+        {
+          "period": "2026-09-11",
+          "views": 77
+        },
+        {
+          "period": "2026-09-12",
+          "views": 83
+        },
+        {
+          "period": "2026-09-13",
+          "views": 68
+        },
+        {
+          "period": "2026-09-14",
+          "views": 94
+        },
+        {
+          "period": "2026-09-15",
+          "views": 91
+        },
+        {
+          "period": "2026-09-16",
+          "views": 85
+        },
+        {
+          "period": "2026-09-17",
+          "views": 101
+        },
+        {
+          "period": "2026-09-18",
+          "views": 94
+        },
+        {
+          "period": "2026-09-19",
+          "views": 94
+        },
+        {
+          "period": "2026-09-20",
+          "views": 100
+        },
+        {
+          "period": "2026-09-21",
+          "views": 94
+        },
+        {
+          "period": "2026-09-22",
+          "views": 109
+        },
+        {
+          "period": "2026-09-23",
+          "views": 65
+        },
+        {
+          "period": "2026-09-24",
+          "views": 103
+        },
+        {
+          "period": "2026-09-25",
+          "views": 99
+        },
+        {
+          "period": "2026-09-26",
+          "views": 105
+        }
+      ],
+      "articles": [
+        {
+          "title": "XXV Giochi olimpici invernali",
+          "kind": "article",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 12977,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Olimpiadi invernali 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 14,
+          "first_period_with_views": "2026-07-20"
+        },
+        {
+          "title": "XXV Olimpiade Invernale",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 2,
+          "first_period_with_views": "2026-08-02"
+        }
+      ]
+    }
+  },
+  "warnings": [],
+  "reply_language": "uk",
+  "summary_uk": "Тема: «Зимові Олімпійські ігри 2026» (Q4630399).\nПеріод: 2026-06-29 — 2026-09-26 (90 днів). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.\n\n- Англійська Wikipedia (en): 186 406 переглядів за період (стаття «2026 Winter Olympics» і 46 перенаправлень).\n- Італійська Wikipedia (it): 12 993 перегляди за період (стаття «XXV Giochi olimpici invernali» і 2 перенаправлення).\n\nЦе лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації. Абсолютні числа різних мовних розділів не можна порівнювати як міру інтересу: розділи мають дуже різну аудиторію, коректне порівняння (відносні зміни) буде на етапі 3.",
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перекажи користувачу `summary_uk` дослівно — це вся відповідь етапу 2. Перед ним можна додати лише те, що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після нього — питання, якщо користувач мусить щось вирішити.",
+    "Нічого не додавай про зміни в часі: не описуй перегляди по місяцях, не називай піків і спадів, не пиши «зростає», «падає», «стабільно», «тенденція». Ряд ще не перевірено на зломи й сезонність — це етап 3.",
+    "Не давай рекомендацій (яку мову, аудиторію чи тему обрати) і не порівнюй мови за абсолютними числами, навіть якщо користувач просив звіт чи рекомендації: скажи, що вони будуть після етапу 3.",
+    "Графіків ще немає. Якщо користувач просить графік, скажи, що графіки — етап 3 у розробці. Не пиши власного коду і не кажи, що графік є.",
+    "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3."
+  ]
+}

@@ -1,0 +1,44 @@
+## Користувач
+Порівняй інтерес до "штучного інтелекту" в українській, польській та чеській Wikipedia.
+
+## Команди агента
+```bash
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  --query "uk:штучний інтелект" \
+  --query "en:artificial intelligence" \
+  --targets uk,pl,cs \
+  --user-message "Порівняй інтерес до \"штучного інтелекту\" в українській, польській та чеській Wikipedia." \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json
+
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/fetch_pageviews.py \
+  --basket /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/views.json
+```
+
+## Відповідь агента
+Я проаналізував інтерес до "штучного інтелекту" в трьох мовних розділах Вікіпедії за останні 24 місяці (вересень 2024 — серпень 2026).
+
+**Результати по мовним розділам:**
+
+**Українська Вікіпедія (uk.wikipedia)**
+- Всього переглядів: 218 899
+- Статей: 8 (основна стаття "Штучний інтелект" + 7 перенаправлень)
+- Основна стаття отримала 218 251 перегляд
+
+**Польська Вікіпедія (pl.wikipedia)**
+- Всього переглядів: 305 307
+- Статей: 1 (основна стаття "Sztuczna inteligencja")
+- Стаття отримала 305 307 переглядів
+
+**Чеська Вікіпедія (cs.wikipedia)**
+- Всього переглядів: 143 966
+- Статей: 5 (основна стаття "Umělá inteligence" + 4 перенаправлення)
+- Основна стаття отримала 142 845 переглядів
+
+**Важливе зауваження:** Не порівнюй абсолютні числа переглядів між мовними розділами як міру інтересу до теми — вони мають дуже різні аудиторії. Коректне порівняння (відносні зміни, тренди) буде на етапі 3, який ще в розробці.
+
+Період вибрано за замовчуванням (останні 24 завершені місяці), оскільки вказаний період не був названий.
+
+Детальні дані збережено у файлах:
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/basket.json`
+- `/tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/x/07_3/views.json`

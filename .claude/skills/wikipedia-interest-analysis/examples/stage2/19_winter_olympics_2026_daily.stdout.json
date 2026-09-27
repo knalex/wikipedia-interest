@@ -1,0 +1,114 @@
+{
+  "status": "ok",
+  "summary_uk": "Тема: «Зимові Олімпійські ігри 2026» (Q4630399).\nПеріод: 2026-06-29 — 2026-09-26 (90 днів). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.\n\n- Англійська Wikipedia (en): 186 406 переглядів за період (стаття «2026 Winter Olympics» і 46 перенаправлень).\n- Італійська Wikipedia (it): 12 993 перегляди за період (стаття «XXV Giochi olimpici invernali» і 2 перенаправлення).\n\nЦе лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й рекомендації. Абсолютні числа різних мовних розділів не можна порівнювати як міру інтересу: розділи мають дуже різну аудиторію, коректне порівняння (відносні зміни) буде на етапі 3.",
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перекажи користувачу `summary_uk` дослівно — це вся відповідь етапу 2. Перед ним можна додати лише те, що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після нього — питання, якщо користувач мусить щось вирішити.",
+    "Нічого не додавай про зміни в часі: не описуй перегляди по місяцях, не називай піків і спадів, не пиши «зростає», «падає», «стабільно», «тенденція». Ряд ще не перевірено на зломи й сезонність — це етап 3.",
+    "Не давай рекомендацій (яку мову, аудиторію чи тему обрати) і не порівнюй мови за абсолютними числами, навіть якщо користувач просив звіт чи рекомендації: скажи, що вони будуть після етапу 3.",
+    "Графіків ще немає. Якщо користувач просить графік, скажи, що графіки — етап 3 у розробці. Не пиши власного коду і не кажи, що графік є.",
+    "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3."
+  ],
+  "topic": {
+    "entity_id": "Q4630399",
+    "label": "Зимові Олімпійські ігри 2026"
+  },
+  "granularity": "daily",
+  "period": {
+    "requested": {
+      "start": "2026-06-29",
+      "end": "2026-09-26"
+    },
+    "used": {
+      "start": "2026-06-29",
+      "end": "2026-09-26"
+    },
+    "points": 90
+  },
+  "source": "Wikimedia Pageviews API, agent=user, access=all-access",
+  "warnings": [],
+  "reply_language": "uk",
+  "languages": {
+    "en": {
+      "project": "en.wikipedia",
+      "articles_count": 47,
+      "total_views": 186406,
+      "top_articles": [
+        {
+          "title": "2026 Winter Olympics",
+          "kind": "article",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 184670,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 533,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milan-Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 148,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Milano-Cortina 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 141,
+          "first_period_with_views": "2026-06-30"
+        },
+        {
+          "title": "2026 Olympics",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 132,
+          "first_period_with_views": "2026-06-29"
+        }
+      ],
+      "articles_total": 47
+    },
+    "it": {
+      "project": "it.wikipedia",
+      "articles_count": 3,
+      "total_views": 12993,
+      "top_articles": [
+        {
+          "title": "XXV Giochi olimpici invernali",
+          "kind": "article",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 12977,
+          "first_period_with_views": "2026-06-29"
+        },
+        {
+          "title": "Olimpiadi invernali 2026",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 14,
+          "first_period_with_views": "2026-07-20"
+        },
+        {
+          "title": "XXV Olimpiade Invernale",
+          "kind": "redirect",
+          "entity_id": "Q4630399",
+          "role": "core",
+          "views": 2,
+          "first_period_with_views": "2026-08-02"
+        }
+      ],
+      "articles_total": 3
+    }
+  },
+  "full_views_file": "examples/stage2/19_winter_olympics_2026_daily.views.json"
+}
