@@ -336,10 +336,10 @@ def comparison_lines(cmp: dict, results: dict, threshold: float) -> list:
                      f"лідера ненадійний.")
     else:
         best = cmp["ranking"][0]["change_pct"]
-        what = ("найшвидше зростає інтерес" if best > threshold else
-                "найменше падіння інтересу" if best < -threshold else
-                "найкраща динаміка (відносно розділу — без явної зміни)")
-        lines.append(f"- Відносно {what} — {top['edition']}, довіра: {top['confidence']}.")
+        what = ("Відносно найшвидше зростає інтерес" if best > threshold else
+                "Відносно найменше падіння інтересу" if best < -threshold else
+                "Найкраща відносна динаміка (сама по собі — без явної зміни)")
+        lines.append(f"- {what} — {top['edition']}, довіра: {top['confidence']}.")
     if cmp["excluded"]:
         lines.append(f"- Не враховано (немає даних для відносної зміни): {', '.join(cmp['excluded'])}.")
     if cmp.get("asymmetric"):

@@ -183,6 +183,26 @@ class GoldenCases(unittest.TestCase):
         self.assertIn("Q925", ids)
 
 
+    def test_entity_chosen_by_agent_needs_confirmation(self):
+        code, view, full = run_case("mercury_entity_unconfirmed")
+        self.assertEqual((code, view["status"]), (0, "needs_confirmation"))
+        self.assertIn("entity_needs_confirmation", codes(view))
+        self.assertTrue(any(s.startswith("СПОЧАТКУ спитай користувача") for s in view["next_steps"]))
+        self.assertIn("Q925", next(w["detail"] for w in view["warnings"] if w["code"] == "entity_needs_confirmation"))
+
+    def test_entity_after_users_answer_is_accepted(self):
+        code, view, _ = run_case("mercury_entity_confirmed")
+        self.assertEqual((code, view["status"]), (0, "resolved"))
+        self.assertNotIn("entity_needs_confirmation", codes(view))
+
+    def test_stage2_refuses_unconfirmed_basket(self):
+        import fetch_pageviews as fp
+        _, _, full = run_case("mercury_entity_unconfirmed")
+        result = fp.run(None, full or {"status": "needs_confirmation"}, "monthly", 12, None, None,
+                        __import__("datetime").date(2026, 9, 27))
+        self.assertTrue(result["reason"].startswith("basket_not_ready"))
+
+
 class ArgumentErrors(unittest.TestCase):
     def check_error(self, argv, reason_prefix):
         code, view, _ = run(argv, NoNetworkClient())

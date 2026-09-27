@@ -147,7 +147,7 @@ class ProjectAdjustmentAndComparison(unittest.TestCase):
     def test_flat_leader_is_not_called_growing(self):
         a = analyze(make_views({"en": [1000] * 12 + [1010] * 12, "de": [1000] * 12 + [800] * 12}))
         text = at.summary_uk(a, None)
-        self.assertIn("найкраща динаміка (відносно розділу — без явної зміни) — Англійська", text)
+        self.assertIn("Найкраща відносна динаміка (сама по собі — без явної зміни) — Англійська", text)
         self.assertNotIn("найшвидше зростає", text)
 
     def test_threshold_is_configurable(self):

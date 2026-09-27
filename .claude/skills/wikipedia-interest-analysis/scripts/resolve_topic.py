@@ -615,6 +615,20 @@ def _resolve(client, queries: list, targets: list, scope: str, include: list, en
     notes = []
     if entity:
         core_id = entity
+        if queries:
+            # --entity пропускає вибір, тож перевіряємо, чи слова користувача самі були
+            # неоднозначні: агент міг вибрати значення замість користувача.
+            status, payload, found_notes = choose_core(client, queries, targets)
+            differs = next((n for n in found_notes if n["code"] == "user_phrase_differs"), None)
+            if status == "ambiguous":
+                options = "; ".join(f"{c['entity_id']} «{c['label']}» ({c['description']})"
+                                    for c in payload["candidates"])
+                notes.append({"code": "entity_needs_confirmation",
+                              "detail": f"запит неоднозначний, підходять: {options}; передано --entity {entity}"})
+            elif differs:
+                notes.append({"code": "entity_needs_confirmation",
+                              "detail": f"{differs['detail']}; передано --entity {entity}",
+                              "question": differs.get("question")})
     else:
         status, payload, found_notes = choose_core(client, queries, targets)
         if status != "resolved":
@@ -680,6 +694,18 @@ def resolve(client, queries: list, targets: list, scope: str, include: list, ent
         first.append(f"СПОЧАТКУ виправ запит: {note['detail']}. Перезапусти, давши першим --query "
                      f"слова користувача з його повідомлення без заміни (можна лише початкову форму). "
                      f"Якщо ти змінив їх навмисно, спершу спитай користувача, чи він має на увазі саме це.")
+    confirm = [w for w in result.get("warnings", []) if w["code"] == "entity_needs_confirmation"]
+    if confirm and len(user_messages) >= 2:
+        # Користувач уже відповів на уточнення (друге повідомлення) — попередження зайве.
+        result["warnings"] = [w for w in result["warnings"] if w["code"] != "entity_needs_confirmation"]
+    elif confirm:
+        result["status"] = "needs_confirmation"
+        first.append(f"СПОЧАТКУ спитай користувача, яке значення він мав на увазі: {confirm[0]['detail']}. "
+                     f"Не вибирай за нього і не переходь до збору переглядів. Коли він відповість, перезапусти з "
+                     f"--entity вибраного QID і передай обидва повідомлення (початкове і його відповідь) як "
+                     f"--user-message.")
+        result["next_steps"] = first
+        return result
     result["next_steps"] = first + result.get("next_steps", [])
     return result
 
@@ -736,7 +762,7 @@ def main(argv=None, client=None):
             json.dump(result, f, ensure_ascii=False, indent=2)
         result = compact(result, args.out)
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0 if result.get("status") in ("resolved", "partial", "ambiguous") else 1
+    return 0 if result.get("status") in ("resolved", "partial", "ambiguous", "needs_confirmation") else 1
 
 
 if __name__ == "__main__":
