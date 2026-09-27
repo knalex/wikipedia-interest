@@ -99,7 +99,7 @@ class RecordedCases(unittest.TestCase):
         self.assertIn("не можна порівнювати", summary)  # дві мови
         self.assertNotIn("series", view["languages"]["cs"])
         self.assertIn("series", full["languages"]["cs"])
-        self.assertTrue(any("analyze_trend.py" in s for s in view["next_steps"]))  # далі — етап 3
+        self.assertIn("analyze_trend.py --views", view["next_command"])  # далі — етап 3, готова команда
         self.assertIsNotNone(full["languages"]["cs"]["project_series"])  # загальна відвідуваність розділу
         self.assertNotIn("project_series", view["languages"]["cs"])
 

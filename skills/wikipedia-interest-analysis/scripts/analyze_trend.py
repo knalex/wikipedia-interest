@@ -26,6 +26,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from output_files import display, files_block, run_dir_for, script  # noqa: E402
 from fetch_pageviews import (  # noqa: E402
     REPLY_LANGUAGE, edition_name, human_period, number, plural, sentence,
 )
@@ -356,7 +357,7 @@ def comparison_lines(cmp: dict, results: dict, threshold: float) -> list:
     return lines
 
 
-def summary_uk(analysis: dict, chart_path) -> str:
+def summary_uk(analysis: dict, chart_path, files: str = "") -> str:
     g = analysis["granularity"]
     used, points = analysis["period"]["used"], analysis["period"]["points"]
     lines = [f"Тема: «{analysis['topic']['label']}» ({analysis['topic']['entity_id']}).",
@@ -375,12 +376,14 @@ def summary_uk(analysis: dict, chart_path) -> str:
         lines += ["", "Зверніть увагу:"] + [f"- {n}" for n in notes]
     lines.append("")
     if chart_path:
-        lines.append(f"Графік: {chart_path}")
+        lines.append(f"Графік: {display(chart_path)}")
     lines.append(f"Поріг: зміна менша за ±{GROWTH_THRESHOLD:.0f} % вважається «без явної зміни»." if
                  analysis["threshold"] == GROWTH_THRESHOLD else
                  f"Поріг: зміна менша за ±{analysis['threshold']:g} % вважається «без явної зміни».")
     lines.append("Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією "
                  "мовою і залежать від пошукових систем, новин і назв статей.")
+    if files:
+        lines += ["", files]
     lines += ["", REPORT_OFFER]
     return "\n".join(lines)
 
@@ -395,13 +398,13 @@ def next_steps(analysis: dict) -> list:
         "абсолютними числами. Висновки для рішення (які аудиторії досліджувати) дає звіт етапу 4.",
     ]
     if analysis.get("chart"):
-        steps.append(f"Графік уже створено: {analysis['chart']}. Дай користувачу цей шлях до файлу. Не малюй інших "
+        steps.append(f"Графік уже створено: {display(analysis['chart'])}. Дай користувачу цей шлях до файлу. Не малюй інших "
                      f"графіків, не пиши для цього коду і нікуди не публікуй та не завантажуй графік.")
     steps.append("Звіт на одну сторінку (PDF): якщо користувач уже просив звіт, PDF чи щось, чим можна "
-                 "поділитися, — не показуй цей `summary_uk`, а одразу запусти етап 4: `python3 scripts/build_report.py "
-                 "--analysis <файл --out цього запуску> --views <views.json етапу 2> --out <шлях>.pdf --question "
-                 "\"<перше повідомлення користувача>\"` і перекажи його `reply_uk`. Якщо не просив — останній рядок "
-                 "`summary_uk` уже пропонує звіт; якщо користувач погодиться, запусти етап 4.")
+                 "поділитися, — не показуй цей `summary_uk`, а одразу запусти етап 4 (готова команда — у "
+                 "`next_command`; підстав у `--question` перше повідомлення користувача дослівно) і перекажи його "
+                 "`reply_uk`. Якщо не просив — останній рядок `summary_uk` уже пропонує звіт; якщо користувач "
+                 "погодиться, запусти ту саму команду.")
     steps.append("Якщо користувач змінює припущення: інший період — перезапусти етап 2 з новим `--last`/`--start`, "
                  "потім цей скрипт; інший поріг «зростання» — лише цей скрипт з `--growth-threshold ЧИСЛО`.")
     return steps
@@ -511,8 +514,8 @@ def run(views: dict, threshold: float) -> dict:
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--views", required=True, help="Повний результат етапу 2 (файл --out з fetch_pageviews.py).")
-    parser.add_argument("--out", help="Записати сюди повний аналіз у JSON.")
-    parser.add_argument("--chart", help="Шлях до графіка SVG; типово — поруч із --views, з розширенням .svg.")
+    parser.add_argument("--out", help="Куди записати повний аналіз у JSON (типово — analysis.json у теці запуску).")
+    parser.add_argument("--chart", help="Шлях до графіка SVG; типово — views.svg поруч із аналізом.")
     parser.add_argument("--no-chart", action="store_true", help="Не малювати графік.")
     parser.add_argument("--growth-threshold", type=float, default=GROWTH_THRESHOLD,
                         help=f"Поріг зміни у %%, менше за який — «без явної зміни» (типово {GROWTH_THRESHOLD:g}).")
@@ -532,20 +535,22 @@ def main(argv=None):
         print(json.dumps(analysis, ensure_ascii=False, indent=2))
         return 1
 
+    out = Path(args.out) if args.out else run_dir_for(args.views, views["topic"]["entity_id"]) / "analysis.json"
     chart = None
     if not args.no_chart:
         svg = render_svg(analysis, views)
         if svg:
-            chart = args.chart or str(Path(args.views).with_suffix(".svg"))
+            chart = args.chart or str(out.parent / (Path(args.views).stem + ".svg"))
             Path(chart).write_text(svg, encoding="utf-8")
     analysis["chart"] = chart
-    analysis["summary_uk"] = summary_uk(analysis, chart)
+    analysis["summary_uk"] = summary_uk(analysis, chart, files_block(out.parent, will_create=[out.name]))
     analysis["next_steps"] = next_steps(analysis)
-    ordered = {k: analysis[k] for k in ("status", "summary_uk", "next_steps")}
+    analysis["next_command"] = (f"python3 {script('build_report.py')} --analysis {display(out)} "
+                                f"--views {display(args.views)} --question \"<перше повідомлення користувача>\"")
+    ordered = {k: analysis[k] for k in ("status", "summary_uk", "next_steps", "next_command")}
     ordered.update({k: v for k, v in analysis.items() if k not in ordered})
-    if args.out:
-        Path(args.out).write_text(json.dumps(ordered, ensure_ascii=False, indent=2), encoding="utf-8")
-        ordered["full_analysis_file"] = args.out
+    out.write_text(json.dumps(ordered, ensure_ascii=False, indent=2), encoding="utf-8")
+    ordered["full_analysis_file"] = display(out)
     print(json.dumps(ordered, ensure_ascii=False, indent=2))
     return 0
 

@@ -3,10 +3,12 @@
 import contextlib
 import io
 import json
+import os
 import sys
 import tempfile
 import unittest
 import xml.dom.minidom
+from unittest import mock
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -181,13 +183,15 @@ class Text(unittest.TestCase):
 
 class Cli(unittest.TestCase):
     def run_main(self, views, extra=()):
-        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()) as out:
+        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()) as out, \
+                mock.patch.dict(os.environ, {"WIKIPEDIA_INTEREST_OUTPUT": str(Path(tmp) / "output")}):
             path = Path(tmp) / "views.json"
             path.write_text(json.dumps(views, ensure_ascii=False), encoding="utf-8")
             code = at.main(["--views", str(path), *extra])
-            svg = path.with_suffix(".svg")
-            svg_text = svg.read_text(encoding="utf-8") if svg.exists() else None
-        return code, json.loads(out.getvalue()), svg_text
+            result = json.loads(out.getvalue())
+            svg = Path(result["chart"]) if result.get("chart") else None
+            svg_text = svg.read_text(encoding="utf-8") if svg and svg.exists() else None
+        return code, result, svg_text
 
     def test_chart_summary_and_order(self):
         code, result, svg = self.run_main(make_views({"de": [1000] * 12 + [1400] * 12, "fr": [900] * 24}))

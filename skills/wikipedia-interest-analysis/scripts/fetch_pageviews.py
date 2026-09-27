@@ -26,6 +26,7 @@ import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from output_files import display, run_dir_for, script  # noqa: E402
 from resolve_topic import (  # noqa: E402
     CONTACT_ENV_VAR, REPLY_LANGUAGE, USER_AGENT_TEMPLATE, ResolverError, WikimediaClient, request_key,
 )
@@ -327,9 +328,8 @@ def summary_uk(result: dict) -> str:
 def next_steps(result: dict) -> list:
     return [
         "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
-        f"Одразу запусти етап 3: `python3 scripts/analyze_trend.py --views <файл --out цього запуску> "
-        f"--out <шлях>.analysis.json` і перекажи користувачу його `summary_uk`. Цей `summary_uk` окремо не "
-        f"показуй: він лише для випадку, коли етап 3 завершився помилкою.",
+        "Одразу запусти етап 3 (готова команда — у `next_command`) і перекажи користувачу його `summary_uk`. "
+        "Цей `summary_uk` окремо не показуй: він лише для випадку, коли етап 3 завершився помилкою.",
         "Нічого не додавай про зміни в часі від себе: не описуй перегляди по місяцях, не називай піків і спадів — "
         "це робить етап 3.",
         "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3.",
@@ -391,16 +391,19 @@ def main(argv=None, client=None):
                                                  "Типово: 24 місяці або 90 днів.")
     parser.add_argument("--start", help="Початок періоду: РРРР-ММ (monthly) або РРРР-ММ-ДД (daily).")
     parser.add_argument("--end", help="Кінець періоду; типово — останній завершений місяць/день.")
-    parser.add_argument("--out", help="Записати сюди повний результат у JSON; тоді в stdout буде стислий вигляд.")
+    parser.add_argument("--out", help="Куди записати повний результат у JSON (типово — views.json у теці кошика, "
+                                      "якщо вона в wikipedia-interest-output/, інакше нова підтека там).")
     parser.add_argument("--no-cache", action="store_true", help="Не читати й не писати дисковий кеш.")
     parser.add_argument("--today", help=argparse.SUPPRESS)  # для відтворюваних тестів
     args = parser.parse_args(argv)
 
     def emit(result):
-        if args.out and "languages" in result:
-            with open(args.out, "w", encoding="utf-8") as f:
+        if "languages" in result:
+            out = args.out or str(run_dir_for(args.basket, result["topic"]["entity_id"]) / "views.json")
+            result["next_command"] = f"python3 {script('analyze_trend.py')} --views {display(out)}"
+            with open(out, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
-            result = compact(result, args.out)
+            result = compact(result, out)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0 if result.get("status") in ("ok", "partial") else 1
 

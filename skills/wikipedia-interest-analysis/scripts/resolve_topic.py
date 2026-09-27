@@ -36,6 +36,10 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from output_files import display, new_run_dir, script  # noqa: E402
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 # Політика User-Agent Wikimedia вимагає контакт; він береться зі змінної
@@ -719,7 +723,8 @@ def main(argv=None, client=None):
     parser.add_argument("--scope", choices=("core", "extended"), default="core",
                         help="core: лише основне поняття. extended: ще й вужчі поняття, що є в усіх розділах.")
     parser.add_argument("--include", default="", help="QID через кому, які треба додати до кошика (з дозволу користувача).")
-    parser.add_argument("--out", help="Записати сюди повний кошик у JSON; тоді в stdout буде стислий вигляд.")
+    parser.add_argument("--out", help="Куди записати повний кошик у JSON (типово — нова підтека в "
+                                      "wikipedia-interest-output/); у stdout — стислий вигляд.")
     parser.add_argument("--user-message", action="append", default=[],
                         help="Повідомлення користувача дослівно, можна кілька (початкове й уточнення про тему). "
                              "Обов'язкове разом з --query.")
@@ -757,10 +762,19 @@ def main(argv=None, client=None):
     except ResolverError as e:
         result = {"status": "error", "reason": str(e)}
 
-    if args.out and "articles" in result:
-        with open(args.out, "w", encoding="utf-8") as f:
+    if "articles" in result:
+        out = args.out or str(new_run_dir(result.get("core", {}).get("entity_id", "topic")) / "basket.json")
+        with open(out, "w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
-        result = compact(result, args.out)
+        result = compact(result, out)
+        if result.get("status") in ("resolved", "partial"):
+            command = f"python3 {script('fetch_pageviews.py')} --basket {display(out)}"
+            result["next_command"] = command
+            step = (f"Кошик: {display(out)}. Коли питання етапу 1 вирішено, запусти етап 2: `{command}` і додай "
+                    f"період з таблиці в SKILL.md (напр. `--last 24`); `--out` не передавай — скрипт сам покладе "
+                    f"файл у ту саму теку.")
+            steps = [st for st in result["next_steps"] if not st.startswith("Кошик готовий")]
+            result["next_steps"] = steps + [step]
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result.get("status") in ("resolved", "partial", "ambiguous", "needs_confirmation") else 1
 

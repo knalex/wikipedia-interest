@@ -21,6 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from analyze_trend import PALETTE, REPORT_OFFER, TREND_WORDS, nice_step, pct, period_phrase  # noqa: E402
 from fetch_pageviews import REPLY_LANGUAGE, number, sentence  # noqa: E402
+from output_files import display, files_block, run_dir_for  # noqa: E402
 from pdf_writer import Page, TrueTypeFont  # noqa: E402
 
 FONT_DIR = Path(__file__).resolve().parent.parent / "assets" / "fonts"
@@ -310,7 +311,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--analysis", required=True, help="Повний аналіз етапу 3 (файл --out з analyze_trend.py).")
     parser.add_argument("--views", required=True, help="Ряди етапу 2 (файл --out з fetch_pageviews.py).")
-    parser.add_argument("--out", required=True, help="Куди записати PDF.")
+    parser.add_argument("--out", help="Куди записати PDF (типово — report.pdf у теці аналізу).")
     parser.add_argument("--question", help="Питання користувача дослівно — для шапки звіту.")
     parser.add_argument("--today", help=argparse.SUPPRESS)
     args = parser.parse_args(argv)
@@ -329,13 +330,17 @@ def main(argv=None):
                      "next_steps": ["Спершу запусти етап 3 з `--out` і передай цей файл як --analysis."]})
     today = dt.date.fromisoformat(args.today) if args.today else dt.date.today()
     page, variant = build(a, views, args.question, today)
-    Path(args.out).write_bytes(page.to_pdf(f"Інтерес до теми «{a['topic']['label']}» у Wikipedia"))
-    summary = a.get("summary_uk", "").replace(REPORT_OFFER, "").rstrip()
-    reply = (summary + "\n\n" if summary else "") + f"Звіт на одну сторінку (PDF): {args.out}"
+    out = Path(args.out) if args.out else run_dir_for(args.analysis, a["topic"]["entity_id"]) / "report.pdf"
+    out.write_bytes(page.to_pdf(f"Інтерес до теми «{a['topic']['label']}» у Wikipedia"))
+    summary = a.get("summary_uk", "").split("\n\nСтворені файли —")[0].replace(REPORT_OFFER, "").rstrip()
+    reply = (summary + "\n\n" if summary else "") + f"Звіт на одну сторінку (PDF): {display(out)}"
+    files = files_block(out.parent, will_create=[out.name])
+    if files:
+        reply += "\n\n" + files
     return emit({
         "status": "ok",
         "reply_uk": reply,
-        "report": args.out,
+        "report": display(out),
         "pages": 1,
         "layout_variant": variant,
         "reply_language": REPLY_LANGUAGE,

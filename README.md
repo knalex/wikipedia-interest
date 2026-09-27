@@ -30,6 +30,10 @@ ln -s ../../skills/wikipedia-interest-analysis .claude/skills/wikipedia-interest
 Або скопіюйте теку навички в `~/.claude/skills/`, щоб вона була доступна в усіх
 проєктах.
 
+Усе, що створює навичка (кошики, перегляди, аналіз, графіки, PDF), лягає в
+`wikipedia-interest-output/<дата-час>-<QID>/` у робочій теці; там же навичка
+створює `.gitignore`, тож у git ці файли не потрапляють.
+
 Вимоги: Python 3.8+, лише стандартна бібліотека, мережа для Wikidata й
 Wikimedia Pageviews API. Тести без мережі:
 
