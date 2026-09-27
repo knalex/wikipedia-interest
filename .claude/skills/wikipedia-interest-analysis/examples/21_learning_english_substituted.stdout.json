@@ -1,0 +1,236 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:англійська мова",
+    "en:English as a second or foreign language"
+  ],
+  "targets": [
+    "uk",
+    "pl",
+    "de",
+    "es"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q1860",
+    "label": "англійська мова",
+    "description": "західногерманська мова, яка виникла в Англії",
+    "language_editions_with_article": 318
+  },
+  "coverage": {
+    "uk": {
+      "core_title": "Англійська мова",
+      "included_articles": 1,
+      "included_redirects": 8
+    },
+    "pl": {
+      "core_title": "Język angielski",
+      "included_articles": 1,
+      "included_redirects": 6
+    },
+    "de": {
+      "core_title": "Englische Sprache",
+      "included_articles": 1,
+      "included_redirects": 15
+    },
+    "es": {
+      "core_title": "Idioma inglés",
+      "included_articles": 1,
+      "included_redirects": 25
+    }
+  },
+  "warnings": [
+    {
+      "code": "query_not_in_user_message",
+      "detail": "перший запит «англійська мова» (uk) не знайдено в повідомленнях користувача; результат може стосуватися іншого поняття, ніж те, про яке він питав"
+    },
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах); обрано значно поширеніше Q1860 (англійська мова: західногерманська мова, яка виникла в Англії; статті в 318 мовних розділах)"
+    },
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (uk, pl, de, es) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "СПОЧАТКУ виправ запит: перший запит «англійська мова» (uk) не знайдено в повідомленнях користувача; результат може стосуватися іншого поняття, ніж те, про яке він питав. Перезапусти, давши першим --query слова користувача з його повідомлення без заміни (можна лише початкову форму). Якщо ти змінив їх навмисно, спершу спитай користувача, чи він має на увазі саме це.",
+    "Згадай одним рядком: запит також збігся з Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах); обрано значно поширеніше Q1860 (англійська мова: західногерманська мова, яка виникла в Англії; статті в 318 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 7 (напр., Basic English, середньоанглійська мова, Піджин Соломонових Островів); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q1860",
+      "label": "англійська мова",
+      "role": "core",
+      "titles": {
+        "uk": "Англійська мова",
+        "pl": "Język angielski",
+        "de": "Englische Sprache",
+        "es": "Idioma inglés"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q5329170",
+      "label": "англо-фризькі мови",
+      "role": "broader",
+      "titles": {
+        "uk": "Англо-фризькі мови",
+        "pl": "Języki anglofryzyjskie",
+        "de": "Anglofriesische Sprachen",
+        "es": "Lenguas anglofrisias"
+      }
+    },
+    {
+      "entity_id": "Q1346342",
+      "label": "англійські мови",
+      "role": "broader",
+      "titles": {
+        "uk": "Англійські мови",
+        "es": "Lenguas ánglicas"
+      }
+    },
+    {
+      "entity_id": "Q26746",
+      "label": "Basic English",
+      "role": "narrower",
+      "titles": {
+        "uk": "Бейсік-інґліш",
+        "pl": "Basic English",
+        "de": "Basic English",
+        "es": "Inglés básico"
+      }
+    },
+    {
+      "entity_id": "Q36395",
+      "label": "середньоанглійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Середньоанглійська мова",
+        "pl": "Język średnioangielski",
+        "de": "Mittelenglisch",
+        "es": "Inglés medio"
+      }
+    },
+    {
+      "entity_id": "Q36699",
+      "label": "Піджин Соломонових Островів",
+      "role": "narrower",
+      "titles": {
+        "uk": "Піджин Соломонових Островів",
+        "pl": "Język neosalomoński",
+        "de": "Pijin",
+        "es": "Pidgin salomonense"
+      }
+    },
+    {
+      "entity_id": "Q560583",
+      "label": "граматика англійської мови",
+      "role": "narrower",
+      "titles": {
+        "uk": "Граматика англійської мови",
+        "pl": "Gramatyka języka angielskiego",
+        "de": "Englische Grammatik",
+        "es": "Gramática del inglés"
+      }
+    },
+    {
+      "entity_id": "Q751065",
+      "label": "Поросяча латина",
+      "role": "narrower",
+      "titles": {
+        "uk": "Поросяча латина",
+        "pl": "Świńska łacina",
+        "de": "Pig Latin",
+        "es": "Pig Latin"
+      }
+    },
+    {
+      "entity_id": "Q939451",
+      "label": "Сингліш",
+      "role": "narrower",
+      "titles": {
+        "uk": "Сингліш",
+        "pl": "Singlish",
+        "de": "Singlish",
+        "es": "Singlés"
+      }
+    },
+    {
+      "entity_id": "Q1454599",
+      "label": "Спрощена технічна англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Спрощена технічна англійська мова",
+        "pl": "Język angielski uproszczony",
+        "de": "Simplified Technical English",
+        "es": "Inglés Técnico Simplificado"
+      }
+    },
+    {
+      "entity_id": "Q784975",
+      "label": "історія англійської мови",
+      "role": "narrower",
+      "titles": {
+        "uk": "Історія англійської мови",
+        "de": "Geschichte der englischen Sprache",
+        "es": "Historia del idioma inglés"
+      }
+    },
+    {
+      "entity_id": "Q1156228",
+      "label": "South African English",
+      "role": "narrower",
+      "titles": {
+        "pl": "Południowoafrykańska odmiana języka angielskiego",
+        "de": "Südafrikanisches Englisch",
+        "es": "Inglés sudafricano"
+      }
+    },
+    {
+      "entity_id": "Q1187121",
+      "label": "Денґліш",
+      "role": "narrower",
+      "titles": {
+        "uk": "Денґліш",
+        "pl": "Denglisch",
+        "de": "Denglisch"
+      }
+    },
+    {
+      "entity_id": "Q1191063",
+      "label": "пуризм в англійській мові",
+      "role": "narrower",
+      "titles": {
+        "uk": "Пуризм в англійській мові",
+        "pl": "Anglish",
+        "es": "Anglish"
+      }
+    },
+    {
+      "entity_id": "Q130192",
+      "label": "English as a second or foreign language",
+      "role": "narrower",
+      "titles": {
+        "de": "Englisch als Zweitsprache",
+        "es": "Inglés como segunda lengua"
+      }
+    },
+    {
+      "entity_id": "Q603200",
+      "label": "Jamaican English",
+      "role": "narrower",
+      "titles": {
+        "pl": "Jamajska odmiana języka angielskiego",
+        "es": "Inglés jamaiquino"
+      }
+    }
+  ],
+  "optional_members_total": 41,
+  "full_basket_file": "examples/21_learning_english_substituted.basket.json"
+}

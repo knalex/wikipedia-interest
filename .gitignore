@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# локальні налаштування Claude Code (містять контакт і дозволи)
+.claude/settings.local.json
+# робочі кошики з ручних запусків
+basket.json
+*.basket.json
+!.claude/skills/wikipedia-interest-analysis/examples/*.basket.json

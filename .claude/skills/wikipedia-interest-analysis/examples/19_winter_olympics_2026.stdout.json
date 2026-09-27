@@ -1,0 +1,187 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:Зимові Олімпійські ігри 2026",
+    "en:2026 Winter Olympics"
+  ],
+  "targets": [
+    "en",
+    "it"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q4630399",
+    "label": "Зимові Олімпійські ігри 2026",
+    "description": "XXV зимові Олімпійські ігри",
+    "language_editions_with_article": 85
+  },
+  "coverage": {
+    "en": {
+      "core_title": "2026 Winter Olympics",
+      "included_articles": 1,
+      "included_redirects": 46
+    },
+    "it": {
+      "core_title": "XXV Giochi olimpici invernali",
+      "included_articles": 1,
+      "included_redirects": 2
+    }
+  },
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, it) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 22 (напр., Біатлон на зимових Олімпійських іграх 2026, Бобслей на зимових Олімпійських іграх 2026, Керлінг на зимових Олімпійських іграх 2026); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q4630399",
+      "label": "Зимові Олімпійські ігри 2026",
+      "role": "core",
+      "titles": {
+        "en": "2026 Winter Olympics",
+        "it": "XXV Giochi olimpici invernali"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q111737756",
+      "label": "Біатлон на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics",
+        "it": "Biathlon ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737757",
+      "label": "Бобслей на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Bobsleigh at the 2026 Winter Olympics",
+        "it": "Bob ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737759",
+      "label": "Керлінг на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Curling at the 2026 Winter Olympics",
+        "it": "Curling ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737760",
+      "label": "Фристайл на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Freestyle skiing at the 2026 Winter Olympics",
+        "it": "Freestyle ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737761",
+      "label": "Гірськолижний спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Alpine skiing at the 2026 Winter Olympics",
+        "it": "Sci alpino ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737763",
+      "label": "Скі-альпінізм на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Ski mountaineering at the 2026 Winter Olympics",
+        "it": "Sci alpinismo ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737764",
+      "label": "Хокей на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Ice hockey at the 2026 Winter Olympics",
+        "it": "Hockey su ghiaccio ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737765",
+      "label": "Сноубординг на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Snowboarding at the 2026 Winter Olympics",
+        "it": "Snowboard ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737766",
+      "label": "Скелетон на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Skeleton at the 2026 Winter Olympics",
+        "it": "Skeleton ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737768",
+      "label": "Шорт-трек на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Short-track speed skating at the 2026 Winter Olympics",
+        "it": "Short track ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737769",
+      "label": "Ковзанярський спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Speed skating at the 2026 Winter Olympics",
+        "it": "Pattinaggio di velocità ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737770",
+      "label": "Фігурне катання на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Figure skating at the 2026 Winter Olympics",
+        "it": "Pattinaggio di figura ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q111737771",
+      "label": "Санний спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Luge at the 2026 Winter Olympics",
+        "it": "Slittino ai XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q131370760",
+      "label": "Естафета Олімпійського вогню зимових Олімпійських ігор 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "2026 Winter Olympics torch relay",
+        "it": "Fiamma olimpica dei XXV Giochi olimpici invernali"
+      }
+    },
+    {
+      "entity_id": "Q131934869",
+      "label": "2026 Winter Olympics opening ceremony",
+      "role": "narrower",
+      "titles": {
+        "en": "2026 Winter Olympics opening ceremony",
+        "it": "Cerimonia di apertura dei XXV Giochi olimpici invernali"
+      }
+    }
+  ],
+  "optional_members_total": 23,
+  "full_basket_file": "examples/19_winter_olympics_2026.basket.json"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:вегетаріанство",
+    "en:vegetarianism"
+  ],
+  "targets": [
+    "de"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q83364",
+    "label": "вегетаріанство",
+    "description": "Дієта без м'яса і її різновиди",
+    "language_editions_with_article": 100
+  },
+  "coverage": {
+    "de": {
+      "core_title": "Vegetarismus",
+      "included_articles": 1,
+      "included_redirects": 16
+    }
+  },
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (de) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 1 (напр., веганізм); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q83364",
+      "label": "вегетаріанство",
+      "role": "core",
+      "titles": {
+        "de": "Vegetarismus"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q32090",
+      "label": "спосіб життя",
+      "role": "broader",
+      "titles": {
+        "de": "Lebensstil"
+      }
+    },
+    {
+      "entity_id": "Q49773",
+      "label": "соціальний рух",
+      "role": "broader",
+      "titles": {
+        "de": "Soziale Bewegung"
+      }
+    },
+    {
+      "entity_id": "Q181138",
+      "label": "веганізм",
+      "role": "narrower",
+      "titles": {
+        "de": "Veganismus"
+      }
+    }
+  ],
+  "optional_members_total": 3,
+  "full_basket_file": "examples/13_vegetarianism.basket.json"
+}

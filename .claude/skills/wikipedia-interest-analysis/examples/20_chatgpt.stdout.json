@@ -1,0 +1,50 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "en:ChatGPT"
+  ],
+  "targets": [
+    "de",
+    "fr"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q115564437",
+    "label": "Чат Джі Пі Ті",
+    "description": "чат-бот на базі ШІ",
+    "language_editions_with_article": 130
+  },
+  "coverage": {
+    "de": {
+      "core_title": "ChatGPT",
+      "included_articles": 1,
+      "included_redirects": 1
+    },
+    "fr": {
+      "core_title": "ChatGPT",
+      "included_articles": 1,
+      "included_redirects": 2
+    }
+  },
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (de, fr) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Кошик готовий; передай його 'articles' на етап збору переглядів."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q115564437",
+      "label": "Чат Джі Пі Ті",
+      "role": "core",
+      "titles": {
+        "de": "ChatGPT",
+        "fr": "ChatGPT"
+      }
+    }
+  ],
+  "optional_members": [],
+  "optional_members_total": 0,
+  "full_basket_file": "examples/20_chatgpt.basket.json"
+}

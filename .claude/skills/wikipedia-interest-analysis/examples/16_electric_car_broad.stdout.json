@@ -1,0 +1,253 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:електромобілі",
+    "en:electric vehicle"
+  ],
+  "targets": [
+    "en",
+    "de",
+    "fr",
+    "ja"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q13629441",
+    "label": "електротранспорт",
+    "description": "vehicle propelled by one or more electric motors",
+    "language_editions_with_article": 52
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Electric vehicle",
+      "included_articles": 1,
+      "included_redirects": 48
+    },
+    "de": {
+      "core_title": "Elektrofahrzeug",
+      "included_articles": 1,
+      "included_redirects": 0
+    },
+    "fr": {
+      "core_title": "Véhicule électrique",
+      "included_articles": 1,
+      "included_redirects": 4
+    },
+    "ja": {
+      "core_title": "電動輸送機器",
+      "included_articles": 1,
+      "included_redirects": 1
+    }
+  },
+  "warnings": [
+    {
+      "code": "user_phrase_weak_match",
+      "detail": "фраза користувача 'uk:електромобілі' сама по собі неоднозначна, підходять Q1079037 (Електромобілі на сонячних батареях: electric car with built-in solar cells for power generation; статті в 14 мовних розділах); Q48816237 (Електромобілі в Європі: overview of plug-in electric vehicles in Europe; статті в 5 мовних розділах). Додаткові формулювання обрали Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах)",
+      "question": "Під «електромобілі» ви маєте на увазі електротранспорт (vehicle propelled by one or more electric motors)?",
+      "alternatives": [
+        "Q1079037",
+        "Q48816237"
+      ]
+    },
+    {
+      "code": "core_label_mismatch",
+      "detail": "слова користувача «електромобілі» не схожі на назву вибраного поняття мовою uk: «електротранспорт» — Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах). Можливо, англійське формулювання передало ширше чи інше поняття",
+      "question": "Під «електромобілі» ви маєте на увазі «електротранспорт» (vehicle propelled by one or more electric motors)?",
+      "alternatives": []
+    },
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, de, fr, ja) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "СПОЧАТКУ постав користувачу питання: «Під «електромобілі» ви маєте на увазі «електротранспорт» (vehicle propelled by one or more electric motors)?» Зупинись і чекай відповіді. Причина: слова користувача «електромобілі» не схожі на назву вибраного поняття мовою uk: «електротранспорт» — Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах). Можливо, англійське формулювання передало ширше чи інше поняття. Якщо він має на увазі інше, перезапусти з його уточненим формулюванням або з --entity <QID>.",
+    "Згадай одним рядком, питати не треба: фраза користувача 'uk:електромобілі' сама по собі неоднозначна, підходять Q1079037 (Електромобілі на сонячних батареях: electric car with built-in solar cells for power generation; статті в 14 мовних розділах); Q48816237 (Електромобілі в Європі: overview of plug-in electric vehicles in Europe; статті в 5 мовних розділах). Додаткові формулювання обрали Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 16 (напр., тролейбус, Сеґвей, Місячний автомобіль); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q13629441",
+      "label": "електротранспорт",
+      "role": "core",
+      "titles": {
+        "en": "Electric vehicle",
+        "de": "Elektrofahrzeug",
+        "fr": "Véhicule électrique",
+        "ja": "電動輸送機器"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q752870",
+      "label": "транспортний засіб з двигуном",
+      "role": "broader",
+      "titles": {
+        "en": "Motor vehicle",
+        "de": "Kraftfahrzeug",
+        "fr": "Véhicule à moteur",
+        "ja": "モータービークル"
+      }
+    },
+    {
+      "entity_id": "Q5639",
+      "label": "тролейбус",
+      "role": "narrower",
+      "titles": {
+        "en": "Trolleybus",
+        "de": "Oberleitungsbus",
+        "fr": "Trolleybus",
+        "ja": "トロリーバス"
+      }
+    },
+    {
+      "entity_id": "Q214893",
+      "label": "Сеґвей",
+      "role": "narrower",
+      "titles": {
+        "en": "Segway",
+        "de": "Segway Personal Transporter",
+        "fr": "Segway PT",
+        "ja": "セグウェイ"
+      }
+    },
+    {
+      "entity_id": "Q275816",
+      "label": "Місячний автомобіль",
+      "role": "narrower",
+      "titles": {
+        "en": "Lunar Roving Vehicle",
+        "de": "Lunar Roving Vehicle",
+        "fr": "Rover lunaire Apollo",
+        "ja": "LRV (月面車)"
+      }
+    },
+    {
+      "entity_id": "Q519302",
+      "label": "Літак на сонячній енергії",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric aircraft",
+        "de": "Elektroflugzeug",
+        "fr": "Avion électrique",
+        "ja": "電動航空機"
+      }
+    },
+    {
+      "entity_id": "Q625151",
+      "label": "електровоз",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric locomotive",
+        "de": "Elektrolokomotive",
+        "fr": "Locomotive électrique",
+        "ja": "電気機関車"
+      }
+    },
+    {
+      "entity_id": "Q909558",
+      "label": "автомобіль на паливних елементах",
+      "role": "narrower",
+      "titles": {
+        "en": "Fuel cell vehicle",
+        "de": "Brennstoffzellenfahrzeug",
+        "fr": "Véhicule à pile à combustible",
+        "ja": "燃料電池自動車"
+      }
+    },
+    {
+      "entity_id": "Q926499",
+      "label": "Електробус",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric bus",
+        "de": "Elektrobus",
+        "fr": "Bus électrique",
+        "ja": "電動バス"
+      }
+    },
+    {
+      "entity_id": "Q1327077",
+      "label": "Электромотоцикл",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric motorcycles and scooters",
+        "de": "Elektromotorrad",
+        "fr": "Moto électrique",
+        "ja": "電動バイク"
+      }
+    },
+    {
+      "entity_id": "Q1483388",
+      "label": "електротранспорт",
+      "role": "narrower",
+      "titles": {
+        "en": "Plug-in hybrid",
+        "de": "Plug-in-Hybrid",
+        "fr": "Véhicule hybride rechargeable",
+        "ja": "プラグインハイブリッドカー"
+      }
+    },
+    {
+      "entity_id": "Q1739514",
+      "label": "Вантажний тролейбус",
+      "role": "narrower",
+      "titles": {
+        "en": "Trolleytruck",
+        "de": "Oberleitungslastkraftwagen",
+        "fr": "Trolley-camion",
+        "ja": "トロリートラック"
+      }
+    },
+    {
+      "entity_id": "Q2335519",
+      "label": "Роз'єм типу 2",
+      "role": "narrower",
+      "titles": {
+        "en": "Type 2 connector",
+        "de": "IEC 62196 Typ 2",
+        "fr": "Connecteur Type 2",
+        "ja": "タイプ2コネクタ"
+      }
+    },
+    {
+      "entity_id": "Q7448027",
+      "label": "Моноколесо",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric unicycle",
+        "de": "Elektroeinrad",
+        "fr": "Gyroroue",
+        "ja": "自立安定一輪車"
+      }
+    },
+    {
+      "entity_id": "Q11083590",
+      "label": "гібридний електромобіль",
+      "role": "narrower",
+      "titles": {
+        "en": "Hybrid electric vehicle",
+        "de": "Hybridelektrokraftfahrzeug",
+        "fr": "Automobile hybride électrique",
+        "ja": "ハイブリッドカー"
+      }
+    },
+    {
+      "entity_id": "Q22672404",
+      "label": "Hyundai Ioniq",
+      "role": "narrower",
+      "titles": {
+        "en": "Hyundai Ioniq",
+        "de": "Hyundai Ioniq",
+        "fr": "Hyundai Ioniq",
+        "ja": "ヒュンダイ・アイオニック"
+      }
+    }
+  ],
+  "optional_members_total": 58,
+  "full_basket_file": "examples/16_electric_car_broad.basket.json"
+}

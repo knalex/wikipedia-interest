@@ -1,0 +1,8827 @@
+{
+ "https://de.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=redirects&rdlimit=max&rdnamespace=0&titles=Elektrofahrzeug": {
+  "batchcomplete": true,
+  "limits": {
+   "redirects": 500
+  },
+  "query": {
+   "pages": [
+    {
+     "ns": 0,
+     "pageid": 289721,
+     "title": "Elektrofahrzeug"
+    }
+   ]
+  }
+ },
+ "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=redirects&rdlimit=max&rdnamespace=0&titles=Electric+vehicle": {
+  "batchcomplete": true,
+  "limits": {
+   "redirects": 500
+  },
+  "query": {
+   "pages": [
+    {
+     "ns": 0,
+     "pageid": 279350,
+     "redirects": [
+      {
+       "ns": 0,
+       "pageid": 746040,
+       "title": "Electric vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 11746603,
+       "title": "Electric taxi"
+      },
+      {
+       "ns": 0,
+       "pageid": 11761809,
+       "title": "All-electric vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 12261776,
+       "title": "Transport electrification"
+      },
+      {
+       "ns": 0,
+       "pageid": 13507285,
+       "title": "Full Electric Vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 13752443,
+       "title": "Full electric vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 15230193,
+       "title": "Electric transportation technology"
+      },
+      {
+       "ns": 0,
+       "pageid": 15230213,
+       "title": "Transportation electrification"
+      },
+      {
+       "ns": 0,
+       "pageid": 15604043,
+       "title": "Mobi-green"
+      },
+      {
+       "ns": 0,
+       "pageid": 15604046,
+       "title": "Mobi-Green"
+      },
+      {
+       "ns": 0,
+       "pageid": 17381440,
+       "title": "All-Terrain Electric Vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 17803446,
+       "title": "Full-electric"
+      },
+      {
+       "ns": 0,
+       "pageid": 18343523,
+       "title": "Electrification of the automobile"
+      },
+      {
+       "ns": 0,
+       "pageid": 18359300,
+       "title": "Pure EV"
+      },
+      {
+       "ns": 0,
+       "pageid": 18443001,
+       "title": "All-electric"
+      },
+      {
+       "ns": 0,
+       "pageid": 19884900,
+       "title": "Full-electric vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 20052330,
+       "title": "Electric powertrain"
+      },
+      {
+       "ns": 0,
+       "pageid": 20971531,
+       "title": "Electric drive vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 21591725,
+       "title": "Electric Vehicle Symposium"
+      },
+      {
+       "ns": 0,
+       "pageid": 22265264,
+       "title": "EVWorld"
+      },
+      {
+       "ns": 0,
+       "pageid": 22340910,
+       "title": "Electric-powered vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 22453326,
+       "title": "Advanced-technology vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 24329924,
+       "title": "Electrification of transport"
+      },
+      {
+       "ns": 0,
+       "pageid": 24329930,
+       "title": "Electromobility"
+      },
+      {
+       "ns": 0,
+       "pageid": 24429837,
+       "title": "E-transport"
+      },
+      {
+       "ns": 0,
+       "pageid": 24691187,
+       "title": "Vehicle electrification"
+      },
+      {
+       "ns": 0,
+       "pageid": 24731584,
+       "title": "Pure electric vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 24747739,
+       "title": "Electric carmaker"
+      },
+      {
+       "ns": 0,
+       "pageid": 24873772,
+       "title": "Advanced vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 28970217,
+       "title": "Electric Vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 29153185,
+       "title": "Electric Vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 31836511,
+       "title": "Office of Low Emission Vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 36492676,
+       "title": "Electric road vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 43619052,
+       "title": "Emobility"
+      },
+      {
+       "ns": 0,
+       "pageid": 43619061,
+       "title": "E-mobility"
+      },
+      {
+       "ns": 0,
+       "pageid": 44072169,
+       "title": "All-electric taxi"
+      },
+      {
+       "ns": 0,
+       "pageid": 46192894,
+       "title": "Electric vehicle industry"
+      },
+      {
+       "ns": 0,
+       "pageid": 47390642,
+       "title": "Pure-electric"
+      },
+      {
+       "ns": 0,
+       "pageid": 57016935,
+       "title": "Energy efficiency of electric vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 59154729,
+       "title": "Advantages and disadvantages of electric vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 59782877,
+       "title": "Only-electric vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 67932461,
+       "title": "E vehicle"
+      },
+      {
+       "ns": 0,
+       "pageid": 68554129,
+       "title": "Electric mobility"
+      },
+      {
+       "ns": 0,
+       "pageid": 69573512,
+       "title": "Electric submarine"
+      },
+      {
+       "ns": 0,
+       "pageid": 71666873,
+       "title": "Environmental impact of electric vehicles"
+      },
+      {
+       "ns": 0,
+       "pageid": 72163801,
+       "title": "Electric van"
+      },
+      {
+       "ns": 0,
+       "pageid": 72657067,
+       "title": "Electric sub"
+      },
+      {
+       "ns": 0,
+       "pageid": 73101852,
+       "title": "ETaxi"
+      }
+     ],
+     "title": "Electric vehicle"
+    }
+   ]
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=paraminfo&format=json&modules=wbgetentities": {
+  "paraminfo": {
+   "helpformat": "none",
+   "modules": [
+    {
+     "classname": "Wikibase\\Repo\\Api\\GetEntities",
+     "group": "action",
+     "helpurls": [],
+     "licenselink": "//www.wikidata.org/wiki/Special:Version/License/WikibaseClient",
+     "licensetag": "GPL-2.0-or-later",
+     "name": "wbgetentities",
+     "parameters": [
+      {
+       "highlimit": 500,
+       "index": 1,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "ids",
+       "type": "string"
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 2,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "sites",
+       "type": [
+        "aawiki",
+        "aawikibooks",
+        "aawiktionary",
+        "abstractwiki",
+        "abwiki",
+        "abwiktionary",
+        "acewiki",
+        "adywiki",
+        "afwiki",
+        "afwikibooks",
+        "afwikiquote",
+        "afwiktionary",
+        "akwiki",
+        "akwikibooks",
+        "akwiktionary",
+        "alswiki",
+        "alswikibooks",
+        "alswikiquote",
+        "alswiktionary",
+        "altwiki",
+        "amiwiki",
+        "amwiki",
+        "amwikiquote",
+        "amwiktionary",
+        "angwiki",
+        "angwikibooks",
+        "angwikiquote",
+        "angwikisource",
+        "angwiktionary",
+        "annwiki",
+        "anpwiki",
+        "anwiki",
+        "anwiktionary",
+        "arcwiki",
+        "arwiki",
+        "arwikibooks",
+        "arwikinews",
+        "arwikiquote",
+        "arwikisource",
+        "arwikiversity",
+        "arwiktionary",
+        "arywiki",
+        "arzwiki",
+        "astwiki",
+        "astwikibooks",
+        "astwikiquote",
+        "astwiktionary",
+        "aswiki",
+        "aswikibooks",
+        "aswikiquote",
+        "aswikisource",
+        "aswiktionary",
+        "atjwiki",
+        "avkwiki",
+        "avwiki",
+        "avwiktionary",
+        "awawiki",
+        "aywiki",
+        "aywikibooks",
+        "aywiktionary",
+        "azbwiki",
+        "azwiki",
+        "azwikibooks",
+        "azwikiquote",
+        "azwikisource",
+        "azwiktionary",
+        "banwiki",
+        "banwikisource",
+        "barwiki",
+        "bat_smgwiki",
+        "bawiki",
+        "bawikibooks",
+        "bbcwiki",
+        "bclwiki",
+        "bclwikiquote",
+        "bclwikisource",
+        "bclwiktionary",
+        "bdrwiki",
+        "be_x_oldwiki",
+        "bewiki",
+        "bewikibooks",
+        "bewikiquote",
+        "bewikisource",
+        "bewiktionary",
+        "bewwiki",
+        "bewwiktionary",
+        "bgwiki",
+        "bgwikibooks",
+        "bgwikinews",
+        "bgwikiquote",
+        "bgwikisource",
+        "bgwiktionary",
+        "bhwiki",
+        "bhwiktionary",
+        "biwiki",
+        "biwikibooks",
+        "biwiktionary",
+        "bjnwiki",
+        "bjnwikiquote",
+        "bjnwiktionary",
+        "blkwiki",
+        "blkwiktionary",
+        "bmwiki",
+        "bmwikibooks",
+        "bmwikiquote",
+        "bmwiktionary",
+        "bnwiki",
+        "bnwikibooks",
+        "bnwikiquote",
+        "bnwikisource",
+        "bnwikivoyage",
+        "bnwiktionary",
+        "bolwiki",
+        "bowiki",
+        "bowikibooks",
+        "bowiktionary",
+        "bpywiki",
+        "brwiki",
+        "brwikiquote",
+        "brwikisource",
+        "brwiktionary",
+        "bswiki",
+        "bswikibooks",
+        "bswikinews",
+        "bswikiquote",
+        "bswikisource",
+        "bswiktionary",
+        "btmwiki",
+        "btmwiktionary",
+        "bugwiki",
+        "bxrwiki",
+        "cawiki",
+        "cawikibooks",
+        "cawikinews",
+        "cawikiquote",
+        "cawikisource",
+        "cawiktionary",
+        "cbk_zamwiki",
+        "cdowiki",
+        "cebwiki",
+        "cewiki",
+        "chowiki",
+        "chrwiki",
+        "chrwiktionary",
+        "chwiki",
+        "chwikibooks",
+        "chwiktionary",
+        "chywiki",
+        "ckbwiki",
+        "ckbwiktionary",
+        "commonswiki",
+        "cowiki",
+        "cowikibooks",
+        "cowikiquote",
+        "cowiktionary",
+        "crhwiki",
+        "crwiki",
+        "crwikiquote",
+        "crwiktionary",
+        "csbwiki",
+        "csbwiktionary",
+        "cswiki",
+        "cswikibooks",
+        "cswikinews",
+        "cswikiquote",
+        "cswikisource",
+        "cswikiversity",
+        "cswikivoyage",
+        "cswiktionary",
+        "cuwiki",
+        "cvwiki",
+        "cvwikibooks",
+        "cywiki",
+        "cywikibooks",
+        "cywikiquote",
+        "cywikisource",
+        "cywiktionary",
+        "dagwiki",
+        "dawiki",
+        "dawikibooks",
+        "dawikiquote",
+        "dawikisource",
+        "dawiktionary",
+        "dewiki",
+        "dewikibooks",
+        "dewikinews",
+        "dewikiquote",
+        "dewikisource",
+        "dewikiversity",
+        "dewikivoyage",
+        "dewiktionary",
+        "dgawiki",
+        "dinwiki",
+        "diqwiki",
+        "diqwiktionary",
+        "dsbwiki",
+        "dtpwiki",
+        "dtywiki",
+        "dvwiki",
+        "dvwiktionary",
+        "dzwiki",
+        "dzwiktionary",
+        "eewiki",
+        "elwiki",
+        "elwikibooks",
+        "elwikinews",
+        "elwikiquote",
+        "elwikisource",
+        "elwikiversity",
+        "elwikivoyage",
+        "elwiktionary",
+        "emlwiki",
+        "enwiki",
+        "enwikibooks",
+        "enwikinews",
+        "enwikiquote",
+        "enwikisource",
+        "enwikiversity",
+        "enwikivoyage",
+        "enwiktionary",
+        "eowiki",
+        "eowikibooks",
+        "eowikinews",
+        "eowikiquote",
+        "eowikisource",
+        "eowikivoyage",
+        "eowiktionary",
+        "eswiki",
+        "eswikibooks",
+        "eswikinews",
+        "eswikiquote",
+        "eswikisource",
+        "eswikiversity",
+        "eswikivoyage",
+        "eswiktionary",
+        "etwiki",
+        "etwikibooks",
+        "etwikiquote",
+        "etwikisource",
+        "etwiktionary",
+        "euwiki",
+        "euwikibooks",
+        "euwikiquote",
+        "euwikisource",
+        "euwiktionary",
+        "extwiki",
+        "fatwiki",
+        "fawiki",
+        "fawikibooks",
+        "fawikinews",
+        "fawikiquote",
+        "fawikisource",
+        "fawikivoyage",
+        "fawiktionary",
+        "ffwiki",
+        "fiu_vrowiki",
+        "fiwiki",
+        "fiwikibooks",
+        "fiwikinews",
+        "fiwikiquote",
+        "fiwikisource",
+        "fiwikiversity",
+        "fiwikivoyage",
+        "fiwiktionary",
+        "fjwiki",
+        "fjwiktionary",
+        "fonwiki",
+        "foundationwiki",
+        "fowiki",
+        "fowikisource",
+        "fowiktionary",
+        "frpwiki",
+        "frrwiki",
+        "frwiki",
+        "frwikibooks",
+        "frwikinews",
+        "frwikiquote",
+        "frwikisource",
+        "frwikiversity",
+        "frwikivoyage",
+        "frwiktionary",
+        "furwiki",
+        "fywiki",
+        "fywikibooks",
+        "fywiktionary",
+        "gagwiki",
+        "ganwiki",
+        "gawiki",
+        "gawikibooks",
+        "gawikiquote",
+        "gawiktionary",
+        "gcrwiki",
+        "gdwiki",
+        "gdwiktionary",
+        "glkwiki",
+        "glwiki",
+        "glwikibooks",
+        "glwikiquote",
+        "glwikisource",
+        "glwiktionary",
+        "gnwiki",
+        "gnwikibooks",
+        "gnwiktionary",
+        "gomwiki",
+        "gomwiktionary",
+        "gorwiki",
+        "gorwikiquote",
+        "gorwiktionary",
+        "gotwiki",
+        "gotwikibooks",
+        "gpewiki",
+        "gucwiki",
+        "gurwiki",
+        "guwiki",
+        "guwikibooks",
+        "guwikiquote",
+        "guwikisource",
+        "guwiktionary",
+        "guwwiki",
+        "guwwikinews",
+        "guwwikiquote",
+        "guwwiktionary",
+        "gvwiki",
+        "gvwiktionary",
+        "hakwiki",
+        "hawiki",
+        "hawiktionary",
+        "hawwiki",
+        "hewiki",
+        "hewikibooks",
+        "hewikinews",
+        "hewikiquote",
+        "hewikisource",
+        "hewikivoyage",
+        "hewiktionary",
+        "hifwiki",
+        "hifwiktionary",
+        "hiwiki",
+        "hiwikibooks",
+        "hiwikiquote",
+        "hiwikisource",
+        "hiwikiversity",
+        "hiwikivoyage",
+        "hiwiktionary",
+        "howiki",
+        "hrwiki",
+        "hrwikibooks",
+        "hrwikiquote",
+        "hrwikisource",
+        "hrwiktionary",
+        "hsbwiki",
+        "hsbwiktionary",
+        "htwiki",
+        "htwikisource",
+        "huwiki",
+        "huwikibooks",
+        "huwikinews",
+        "huwikiquote",
+        "huwikisource",
+        "huwiktionary",
+        "hywiki",
+        "hywikibooks",
+        "hywikiquote",
+        "hywikisource",
+        "hywiktionary",
+        "hywwiki",
+        "hzwiki",
+        "iawiki",
+        "iawikibooks",
+        "iawiktionary",
+        "ibawiki",
+        "idwiki",
+        "idwikibooks",
+        "idwikiquote",
+        "idwikisource",
+        "idwikivoyage",
+        "idwiktionary",
+        "iewiki",
+        "iewikibooks",
+        "iewiktionary",
+        "iglwiki",
+        "igwiki",
+        "igwikiquote",
+        "igwiktionary",
+        "iiwiki",
+        "ikwiki",
+        "ikwiktionary",
+        "ilowiki",
+        "inhwiki",
+        "iowiki",
+        "iowiktionary",
+        "isvwiki",
+        "iswiki",
+        "iswikibooks",
+        "iswikiquote",
+        "iswikisource",
+        "iswiktionary",
+        "itwiki",
+        "itwikibooks",
+        "itwikinews",
+        "itwikiquote",
+        "itwikisource",
+        "itwikiversity",
+        "itwikivoyage",
+        "itwiktionary",
+        "iuwiki",
+        "iuwiktionary",
+        "jamwiki",
+        "jawiki",
+        "jawikibooks",
+        "jawikinews",
+        "jawikiquote",
+        "jawikisource",
+        "jawikiversity",
+        "jawikivoyage",
+        "jawiktionary",
+        "jbowiki",
+        "jbowiktionary",
+        "jvwiki",
+        "jvwikisource",
+        "jvwiktionary",
+        "kaawiki",
+        "kaawiktionary",
+        "kabwiki",
+        "kaiwiki",
+        "kajwiki",
+        "kawiki",
+        "kawikibooks",
+        "kawikiquote",
+        "kawikisource",
+        "kawiktionary",
+        "kbdwiki",
+        "kbdwiktionary",
+        "kbpwiki",
+        "kcgwiki",
+        "kcgwiktionary",
+        "kgewiki",
+        "kgwiki",
+        "kiwiki",
+        "kjwiki",
+        "kkwiki",
+        "kkwikibooks",
+        "kkwikiquote",
+        "kkwiktionary",
+        "klwiki",
+        "klwiktionary",
+        "kmwiki",
+        "kmwikibooks",
+        "kmwiktionary",
+        "kncwiki",
+        "knwiki",
+        "knwikibooks",
+        "knwikiquote",
+        "knwikisource",
+        "knwiktionary",
+        "koiwiki",
+        "kowiki",
+        "kowikibooks",
+        "kowikinews",
+        "kowikiquote",
+        "kowikisource",
+        "kowikiversity",
+        "kowiktionary",
+        "krcwiki",
+        "krwiki",
+        "krwikiquote",
+        "kshwiki",
+        "kswiki",
+        "kswikibooks",
+        "kswikiquote",
+        "kswiktionary",
+        "kuswiki",
+        "kuwiki",
+        "kuwikibooks",
+        "kuwikiquote",
+        "kuwiktionary",
+        "kvwiki",
+        "kwwiki",
+        "kwwikiquote",
+        "kwwiktionary",
+        "kywiki",
+        "kywikibooks",
+        "kywikiquote",
+        "kywiktionary",
+        "ladwiki",
+        "lawiki",
+        "lawikibooks",
+        "lawikiquote",
+        "lawikisource",
+        "lawiktionary",
+        "lbewiki",
+        "lbwiki",
+        "lbwikibooks",
+        "lbwikiquote",
+        "lbwiktionary",
+        "lezwiki",
+        "lfnwiki",
+        "lgwiki",
+        "lijwiki",
+        "lijwikisource",
+        "liwiki",
+        "liwikibooks",
+        "liwikinews",
+        "liwikiquote",
+        "liwikisource",
+        "liwiktionary",
+        "lldwiki",
+        "lmowiki",
+        "lmowiktionary",
+        "lnwiki",
+        "lnwikibooks",
+        "lnwiktionary",
+        "lowiki",
+        "lowiktionary",
+        "lrcwiki",
+        "ltgwiki",
+        "ltwiki",
+        "ltwikibooks",
+        "ltwikiquote",
+        "ltwikisource",
+        "ltwiktionary",
+        "lvwiki",
+        "lvwikibooks",
+        "lvwiktionary",
+        "madwiki",
+        "madwikisource",
+        "madwiktionary",
+        "magwiki",
+        "maiwiki",
+        "map_bmswiki",
+        "mdfwiki",
+        "mediawikiwiki",
+        "metawiki",
+        "mgwiki",
+        "mgwikibooks",
+        "mgwiktionary",
+        "mhrwiki",
+        "mhwiki",
+        "mhwiktionary",
+        "minwiki",
+        "minwikibooks",
+        "minwikiquote",
+        "minwikisource",
+        "minwiktionary",
+        "miwiki",
+        "miwikibooks",
+        "miwiktionary",
+        "mkwiki",
+        "mkwikibooks",
+        "mkwikisource",
+        "mkwiktionary",
+        "mlwiki",
+        "mlwikibooks",
+        "mlwikiquote",
+        "mlwikisource",
+        "mlwiktionary",
+        "mniwiki",
+        "mniwiktionary",
+        "mnwiki",
+        "mnwikibooks",
+        "mnwiktionary",
+        "mnwwiki",
+        "mnwwiktionary",
+        "moswiki",
+        "mowiki",
+        "mowiktionary",
+        "mrjwiki",
+        "mrwiki",
+        "mrwikibooks",
+        "mrwikiquote",
+        "mrwikisource",
+        "mrwiktionary",
+        "mswiki",
+        "mswikibooks",
+        "mswikiquote",
+        "mswikisource",
+        "mswiktionary",
+        "mtwiki",
+        "mtwiktionary",
+        "muswiki",
+        "mwlwiki",
+        "myvwiki",
+        "mywiki",
+        "mywikibooks",
+        "mywikisource",
+        "mywiktionary",
+        "mznwiki",
+        "nahwiki",
+        "nahwikibooks",
+        "nahwiktionary",
+        "napwiki",
+        "napwikisource",
+        "nawiki",
+        "nawikibooks",
+        "nawikiquote",
+        "nawiktionary",
+        "nds_nlwiki",
+        "ndswiki",
+        "ndswikibooks",
+        "ndswikiquote",
+        "ndswiktionary",
+        "newiki",
+        "newikibooks",
+        "newiktionary",
+        "newwiki",
+        "ngwiki",
+        "niawiki",
+        "niawiktionary",
+        "nlwiki",
+        "nlwikibooks",
+        "nlwikinews",
+        "nlwikiquote",
+        "nlwikisource",
+        "nlwikivoyage",
+        "nlwiktionary",
+        "nnwiki",
+        "nnwikiquote",
+        "nnwiktionary",
+        "novwiki",
+        "nowiki",
+        "nowikibooks",
+        "nowikinews",
+        "nowikiquote",
+        "nowikisource",
+        "nowiktionary",
+        "nqowiki",
+        "nrmwiki",
+        "nrwiki",
+        "nsowiki",
+        "nupwiki",
+        "nvwiki",
+        "nywiki",
+        "ocwiki",
+        "ocwikibooks",
+        "ocwiktionary",
+        "olowiki",
+        "omwiki",
+        "omwiktionary",
+        "orwiki",
+        "orwikisource",
+        "orwiktionary",
+        "oswiki",
+        "outreachwiki",
+        "pagwiki",
+        "pamwiki",
+        "papwiki",
+        "pawiki",
+        "pawikibooks",
+        "pawikisource",
+        "pawiktionary",
+        "pcdwiki",
+        "pcmwiki",
+        "pcmwikiquote",
+        "pdcwiki",
+        "pflwiki",
+        "pihwiki",
+        "piwiki",
+        "piwiktionary",
+        "plwiki",
+        "plwikibooks",
+        "plwikinews",
+        "plwikiquote",
+        "plwikisource",
+        "plwikivoyage",
+        "plwiktionary",
+        "pmswiki",
+        "pmswikisource",
+        "pnbwiki",
+        "pnbwiktionary",
+        "pntwiki",
+        "pplwiki",
+        "pswiki",
+        "pswikibooks",
+        "pswikivoyage",
+        "pswiktionary",
+        "ptwiki",
+        "ptwikibooks",
+        "ptwikinews",
+        "ptwikiquote",
+        "ptwikisource",
+        "ptwikiversity",
+        "ptwikivoyage",
+        "ptwiktionary",
+        "pwnwiki",
+        "quwiki",
+        "quwikibooks",
+        "quwikiquote",
+        "quwiktionary",
+        "rkiwiki",
+        "rmwiki",
+        "rmwikibooks",
+        "rmwiktionary",
+        "rmywiki",
+        "rnwiki",
+        "rnwiktionary",
+        "roa_rupwiki",
+        "roa_rupwiktionary",
+        "roa_tarawiki",
+        "rowiki",
+        "rowikibooks",
+        "rowikinews",
+        "rowikiquote",
+        "rowikisource",
+        "rowikivoyage",
+        "rowiktionary",
+        "rskwiki",
+        "ruewiki",
+        "ruwiki",
+        "ruwikibooks",
+        "ruwikinews",
+        "ruwikiquote",
+        "ruwikisource",
+        "ruwikiversity",
+        "ruwikivoyage",
+        "ruwiktionary",
+        "rwwiki",
+        "rwwiktionary",
+        "sahwiki",
+        "sahwikiquote",
+        "sahwikisource",
+        "satwiki",
+        "satwiktionary",
+        "sawiki",
+        "sawikibooks",
+        "sawikiquote",
+        "sawikisource",
+        "sawiktionary",
+        "scnwiki",
+        "scnwiktionary",
+        "scowiki",
+        "scwiki",
+        "scwiktionary",
+        "sdwiki",
+        "sdwikinews",
+        "sdwiktionary",
+        "sewiki",
+        "sewikibooks",
+        "sgwiki",
+        "sgwiktionary",
+        "shiwiki",
+        "shnwiki",
+        "shnwikibooks",
+        "shnwikinews",
+        "shnwikivoyage",
+        "shnwiktionary",
+        "shwiki",
+        "shwiktionary",
+        "shywiktionary",
+        "simplewiki",
+        "simplewikibooks",
+        "simplewikiquote",
+        "simplewiktionary",
+        "siwiki",
+        "siwikibooks",
+        "siwiktionary",
+        "skrwiki",
+        "skrwiktionary",
+        "skwiki",
+        "skwikibooks",
+        "skwikiquote",
+        "skwikisource",
+        "skwiktionary",
+        "slwiki",
+        "slwikibooks",
+        "slwikiquote",
+        "slwikisource",
+        "slwikiversity",
+        "slwiktionary",
+        "smnwiki",
+        "smwiki",
+        "smwiktionary",
+        "snwiki",
+        "snwiktionary",
+        "sourceswiki",
+        "sowiki",
+        "sowiktionary",
+        "specieswiki",
+        "sqwiki",
+        "sqwikibooks",
+        "sqwikinews",
+        "sqwikiquote",
+        "sqwiktionary",
+        "srnwiki",
+        "srwiki",
+        "srwikibooks",
+        "srwikinews",
+        "srwikiquote",
+        "srwikisource",
+        "srwiktionary",
+        "sswiki",
+        "sswiktionary",
+        "stqwiki",
+        "stwiki",
+        "stwiktionary",
+        "suwiki",
+        "suwikibooks",
+        "suwikiquote",
+        "suwikisource",
+        "suwiktionary",
+        "svwiki",
+        "svwikibooks",
+        "svwikinews",
+        "svwikiquote",
+        "svwikisource",
+        "svwikiversity",
+        "svwikivoyage",
+        "svwiktionary",
+        "swwiki",
+        "swwikibooks",
+        "swwiktionary",
+        "sylwiki",
+        "szlwiki",
+        "szywiki",
+        "tawiki",
+        "tawikibooks",
+        "tawikinews",
+        "tawikiquote",
+        "tawikisource",
+        "tawiktionary",
+        "taywiki",
+        "tcywiki",
+        "tcywikisource",
+        "tcywiktionary",
+        "tddwiki",
+        "tetwiki",
+        "tewiki",
+        "tewikibooks",
+        "tewikiquote",
+        "tewikisource",
+        "tewiktionary",
+        "tgwiki",
+        "tgwikibooks",
+        "tgwiktionary",
+        "thwiki",
+        "thwikibooks",
+        "thwikinews",
+        "thwikiquote",
+        "thwikisource",
+        "thwiktionary",
+        "tigwiki",
+        "tiwiki",
+        "tiwiktionary",
+        "tkwiki",
+        "tkwikibooks",
+        "tkwikiquote",
+        "tkwiktionary",
+        "tlwiki",
+        "tlwikibooks",
+        "tlwikiquote",
+        "tlwikisource",
+        "tlwiktionary",
+        "tlywiki",
+        "tnwiki",
+        "tnwiktionary",
+        "tokwiki",
+        "towiki",
+        "towiktionary",
+        "tpiwiki",
+        "tpiwiktionary",
+        "trvwiki",
+        "trwiki",
+        "trwikibooks",
+        "trwikinews",
+        "trwikiquote",
+        "trwikisource",
+        "trwikivoyage",
+        "trwiktionary",
+        "tswiki",
+        "tswiktionary",
+        "ttwiki",
+        "ttwikibooks",
+        "ttwikiquote",
+        "ttwiktionary",
+        "tumwiki",
+        "twwiki",
+        "twwiktionary",
+        "tyvwiki",
+        "tywiki",
+        "udmwiki",
+        "ugwiki",
+        "ugwikibooks",
+        "ugwikiquote",
+        "ugwiktionary",
+        "ukwiki",
+        "ukwikibooks",
+        "ukwikinews",
+        "ukwikiquote",
+        "ukwikisource",
+        "ukwikivoyage",
+        "ukwiktionary",
+        "urwiki",
+        "urwikibooks",
+        "urwikiquote",
+        "urwikisource",
+        "urwiktionary",
+        "uzwiki",
+        "uzwikibooks",
+        "uzwikiquote",
+        "uzwiktionary",
+        "vecwiki",
+        "vecwikisource",
+        "vecwiktionary",
+        "vepwiki",
+        "vewiki",
+        "viwiki",
+        "viwikibooks",
+        "viwikiquote",
+        "viwikisource",
+        "viwikivoyage",
+        "viwiktionary",
+        "vlswiki",
+        "vowiki",
+        "vowikibooks",
+        "vowikiquote",
+        "vowiktionary",
+        "warwiki",
+        "wawiki",
+        "wawikibooks",
+        "wawikisource",
+        "wawiktionary",
+        "wikidatawiki",
+        "wikifunctionswiki",
+        "wikimaniawiki",
+        "wowiki",
+        "wowikiquote",
+        "wowiktionary",
+        "wuuwiki",
+        "xalwiki",
+        "xhwiki",
+        "xhwikibooks",
+        "xhwiktionary",
+        "xmfwiki",
+        "yiwiki",
+        "yiwikisource",
+        "yiwiktionary",
+        "yowiki",
+        "yowikibooks",
+        "yowiktionary",
+        "yuewiktionary",
+        "zawiki",
+        "zawikibooks",
+        "zawikiquote",
+        "zawiktionary",
+        "zeawiki",
+        "zghwiki",
+        "zghwiktionary",
+        "zh_classicalwiki",
+        "zh_min_nanwiki",
+        "zh_min_nanwikibooks",
+        "zh_min_nanwikiquote",
+        "zh_min_nanwikisource",
+        "zh_min_nanwiktionary",
+        "zh_yuewiki",
+        "zhwiki",
+        "zhwikibooks",
+        "zhwikinews",
+        "zhwikiquote",
+        "zhwikisource",
+        "zhwikiversity",
+        "zhwikivoyage",
+        "zhwiktionary",
+        "zuwiki",
+        "zuwikibooks",
+        "zuwiktionary"
+       ]
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 3,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "titles",
+       "type": "string"
+      },
+      {
+       "default": "yes",
+       "index": 4,
+       "name": "redirects",
+       "type": [
+        "no",
+        "yes"
+       ]
+      },
+      {
+       "default": "info|sitelinks|aliases|labels|descriptions|claims|datatype",
+       "highlimit": 500,
+       "index": 5,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "props",
+       "type": [
+        "aliases",
+        "claims",
+        "datatype",
+        "descriptions",
+        "info",
+        "labels",
+        "sitelinks",
+        "sitelinks/urls"
+       ]
+      },
+      {
+       "highlimit": 500,
+       "index": 6,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "languages",
+       "type": [
+        "aa",
+        "aae",
+        "ab",
+        "abr",
+        "abs",
+        "ace",
+        "acf",
+        "acm",
+        "ady",
+        "ady-cyrl",
+        "aeb",
+        "aeb-arab",
+        "aeb-latn",
+        "af",
+        "agq",
+        "aig",
+        "ak",
+        "aln",
+        "als",
+        "alt",
+        "am",
+        "ami",
+        "an",
+        "ang",
+        "ann",
+        "anp",
+        "apc",
+        "ar",
+        "arc",
+        "arn",
+        "arq",
+        "ary",
+        "arz",
+        "as",
+        "ase",
+        "ast",
+        "atj",
+        "av",
+        "avk",
+        "awa",
+        "ay",
+        "az",
+        "azb",
+        "ba",
+        "bag",
+        "ban",
+        "ban-bali",
+        "bar",
+        "bas",
+        "bat-smg",
+        "bax",
+        "bbc",
+        "bbc-latn",
+        "bbj",
+        "bcc",
+        "bci",
+        "bcl",
+        "bdr",
+        "be",
+        "be-tarask",
+        "be-x-old",
+        "bew",
+        "bfd",
+        "bfw",
+        "bg",
+        "bgc",
+        "bgn",
+        "bh",
+        "bho",
+        "bi",
+        "bjn",
+        "bkc",
+        "bkh",
+        "bkm",
+        "blk",
+        "bm",
+        "bn",
+        "bo",
+        "bol",
+        "bpy",
+        "bqi",
+        "bqz",
+        "br",
+        "brh",
+        "bs",
+        "btm",
+        "bto",
+        "bug",
+        "bug-bugi",
+        "bxr",
+        "byv",
+        "ca",
+        "cak",
+        "cal",
+        "cbk-zam",
+        "ccp",
+        "cdo",
+        "cdo-hant",
+        "cdo-latn",
+        "ce",
+        "ceb",
+        "ch",
+        "chn",
+        "cho",
+        "chr",
+        "chy",
+        "ckb",
+        "cnh",
+        "co",
+        "cop",
+        "cps",
+        "cpx",
+        "cpx-hans",
+        "cpx-hant",
+        "cpx-latn",
+        "cr",
+        "crh",
+        "crh-cyrl",
+        "crh-latn",
+        "crh-ro",
+        "cs",
+        "csb",
+        "cu",
+        "cv",
+        "cy",
+        "da",
+        "dag",
+        "de",
+        "de-at",
+        "de-ch",
+        "de-formal",
+        "dga",
+        "din",
+        "diq",
+        "dlg",
+        "dsb",
+        "dso",
+        "dtp",
+        "dty",
+        "dua",
+        "dv",
+        "dz",
+        "ee",
+        "efi",
+        "egl",
+        "el",
+        "eml",
+        "en",
+        "en-ca",
+        "en-gb",
+        "en-us",
+        "eo",
+        "es",
+        "es-419",
+        "es-formal",
+        "et",
+        "eto",
+        "etu",
+        "eu",
+        "ewo",
+        "ext",
+        "fa",
+        "fat",
+        "ff",
+        "fi",
+        "fit",
+        "fiu-vro",
+        "fj",
+        "fkv",
+        "fmp",
+        "fo",
+        "fon",
+        "fr",
+        "frc",
+        "frp",
+        "frr",
+        "frs",
+        "fur",
+        "fvr",
+        "fy",
+        "ga",
+        "gaa",
+        "gag",
+        "gan",
+        "gan-hans",
+        "gan-hant",
+        "gcf",
+        "gcr",
+        "gd",
+        "gju-arab",
+        "gju-deva",
+        "gl",
+        "gld",
+        "glk",
+        "gn",
+        "gom",
+        "gom-deva",
+        "gom-latn",
+        "gor",
+        "got",
+        "gpe",
+        "grc",
+        "gsw",
+        "gu",
+        "guc",
+        "gur",
+        "guw",
+        "gv",
+        "gya",
+        "ha",
+        "hak",
+        "hak-hans",
+        "hak-hant",
+        "hak-latn",
+        "haw",
+        "he",
+        "hi",
+        "hif",
+        "hif-latn",
+        "hil",
+        "hke",
+        "hno",
+        "ho",
+        "hoc",
+        "hoc-latn",
+        "hr",
+        "hrx",
+        "hsb",
+        "hsn",
+        "ht",
+        "hu",
+        "hu-formal",
+        "hy",
+        "hyw",
+        "hz",
+        "ia",
+        "iba",
+        "ibb",
+        "id",
+        "ie",
+        "ig",
+        "igl",
+        "ii",
+        "ik",
+        "ike-cans",
+        "ike-latn",
+        "ilo",
+        "inh",
+        "io",
+        "is",
+        "isu",
+        "isv",
+        "isv-cyrl",
+        "isv-latn",
+        "it",
+        "iu",
+        "ja",
+        "jam",
+        "jbo",
+        "jut",
+        "jv",
+        "jv-java",
+        "ka",
+        "kaa",
+        "kab",
+        "kai",
+        "kaj",
+        "kbd",
+        "kbd-cyrl",
+        "kbp",
+        "kcg",
+        "kea",
+        "ker",
+        "kg",
+        "kge",
+        "kgg",
+        "kha",
+        "khw",
+        "ki",
+        "kiu",
+        "kj",
+        "kjh",
+        "kjp",
+        "kk",
+        "kk-arab",
+        "kk-cn",
+        "kk-cyrl",
+        "kk-kz",
+        "kk-latn",
+        "kk-tr",
+        "kl",
+        "km",
+        "kn",
+        "knc",
+        "ko",
+        "ko-kp",
+        "koi",
+        "kr",
+        "krc",
+        "kri",
+        "krj",
+        "krl",
+        "ks",
+        "ks-arab",
+        "ks-deva",
+        "ksf",
+        "ksh",
+        "ksw",
+        "ku",
+        "ku-arab",
+        "ku-latn",
+        "kum",
+        "kus",
+        "kv",
+        "kw",
+        "ky",
+        "la",
+        "lad",
+        "lb",
+        "lbe",
+        "lem",
+        "lez",
+        "lfn",
+        "lg",
+        "li",
+        "lij",
+        "liv",
+        "ljp",
+        "lki",
+        "lkt",
+        "lld",
+        "lmo",
+        "ln",
+        "lns",
+        "lo",
+        "loz",
+        "lrc",
+        "lt",
+        "ltg",
+        "lua",
+        "lus",
+        "luz",
+        "lv",
+        "lzh",
+        "lzz",
+        "mad",
+        "mag",
+        "mai",
+        "map-bms",
+        "mcn",
+        "mcp",
+        "mdf",
+        "mg",
+        "mh",
+        "mhr",
+        "mi",
+        "min",
+        "mk",
+        "ml",
+        "mn",
+        "mnc",
+        "mnc-latn",
+        "mnc-mong",
+        "mni",
+        "mnw",
+        "mo",
+        "mos",
+        "mr",
+        "mrh",
+        "mrj",
+        "ms",
+        "ms-arab",
+        "mt",
+        "mua",
+        "mui",
+        "mul",
+        "mus",
+        "mwl",
+        "my",
+        "myv",
+        "mzn",
+        "na",
+        "nah",
+        "nan",
+        "nan-hani",
+        "nan-hant",
+        "nan-latn-pehoeji",
+        "nan-latn-tailo",
+        "nap",
+        "nb",
+        "nds",
+        "nds-nl",
+        "ne",
+        "new",
+        "ng",
+        "nge",
+        "nia",
+        "nit",
+        "niu",
+        "nl",
+        "nl-informal",
+        "nla",
+        "nmg",
+        "nmz",
+        "nn",
+        "nnh",
+        "nnz",
+        "no",
+        "nod",
+        "nog",
+        "nov",
+        "nqo",
+        "nr",
+        "nrm",
+        "nso",
+        "nup",
+        "nv",
+        "ny",
+        "nyn",
+        "nyo",
+        "nys",
+        "oc",
+        "ojb",
+        "olo",
+        "om",
+        "or",
+        "os",
+        "osa-latn",
+        "ota",
+        "pa",
+        "pag",
+        "pam",
+        "pap",
+        "pap-aw",
+        "pcd",
+        "pcm",
+        "pdc",
+        "pdt",
+        "pfl",
+        "pi",
+        "pih",
+        "pl",
+        "pms",
+        "pnb",
+        "pnt",
+        "ppl",
+        "prg",
+        "ps",
+        "pt",
+        "pt-br",
+        "pwn",
+        "qu",
+        "quc",
+        "qug",
+        "rgn",
+        "rif",
+        "rki",
+        "rm",
+        "rmc",
+        "rmf",
+        "rmy",
+        "rn",
+        "ro",
+        "roa-rup",
+        "roa-tara",
+        "rsk",
+        "ru",
+        "rue",
+        "rup",
+        "ruq",
+        "ruq-cyrl",
+        "ruq-latn",
+        "rut",
+        "rw",
+        "rwr",
+        "ryu",
+        "sa",
+        "sah",
+        "sas",
+        "sat",
+        "sc",
+        "scn",
+        "sco",
+        "sd",
+        "sdc",
+        "sdh",
+        "se",
+        "se-fi",
+        "se-no",
+        "se-se",
+        "sei",
+        "ses",
+        "sg",
+        "sgs",
+        "sh",
+        "sh-cyrl",
+        "sh-latn",
+        "shi",
+        "shi-latn",
+        "shi-tfng",
+        "shn",
+        "shy",
+        "shy-latn",
+        "si",
+        "simple",
+        "sjd",
+        "sje",
+        "sju",
+        "sk",
+        "skr",
+        "skr-arab",
+        "sl",
+        "sli",
+        "sm",
+        "sma",
+        "smj",
+        "smn",
+        "sms",
+        "sn",
+        "so",
+        "sq",
+        "sr",
+        "sr-ec",
+        "sr-el",
+        "srn",
+        "sro",
+        "srq",
+        "ss",
+        "st",
+        "stq",
+        "sty",
+        "su",
+        "sv",
+        "sva",
+        "sw",
+        "syl",
+        "szl",
+        "szy",
+        "ta",
+        "tay",
+        "tcy",
+        "tdd",
+        "te",
+        "tet",
+        "tg",
+        "tg-cyrl",
+        "tg-latn",
+        "th",
+        "thq",
+        "ti",
+        "tig",
+        "tk",
+        "tl",
+        "tly",
+        "tly-cyrl",
+        "tn",
+        "to",
+        "tok",
+        "tpi",
+        "tpv",
+        "tr",
+        "tru",
+        "trv",
+        "ts",
+        "tt",
+        "tt-cyrl",
+        "tt-latn",
+        "ttj",
+        "tum",
+        "tvu",
+        "tw",
+        "ty",
+        "tyv",
+        "tzm",
+        "udm",
+        "ug",
+        "ug-arab",
+        "ug-latn",
+        "uk",
+        "ur",
+        "uz",
+        "uz-cyrl",
+        "uz-latn",
+        "ve",
+        "vec",
+        "vep",
+        "vi",
+        "vls",
+        "vmf",
+        "vmw",
+        "vo",
+        "vot",
+        "vro",
+        "vut",
+        "wa",
+        "wal",
+        "war",
+        "wes",
+        "wls",
+        "wlx",
+        "wo",
+        "wuu",
+        "wuu-hans",
+        "wuu-hant",
+        "wya",
+        "xal",
+        "xh",
+        "xmf",
+        "xsy",
+        "yas",
+        "yat",
+        "yav",
+        "ybb",
+        "yi",
+        "yo",
+        "yrl",
+        "yua",
+        "yue",
+        "yue-hans",
+        "yue-hant",
+        "za",
+        "zea",
+        "zgh",
+        "zgh-latn",
+        "zh",
+        "zh-classical",
+        "zh-cn",
+        "zh-hans",
+        "zh-hant",
+        "zh-hk",
+        "zh-min-nan",
+        "zh-mo",
+        "zh-my",
+        "zh-sg",
+        "zh-tw",
+        "zh-yue",
+        "zu"
+       ]
+      },
+      {
+       "index": 7,
+       "name": "languagefallback",
+       "type": "boolean"
+      },
+      {
+       "index": 8,
+       "name": "normalize",
+       "type": "boolean"
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 9,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "sitefilter",
+       "type": [
+        "aawiki",
+        "aawikibooks",
+        "aawiktionary",
+        "abstractwiki",
+        "abwiki",
+        "abwiktionary",
+        "acewiki",
+        "adywiki",
+        "afwiki",
+        "afwikibooks",
+        "afwikiquote",
+        "afwiktionary",
+        "akwiki",
+        "akwikibooks",
+        "akwiktionary",
+        "alswiki",
+        "alswikibooks",
+        "alswikiquote",
+        "alswiktionary",
+        "altwiki",
+        "amiwiki",
+        "amwiki",
+        "amwikiquote",
+        "amwiktionary",
+        "angwiki",
+        "angwikibooks",
+        "angwikiquote",
+        "angwikisource",
+        "angwiktionary",
+        "annwiki",
+        "anpwiki",
+        "anwiki",
+        "anwiktionary",
+        "arcwiki",
+        "arwiki",
+        "arwikibooks",
+        "arwikinews",
+        "arwikiquote",
+        "arwikisource",
+        "arwikiversity",
+        "arwiktionary",
+        "arywiki",
+        "arzwiki",
+        "astwiki",
+        "astwikibooks",
+        "astwikiquote",
+        "astwiktionary",
+        "aswiki",
+        "aswikibooks",
+        "aswikiquote",
+        "aswikisource",
+        "aswiktionary",
+        "atjwiki",
+        "avkwiki",
+        "avwiki",
+        "avwiktionary",
+        "awawiki",
+        "aywiki",
+        "aywikibooks",
+        "aywiktionary",
+        "azbwiki",
+        "azwiki",
+        "azwikibooks",
+        "azwikiquote",
+        "azwikisource",
+        "azwiktionary",
+        "banwiki",
+        "banwikisource",
+        "barwiki",
+        "bat_smgwiki",
+        "bawiki",
+        "bawikibooks",
+        "bbcwiki",
+        "bclwiki",
+        "bclwikiquote",
+        "bclwikisource",
+        "bclwiktionary",
+        "bdrwiki",
+        "be_x_oldwiki",
+        "bewiki",
+        "bewikibooks",
+        "bewikiquote",
+        "bewikisource",
+        "bewiktionary",
+        "bewwiki",
+        "bewwiktionary",
+        "bgwiki",
+        "bgwikibooks",
+        "bgwikinews",
+        "bgwikiquote",
+        "bgwikisource",
+        "bgwiktionary",
+        "bhwiki",
+        "bhwiktionary",
+        "biwiki",
+        "biwikibooks",
+        "biwiktionary",
+        "bjnwiki",
+        "bjnwikiquote",
+        "bjnwiktionary",
+        "blkwiki",
+        "blkwiktionary",
+        "bmwiki",
+        "bmwikibooks",
+        "bmwikiquote",
+        "bmwiktionary",
+        "bnwiki",
+        "bnwikibooks",
+        "bnwikiquote",
+        "bnwikisource",
+        "bnwikivoyage",
+        "bnwiktionary",
+        "bolwiki",
+        "bowiki",
+        "bowikibooks",
+        "bowiktionary",
+        "bpywiki",
+        "brwiki",
+        "brwikiquote",
+        "brwikisource",
+        "brwiktionary",
+        "bswiki",
+        "bswikibooks",
+        "bswikinews",
+        "bswikiquote",
+        "bswikisource",
+        "bswiktionary",
+        "btmwiki",
+        "btmwiktionary",
+        "bugwiki",
+        "bxrwiki",
+        "cawiki",
+        "cawikibooks",
+        "cawikinews",
+        "cawikiquote",
+        "cawikisource",
+        "cawiktionary",
+        "cbk_zamwiki",
+        "cdowiki",
+        "cebwiki",
+        "cewiki",
+        "chowiki",
+        "chrwiki",
+        "chrwiktionary",
+        "chwiki",
+        "chwikibooks",
+        "chwiktionary",
+        "chywiki",
+        "ckbwiki",
+        "ckbwiktionary",
+        "commonswiki",
+        "cowiki",
+        "cowikibooks",
+        "cowikiquote",
+        "cowiktionary",
+        "crhwiki",
+        "crwiki",
+        "crwikiquote",
+        "crwiktionary",
+        "csbwiki",
+        "csbwiktionary",
+        "cswiki",
+        "cswikibooks",
+        "cswikinews",
+        "cswikiquote",
+        "cswikisource",
+        "cswikiversity",
+        "cswikivoyage",
+        "cswiktionary",
+        "cuwiki",
+        "cvwiki",
+        "cvwikibooks",
+        "cywiki",
+        "cywikibooks",
+        "cywikiquote",
+        "cywikisource",
+        "cywiktionary",
+        "dagwiki",
+        "dawiki",
+        "dawikibooks",
+        "dawikiquote",
+        "dawikisource",
+        "dawiktionary",
+        "dewiki",
+        "dewikibooks",
+        "dewikinews",
+        "dewikiquote",
+        "dewikisource",
+        "dewikiversity",
+        "dewikivoyage",
+        "dewiktionary",
+        "dgawiki",
+        "dinwiki",
+        "diqwiki",
+        "diqwiktionary",
+        "dsbwiki",
+        "dtpwiki",
+        "dtywiki",
+        "dvwiki",
+        "dvwiktionary",
+        "dzwiki",
+        "dzwiktionary",
+        "eewiki",
+        "elwiki",
+        "elwikibooks",
+        "elwikinews",
+        "elwikiquote",
+        "elwikisource",
+        "elwikiversity",
+        "elwikivoyage",
+        "elwiktionary",
+        "emlwiki",
+        "enwiki",
+        "enwikibooks",
+        "enwikinews",
+        "enwikiquote",
+        "enwikisource",
+        "enwikiversity",
+        "enwikivoyage",
+        "enwiktionary",
+        "eowiki",
+        "eowikibooks",
+        "eowikinews",
+        "eowikiquote",
+        "eowikisource",
+        "eowikivoyage",
+        "eowiktionary",
+        "eswiki",
+        "eswikibooks",
+        "eswikinews",
+        "eswikiquote",
+        "eswikisource",
+        "eswikiversity",
+        "eswikivoyage",
+        "eswiktionary",
+        "etwiki",
+        "etwikibooks",
+        "etwikiquote",
+        "etwikisource",
+        "etwiktionary",
+        "euwiki",
+        "euwikibooks",
+        "euwikiquote",
+        "euwikisource",
+        "euwiktionary",
+        "extwiki",
+        "fatwiki",
+        "fawiki",
+        "fawikibooks",
+        "fawikinews",
+        "fawikiquote",
+        "fawikisource",
+        "fawikivoyage",
+        "fawiktionary",
+        "ffwiki",
+        "fiu_vrowiki",
+        "fiwiki",
+        "fiwikibooks",
+        "fiwikinews",
+        "fiwikiquote",
+        "fiwikisource",
+        "fiwikiversity",
+        "fiwikivoyage",
+        "fiwiktionary",
+        "fjwiki",
+        "fjwiktionary",
+        "fonwiki",
+        "foundationwiki",
+        "fowiki",
+        "fowikisource",
+        "fowiktionary",
+        "frpwiki",
+        "frrwiki",
+        "frwiki",
+        "frwikibooks",
+        "frwikinews",
+        "frwikiquote",
+        "frwikisource",
+        "frwikiversity",
+        "frwikivoyage",
+        "frwiktionary",
+        "furwiki",
+        "fywiki",
+        "fywikibooks",
+        "fywiktionary",
+        "gagwiki",
+        "ganwiki",
+        "gawiki",
+        "gawikibooks",
+        "gawikiquote",
+        "gawiktionary",
+        "gcrwiki",
+        "gdwiki",
+        "gdwiktionary",
+        "glkwiki",
+        "glwiki",
+        "glwikibooks",
+        "glwikiquote",
+        "glwikisource",
+        "glwiktionary",
+        "gnwiki",
+        "gnwikibooks",
+        "gnwiktionary",
+        "gomwiki",
+        "gomwiktionary",
+        "gorwiki",
+        "gorwikiquote",
+        "gorwiktionary",
+        "gotwiki",
+        "gotwikibooks",
+        "gpewiki",
+        "gucwiki",
+        "gurwiki",
+        "guwiki",
+        "guwikibooks",
+        "guwikiquote",
+        "guwikisource",
+        "guwiktionary",
+        "guwwiki",
+        "guwwikinews",
+        "guwwikiquote",
+        "guwwiktionary",
+        "gvwiki",
+        "gvwiktionary",
+        "hakwiki",
+        "hawiki",
+        "hawiktionary",
+        "hawwiki",
+        "hewiki",
+        "hewikibooks",
+        "hewikinews",
+        "hewikiquote",
+        "hewikisource",
+        "hewikivoyage",
+        "hewiktionary",
+        "hifwiki",
+        "hifwiktionary",
+        "hiwiki",
+        "hiwikibooks",
+        "hiwikiquote",
+        "hiwikisource",
+        "hiwikiversity",
+        "hiwikivoyage",
+        "hiwiktionary",
+        "howiki",
+        "hrwiki",
+        "hrwikibooks",
+        "hrwikiquote",
+        "hrwikisource",
+        "hrwiktionary",
+        "hsbwiki",
+        "hsbwiktionary",
+        "htwiki",
+        "htwikisource",
+        "huwiki",
+        "huwikibooks",
+        "huwikinews",
+        "huwikiquote",
+        "huwikisource",
+        "huwiktionary",
+        "hywiki",
+        "hywikibooks",
+        "hywikiquote",
+        "hywikisource",
+        "hywiktionary",
+        "hywwiki",
+        "hzwiki",
+        "iawiki",
+        "iawikibooks",
+        "iawiktionary",
+        "ibawiki",
+        "idwiki",
+        "idwikibooks",
+        "idwikiquote",
+        "idwikisource",
+        "idwikivoyage",
+        "idwiktionary",
+        "iewiki",
+        "iewikibooks",
+        "iewiktionary",
+        "iglwiki",
+        "igwiki",
+        "igwikiquote",
+        "igwiktionary",
+        "iiwiki",
+        "ikwiki",
+        "ikwiktionary",
+        "ilowiki",
+        "inhwiki",
+        "iowiki",
+        "iowiktionary",
+        "isvwiki",
+        "iswiki",
+        "iswikibooks",
+        "iswikiquote",
+        "iswikisource",
+        "iswiktionary",
+        "itwiki",
+        "itwikibooks",
+        "itwikinews",
+        "itwikiquote",
+        "itwikisource",
+        "itwikiversity",
+        "itwikivoyage",
+        "itwiktionary",
+        "iuwiki",
+        "iuwiktionary",
+        "jamwiki",
+        "jawiki",
+        "jawikibooks",
+        "jawikinews",
+        "jawikiquote",
+        "jawikisource",
+        "jawikiversity",
+        "jawikivoyage",
+        "jawiktionary",
+        "jbowiki",
+        "jbowiktionary",
+        "jvwiki",
+        "jvwikisource",
+        "jvwiktionary",
+        "kaawiki",
+        "kaawiktionary",
+        "kabwiki",
+        "kaiwiki",
+        "kajwiki",
+        "kawiki",
+        "kawikibooks",
+        "kawikiquote",
+        "kawikisource",
+        "kawiktionary",
+        "kbdwiki",
+        "kbdwiktionary",
+        "kbpwiki",
+        "kcgwiki",
+        "kcgwiktionary",
+        "kgewiki",
+        "kgwiki",
+        "kiwiki",
+        "kjwiki",
+        "kkwiki",
+        "kkwikibooks",
+        "kkwikiquote",
+        "kkwiktionary",
+        "klwiki",
+        "klwiktionary",
+        "kmwiki",
+        "kmwikibooks",
+        "kmwiktionary",
+        "kncwiki",
+        "knwiki",
+        "knwikibooks",
+        "knwikiquote",
+        "knwikisource",
+        "knwiktionary",
+        "koiwiki",
+        "kowiki",
+        "kowikibooks",
+        "kowikinews",
+        "kowikiquote",
+        "kowikisource",
+        "kowikiversity",
+        "kowiktionary",
+        "krcwiki",
+        "krwiki",
+        "krwikiquote",
+        "kshwiki",
+        "kswiki",
+        "kswikibooks",
+        "kswikiquote",
+        "kswiktionary",
+        "kuswiki",
+        "kuwiki",
+        "kuwikibooks",
+        "kuwikiquote",
+        "kuwiktionary",
+        "kvwiki",
+        "kwwiki",
+        "kwwikiquote",
+        "kwwiktionary",
+        "kywiki",
+        "kywikibooks",
+        "kywikiquote",
+        "kywiktionary",
+        "ladwiki",
+        "lawiki",
+        "lawikibooks",
+        "lawikiquote",
+        "lawikisource",
+        "lawiktionary",
+        "lbewiki",
+        "lbwiki",
+        "lbwikibooks",
+        "lbwikiquote",
+        "lbwiktionary",
+        "lezwiki",
+        "lfnwiki",
+        "lgwiki",
+        "lijwiki",
+        "lijwikisource",
+        "liwiki",
+        "liwikibooks",
+        "liwikinews",
+        "liwikiquote",
+        "liwikisource",
+        "liwiktionary",
+        "lldwiki",
+        "lmowiki",
+        "lmowiktionary",
+        "lnwiki",
+        "lnwikibooks",
+        "lnwiktionary",
+        "lowiki",
+        "lowiktionary",
+        "lrcwiki",
+        "ltgwiki",
+        "ltwiki",
+        "ltwikibooks",
+        "ltwikiquote",
+        "ltwikisource",
+        "ltwiktionary",
+        "lvwiki",
+        "lvwikibooks",
+        "lvwiktionary",
+        "madwiki",
+        "madwikisource",
+        "madwiktionary",
+        "magwiki",
+        "maiwiki",
+        "map_bmswiki",
+        "mdfwiki",
+        "mediawikiwiki",
+        "metawiki",
+        "mgwiki",
+        "mgwikibooks",
+        "mgwiktionary",
+        "mhrwiki",
+        "mhwiki",
+        "mhwiktionary",
+        "minwiki",
+        "minwikibooks",
+        "minwikiquote",
+        "minwikisource",
+        "minwiktionary",
+        "miwiki",
+        "miwikibooks",
+        "miwiktionary",
+        "mkwiki",
+        "mkwikibooks",
+        "mkwikisource",
+        "mkwiktionary",
+        "mlwiki",
+        "mlwikibooks",
+        "mlwikiquote",
+        "mlwikisource",
+        "mlwiktionary",
+        "mniwiki",
+        "mniwiktionary",
+        "mnwiki",
+        "mnwikibooks",
+        "mnwiktionary",
+        "mnwwiki",
+        "mnwwiktionary",
+        "moswiki",
+        "mowiki",
+        "mowiktionary",
+        "mrjwiki",
+        "mrwiki",
+        "mrwikibooks",
+        "mrwikiquote",
+        "mrwikisource",
+        "mrwiktionary",
+        "mswiki",
+        "mswikibooks",
+        "mswikiquote",
+        "mswikisource",
+        "mswiktionary",
+        "mtwiki",
+        "mtwiktionary",
+        "muswiki",
+        "mwlwiki",
+        "myvwiki",
+        "mywiki",
+        "mywikibooks",
+        "mywikisource",
+        "mywiktionary",
+        "mznwiki",
+        "nahwiki",
+        "nahwikibooks",
+        "nahwiktionary",
+        "napwiki",
+        "napwikisource",
+        "nawiki",
+        "nawikibooks",
+        "nawikiquote",
+        "nawiktionary",
+        "nds_nlwiki",
+        "ndswiki",
+        "ndswikibooks",
+        "ndswikiquote",
+        "ndswiktionary",
+        "newiki",
+        "newikibooks",
+        "newiktionary",
+        "newwiki",
+        "ngwiki",
+        "niawiki",
+        "niawiktionary",
+        "nlwiki",
+        "nlwikibooks",
+        "nlwikinews",
+        "nlwikiquote",
+        "nlwikisource",
+        "nlwikivoyage",
+        "nlwiktionary",
+        "nnwiki",
+        "nnwikiquote",
+        "nnwiktionary",
+        "novwiki",
+        "nowiki",
+        "nowikibooks",
+        "nowikinews",
+        "nowikiquote",
+        "nowikisource",
+        "nowiktionary",
+        "nqowiki",
+        "nrmwiki",
+        "nrwiki",
+        "nsowiki",
+        "nupwiki",
+        "nvwiki",
+        "nywiki",
+        "ocwiki",
+        "ocwikibooks",
+        "ocwiktionary",
+        "olowiki",
+        "omwiki",
+        "omwiktionary",
+        "orwiki",
+        "orwikisource",
+        "orwiktionary",
+        "oswiki",
+        "outreachwiki",
+        "pagwiki",
+        "pamwiki",
+        "papwiki",
+        "pawiki",
+        "pawikibooks",
+        "pawikisource",
+        "pawiktionary",
+        "pcdwiki",
+        "pcmwiki",
+        "pcmwikiquote",
+        "pdcwiki",
+        "pflwiki",
+        "pihwiki",
+        "piwiki",
+        "piwiktionary",
+        "plwiki",
+        "plwikibooks",
+        "plwikinews",
+        "plwikiquote",
+        "plwikisource",
+        "plwikivoyage",
+        "plwiktionary",
+        "pmswiki",
+        "pmswikisource",
+        "pnbwiki",
+        "pnbwiktionary",
+        "pntwiki",
+        "pplwiki",
+        "pswiki",
+        "pswikibooks",
+        "pswikivoyage",
+        "pswiktionary",
+        "ptwiki",
+        "ptwikibooks",
+        "ptwikinews",
+        "ptwikiquote",
+        "ptwikisource",
+        "ptwikiversity",
+        "ptwikivoyage",
+        "ptwiktionary",
+        "pwnwiki",
+        "quwiki",
+        "quwikibooks",
+        "quwikiquote",
+        "quwiktionary",
+        "rkiwiki",
+        "rmwiki",
+        "rmwikibooks",
+        "rmwiktionary",
+        "rmywiki",
+        "rnwiki",
+        "rnwiktionary",
+        "roa_rupwiki",
+        "roa_rupwiktionary",
+        "roa_tarawiki",
+        "rowiki",
+        "rowikibooks",
+        "rowikinews",
+        "rowikiquote",
+        "rowikisource",
+        "rowikivoyage",
+        "rowiktionary",
+        "rskwiki",
+        "ruewiki",
+        "ruwiki",
+        "ruwikibooks",
+        "ruwikinews",
+        "ruwikiquote",
+        "ruwikisource",
+        "ruwikiversity",
+        "ruwikivoyage",
+        "ruwiktionary",
+        "rwwiki",
+        "rwwiktionary",
+        "sahwiki",
+        "sahwikiquote",
+        "sahwikisource",
+        "satwiki",
+        "satwiktionary",
+        "sawiki",
+        "sawikibooks",
+        "sawikiquote",
+        "sawikisource",
+        "sawiktionary",
+        "scnwiki",
+        "scnwiktionary",
+        "scowiki",
+        "scwiki",
+        "scwiktionary",
+        "sdwiki",
+        "sdwikinews",
+        "sdwiktionary",
+        "sewiki",
+        "sewikibooks",
+        "sgwiki",
+        "sgwiktionary",
+        "shiwiki",
+        "shnwiki",
+        "shnwikibooks",
+        "shnwikinews",
+        "shnwikivoyage",
+        "shnwiktionary",
+        "shwiki",
+        "shwiktionary",
+        "shywiktionary",
+        "simplewiki",
+        "simplewikibooks",
+        "simplewikiquote",
+        "simplewiktionary",
+        "siwiki",
+        "siwikibooks",
+        "siwiktionary",
+        "skrwiki",
+        "skrwiktionary",
+        "skwiki",
+        "skwikibooks",
+        "skwikiquote",
+        "skwikisource",
+        "skwiktionary",
+        "slwiki",
+        "slwikibooks",
+        "slwikiquote",
+        "slwikisource",
+        "slwikiversity",
+        "slwiktionary",
+        "smnwiki",
+        "smwiki",
+        "smwiktionary",
+        "snwiki",
+        "snwiktionary",
+        "sourceswiki",
+        "sowiki",
+        "sowiktionary",
+        "specieswiki",
+        "sqwiki",
+        "sqwikibooks",
+        "sqwikinews",
+        "sqwikiquote",
+        "sqwiktionary",
+        "srnwiki",
+        "srwiki",
+        "srwikibooks",
+        "srwikinews",
+        "srwikiquote",
+        "srwikisource",
+        "srwiktionary",
+        "sswiki",
+        "sswiktionary",
+        "stqwiki",
+        "stwiki",
+        "stwiktionary",
+        "suwiki",
+        "suwikibooks",
+        "suwikiquote",
+        "suwikisource",
+        "suwiktionary",
+        "svwiki",
+        "svwikibooks",
+        "svwikinews",
+        "svwikiquote",
+        "svwikisource",
+        "svwikiversity",
+        "svwikivoyage",
+        "svwiktionary",
+        "swwiki",
+        "swwikibooks",
+        "swwiktionary",
+        "sylwiki",
+        "szlwiki",
+        "szywiki",
+        "tawiki",
+        "tawikibooks",
+        "tawikinews",
+        "tawikiquote",
+        "tawikisource",
+        "tawiktionary",
+        "taywiki",
+        "tcywiki",
+        "tcywikisource",
+        "tcywiktionary",
+        "tddwiki",
+        "tetwiki",
+        "tewiki",
+        "tewikibooks",
+        "tewikiquote",
+        "tewikisource",
+        "tewiktionary",
+        "tgwiki",
+        "tgwikibooks",
+        "tgwiktionary",
+        "thwiki",
+        "thwikibooks",
+        "thwikinews",
+        "thwikiquote",
+        "thwikisource",
+        "thwiktionary",
+        "tigwiki",
+        "tiwiki",
+        "tiwiktionary",
+        "tkwiki",
+        "tkwikibooks",
+        "tkwikiquote",
+        "tkwiktionary",
+        "tlwiki",
+        "tlwikibooks",
+        "tlwikiquote",
+        "tlwikisource",
+        "tlwiktionary",
+        "tlywiki",
+        "tnwiki",
+        "tnwiktionary",
+        "tokwiki",
+        "towiki",
+        "towiktionary",
+        "tpiwiki",
+        "tpiwiktionary",
+        "trvwiki",
+        "trwiki",
+        "trwikibooks",
+        "trwikinews",
+        "trwikiquote",
+        "trwikisource",
+        "trwikivoyage",
+        "trwiktionary",
+        "tswiki",
+        "tswiktionary",
+        "ttwiki",
+        "ttwikibooks",
+        "ttwikiquote",
+        "ttwiktionary",
+        "tumwiki",
+        "twwiki",
+        "twwiktionary",
+        "tyvwiki",
+        "tywiki",
+        "udmwiki",
+        "ugwiki",
+        "ugwikibooks",
+        "ugwikiquote",
+        "ugwiktionary",
+        "ukwiki",
+        "ukwikibooks",
+        "ukwikinews",
+        "ukwikiquote",
+        "ukwikisource",
+        "ukwikivoyage",
+        "ukwiktionary",
+        "urwiki",
+        "urwikibooks",
+        "urwikiquote",
+        "urwikisource",
+        "urwiktionary",
+        "uzwiki",
+        "uzwikibooks",
+        "uzwikiquote",
+        "uzwiktionary",
+        "vecwiki",
+        "vecwikisource",
+        "vecwiktionary",
+        "vepwiki",
+        "vewiki",
+        "viwiki",
+        "viwikibooks",
+        "viwikiquote",
+        "viwikisource",
+        "viwikivoyage",
+        "viwiktionary",
+        "vlswiki",
+        "vowiki",
+        "vowikibooks",
+        "vowikiquote",
+        "vowiktionary",
+        "warwiki",
+        "wawiki",
+        "wawikibooks",
+        "wawikisource",
+        "wawiktionary",
+        "wikidatawiki",
+        "wikifunctionswiki",
+        "wikimaniawiki",
+        "wowiki",
+        "wowikiquote",
+        "wowiktionary",
+        "wuuwiki",
+        "xalwiki",
+        "xhwiki",
+        "xhwikibooks",
+        "xhwiktionary",
+        "xmfwiki",
+        "yiwiki",
+        "yiwikisource",
+        "yiwiktionary",
+        "yowiki",
+        "yowikibooks",
+        "yowiktionary",
+        "yuewiktionary",
+        "zawiki",
+        "zawikibooks",
+        "zawikiquote",
+        "zawiktionary",
+        "zeawiki",
+        "zghwiki",
+        "zghwiktionary",
+        "zh_classicalwiki",
+        "zh_min_nanwiki",
+        "zh_min_nanwikibooks",
+        "zh_min_nanwikiquote",
+        "zh_min_nanwikisource",
+        "zh_min_nanwiktionary",
+        "zh_yuewiki",
+        "zhwiki",
+        "zhwikibooks",
+        "zhwikinews",
+        "zhwikiquote",
+        "zhwikisource",
+        "zhwikiversity",
+        "zhwikivoyage",
+        "zhwiktionary",
+        "zuwiki",
+        "zuwikibooks",
+        "zuwiktionary"
+       ]
+      }
+     ],
+     "path": "wbgetentities",
+     "prefix": "",
+     "readrights": "",
+     "source": "WikibaseClient",
+     "sourcename": "WikibaseClient",
+     "templatedparameters": []
+    }
+   ]
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=query&format=json&list=search&srlimit=50&srnamespace=0&srprop=&srsearch=haswbstatement%3AP279%3DQ13629441": {
+  "batchcomplete": "",
+  "continue": {
+   "continue": "-||",
+   "sroffset": 50
+  },
+  "query": {
+   "search": [
+    {
+     "ns": 0,
+     "pageid": 454959,
+     "title": "Q483373"
+    },
+    {
+     "ns": 0,
+     "pageid": 587983,
+     "title": "Q625151"
+    },
+    {
+     "ns": 0,
+     "pageid": 18539774,
+     "title": "Q16936947"
+    },
+    {
+     "ns": 0,
+     "pageid": 6694,
+     "title": "Q5639"
+    },
+    {
+     "ns": 0,
+     "pageid": 1025208,
+     "title": "Q1076882"
+    },
+    {
+     "ns": 0,
+     "pageid": 1083520,
+     "title": "Q1136730"
+    },
+    {
+     "ns": 0,
+     "pageid": 488412,
+     "title": "Q519302"
+    },
+    {
+     "ns": 0,
+     "pageid": 1266473,
+     "title": "Q1326749"
+    },
+    {
+     "ns": 0,
+     "pageid": 876883,
+     "title": "Q926499"
+    },
+    {
+     "ns": 0,
+     "pageid": 266764,
+     "title": "Q275816"
+    },
+    {
+     "ns": 0,
+     "pageid": 17454309,
+     "title": "Q15825863"
+    },
+    {
+     "ns": 0,
+     "pageid": 12293088,
+     "title": "Q11083590"
+    },
+    {
+     "ns": 0,
+     "pageid": 1266800,
+     "title": "Q1327077"
+    },
+    {
+     "ns": 0,
+     "pageid": 1421272,
+     "title": "Q1483388"
+    },
+    {
+     "ns": 0,
+     "pageid": 860230,
+     "title": "Q909558"
+    },
+    {
+     "ns": 0,
+     "pageid": 23209297,
+     "title": "Q21161871"
+    },
+    {
+     "ns": 0,
+     "pageid": 2531736,
+     "title": "Q2625479"
+    },
+    {
+     "ns": 0,
+     "pageid": 7359850,
+     "title": "Q7448027"
+    },
+    {
+     "ns": 0,
+     "pageid": 24697449,
+     "title": "Q22672404"
+    },
+    {
+     "ns": 0,
+     "pageid": 31893061,
+     "title": "Q30280458"
+    },
+    {
+     "ns": 0,
+     "pageid": 101838269,
+     "title": "Q106551740"
+    },
+    {
+     "ns": 0,
+     "pageid": 55622576,
+     "title": "Q55637210"
+    },
+    {
+     "ns": 0,
+     "pageid": 95589670,
+     "title": "Q97120016"
+    },
+    {
+     "ns": 0,
+     "pageid": 43606969,
+     "title": "Q42324990"
+    },
+    {
+     "ns": 0,
+     "pageid": 1266651,
+     "title": "Q1326927"
+    },
+    {
+     "ns": 0,
+     "pageid": 2983758,
+     "title": "Q3122725"
+    },
+    {
+     "ns": 0,
+     "pageid": 53038619,
+     "title": "Q52161141"
+    },
+    {
+     "ns": 0,
+     "pageid": 19885909,
+     "title": "Q18353131"
+    },
+    {
+     "ns": 0,
+     "pageid": 5124286,
+     "title": "Q5357657"
+    },
+    {
+     "ns": 0,
+     "pageid": 5124296,
+     "title": "Q5357667"
+    },
+    {
+     "ns": 0,
+     "pageid": 1672475,
+     "title": "Q1739514"
+    },
+    {
+     "ns": 0,
+     "pageid": 101541419,
+     "title": "Q106244474"
+    },
+    {
+     "ns": 0,
+     "pageid": 110890209,
+     "title": "Q116180488"
+    },
+    {
+     "ns": 0,
+     "pageid": 65181176,
+     "title": "Q65550518"
+    },
+    {
+     "ns": 0,
+     "pageid": 104261004,
+     "title": "Q109046996"
+    },
+    {
+     "ns": 0,
+     "pageid": 84676633,
+     "title": "Q85387520"
+    },
+    {
+     "ns": 0,
+     "pageid": 104527102,
+     "title": "Q109364975"
+    },
+    {
+     "ns": 0,
+     "pageid": 132020470,
+     "title": "Q138506702"
+    },
+    {
+     "ns": 0,
+     "pageid": 111994019,
+     "title": "Q117204360"
+    },
+    {
+     "ns": 0,
+     "pageid": 99875085,
+     "title": "Q104467102"
+    },
+    {
+     "ns": 0,
+     "pageid": 104095315,
+     "title": "Q108865869"
+    },
+    {
+     "ns": 0,
+     "pageid": 2591836,
+     "title": "Q2692470"
+    },
+    {
+     "ns": 0,
+     "pageid": 124434177,
+     "title": "Q130488905"
+    },
+    {
+     "ns": 0,
+     "pageid": 56999835,
+     "title": "Q57082857"
+    },
+    {
+     "ns": 0,
+     "pageid": 31229036,
+     "title": "Q29583203"
+    },
+    {
+     "ns": 0,
+     "pageid": 119270610,
+     "title": "Q125101803"
+    },
+    {
+     "ns": 0,
+     "pageid": 117334834,
+     "title": "Q123091333"
+    },
+    {
+     "ns": 0,
+     "pageid": 4766486,
+     "title": "Q4986058"
+    },
+    {
+     "ns": 0,
+     "pageid": 31329068,
+     "title": "Q29683498"
+    },
+    {
+     "ns": 0,
+     "pageid": 134594012,
+     "title": "Q141144453"
+    }
+   ],
+   "searchinfo": {
+    "totalhits": 60
+   }
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=query&format=json&list=search&srlimit=50&srnamespace=0&srprop=&srsearch=haswbstatement%3AP31%3DQ13629441": {
+  "batchcomplete": "",
+  "query": {
+   "search": [
+    {
+     "ns": 0,
+     "pageid": 1220602,
+     "title": "Q1280099"
+    },
+    {
+     "ns": 0,
+     "pageid": 2318448,
+     "title": "Q2399970"
+    },
+    {
+     "ns": 0,
+     "pageid": 210236,
+     "title": "Q214893"
+    },
+    {
+     "ns": 0,
+     "pageid": 30772035,
+     "title": "Q29113809"
+    },
+    {
+     "ns": 0,
+     "pageid": 32375347,
+     "title": "Q30765198"
+    },
+    {
+     "ns": 0,
+     "pageid": 31915199,
+     "title": "Q30302618"
+    },
+    {
+     "ns": 0,
+     "pageid": 109702805,
+     "title": "Q115052140"
+    },
+    {
+     "ns": 0,
+     "pageid": 419061,
+     "title": "Q444204"
+    },
+    {
+     "ns": 0,
+     "pageid": 121857618,
+     "title": "Q127872344"
+    },
+    {
+     "ns": 0,
+     "pageid": 112224638,
+     "title": "Q117461497"
+    },
+    {
+     "ns": 0,
+     "pageid": 119223477,
+     "title": "Q125053872"
+    },
+    {
+     "ns": 0,
+     "pageid": 5124255,
+     "title": "Q5357626"
+    },
+    {
+     "ns": 0,
+     "pageid": 2875891,
+     "title": "Q3008012"
+    },
+    {
+     "ns": 0,
+     "pageid": 112487308,
+     "title": "Q117748277"
+    },
+    {
+     "ns": 0,
+     "pageid": 115515263,
+     "title": "Q121076159"
+    },
+    {
+     "ns": 0,
+     "pageid": 31229036,
+     "title": "Q29583203"
+    },
+    {
+     "ns": 0,
+     "pageid": 119379409,
+     "title": "Q125243910"
+    },
+    {
+     "ns": 0,
+     "pageid": 100083368,
+     "title": "Q104637662"
+    },
+    {
+     "ns": 0,
+     "pageid": 107512101,
+     "title": "Q112628844"
+    },
+    {
+     "ns": 0,
+     "pageid": 42875822,
+     "title": "Q41560558"
+    },
+    {
+     "ns": 0,
+     "pageid": 42841944,
+     "title": "Q41525869"
+    },
+    {
+     "ns": 0,
+     "pageid": 121857725,
+     "title": "Q127872451"
+    },
+    {
+     "ns": 0,
+     "pageid": 104240280,
+     "title": "Q109024294"
+    },
+    {
+     "ns": 0,
+     "pageid": 114473012,
+     "title": "Q120005796"
+    },
+    {
+     "ns": 0,
+     "pageid": 105977545,
+     "title": "Q110966634"
+    }
+   ],
+   "searchinfo": {
+    "totalhits": 25
+   }
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=query&format=json&list=search&srlimit=50&srnamespace=0&srprop=&srsearch=haswbstatement%3AP361%3DQ13629441": {
+  "batchcomplete": "",
+  "query": {
+   "search": [
+    {
+     "ns": 0,
+     "pageid": 851559,
+     "title": "Q900762"
+    },
+    {
+     "ns": 0,
+     "pageid": 2256272,
+     "title": "Q2335519"
+    },
+    {
+     "ns": 0,
+     "pageid": 65651755,
+     "title": "Q66024992"
+    },
+    {
+     "ns": 0,
+     "pageid": 65651744,
+     "title": "Q66024981"
+    },
+    {
+     "ns": 0,
+     "pageid": 65651722,
+     "title": "Q66024958"
+    },
+    {
+     "ns": 0,
+     "pageid": 2128869,
+     "title": "Q2204743"
+    },
+    {
+     "ns": 0,
+     "pageid": 65651736,
+     "title": "Q66024973"
+    },
+    {
+     "ns": 0,
+     "pageid": 106855582,
+     "title": "Q111942241"
+    },
+    {
+     "ns": 0,
+     "pageid": 65651753,
+     "title": "Q66024990"
+    },
+    {
+     "ns": 0,
+     "pageid": 95606220,
+     "title": "Q97165590"
+    },
+    {
+     "ns": 0,
+     "pageid": 100472165,
+     "title": "Q105081676"
+    }
+   ],
+   "searchinfo": {
+    "totalhits": 11
+   }
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q1079037%7CQ48816237%7CQ125444773%7CQ13629441%7CQ2140665%7CQ37929123%7CQ900762%7CQ193692%7CQ119522851%7CQ125019890%7CQ119693970%7CQ118134000%7CQ118179235&languages=uk%7Cen&props=sitelinks%7Clabels%7Cdescriptions": {
+  "entities": {
+   "Q1079037": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "electric car with built-in solar cells for power generation"
+     }
+    },
+    "id": "Q1079037",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "solar car"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Електромобілі на сонячних батареях"
+     }
+    },
+    "sitelinks": {
+     "azwiki": {
+      "badges": [],
+      "site": "azwiki",
+      "title": "Günəş avtomobili"
+     },
+     "cywiki": {
+      "badges": [],
+      "site": "cywiki",
+      "title": "Car solar"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Solar car"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "خودروی خورشیدی"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Voiture solaire"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Sunčev automobil"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Saulės automobilis"
+     },
+     "mnwiki": {
+      "badges": [],
+      "site": "mnwiki",
+      "title": "Нарны зайн машин"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Электромобиль на солнечных батареях"
+     },
+     "ruwikinews": {
+      "badges": [],
+      "site": "ruwikinews",
+      "title": "Категория:Электромобили на солнечных батареях"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Solar car"
+     },
+     "siwiki": {
+      "badges": [],
+      "site": "siwiki",
+      "title": "රිවි සරව්ව"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Sončni avtomobil"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Güneş arabası"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Електромобілі на сонячних батареях"
+     }
+    },
+    "type": "item"
+   },
+   "Q118134000": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "US patent 11247573"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "патент США"
+     }
+    },
+    "id": "Q118134000",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q118179235": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "US patent 11214185"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "патент США"
+     }
+    },
+    "id": "Q118179235",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q119522851": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "US patent 11299050"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "патент США"
+     }
+    },
+    "id": "Q119522851",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q119693970": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "US patent 11142064"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "патент США"
+     }
+    },
+    "id": "Q119693970",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q125019890": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "US patent 11148535"
+     }
+    },
+    "id": "Q125019890",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q125444773": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "Wikimedia category"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "категорія проєкту Вікімедіа"
+     }
+    },
+    "id": "Q125444773",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Category:Rising Auto vehicles"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Категорія:Автомобілі Rising Auto"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Category:Rising Auto vehicles"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Категория:Электромобили Rising Auto"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Категорія:Автомобілі Rising Auto"
+     }
+    },
+    "type": "item"
+   },
+   "Q13629441": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "vehicle propelled by one or more electric motors"
+     }
+    },
+    "id": "Q13629441",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електротранспорт"
+     }
+    },
+    "sitelinks": {
+     "afwiki": {
+      "badges": [],
+      "site": "afwiki",
+      "title": "Elektriese voertuig"
+     },
+     "alswiki": {
+      "badges": [],
+      "site": "alswiki",
+      "title": "Elektrofahrzeug"
+     },
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "مركبة كهربائية"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Електрическо превозно средство"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "বৈদ্যুতিক যানবাহন"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Vehicle elèctric"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "ئامرازەکانی گواستنەوەی کارەبایی"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Elkøretøj"
+     },
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "Elektrofahrzeug"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Ηλεκτροκίνητο όχημα"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle"
+     },
+     "enwikiquote": {
+      "badges": [],
+      "site": "enwikiquote",
+      "title": "Electric vehicles"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Elektra veturilo"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Vehículo eléctrico"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Elektervedu"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Ibilgailu elektriko"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "وسیله نقلیه الکتریکی"
+     },
+     "frrwiki": {
+      "badges": [],
+      "site": "frrwiki",
+      "title": "Elektrisk Köörmaskiin"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Véhicule électrique"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Feithicil leictreach"
+     },
+     "guwiki": {
+      "badges": [],
+      "site": "guwiki",
+      "title": "વિદ્યુત વાહન"
+     },
+     "hakwiki": {
+      "badges": [],
+      "site": "hakwiki",
+      "title": "Thien-thûng Khì-chhâ"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "विद्युत वाहन"
+     },
+     "htwiki": {
+      "badges": [],
+      "site": "htwiki",
+      "title": "Veyikil elektrik"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Kendaraan bermotor listrik"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Rafknúið farartæki"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Veicolo elettrico"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Veicolo elettrico"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "電動輸送機器"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "전기 탈것"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Ajotinê elektrîk"
+     },
+     "mlwiki": {
+      "badges": [],
+      "site": "mlwiki",
+      "title": "വൈദ്യുത വാഹനം"
+     },
+     "mnwiki": {
+      "badges": [],
+      "site": "mnwiki",
+      "title": "Цахилгаан автомашин"
+     },
+     "mywiki": {
+      "badges": [],
+      "site": "mywiki",
+      "title": "လျှပ်စစ်စွမ်းအင်သုံး ယာဉ်များ"
+     },
+     "newiki": {
+      "badges": [],
+      "site": "newiki",
+      "title": "विद्युतिय सवारी साधन"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Elektrisch voertuig"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Pojazd elektryczny"
+     },
+     "pswiki": {
+      "badges": [],
+      "site": "pswiki",
+      "title": "برېښنايي نقلیه وسایط"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Veículo elétrico"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Vehicul electric"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Электротранспорт"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Electric vehicle"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Električno vozilo"
+     },
+     "sqwiki": {
+      "badges": [],
+      "site": "sqwiki",
+      "title": "Automjeti elektrik"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Električno vozilo"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Elfordon"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "ยานยนต์ไฟฟ้า"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Elektrikli araç"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Електротранспорт"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Xe chạy điện"
+     },
+     "xhwiki": {
+      "badges": [],
+      "site": "xhwiki",
+      "title": "Isithuthi sombane"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "電動交通工具"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "电动载具"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "Isithuthi samazuba"
+     }
+    },
+    "type": "item"
+   },
+   "Q193692": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "automobile propelled by an electric motor using energy stored in rechargeable batteries"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "автомобіль, що працює на одному або кількох електродвигунах, що використовують енергію, що зберігається в акумуляторних батареях"
+     }
+    },
+    "id": "Q193692",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric car"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електромобіль"
+     }
+    },
+    "sitelinks": {
+     "afwiki": {
+      "badges": [],
+      "site": "afwiki",
+      "title": "Elektriese motor (EV)"
+     },
+     "anwiki": {
+      "badges": [],
+      "site": "anwiki",
+      "title": "Auto electrico"
+     },
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "سيارة كهربائية"
+     },
+     "astwiki": {
+      "badges": [],
+      "site": "astwiki",
+      "title": "Automóvil llétricu"
+     },
+     "azwiki": {
+      "badges": [],
+      "site": "azwiki",
+      "title": "Elektrik avtomobili"
+     },
+     "be_x_oldwiki": {
+      "badges": [],
+      "site": "be_x_oldwiki",
+      "title": "Электрамабіль"
+     },
+     "bewiki": {
+      "badges": [],
+      "site": "bewiki",
+      "title": "Электрамабіль"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Електрически автомобил"
+     },
+     "bhwiki": {
+      "badges": [],
+      "site": "bhwiki",
+      "title": "इलेक्ट्रिक कार"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "বৈদ্যুতিক গাড়ি"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Cotxe elèctric"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "ئۆتۆمۆبیلی کارەبایی"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Elektromobil"
+     },
+     "cywiki": {
+      "badges": [],
+      "site": "cywiki",
+      "title": "Car trydan"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Elbil"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektroauto"
+     },
+     "dewikinews": {
+      "badges": [],
+      "site": "dewikinews",
+      "title": "Kategorie:Elektroauto"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Ηλεκτρικό αυτοκίνητο"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric car"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Elektra aŭtomobilo"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Automóvil eléctrico"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Elektriauto"
+     },
+     "etwikiquote": {
+      "badges": [],
+      "site": "etwikiquote",
+      "title": "Elektriauto"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Auto elektriko"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "خودروی برقی"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Sähköauto"
+     },
+     "frrwiki": {
+      "badges": [],
+      "site": "frrwiki",
+      "title": "Elektroauto"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Voiture électrique"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Carr leictreach"
+     },
+     "glkwiki": {
+      "badges": [],
+      "site": "glkwiki",
+      "title": "برقي ماشين"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Automóbil eléctrico"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "מכונית חשמלית"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "विद्युत् कार"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Električni automobil"
+     },
+     "huwiki": {
+      "badges": [],
+      "site": "huwiki",
+      "title": "Elektromos autó"
+     },
+     "hywiki": {
+      "badges": [],
+      "site": "hywiki",
+      "title": "Էլեկտրոմոբիլ"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Mobil listrik"
+     },
+     "iowiki": {
+      "badges": [],
+      "site": "iowiki",
+      "title": "Elektromobilo"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Rafbíll"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Auto elettrica"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Auto elettrica"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "電気自動車"
+     },
+     "kawiki": {
+      "badges": [],
+      "site": "kawiki",
+      "title": "ელექტრომობილი"
+     },
+     "kkwiki": {
+      "badges": [],
+      "site": "kkwiki",
+      "title": "Электромобиль"
+     },
+     "knwiki": {
+      "badges": [],
+      "site": "knwiki",
+      "title": "ವಿದ್ಯುತ್ ಕಾರ್"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "전기 자동차"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Tirombêla elektrîk"
+     },
+     "kywiki": {
+      "badges": [],
+      "site": "kywiki",
+      "title": "Электромобиль"
+     },
+     "lowiki": {
+      "badges": [],
+      "site": "lowiki",
+      "title": "ລົດພະລັງງານໄຟຟ້າ"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Elektromobilis"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Elektromobilis"
+     },
+     "minwiki": {
+      "badges": [],
+      "site": "minwiki",
+      "title": "Oto listrik"
+     },
+     "mkwiki": {
+      "badges": [],
+      "site": "mkwiki",
+      "title": "Електричен автомобил"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Kereta elektrik"
+     },
+     "mywiki": {
+      "badges": [],
+      "site": "mywiki",
+      "title": "လျှပ်စစ်ကား"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Elektrische auto"
+     },
+     "nnwiki": {
+      "badges": [],
+      "site": "nnwiki",
+      "title": "Elbil"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Elbil"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Samochód elektryczny"
+     },
+     "pmswiki": {
+      "badges": [],
+      "site": "pmswiki",
+      "title": "Automòbil elétrica"
+     },
+     "pnbwiki": {
+      "badges": [],
+      "site": "pnbwiki",
+      "title": "برقی گڈی"
+     },
+     "pswiki": {
+      "badges": [],
+      "site": "pswiki",
+      "title": "برېښنايي موټر"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Carro elétrico"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Automobil electric"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Электромобиль"
+     },
+     "ruwikinews": {
+      "badges": [],
+      "site": "ruwikinews",
+      "title": "Категория:Электромобили"
+     },
+     "ruwikiquote": {
+      "badges": [],
+      "site": "ruwikiquote",
+      "title": "Электромобиль"
+     },
+     "sahwiki": {
+      "badges": [],
+      "site": "sahwiki",
+      "title": "Электрокар"
+     },
+     "shwiki": {
+      "badges": [],
+      "site": "shwiki",
+      "title": "Električni automobil"
+     },
+     "siwiki": {
+      "badges": [],
+      "site": "siwiki",
+      "title": "විදිලි සරව්ව"
+     },
+     "skwiki": {
+      "badges": [],
+      "site": "skwiki",
+      "title": "Elektromobil"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Električni avtomobil"
+     },
+     "sqwiki": {
+      "badges": [],
+      "site": "sqwiki",
+      "title": "Vetura elektrike"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Električni automobil"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Elbil"
+     },
+     "tawiki": {
+      "badges": [],
+      "site": "tawiki",
+      "title": "மின் தானுந்து"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "รถพลังงานไฟฟ้า"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Elektrikli otomobil"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Електромобіль"
+     },
+     "urwiki": {
+      "badges": [],
+      "site": "urwiki",
+      "title": "برقی گاڑی"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Elektromobil"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Ô tô điện"
+     },
+     "wuuwiki": {
+      "badges": [],
+      "site": "wuuwiki",
+      "title": "电动汽车"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "電動汽車"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "电动汽车"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "Imoto yamazuba"
+     }
+    },
+    "type": "item"
+   },
+   "Q2140665": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "infrastructure that supplies electric energy for the recharging of electric vehicles"
+     }
+    },
+    "id": "Q2140665",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "charging station"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "зарядна станція"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "محطة شحن"
+     },
+     "be_x_oldwiki": {
+      "badges": [],
+      "site": "be_x_oldwiki",
+      "title": "Зарадная станцыя"
+     },
+     "bewiki": {
+      "badges": [],
+      "site": "bewiki",
+      "title": "Зарадная станцыя"
+     },
+     "bewwiki": {
+      "badges": [],
+      "site": "bewwiki",
+      "title": "Pom lèstrik"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Estació de càrrega"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Dobíjecí stanice"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Ladestation"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Ladestation (Elektrofahrzeug)"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Charging station"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Ŝarga stacio"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Estación de carga"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "ایستگاه شارژ"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Station de recharge"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Estación de recarga"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "תחנת טעינה"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Punionica za električne automobile"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Stasiun pengisian kendaraan listrik"
+     },
+     "iowiki": {
+      "badges": [],
+      "site": "iowiki",
+      "title": "Plaso di richarjo"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Hleðslustöð"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Stazione di ricarica per veicoli elettrici"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "充電スタンド"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "충전소"
+     },
+     "minwiki": {
+      "badges": [],
+      "site": "minwiki",
+      "title": "Stasiun pangisian kandaraan listrik"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Stesen cas"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Oplaadpunt"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Ladestasjon"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Stacja ładowania"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Estação de carga"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Зарядная станция для электромобилей"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Charging station"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Електропуњач"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Laddstolpe"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Elektrikli araç şarj istasyonu"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Зарядна станція"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Quvvatlash stansiyasi"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Trạm sạc"
+     },
+     "zawiki": {
+      "badges": [],
+      "site": "zawiki",
+      "title": "Donghcunghdienh"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "充电桩"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "Isiphumulo sokudlweza"
+     }
+    },
+    "type": "item"
+   },
+   "Q37929123": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "infrastructure system of charging stations for electric vehicles"
+     }
+    },
+    "id": "Q37929123",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle charging network"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "мережа електрозарядних станцій"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "شبكة شحن المركبات الكهربائية"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle charging infrastructure"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Hạ tầng trạm sạc"
+     }
+    },
+    "type": "item"
+   },
+   "Q48816237": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "overview of plug-in electric vehicles in Europe"
+     }
+    },
+    "id": "Q48816237",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "plug-in electric vehicles in Europe"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Електромобілі в Європі"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "المركبات الكهربائية القابلة للشحن في أوروبا"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Plug-in electric vehicles in Europe"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Automóviles eléctricos en Europa"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Véhicule électrique en Europe"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Електромобілі в Європі"
+     }
+    },
+    "type": "item"
+   },
+   "Q900762": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "battery used to power the electric motors of a battery electric vehicle or hybrid electric vehicle"
+     }
+    },
+    "id": "Q900762",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle battery"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "акумулятор електромобіля"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "بطارية المركبة الكهربائية"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Bateria de tracció"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Antriebsbatterie"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle battery"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Batería de tracción"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "باتری خودرو برقی"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Baterai kendaraan listrik"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Batteria per veicoli elettrici"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "電気自動車用蓄電池"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "전기차 배터리"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Tractiebatterij"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Bateria de veículo elétrico"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Baterie de vehicul electric"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Тяговая аккумуляторная батарея"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Elektrikli araç aküsü"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Акумулятор електромобіля"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "電動車電池"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q1280099%7CQ2399970%7CQ214893%7CQ29113809%7CQ30765198%7CQ30302618%7CQ115052140%7CQ444204%7CQ127872344%7CQ117461497%7CQ125053872%7CQ5357626%7CQ3008012%7CQ117748277%7CQ121076159%7CQ125243910%7CQ104637662%7CQ112628844%7CQ41560558%7CQ41525869%7CQ127872451%7CQ109024294%7CQ120005796%7CQ110966634%7CQ900762%7CQ2335519%7CQ66024992%7CQ66024981%7CQ66024958%7CQ2204743%7CQ66024973%7CQ111942241%7CQ66024990%7CQ97165590%7CQ105081676&languages=uk%7Cen&props=sitelinks%7Clabels&sitefilter=enwiki%7Cdewiki": {
+  "entities": {
+   "Q104637662": {
+    "id": "Q104637662",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Enovate ME7"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Enovate ME7"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Enovate ME7"
+     }
+    },
+    "type": "item"
+   },
+   "Q105081676": {
+    "id": "Q105081676",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Megawatt Charging System"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Megawatt Charging System"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Megawatt Charging System"
+     }
+    },
+    "type": "item"
+   },
+   "Q109024294": {
+    "id": "Q109024294",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q110966634": {
+    "id": "Q110966634",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q111942241": {
+    "id": "Q111942241",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "GB/T charging standard"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "GB/T Ladestandard"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "GB/T charging standard"
+     }
+    },
+    "type": "item"
+   },
+   "Q112628844": {
+    "id": "Q112628844",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Sparky"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q115052140": {
+    "id": "Q115052140",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Irizar ie tram"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q117461497": {
+    "id": "Q117461497",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Ika Rere"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q117748277": {
+    "id": "Q117748277",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "İzmir nostalgic tram"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q120005796": {
+    "id": "Q120005796",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electrically-powered ship"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q121076159": {
+    "id": "Q121076159",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Carver Cargo"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q125053872": {
+    "id": "Q125053872",
+    "labels": {},
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Adler Nature"
+     }
+    },
+    "type": "item"
+   },
+   "Q125243910": {
+    "id": "Q125243910",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "M/S Elise"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q127872344": {
+    "id": "Q127872344",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Lynk & Co Z20"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Lynk & Co Z20"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Lynk & Co Z20"
+     }
+    },
+    "type": "item"
+   },
+   "Q127872451": {
+    "id": "Q127872451",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Cadillac Sollei"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Cadillac Sollei"
+     }
+    },
+    "type": "item"
+   },
+   "Q1280099": {
+    "id": "Q1280099",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Ebro"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Ebro (Fahrzeughersteller)"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Ebro trucks"
+     }
+    },
+    "type": "item"
+   },
+   "Q214893": {
+    "id": "Q214893",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Segway PT"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Сеґвей"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Segway Personal Transporter"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Segway"
+     }
+    },
+    "type": "item"
+   },
+   "Q2204743": {
+    "id": "Q2204743",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Type 1 connector"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "SAE J1772"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "SAE J1772"
+     }
+    },
+    "type": "item"
+   },
+   "Q2335519": {
+    "id": "Q2335519",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Type 2 connector"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Роз'єм типу 2"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "IEC 62196 Typ 2"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Type 2 connector"
+     }
+    },
+    "type": "item"
+   },
+   "Q2399970": {
+    "id": "Q2399970",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "motorized scooter"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Електросамокат"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "enwiki",
+      "title": "Motorized scooter"
+     }
+    },
+    "type": "item"
+   },
+   "Q29113809": {
+    "id": "Q29113809",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Bugatti type 52 \"Baby\" 1928"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q3008012": {
+    "id": "Q3008012",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q30302618": {
+    "id": "Q30302618",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Bultaco Brinco"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q30765198": {
+    "id": "Q30765198",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Volkswagen ID. Buzz"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Volkswagen ID.Buzz"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "VW ID. Buzz"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Volkswagen ID. Buzz"
+     }
+    },
+    "type": "item"
+   },
+   "Q41525869": {
+    "id": "Q41525869",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "BMW Concept Link"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q41560558": {
+    "id": "Q41560558",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Thunder Power SUV"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "enwiki",
+      "title": "ThunderPower SUV"
+     }
+    },
+    "type": "item"
+   },
+   "Q444204": {
+    "id": "Q444204",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Carver One"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Carver One"
+     }
+    },
+    "type": "item"
+   },
+   "Q5357626": {
+    "id": "Q5357626",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric motor manufacturing industry in China"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric motor manufacturing industry in China"
+     }
+    },
+    "type": "item"
+   },
+   "Q66024958": {
+    "id": "Q66024958",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle charging connector"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q66024973": {
+    "id": "Q66024973",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Type 3 connector"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Type 3 connector"
+     }
+    },
+    "type": "item"
+   },
+   "Q66024981": {
+    "id": "Q66024981",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "CHAdeMO connector"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q66024990": {
+    "id": "Q66024990",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Combined Charging System Type 1 connector"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q66024992": {
+    "id": "Q66024992",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Combined Charging System Type 2 connector"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q900762": {
+    "id": "Q900762",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle battery"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "акумулятор електромобіля"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Antriebsbatterie"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle battery"
+     }
+    },
+    "type": "item"
+   },
+   "Q97165590": {
+    "id": "Q97165590",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "on-board charger"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q13629441&languages=uk%7Cen%7Cde&props=sitelinks%7Clabels%7Cdescriptions%7Caliases%7Cclaims": {
+  "entities": {
+   "Q13629441": {
+    "aliases": {
+     "en": [
+      {
+       "language": "en",
+       "value": "EV"
+      },
+      {
+       "language": "en",
+       "value": "electrically-powered vehicle"
+      }
+     ]
+    },
+    "claims": {
+     "P1014": [
+      {
+       "id": "Q13629441$490C564B-5A5C-4FFA-9F7D-C65ECB94BECB",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "300227911"
+        },
+        "hash": "2817e51e21aeb42bea7321a80334b3b0473e572f",
+        "property": "P1014",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P10283": [
+      {
+       "id": "Q13629441$A3F1CEF1-ABAB-4EA5-BD5E-D144E14772A4",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "C2776422217"
+        },
+        "hash": "bdd545289d40ae08c50adf0f10f432f7ed1ea16b",
+        "property": "P10283",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q107507571",
+              "numeric-id": 107507571
+             }
+            },
+            "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2022-01-26T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ],
+          "P854": [
+           {
+            "datatype": "url",
+            "datavalue": {
+             "type": "string",
+             "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format"
+            },
+            "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+            "property": "P854",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P813",
+          "P854"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P10376": [
+      {
+       "id": "Q13629441$5ff29786-4a4a-1f77-bf5f-0aead5b79394",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "engineering/electric-vehicles"
+        },
+        "hash": "5d99f4d4bc58a48060a9a372fd47204e8fa4ca43",
+        "property": "P10376",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$95cc7fd8-4c7d-973d-39d5-78133555e516",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "social-sciences/electric-vehicles"
+        },
+        "hash": "6856c700a6da132bff5feda05114c07241d4b4dc",
+        "property": "P10376",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P11137": [
+      {
+       "id": "Q13629441$CA8E3A17-3B9E-49A1-8097-64FB48FA761E",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric_vehicle"
+        },
+        "hash": "1f62c5c327d35d24232fffd29e27895250642137",
+        "property": "P11137",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P11947": [
+      {
+       "id": "Q13629441$D956F709-650C-4359-AC19-124C5BE48AD6",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electricvehicles@slrpnk.net"
+        },
+        "hash": "a2d5c2abe0872f0494477cd61c627b3bf1394f3e",
+        "property": "P11947",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P12107": [
+      {
+       "id": "Q13629441$39476b15-4275-2dad-3225-dc46b088c14a",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "cdfc8009-43b3-4d5f-a72b-18568dcbb1b4"
+        },
+        "hash": "edd496353a9911fe5fab2e02aa30e95f67b47724",
+        "property": "P12107",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P1225": [
+      {
+       "id": "Q13629441$9369624C-D036-4978-9C4F-720C3C3C500C",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "10639433"
+        },
+        "hash": "5f852ca1601c4ba153b1a3390da5b3bec83a8f48",
+        "property": "P1225",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P12385": [
+      {
+       "id": "Q13629441$52da5826-e80e-4903-8e76-343ae7e9774d",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "vehicle-electric"
+        },
+        "hash": "bcb070264d68f3bb13233584705e19830fbb931d",
+        "property": "P12385",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P12596": [
+      {
+       "id": "Q13629441$CEE7D55A-B6F4-41C5-A1D8-C2ABDC9E9E15",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "86021"
+        },
+        "hash": "5e4783c042130c56f5b8016c6b2a889657b472b7",
+        "property": "P12596",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P1269": [
+      {
+       "id": "Q13629441$F2D90F4B-5B15-48F1-9A2E-5659C6DFB25E",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q130369470",
+          "numeric-id": 130369470
+         }
+        },
+        "hash": "ca32f7be7cfecc42a38e09a23b835e23f6aeedb1",
+        "property": "P1269",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P1296": [
+      {
+       "id": "Q13629441$23B8A4B8-3037-4C81-89A7-809DE9A05923",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "0518928"
+        },
+        "hash": "3a2ef79af86d77223aff5d0ad087f7c564b35605",
+        "property": "P1296",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P13572": [
+      {
+       "id": "Q13629441$A6E35511-ADCE-4A5A-B40D-D9B3A61734AE",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric+vehicle"
+        },
+        "hash": "11604da3fa31777832ac12a11f601cde34b7f038",
+        "property": "P13572",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P13591": [
+      {
+       "id": "Q13629441$279453BF-B37E-4FED-943B-FE085F6191B4",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "concept/3471f818-85e0-482c-92b0-45fe6d331a7e"
+        },
+        "hash": "44ebfed345ddc3365490a95e9e2e1d4d3e3fa9e9",
+        "property": "P13591",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P1365": [
+      {
+       "id": "Q13629441$d9641af7-449e-3056-c758-2f173484207c",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q162927",
+          "numeric-id": 162927
+         }
+        },
+        "hash": "846fc9430bd8b878b21d65e149ee570fa9b1bc1c",
+        "property": "P1365",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$53b9152e-410c-b887-2be7-f87c33ddd2e0",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q11320216",
+          "numeric-id": 11320216
+         }
+        },
+        "hash": "92704907f781336800c00233569fe28663b52ce4",
+        "property": "P1365",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P14003": [
+      {
+       "id": "Q13629441$A93E7177-0FD2-4182-A5A4-BE0881428BB2",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric-vehicles"
+        },
+        "hash": "de6c81c908604f61b5fef869675322008dd9aa09",
+        "property": "P14003",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P18": [
+      {
+       "id": "Q13629441$0471d079-45a6-667f-2f55-966e106188e1",
+       "mainsnak": {
+        "datatype": "commonsMedia",
+        "datavalue": {
+         "type": "string",
+         "value": "Tram in Milan.jpg"
+        },
+        "hash": "e7ff15c1adb7a83b8c12d85a09e86a84713a49ae",
+        "property": "P18",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P2096": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "An ATM 1500 electric tram."
+           }
+          },
+          "hash": "f4a684502e8e2f3c9bba036ae920873c0ee22261",
+          "property": "P2096",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P2096"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$c602b6b2-4226-bfef-9813-87a727fa9805",
+       "mainsnak": {
+        "datatype": "commonsMedia",
+        "datavalue": {
+         "type": "string",
+         "value": "EF65-1104.jpg"
+        },
+        "hash": "eba8baa03fc4e1efc719cd18d18400114696a2f0",
+        "property": "P18",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P2096": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "An electric locomotive powered by overhead lines."
+           }
+          },
+          "hash": "0985ec76874efbff4e03fb0d088c57e5324c1b35",
+          "property": "P2096",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P2096"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$f0467701-4b80-08c7-5da8-2f3da89a44ff",
+       "mainsnak": {
+        "datatype": "commonsMedia",
+        "datavalue": {
+         "type": "string",
+         "value": "17-11-14-Fahrzeug-Glasgow RR79924.jpg"
+        },
+        "hash": "0c6a8ae248f462d07be28030a90e8f2323d1f336",
+        "property": "P18",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P2096": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "A battery-electric passenger car plugged in to a public charging point."
+           }
+          },
+          "hash": "3d34be8515150ef7782b5a9a4dd0f4f81129bd9d",
+          "property": "P2096",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P2096"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$0738f0e8-44a7-a1ff-9ee5-829766bb18b8",
+       "mainsnak": {
+        "datatype": "commonsMedia",
+        "datavalue": {
+         "type": "string",
+         "value": "HelloCycling Station.jpg"
+        },
+        "hash": "194bb261f0e0187c03f9822785bfb392a788e3d5",
+        "property": "P18",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P2096": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "Electric bicycles being rented out as part of a bicycle sharing scheme."
+           }
+          },
+          "hash": "bdb03f53419a56b5a8c1ec2bacd67d7405911cff",
+          "property": "P2096",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P2096"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$c41eed09-447f-5898-d1c8-5cc6652347bd",
+       "mainsnak": {
+        "datatype": "commonsMedia",
+        "datavalue": {
+         "type": "string",
+         "value": "Eviation Alice, Paris Air Show 2019, Le Bourget (SIAE8856).jpg"
+        },
+        "hash": "bb7958ef653586e2fae85f7d30d430ec8eb30b42",
+        "property": "P18",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P2096": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "A prototype nine-passenger electric airplane."
+           }
+          },
+          "hash": "9be525b02aa768478b79f79545caf7629e84b517",
+          "property": "P2096",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P2096"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P1813": [
+      {
+       "id": "Q13629441$4613c149-43bc-0c83-5cc1-5653c9cfa2c3",
+       "mainsnak": {
+        "datatype": "monolingualtext",
+        "datavalue": {
+         "type": "monolingualtext",
+         "value": {
+          "language": "en",
+          "text": "EV"
+         }
+        },
+        "hash": "d0309de0a276f1d74b7fde0b22f419ecb1ac91d3",
+        "property": "P1813",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P2184": [
+      {
+       "id": "Q13629441$8608b8b1-413b-a852-20de-ea63dcd578ff",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q4355707",
+          "numeric-id": 4355707
+         }
+        },
+        "hash": "f8dfa182df77cad8edef97e84de44a019ed1a378",
+        "property": "P2184",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P2347": [
+      {
+       "id": "Q13629441$71DD0D50-A9E0-47F8-83C1-A06323C6592B",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "27472"
+        },
+        "hash": "334ac9a4e5bdd925a81bf32fe6e47e056c01edf8",
+        "property": "P2347",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P14457": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "fi",
+            "text": "sähköajoneuvot"
+           }
+          },
+          "hash": "2b2d19cdb3ebf1615808fab21182a67d8b9bc0fd",
+          "property": "P14457",
+          "snaktype": "value"
+         },
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "sv",
+            "text": "elfordon"
+           }
+          },
+          "hash": "18f523118deb90457f5b1f516be839f01916ae1f",
+          "property": "P14457",
+          "snaktype": "value"
+         },
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "electric vehicles"
+           }
+          },
+          "hash": "9b3cf418a21975f676d96b8ed096cb7b7aee12a8",
+          "property": "P14457",
+          "snaktype": "value"
+         }
+        ],
+        "P14458": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "sv",
+            "text": "eldrivna fordon"
+           }
+          },
+          "hash": "0ab8b917be7196f1a0bed92f464e0280dbbf12e2",
+          "property": "P14458",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P14457",
+        "P14458"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "c7ce93b27a341f8e3d9423f4152f283e511362dd",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q89345680",
+              "numeric-id": 89345680
+             }
+            },
+            "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P577": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2024-08-14T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "a7f5830f1940807438dbb0033972d94da6a5efda",
+            "property": "P577",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P577"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P244": [
+      {
+       "id": "Q13629441$4b12f721-9f9b-4f97-9a5d-5f152a733e34",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "sh85042036"
+        },
+        "hash": "4fdfcdcb72bc2b970772f2188e29e5edebc61e60",
+        "property": "P244",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P1810": [
+         {
+          "datatype": "string",
+          "datavalue": {
+           "type": "string",
+           "value": "Electric vehicles"
+          },
+          "hash": "81e5d2bec35092e1199dc0da90f7d099098225ff",
+          "property": "P1810",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P1810"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "3939c10d4fa276628bcae32a92f371318b992723",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q16583225",
+              "numeric-id": 16583225
+             }
+            },
+            "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2021-06-14T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ],
+          "P854": [
+           {
+            "datatype": "url",
+            "datavalue": {
+             "type": "string",
+             "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=17314"
+            },
+            "hash": "8f2c1ad72485757e37e984df606c74ecfa761f41",
+            "property": "P854",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P854",
+          "P813"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P268": [
+      {
+       "id": "Q13629441$d80ac849-996c-48dd-9641-0b043e5e9a18",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "119791044"
+        },
+        "hash": "0de444886e241dbb0c70dda6d4e840b7c5fad96a",
+        "property": "P268",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P1810": [
+         {
+          "datatype": "string",
+          "datavalue": {
+           "type": "string",
+           "value": "Véhicules électriques"
+          },
+          "hash": "f7f2f7f8db93047198fcf68b048fc8abfb608424",
+          "property": "P1810",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P1810"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "3939c10d4fa276628bcae32a92f371318b992723",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q16583225",
+              "numeric-id": 16583225
+             }
+            },
+            "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2021-06-14T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ],
+          "P854": [
+           {
+            "datatype": "url",
+            "datavalue": {
+             "type": "string",
+             "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=17314"
+            },
+            "hash": "8f2c1ad72485757e37e984df606c74ecfa761f41",
+            "property": "P854",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P854",
+          "P813"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P279": [
+      {
+       "id": "Q13629441$91e1b6d5-44d4-accf-709b-728692bea0dc",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q752870",
+          "numeric-id": 752870
+         }
+        },
+        "hash": "9dca6e5264704452d1cf487473db4c23ff98ed39",
+        "property": "P279",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P31": [
+      {
+       "id": "Q13629441$D1B680C8-4EC2-4F1B-BCC5-8A126FFB9BE9",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q334166",
+          "numeric-id": 334166
+         }
+        },
+        "hash": "cb6678ce618e11b91a926bd9909f31ca328f0dca",
+        "property": "P31",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P3417": [
+      {
+       "id": "Q13629441$25a923c4-4b99-9e96-954f-9a0344c88d0a",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "Electric-Vehicles"
+        },
+        "hash": "d0efbd7f6cedda7d5392a7795faa45d9dc14e8ef",
+        "property": "P3417",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P373": [
+      {
+       "id": "q13629441$B930154E-4744-4345-88B5-D144184FD247",
+       "mainsnak": {
+        "datatype": "string",
+        "datavalue": {
+         "type": "string",
+         "value": "Electrically-powered vehicles"
+        },
+        "hash": "1904ba071b23c27e2644e7ae8fadf2c7a71e6a8c",
+        "property": "P373",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P3827": [
+      {
+       "id": "Q13629441$7EA78EC5-7AA0-4A1E-9444-05FCFC82F9C6",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric-vehicles"
+        },
+        "hash": "b3264724ab5cb088a9e02018668a58a16766e769",
+        "property": "P3827",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P3984": [
+      {
+       "id": "Q13629441$a2bd3450-4d2d-ce6c-328e-5290eac16b06",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electricvehicles"
+        },
+        "hash": "e0d6ddb99874f5acb2bf64d96eee60e2706dda71",
+        "property": "P3984",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P1810": [
+         {
+          "datatype": "string",
+          "datavalue": {
+           "type": "string",
+           "value": "EV news and products"
+          },
+          "hash": "b41aae4910a1016ebc8eee95d1b5e0718f59d531",
+          "property": "P1810",
+          "snaktype": "value"
+         }
+        ],
+        "P407": [
+         {
+          "datatype": "wikibase-item",
+          "datavalue": {
+           "type": "wikibase-entityid",
+           "value": {
+            "entity-type": "item",
+            "id": "Q1860",
+            "numeric-id": 1860
+           }
+          },
+          "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+          "property": "P407",
+          "snaktype": "value"
+         }
+        ],
+        "P580": [
+         {
+          "datatype": "time",
+          "datavalue": {
+           "type": "time",
+           "value": {
+            "after": 0,
+            "before": 0,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "precision": 11,
+            "time": "+2009-04-20T00:00:00Z",
+            "timezone": 0
+           }
+          },
+          "hash": "69510837bf60fa068d9a3e50a215c1da0e5fc0bd",
+          "property": "P580",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P407",
+        "P580",
+        "P1810"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "848c7514b88b1f487526b9556ccde288c97daabd",
+         "snaks": {
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2018-05-06T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "be0f82c1f563fe0acd805d40974b9ab3e372c220",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P813"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P4527": [
+      {
+       "id": "Q13629441$1269A9C3-0011-4AC4-83EF-2B6052707AB3",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "91079"
+        },
+        "hash": "b52413cc5b9aede87ad5904e7a78ac342edc9f43",
+        "property": "P4527",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P1810": [
+         {
+          "datatype": "string",
+          "datavalue": {
+           "type": "string",
+           "value": "Electric vehicles"
+          },
+          "hash": "81e5d2bec35092e1199dc0da90f7d099098225ff",
+          "property": "P1810",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P1810"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P5008": [
+      {
+       "id": "Q13629441$101C3B73-9238-4213-A307-0047AE480B75",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q15305047",
+          "numeric-id": 15305047
+         }
+        },
+        "hash": "fade5e94397da60f78df68fd121baff9cd7b836d",
+        "property": "P5008",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P508": [
+      {
+       "id": "Q13629441$2DC43D71-3577-4D8F-BF3E-4D450CCF9638",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "17314"
+        },
+        "hash": "9bdd5b5b7004c6b1507180258e92cbd28fd15cfb",
+        "property": "P508",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "ff65511d37e885bcf005b99c2241192548c3f03a",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q16583225",
+              "numeric-id": 16583225
+             }
+            },
+            "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P516": [
+      {
+       "id": "Q13629441$30be40fc-4ef5-eaeb-d390-198cbbad5e23",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q72313",
+          "numeric-id": 72313
+         }
+        },
+        "hash": "d86dd1fd92a95c39757e6ae01093d334cb6cb845",
+        "property": "P516",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P5337": [
+      {
+       "id": "Q13629441$5d16520a-42e2-cfef-10e7-d4bc2a490e5f",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ3YldSbkVnSmxiaWdBUAE"
+        },
+        "hash": "1a4716406a714333c4d9bc1470f0528f498f7a3b",
+        "property": "P5337",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P5437": [
+      {
+       "id": "Q13629441$19954216-834B-4780-BE48-825309E14158",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "4656"
+        },
+        "hash": "845df12b4db7391465ab2457a01aceab1f77d5aa",
+        "property": "P5437",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P459": [
+         {
+          "datatype": "wikibase-item",
+          "datavalue": {
+           "type": "wikibase-entityid",
+           "value": {
+            "entity-type": "item",
+            "id": "Q1266546",
+            "numeric-id": 1266546
+           }
+          },
+          "hash": "3084e3b8a8327068d29db87271ae41c0e0c567fc",
+          "property": "P459",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P459"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "29d9261d3b24be2fb72a4e345a3e45cdf28eeed5",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q1370467",
+              "numeric-id": 1370467
+             }
+            },
+            "hash": "4b222ea31b6fcd95c95734ce289e8c0b903041e9",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P854": [
+           {
+            "datatype": "url",
+            "datavalue": {
+             "type": "string",
+             "value": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"
+            },
+            "hash": "906490cb26d50131e0290371d0ce82d503c6c5e9",
+            "property": "P854",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P854"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P618": [
+      {
+       "id": "Q13629441$8365e965-4d5c-089a-c0cb-0eae6aeae39f",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q11651",
+          "numeric-id": 11651
+         }
+        },
+        "hash": "703db77d6fe9e3e260e0970912496e14e022df0f",
+        "property": "P618",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P6366": [
+      {
+       "id": "Q13629441$9C8E9A13-7E22-4432-B698-962DDD4BB734",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "2776422217"
+        },
+        "hash": "765270c072cfd3854fa4aaaa5c6f6fa438740b81",
+        "property": "P6366",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P646": [
+      {
+       "id": "Q13629441$AACD829E-8986-4F23-9FFF-7E3EA8EDD143",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "/m/01pmdg"
+        },
+        "hash": "9cc4312d8bc662b7c65e504b37efda0b9283f227",
+        "property": "P646",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q15241312",
+              "numeric-id": 15241312
+             }
+            },
+            "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P577": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2013-10-28T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+            "property": "P577",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P577"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P691": [
+      {
+       "id": "Q13629441$50AA20AB-353C-4984-AE26-AC46E177D3C4",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "ph119849"
+        },
+        "hash": "2b0e15f9f7eeccb4af8da4089b63e9b04e14bd8b",
+        "property": "P691",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P1810": [
+         {
+          "datatype": "string",
+          "datavalue": {
+           "type": "string",
+           "value": "elektrická trakční vozidla"
+          },
+          "hash": "761290e97fd48c3cb6db411988d6e7d6e8833617",
+          "property": "P1810",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P1810"
+       ],
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P7502": [
+      {
+       "id": "Q13629441$ACBE5164-DDD7-4E38-AE11-48900D7A3E88",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "Electric_vehicle-MDR4X"
+        },
+        "hash": "e70e0f05074f497dd3e0d2f587898c5ba62fe894",
+        "property": "P7502",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P7870": [
+      {
+       "id": "Q13629441$3D15851C-5BD8-46FD-9556-049548C94A8D",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "83486"
+        },
+        "hash": "6d8fa3eb87666d36e0504782d6f188d415abf77a",
+        "property": "P7870",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P8189": [
+      {
+       "id": "Q13629441$02DA0107-2FC1-41E4-8852-D173583018E3",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "987007538469605171"
+        },
+        "hash": "8bf30db3f0b4ee3acb5c23f9e2855a1509762f7d",
+        "property": "P8189",
+        "snaktype": "value"
+       },
+       "qualifiers": {
+        "P14457": [
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "en",
+            "text": "Electric vehicles"
+           }
+          },
+          "hash": "50cbd2d740af0df5ecc58f7a392f95d8ac8c5763",
+          "property": "P14457",
+          "snaktype": "value"
+         },
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "he",
+            "text": "כלי רכב חשמליים"
+           }
+          },
+          "hash": "183b326f7500def8a8eacd4df0b90596fd0926e9",
+          "property": "P14457",
+          "snaktype": "value"
+         },
+         {
+          "datatype": "monolingualtext",
+          "datavalue": {
+           "type": "monolingualtext",
+           "value": {
+            "language": "ar",
+            "text": "المركبات الكهربائية"
+           }
+          },
+          "hash": "44744b905653e7c7f01b8cf7a03fab82e93dc64f",
+          "property": "P14457",
+          "snaktype": "value"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P14457"
+       ],
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q106509962",
+              "numeric-id": 106509962
+             }
+            },
+            "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P8408": [
+      {
+       "id": "Q13629441$DC92A8EF-0106-4B37-8121-CD0ACE103ADC",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "ElectricallyPoweredVehicle"
+        },
+        "hash": "057784fe2b0bd92a5649bae89770c870949e9a37",
+        "property": "P8408",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+         "snaks": {
+          "P248": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q64139102",
+              "numeric-id": 64139102
+             }
+            },
+            "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+            "property": "P248",
+            "snaktype": "value"
+           }
+          ],
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2020-07-09T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P813"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P910": [
+      {
+       "id": "Q13629441$E069090B-FE14-4E06-8B52-B0FDCD8828D9",
+       "mainsnak": {
+        "datatype": "wikibase-item",
+        "datavalue": {
+         "type": "wikibase-entityid",
+         "value": {
+          "entity-type": "item",
+          "id": "Q7373712",
+          "numeric-id": 7373712
+         }
+        },
+        "hash": "9037c20d68c875d93fa8418e9fcce3dedd9c7607",
+        "property": "P910",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "60cce5d0acf0cc060796196012001192a048d885",
+         "snaks": {
+          "P143": [
+           {
+            "datatype": "wikibase-item",
+            "datavalue": {
+             "type": "wikibase-entityid",
+             "value": {
+              "entity-type": "item",
+              "id": "Q199698",
+              "numeric-id": 199698
+             }
+            },
+            "hash": "390e3b73e7cd926978cab220968d0e3451cfb814",
+            "property": "P143",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ],
+       "type": "statement"
+      }
+     ],
+     "P9322": [
+      {
+       "id": "Q13629441$0184532A-33D6-46D1-B6AB-1E7146E8431D",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "h0006142-elektricka-trakcni-vozidla"
+        },
+        "hash": "e87ffe7e99a64e70a7755e1f353e60cf6774e509",
+        "property": "P9322",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ],
+     "P9368": [
+      {
+       "id": "Q13629441$819E7A2F-B619-4B6E-9C39-5CC666A436B0",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric-vehicles"
+        },
+        "hash": "a0ea940a265ecc1a9004a0c814083f21a99c1c96",
+        "property": "P9368",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "a0df46a048b0fe03c2191f7813b4cf63a617345f",
+         "snaks": {
+          "P1476": [
+           {
+            "datatype": "monolingualtext",
+            "datavalue": {
+             "type": "monolingualtext",
+             "value": {
+              "language": "en",
+              "text": "electric vehicles  latest news & coverage - CNA"
+             }
+            },
+            "hash": "029cddf971bc3d5ce5bb2c1342151fe28acd4c58",
+            "property": "P1476",
+            "snaktype": "value"
+           }
+          ],
+          "P813": [
+           {
+            "datatype": "time",
+            "datavalue": {
+             "type": "time",
+             "value": {
+              "after": 0,
+              "before": 0,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+              "precision": 11,
+              "time": "+2021-09-03T00:00:00Z",
+              "timezone": 0
+             }
+            },
+            "hash": "b537cb41efb7ac627301f3abf2166ff719d556e0",
+            "property": "P813",
+            "snaktype": "value"
+           }
+          ],
+          "P854": [
+           {
+            "datatype": "url",
+            "datavalue": {
+             "type": "string",
+             "value": "https://www.channelnewsasia.com/topic/electric-vehicles"
+            },
+            "hash": "6f6d76549f2c17fa1b2bea67451f9b9daf7f31c6",
+            "property": "P854",
+            "snaktype": "value"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P854",
+          "P1476",
+          "P813"
+         ]
+        }
+       ],
+       "type": "statement"
+      },
+      {
+       "id": "Q13629441$2DA49385-6F7B-45D9-A16F-D6B1E8016C4C",
+       "mainsnak": {
+        "datatype": "external-id",
+        "datavalue": {
+         "type": "string",
+         "value": "electric-vehicle"
+        },
+        "hash": "0c4f085542e522aa8e3dabc0ad67e6ff31d283e2",
+        "property": "P9368",
+        "snaktype": "value"
+       },
+       "rank": "normal",
+       "type": "statement"
+      }
+     ]
+    },
+    "descriptions": {
+     "de": {
+      "language": "de",
+      "value": "elektrisch betriebenes Fahrzeug"
+     },
+     "en": {
+      "language": "en",
+      "value": "vehicle propelled by one or more electric motors"
+     }
+    },
+    "id": "Q13629441",
+    "labels": {
+     "de": {
+      "language": "de",
+      "value": "Elektrofahrzeug"
+     },
+     "en": {
+      "language": "en",
+      "value": "electric vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електротранспорт"
+     }
+    },
+    "sitelinks": {
+     "afwiki": {
+      "badges": [],
+      "site": "afwiki",
+      "title": "Elektriese voertuig"
+     },
+     "alswiki": {
+      "badges": [],
+      "site": "alswiki",
+      "title": "Elektrofahrzeug"
+     },
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "مركبة كهربائية"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Електрическо превозно средство"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "বৈদ্যুতিক যানবাহন"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Vehicle elèctric"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "ئامرازەکانی گواستنەوەی کارەبایی"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Elkøretøj"
+     },
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "Elektrofahrzeug"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Ηλεκτροκίνητο όχημα"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle"
+     },
+     "enwikiquote": {
+      "badges": [],
+      "site": "enwikiquote",
+      "title": "Electric vehicles"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Elektra veturilo"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Vehículo eléctrico"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Elektervedu"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Ibilgailu elektriko"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "وسیله نقلیه الکتریکی"
+     },
+     "frrwiki": {
+      "badges": [],
+      "site": "frrwiki",
+      "title": "Elektrisk Köörmaskiin"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Véhicule électrique"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Feithicil leictreach"
+     },
+     "guwiki": {
+      "badges": [],
+      "site": "guwiki",
+      "title": "વિદ્યુત વાહન"
+     },
+     "hakwiki": {
+      "badges": [],
+      "site": "hakwiki",
+      "title": "Thien-thûng Khì-chhâ"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "विद्युत वाहन"
+     },
+     "htwiki": {
+      "badges": [],
+      "site": "htwiki",
+      "title": "Veyikil elektrik"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Kendaraan bermotor listrik"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Rafknúið farartæki"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Veicolo elettrico"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Veicolo elettrico"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "電動輸送機器"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "전기 탈것"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Ajotinê elektrîk"
+     },
+     "mlwiki": {
+      "badges": [],
+      "site": "mlwiki",
+      "title": "വൈദ്യുത വാഹനം"
+     },
+     "mnwiki": {
+      "badges": [],
+      "site": "mnwiki",
+      "title": "Цахилгаан автомашин"
+     },
+     "mywiki": {
+      "badges": [],
+      "site": "mywiki",
+      "title": "လျှပ်စစ်စွမ်းအင်သုံး ယာဉ်များ"
+     },
+     "newiki": {
+      "badges": [],
+      "site": "newiki",
+      "title": "विद्युतिय सवारी साधन"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Elektrisch voertuig"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Pojazd elektryczny"
+     },
+     "pswiki": {
+      "badges": [],
+      "site": "pswiki",
+      "title": "برېښنايي نقلیه وسایط"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Veículo elétrico"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Vehicul electric"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Электротранспорт"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Electric vehicle"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Električno vozilo"
+     },
+     "sqwiki": {
+      "badges": [],
+      "site": "sqwiki",
+      "title": "Automjeti elektrik"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Električno vozilo"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Elfordon"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "ยานยนต์ไฟฟ้า"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Elektrikli araç"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Електротранспорт"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Xe chạy điện"
+     },
+     "xhwiki": {
+      "badges": [],
+      "site": "xhwiki",
+      "title": "Isithuthi sombane"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "電動交通工具"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "电动载具"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "Isithuthi samazuba"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q13629441&languages=uk%7Cen&props=labels%7Caliases": {
+  "entities": {
+   "Q13629441": {
+    "aliases": {
+     "en": [
+      {
+       "language": "en",
+       "value": "EV"
+      },
+      {
+       "language": "en",
+       "value": "electrically-powered vehicle"
+      }
+     ]
+    },
+    "id": "Q13629441",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електротранспорт"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q483373%7CQ625151%7CQ16936947%7CQ5639%7CQ1076882%7CQ1136730%7CQ519302%7CQ1326749%7CQ926499%7CQ275816%7CQ15825863%7CQ11083590%7CQ1327077%7CQ1483388%7CQ909558%7CQ21161871%7CQ2625479%7CQ7448027%7CQ22672404%7CQ30280458%7CQ106551740%7CQ55637210%7CQ97120016%7CQ42324990%7CQ1326927%7CQ3122725%7CQ52161141%7CQ18353131%7CQ5357657%7CQ5357667%7CQ1739514%7CQ106244474%7CQ116180488%7CQ65550518%7CQ109046996%7CQ85387520%7CQ109364975%7CQ138506702%7CQ117204360%7CQ104467102%7CQ108865869%7CQ2692470%7CQ130488905%7CQ57082857%7CQ29583203%7CQ125101803%7CQ123091333%7CQ4986058%7CQ29683498%7CQ141144453&languages=uk%7Cen&props=sitelinks%7Clabels&sitefilter=enwiki%7Cdewiki": {
+  "entities": {
+   "Q104467102": {
+    "id": "Q104467102",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "MK 2020L"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q106244474": {
+    "id": "Q106244474",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "FGV 1-15 series"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q106551740": {
+    "id": "Q106551740",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Toyota bZ series"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Toyota bZ"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Toyota bZ"
+     }
+    },
+    "type": "item"
+   },
+   "Q1076882": {
+    "id": "Q1076882",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "battery electric vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Акумуляторний електромобіль"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Batterieelektrisches Fahrzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Battery electric vehicle"
+     }
+    },
+    "type": "item"
+   },
+   "Q108865869": {
+    "id": "Q108865869",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Wello"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q109046996": {
+    "id": "Q109046996",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric tractor"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektrotraktor"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric tractor"
+     }
+    },
+    "type": "item"
+   },
+   "Q109364975": {
+    "id": "Q109364975",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q11083590": {
+    "id": "Q11083590",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "hybrid electric vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "гібридний електромобіль"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Hybridelektrokraftfahrzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Hybrid electric vehicle"
+     }
+    },
+    "type": "item"
+   },
+   "Q1136730": {
+    "id": "Q1136730",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "solar vehicle"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Solarfahrzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Solar vehicle"
+     }
+    },
+    "type": "item"
+   },
+   "Q116180488": {
+    "id": "Q116180488",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Batpod"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q117204360": {
+    "id": "Q117204360",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Moke (revival)"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Moke (2013)"
+     }
+    },
+    "type": "item"
+   },
+   "Q123091333": {
+    "id": "Q123091333",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q125101803": {
+    "id": "Q125101803",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Rivian R3"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Rivian R3"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Rivian R3"
+     }
+    },
+    "type": "item"
+   },
+   "Q130488905": {
+    "id": "Q130488905",
+    "labels": {},
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Tesla Robovan"
+     }
+    },
+    "type": "item"
+   },
+   "Q1326749": {
+    "id": "Q1326749",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vessel"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Wasserfahrzeug mit Elektroantrieb"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric boat"
+     }
+    },
+    "type": "item"
+   },
+   "Q1326927": {
+    "id": "Q1326927",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electrocar"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "автокар"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektrokarre"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electrocar"
+     }
+    },
+    "type": "item"
+   },
+   "Q1327077": {
+    "id": "Q1327077",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric motorcycle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Электромотоцикл"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektromotorrad"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric motorcycles and scooters"
+     }
+    },
+    "type": "item"
+   },
+   "Q138506702": {
+    "id": "Q138506702",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Eonyx"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q141144453": {
+    "id": "Q141144453",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Daewoo Matiz EV"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q1483388": {
+    "id": "Q1483388",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "plug-in hybrid"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електротранспорт"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Plug-in-Hybrid"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Plug-in hybrid"
+     }
+    },
+    "type": "item"
+   },
+   "Q15825863": {
+    "id": "Q15825863",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "light rail vehicle"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q16936947": {
+    "id": "Q16936947",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric rail motor coach"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q1739514": {
+    "id": "Q1739514",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "trolleytruck"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Вантажний тролейбус"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Oberleitungslastkraftwagen"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Trolleytruck"
+     }
+    },
+    "type": "item"
+   },
+   "Q18353131": {
+    "id": "Q18353131",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric rickshaw"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric rickshaw"
+     }
+    },
+    "type": "item"
+   },
+   "Q21161871": {
+    "id": "Q21161871",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "self-balancing scooter"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "гіроскутер"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "E-Board"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Self-balancing scooter"
+     }
+    },
+    "type": "item"
+   },
+   "Q22672404": {
+    "id": "Q22672404",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hyundai Ioniq"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Hyundai Ioniq"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Hyundai Ioniq"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Hyundai Ioniq"
+     }
+    },
+    "type": "item"
+   },
+   "Q2625479": {
+    "id": "Q2625479",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric tram"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "enwiki",
+      "title": "Electric tram"
+     }
+    },
+    "type": "item"
+   },
+   "Q2692470": {
+    "id": "Q2692470",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric train"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q275816": {
+    "id": "Q275816",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Lunar Roving Vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Місячний автомобіль"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Lunar Roving Vehicle"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Lunar Roving Vehicle"
+     }
+    },
+    "type": "item"
+   },
+   "Q29583203": {
+    "id": "Q29583203",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Electric fire engine"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric fire engine"
+     }
+    },
+    "type": "item"
+   },
+   "Q29683498": {
+    "id": "Q29683498",
+    "labels": {},
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q30280458": {
+    "id": "Q30280458",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "FEDDZ"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "FEDDZ"
+     }
+    },
+    "type": "item"
+   },
+   "Q3122725": {
+    "id": "Q3122725",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "gyropod"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q42324990": {
+    "id": "Q42324990",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Volocopter 2X"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Volocopter VC200 / 2X"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Volocopter 2X"
+     }
+    },
+    "type": "item"
+   },
+   "Q483373": {
+    "id": "Q483373",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric multiple unit"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електропоїзд"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric multiple unit"
+     }
+    },
+    "type": "item"
+   },
+   "Q4986058": {
+    "id": "Q4986058",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "BugE"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "BugE"
+     }
+    },
+    "type": "item"
+   },
+   "Q519302": {
+    "id": "Q519302",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric aircraft"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Літак на сонячній енергії"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektroflugzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric aircraft"
+     }
+    },
+    "type": "item"
+   },
+   "Q52161141": {
+    "id": "Q52161141",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Stint"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q5357657": {
+    "id": "Q5357657",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric trike"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric trike"
+     }
+    },
+    "type": "item"
+   },
+   "Q5357667": {
+    "id": "Q5357667",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric vehicle conversion"
+     }
+    },
+    "sitelinks": {
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric vehicle conversion"
+     }
+    },
+    "type": "item"
+   },
+   "Q55637210": {
+    "id": "Q55637210",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Volkswagen ID. series"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Volkswagen серії ID"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "VW-ID.-Familie"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Volkswagen ID. series"
+     }
+    },
+    "type": "item"
+   },
+   "Q5639": {
+    "id": "Q5639",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "trolleybus"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "тролейбус"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "dewiki",
+      "title": "Oberleitungsbus"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Trolleybus"
+     }
+    },
+    "type": "item"
+   },
+   "Q57082857": {
+    "id": "Q57082857",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Bolloré Bluesummer"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q625151": {
+    "id": "Q625151",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric locomotive"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "електровоз"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektrolokomotive"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric locomotive"
+     }
+    },
+    "type": "item"
+   },
+   "Q65550518": {
+    "id": "Q65550518",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Volkswagen ID. Buggy"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Volkswagen ID. Buggy"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "VW ID. Buggy"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Volkswagen ID. Buggy"
+     }
+    },
+    "type": "item"
+   },
+   "Q7448027": {
+    "id": "Q7448027",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric unicycle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Моноколесо"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "dewiki",
+      "title": "Elektroeinrad"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric unicycle"
+     }
+    },
+    "type": "item"
+   },
+   "Q85387520": {
+    "id": "Q85387520",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "GMC Hummer EV"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "GMC Hummer EV"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "GMC Hummer EV"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "GMC Hummer EV"
+     }
+    },
+    "type": "item"
+   },
+   "Q909558": {
+    "id": "Q909558",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "fuel cell vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "автомобіль на паливних елементах"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Brennstoffzellenfahrzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Fuel cell vehicle"
+     }
+    },
+    "type": "item"
+   },
+   "Q926499": {
+    "id": "Q926499",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "electric bus"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Електробус"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Elektrobus"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Electric bus"
+     }
+    },
+    "type": "item"
+   },
+   "Q97120016": {
+    "id": "Q97120016",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercedes-Benz EQS"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Mercedes-Benz EQS"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Mercedes-Benz EQS"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Mercedes-Benz EQS"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q752870&languages=uk%7Cen&props=sitelinks%7Clabels&sitefilter=enwiki%7Cdewiki": {
+  "entities": {
+   "Q752870": {
+    "id": "Q752870",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "motor vehicle"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "транспортний засіб з двигуном"
+     }
+    },
+    "sitelinks": {
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Kraftfahrzeug"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Motor vehicle"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&limit=10&search=electric+vehicle&type=item&uselang=en": {
+  "search": [
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q13629441",
+    "description": "vehicle propelled by one or more electric motors",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "vehicle propelled by one or more electric motors"
+     },
+     "label": {
+      "language": "en",
+      "value": "electric vehicle"
+     }
+    },
+    "id": "Q13629441",
+    "label": "electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "electric vehicle",
+     "type": "label"
+    },
+    "pageid": 15283293,
+    "repository": "wikidata",
+    "title": "Q13629441",
+    "url": "//www.wikidata.org/wiki/Q13629441"
+   },
+   {
+    "aliases": [
+     "Electric Vehicle Supply Equipment"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q2140665",
+    "description": "infrastructure that supplies electric energy for the recharging of electric vehicles",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "infrastructure that supplies electric energy for the recharging of electric vehicles"
+     },
+     "label": {
+      "language": "en",
+      "value": "charging station"
+     }
+    },
+    "id": "Q2140665",
+    "label": "charging station",
+    "match": {
+     "language": "en",
+     "text": "Electric Vehicle Supply Equipment",
+     "type": "alias"
+    },
+    "pageid": 2066549,
+    "repository": "wikidata",
+    "title": "Q2140665",
+    "url": "//www.wikidata.org/wiki/Q2140665"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q37929123",
+    "description": "infrastructure system of charging stations for electric vehicles",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "infrastructure system of charging stations for electric vehicles"
+     },
+     "label": {
+      "language": "en",
+      "value": "electric vehicle charging network"
+     }
+    },
+    "id": "Q37929123",
+    "label": "electric vehicle charging network",
+    "match": {
+     "language": "en",
+     "text": "electric vehicle charging network",
+     "type": "label"
+    },
+    "pageid": 39299283,
+    "repository": "wikidata",
+    "title": "Q37929123",
+    "url": "//www.wikidata.org/wiki/Q37929123"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q900762",
+    "description": "battery used to power the electric motors of a battery electric vehicle or hybrid electric vehicle",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "battery used to power the electric motors of a battery electric vehicle or hybrid electric vehicle"
+     },
+     "label": {
+      "language": "en",
+      "value": "electric vehicle battery"
+     }
+    },
+    "id": "Q900762",
+    "label": "electric vehicle battery",
+    "match": {
+     "language": "en",
+     "text": "electric vehicle battery",
+     "type": "label"
+    },
+    "pageid": 851559,
+    "repository": "wikidata",
+    "title": "Q900762",
+    "url": "//www.wikidata.org/wiki/Q900762"
+   },
+   {
+    "aliases": [
+     "Electric vehicle"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q193692",
+    "description": "automobile propelled by an electric motor using energy stored in rechargeable batteries",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "automobile propelled by an electric motor using energy stored in rechargeable batteries"
+     },
+     "label": {
+      "language": "en",
+      "value": "electric car"
+     }
+    },
+    "id": "Q193692",
+    "label": "electric car",
+    "match": {
+     "language": "ml",
+     "text": "Electric vehicle",
+     "type": "alias"
+    },
+    "pageid": 191699,
+    "repository": "wikidata",
+    "title": "Q193692",
+    "url": "//www.wikidata.org/wiki/Q193692"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q119522851",
+    "description": "US patent 11299050",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "US patent 11299050"
+     },
+     "label": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "id": "Q119522851",
+    "label": "Electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "Electric vehicle",
+     "type": "label"
+    },
+    "pageid": 114006143,
+    "repository": "wikidata",
+    "title": "Q119522851",
+    "url": "//www.wikidata.org/wiki/Q119522851"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q125019890",
+    "description": "US patent 11148535",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "US patent 11148535"
+     },
+     "label": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "id": "Q125019890",
+    "label": "Electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "Electric vehicle",
+     "type": "label"
+    },
+    "pageid": 119191185,
+    "repository": "wikidata",
+    "title": "Q125019890",
+    "url": "//www.wikidata.org/wiki/Q125019890"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q119693970",
+    "description": "US patent 11142064",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "US patent 11142064"
+     },
+     "label": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "id": "Q119693970",
+    "label": "Electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "Electric vehicle",
+     "type": "label"
+    },
+    "pageid": 114173060,
+    "repository": "wikidata",
+    "title": "Q119693970",
+    "url": "//www.wikidata.org/wiki/Q119693970"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q118134000",
+    "description": "US patent 11247573",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "US patent 11247573"
+     },
+     "label": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "id": "Q118134000",
+    "label": "Electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "Electric vehicle",
+     "type": "label"
+    },
+    "pageid": 112650130,
+    "repository": "wikidata",
+    "title": "Q118134000",
+    "url": "//www.wikidata.org/wiki/Q118134000"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q118179235",
+    "description": "US patent 11214185",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "US patent 11214185"
+     },
+     "label": {
+      "language": "en",
+      "value": "Electric vehicle"
+     }
+    },
+    "id": "Q118179235",
+    "label": "Electric vehicle",
+    "match": {
+     "language": "en",
+     "text": "Electric vehicle",
+     "type": "label"
+    },
+    "pageid": 112702507,
+    "repository": "wikidata",
+    "title": "Q118179235",
+    "url": "//www.wikidata.org/wiki/Q118179235"
+   }
+  ],
+  "search-continue": 10,
+  "searchinfo": {
+   "search": "electric vehicle"
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=uk&limit=10&search=%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%96&type=item&uselang=en": {
+  "search": [
+   {
+    "aliases": [
+     "Електромобілі на сонячних батареях"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q1079037",
+    "description": "electric car with built-in solar cells for power generation",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "electric car with built-in solar cells for power generation"
+     },
+     "label": {
+      "language": "en",
+      "value": "solar car"
+     }
+    },
+    "id": "Q1079037",
+    "label": "solar car",
+    "match": {
+     "language": "uk",
+     "text": "Електромобілі на сонячних батареях",
+     "type": "label"
+    },
+    "pageid": 1027251,
+    "repository": "wikidata",
+    "title": "Q1079037",
+    "url": "//www.wikidata.org/wiki/Q1079037"
+   },
+   {
+    "aliases": [
+     "Електромобілі в Європі"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q48816237",
+    "description": "overview of plug-in electric vehicles in Europe",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "overview of plug-in electric vehicles in Europe"
+     },
+     "label": {
+      "language": "en",
+      "value": "plug-in electric vehicles in Europe"
+     }
+    },
+    "id": "Q48816237",
+    "label": "plug-in electric vehicles in Europe",
+    "match": {
+     "language": "uk",
+     "text": "Електромобілі в Європі",
+     "type": "label"
+    },
+    "pageid": 49834153,
+    "repository": "wikidata",
+    "title": "Q48816237",
+    "url": "//www.wikidata.org/wiki/Q48816237"
+   },
+   {
+    "aliases": [
+     "Електромобілі Rising Auto"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q125444773",
+    "description": "Wikimedia category",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "Wikimedia category"
+     },
+     "label": {
+      "language": "en",
+      "value": "Category:Rising Auto vehicles"
+     }
+    },
+    "id": "Q125444773",
+    "label": "Category:Rising Auto vehicles",
+    "match": {
+     "language": "uk",
+     "text": "Електромобілі Rising Auto",
+     "type": "alias"
+    },
+    "pageid": 119570418,
+    "repository": "wikidata",
+    "title": "Q125444773",
+    "url": "//www.wikidata.org/wiki/Q125444773"
+   }
+  ],
+  "searchinfo": {
+   "search": "електромобілі"
+  },
+  "success": 1
+ }
+}

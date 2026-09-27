@@ -1,0 +1,504 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:астрономія",
+    "en:astronomy"
+  ],
+  "targets": [
+    "uk"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q333",
+    "label": "астрономія",
+    "description": "одна з найдавніших наук, що включає спостереження і пояснення подій, які відбуваються за межами Землі та її атмосфери",
+    "language_editions_with_article": 253
+  },
+  "coverage": {
+    "uk": {
+      "core_title": "Астрономія",
+      "included_articles": 1,
+      "included_redirects": 1
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q333",
+      "label": "астрономія",
+      "role": "core",
+      "titles": {
+        "uk": "Астрономія"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q336",
+      "label": "наука",
+      "role": "broader",
+      "titles": {
+        "uk": "Наука"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q7991",
+      "label": "природничі науки",
+      "role": "broader",
+      "titles": {
+        "uk": "Природничі науки"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q475023",
+      "label": "точна наука",
+      "role": "broader",
+      "titles": {
+        "uk": "Точні науки"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q14632398",
+      "label": "фізичні науки",
+      "role": "broader",
+      "titles": {
+        "uk": "Фізичні науки"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q338",
+      "label": "космологія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Космологія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q411",
+      "label": "космічна біологія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астробіологія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q6440",
+      "label": "Зоряна кінематика",
+      "role": "narrower",
+      "titles": {
+        "uk": "Зоряна кінематика"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q12134",
+      "label": "небесна сфера",
+      "role": "narrower",
+      "titles": {
+        "uk": "Небесна сфера"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q18346",
+      "label": "фізична космологія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Фізична космологія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q37547",
+      "label": "астрофізика",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрофізика"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q58908",
+      "label": "Галактична астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Галактична астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q181505",
+      "label": "астрометрія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрометрія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q184274",
+      "label": "небесна механіка",
+      "role": "narrower",
+      "titles": {
+        "uk": "Небесна механіка"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q463923",
+      "label": "Археоастрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Археоастрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q502038",
+      "label": "Позагалактична астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Позагалактична астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q523236",
+      "label": "синодичний період",
+      "role": "narrower",
+      "titles": {
+        "uk": "Синодичний період"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q550089",
+      "label": "астрономічний огляд",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономічний огляд"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q560575",
+      "label": "аматорська астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Аматорська астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q622752",
+      "label": "Гамма-астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Гамма-астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q751843",
+      "label": "Астрономія в Стародавньому Єгипті",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія в Стародавньому Єгипті"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q787929",
+      "label": "Вавилонська астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Вавилонська астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q818557",
+      "label": "спостережна астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Спостережна астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1073340",
+      "label": "фотометрія (астрономія)",
+      "role": "narrower",
+      "titles": {
+        "uk": "Фотометрія (астрономія)"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1099704",
+      "label": "Астрономія на Марсі",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія на Марсі"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1255366",
+      "label": "Астрономія ісламського Середньовіччя",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія в середньовічному ісламському світі"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1268276",
+      "label": "Астрономія у Стародавньому Китаї",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія у Стародавньому Китаї"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1292962",
+      "label": "Індійська астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Індійська астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1392782",
+      "label": "гномоніка",
+      "role": "narrower",
+      "titles": {
+        "uk": "Гномоніка"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1413491",
+      "label": "ультрафіолетова астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Ультрафіолетова астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1823435",
+      "label": "відбивач світла",
+      "role": "narrower",
+      "titles": {
+        "uk": "Відбивач світла"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1965418",
+      "label": "Еквант",
+      "role": "narrower",
+      "titles": {
+        "uk": "Еквант"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2059906",
+      "label": "Астрономія австралійських аборигенів",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія австралійських аборигенів"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2293690",
+      "label": "Метеоритика",
+      "role": "narrower",
+      "titles": {
+        "uk": "Метеоритика"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2295061",
+      "label": "зоряна астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Зоряна астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2390452",
+      "label": "Астрономія Стародавньої Греції",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрономія Стародавньої Греції"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2740627",
+      "label": "геліофізика",
+      "role": "narrower",
+      "titles": {
+        "uk": "Геліофізика"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2746952",
+      "label": "Астрофізика високих енергій",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрофізика високих енергій"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q3813960",
+      "label": "Сонцеподібні осциляції",
+      "role": "narrower",
+      "titles": {
+        "uk": "Сонцеподібні осциляції"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q5193262",
+      "label": "Культурна астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Культурна астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q6144418",
+      "label": "Сонячні енергетичні частинки",
+      "role": "narrower",
+      "titles": {
+        "uk": "Сонячні енергетичні частинки"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q7631676",
+      "label": "субміліметрова астрономія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Субміліметрова астрономія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q11680018",
+      "label": "астрохімія",
+      "role": "narrower",
+      "titles": {
+        "uk": "Астрохімія"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q108314835",
+      "label": "Закон Гейла",
+      "role": "narrower",
+      "titles": {
+        "uk": "Закон Гейла"
+      },
+      "in_all_targets": true,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Астрономія",
+      "kind": "article",
+      "entity_id": "Q333",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Astronomy",
+      "kind": "redirect",
+      "redirect_to": "Астрономія",
+      "entity_id": "Q333",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q12012641 (Астрономія: fictional class at Hogwarts; статті в 2 мовних розділах); обрано значно поширеніше Q333 (астрономія: одна з найдавніших наук, що включає спостереження і пояснення подій, які відбуваються за межами Землі та її атмосфери; статті в 253 мовних розділах)"
+    },
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (uk) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Згадай одним рядком: запит також збігся з Q12012641 (Астрономія: fictional class at Hogwarts; статті в 2 мовних розділах); обрано значно поширеніше Q333 (астрономія: одна з найдавніших наук, що включає спостереження і пояснення подій, які відбуваються за межами Землі та її атмосфери; статті в 253 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 39 (напр., космологія, космічна біологія, Зоряна кінематика); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

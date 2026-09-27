@@ -1,0 +1,99 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "en:ChatGPT"
+  ],
+  "targets": [
+    "de",
+    "fr"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q115564437",
+    "label": "Чат Джі Пі Ті",
+    "description": "чат-бот на базі ШІ",
+    "language_editions_with_article": 130
+  },
+  "coverage": {
+    "de": {
+      "core_title": "ChatGPT",
+      "included_articles": 1,
+      "included_redirects": 1
+    },
+    "fr": {
+      "core_title": "ChatGPT",
+      "included_articles": 1,
+      "included_redirects": 2
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q115564437",
+      "label": "Чат Джі Пі Ті",
+      "role": "core",
+      "titles": {
+        "de": "ChatGPT",
+        "fr": "ChatGPT"
+      },
+      "in_all_targets": true,
+      "included": true
+    }
+  ],
+  "articles": [
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "ChatGPT",
+      "kind": "article",
+      "entity_id": "Q115564437",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "ChatGPT Plus",
+      "kind": "redirect",
+      "redirect_to": "ChatGPT",
+      "entity_id": "Q115564437",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "ChatGPT",
+      "kind": "article",
+      "entity_id": "Q115564437",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Chatgpt",
+      "kind": "redirect",
+      "redirect_to": "ChatGPT",
+      "entity_id": "Q115564437",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Chat gpt",
+      "kind": "redirect",
+      "redirect_to": "ChatGPT",
+      "entity_id": "Q115564437",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (de, fr) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Кошик готовий; передай його 'articles' на етап збору переглядів."
+  ],
+  "reply_language": "uk"
+}

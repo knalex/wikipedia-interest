@@ -1,0 +1,45 @@
+{
+  "status": "ambiguous",
+  "input_queries": [
+    "ru:Меркурий",
+    "en:Mercury"
+  ],
+  "candidates": [
+    {
+      "entity_id": "Q308",
+      "label": "Меркурій",
+      "description": "найближча до Сонця велика планета Сонячної системи",
+      "language_editions_with_article": 251,
+      "titles": {
+        "pl": "Merkury",
+        "cs": "Merkur (planeta)"
+      }
+    },
+    {
+      "entity_id": "Q925",
+      "label": "ртуть",
+      "description": "хімічний елемент з атомним номером 80",
+      "language_editions_with_article": 176,
+      "titles": {
+        "pl": "Rtęć",
+        "cs": "Rtuť"
+      }
+    },
+    {
+      "entity_id": "Q1150",
+      "label": "Меркурій",
+      "description": "Roman god of trade, merchants, thieves and travel",
+      "language_editions_with_article": 84,
+      "titles": {
+        "pl": "Merkury (mitologia)",
+        "cs": "Merkur (mytologie)"
+      }
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (pl, cs) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Покажи кандидатів користувачу і перезапусти з --entity <QID>."
+  ],
+  "reply_language": "uk"
+}

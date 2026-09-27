@@ -1,0 +1,51 @@
+# Приклади роботи етапу 1
+
+Кожен приклад складається з запиту користувача і команди, яку за правилами
+`SKILL.md` запускає агент. Для кожного є два файли:
+
+- `NN_*.stdout.json` — стислий вивід, який читає агент;
+- `NN_*.basket.json` — повний кошик зі списком `articles` для етапу збору переглядів.
+  Для `ambiguous`, `not_found` і `error` кошика немає.
+
+Усі команди запускаються з кореня навички:
+
+```bash
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
+  <аргументи з таблиці> --user-message "<запит користувача>" \
+  --out examples/NN_назва.basket.json > examples/NN_назва.stdout.json
+```
+
+Кожна команда також передає `--user-message` з запитом користувача з таблиці
+дослівно, а якщо було уточнення, то ще одним `--user-message` з відповіддю
+користувача. У таблиці їх не повторено.
+
+Запити 1, 3 і 4 узято з опису завдання, решта — перевірка граничних випадків.
+Якщо в колонці «Уточнення» щось є, агент спершу питав користувача і
+запустив команду вже з його відповіддю.
+
+| # | Запит користувача | Уточнення | Аргументи | Статус | Що показує |
+|---|---|---|---|---|---|
+| 01 | Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки. | — | `--query "uk:інтервальне голодування" --query "en:intermittent fasting" --targets pl,cs` | `partial` | У pl немає статті, у cs — «Přerušovaný půst»; пропонується ширше поняття «піст» (pl: Post) |
+| 02 | те саме, користувач підказав польську назву | «post przerywany» | `… --query "pl:post przerywany" --targets pl,cs` | `partial` | Фраза трапляється лише всередині 3 польських статей — окремої статті немає |
+| 03 | Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти? | — | `--query "uk:астрономія" --query "en:astronomy" --targets uk` | `resolved` | «Астрономія» + 1 перенаправлення; предмет Гоґвортсу відкинуто (`resolved_by_dominance`); 39 вужчих понять для розширення |
+| 04 | Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах та підготуй короткий звіт: які аудиторії варто дослідити наступними й чому? | uk, pl, de, es | `--query "uk:вивчення англійської" --query "en:English as a second or foreign language" --targets uk,pl,de,es` | `partial` | Статті є лише в de і es; сама українська фраза вказувала на «International Corpus of English» (`user_phrase_weak_match`) |
+| 05 | Сравни интерес к Меркурию в польской и чешской Википедии за последний год. | — | `--query "ru:Меркурий" --query "en:Mercury" --targets pl,cs` | `ambiguous` | Три кандидати: планета, ртуть, бог — агент має спитати |
+| 06 | Порівняй, як змінився інтерес до ШІ в українській і польській Wikipedia з 2023 року. | — | `--query "uk:ШІ" --query "en:artificial intelligence" --targets uk,pl` | `resolved` | Абревіатура сама по собі означає інше (`user_phrase_differs`) — скрипт готує питання «Під «ШІ» ви маєте на увазі штучний інтелект?» |
+| 07 | Порівняй інтерес до "штучного інтелекту" в українській, польській та чеській Wikipedia. | — | `--query "uk:штучний інтелект" --query "en:artificial intelligence" --targets uk,pl,cs` | `resolved` | Три розділи, 7 і 4 перенаправлення в uk і cs |
+| 08 | Сравни интерес к Шевченко в польской и чешской Википедии. | — | `--query "ru:Шевченко" --query "en:Shevchenko" --targets pl,cs` | `ambiguous` | Лише селище й елемент «прізвище» — пошук людей не знаходить (відоме обмеження, низький пріоритет) |
+| 09 | Сравни интерес к биткоину в польской и клингонской Википедии. | — | `--query "ru:биткоин" --query "en:Bitcoin" --targets pl,tlh` | `error` | `unknown_wikipedia_edition: tlh` — розділу немає, це не помилка мережі |
+| 10 | Перевір, чи росте інтерес до квантового борщу Бородіна в українській і чеській Wikipedia. | — | `--query "uk:квантовий борщ Бородіна" --query "en:quantum borscht Borodin" --targets uk,cs` | `not_found` | Тему не знайдено; `next_steps` забороняє самовільні пошуки замінників |
+| 11 | Порівняй інтерес до кави в польській і чеській Wikipedia за останні 3 роки. | — | `--query "uk:кава" --query "en:coffee" --targets pl,cs` | `resolved` | «Kawa», «Káva» + 4 перенаправлення |
+| 12 | (наступне повідомлення) Додай ще словацьку Wikipedia до порівняння. | — | `--query "uk:кава" --query "en:coffee" --targets pl,cs,sk` | `resolved` | Повторний запуск із розширеним `--targets` |
+| 13 | Як змінювався інтерес до теми "вегетаріанство" в німецькій Wikipedia за 3 роки? | — | `--query "uk:вегетаріанство" --query "en:vegetarianism" --targets de` | `resolved` | «Vegetarismus» + 16 перенаправлень |
+| 14 | Порівняй тренд "Pyhton programming" між англійською та німецькою Wikipedia. | — | `--query "en:Python programming" --targets en,de` | `resolved` | Опечатку виправлено (агент має сказати про це); 50 і 5 перенаправлень |
+| 15 | Покажи тренд переглядів статті "Bitcoin" з 2010 по 2015 рік. | en | `--query "en:Bitcoin" --targets en` | `resolved` | Стаття є, але Pageviews API має дані лише з липня 2015 року: `SKILL.md` велить сказати це одразу, у коді це перевірятиме етап 2 |
+| 16 | Порівняй "електромобілі" в англійській, німецькій, французькій та японській Wikipedia. | — | `--query "uk:електромобілі" --query "en:electric vehicle" --targets en,de,fr,ja` | `resolved` | **Навмисна помилка агента:** переклад ширшим поняттям дає «електротранспорт»; скрипт ловить це (`core_label_mismatch`) і просить підтвердження |
+| 17 | те саме, правильні аргументи | — | `--query "uk:електромобіль" --query "en:electric car" --targets en,de,fr,ja` | `resolved` | «Electric car», «Elektroauto», «Voiture électrique», «電気自動車» |
+| 18 | Чи зростає інтерес до теми "квантова біологія" у шведській Wikipedia? | — | `--query "uk:квантова біологія" --query "en:quantum biology" --targets sv` | `resolved` | Вузька тема: «Kvantbiologi», без перенаправлень |
+| 19 | Порівняй інтерес до щойно створеної статті про подію 2026 року у двох мовних розділах Wikipedia. | Зимові Олімпійські ігри 2026, en та it | `--query "uk:Зимові Олімпійські ігри 2026" --query "en:2026 Winter Olympics" --targets en,it` | `resolved` | «2026 Winter Olympics» + 45 і «XXV Giochi olimpici invernali» + 2 перенаправлення |
+| 20 | Is interest in ChatGPT growing faster in the German or the French Wikipedia? | — | `--query "en:ChatGPT" --targets de,fr` | `resolved` | Запит англійською; відповідь агента все одно українською |
+| 21 | те саме, що 04, але агент замінив слова користувача | uk, pl, de, es | `--query "uk:англійська мова" --query "en:English as a second or foreign language" --targets uk,pl,de,es` | `resolved` | **Навмисна помилка агента:** «англійська мова» не зі слів користувача → ширше поняття Q1860; скрипт ловить це (`query_not_in_user_message`) і велить перезапустити зі словами користувача |
+
+Як поводився на цих запитах агент на Claude Haiku 4.5 — у
+[`../docs/haiku-evaluation.md`](../docs/haiku-evaluation.md).

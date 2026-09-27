@@ -1,0 +1,90 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "en:Bitcoin"
+  ],
+  "targets": [
+    "en"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q131723",
+    "label": "біткойн",
+    "description": "система електронних грошей та валютна одиниця, яка використовується в ній",
+    "language_editions_with_article": 140
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Bitcoin",
+      "included_articles": 1,
+      "included_redirects": 47
+    }
+  },
+  "warnings": [
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q136095321 (Bitcoin: 2026 American drama film directed by Doug Liman; статті в 4 мовних розділах); обрано значно поширеніше Q131723 (біткойн: система електронних грошей та валютна одиниця, яка використовується в ній; статті в 140 мовних розділах)"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Згадай одним рядком: запит також збігся з Q136095321 (Bitcoin: 2026 American drama film directed by Doug Liman; статті в 4 мовних розділах); обрано значно поширеніше Q131723 (біткойн: система електронних грошей та валютна одиниця, яка використовується в ній; статті в 140 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 4 (напр., Bitcoin-мережа, Kodak KashMiner, satoshi); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q131723",
+      "label": "біткойн",
+      "role": "core",
+      "titles": {
+        "en": "Bitcoin"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q4290",
+      "label": "інвестиція",
+      "role": "broader",
+      "titles": {
+        "en": "Investment"
+      }
+    },
+    {
+      "entity_id": "Q17001427",
+      "label": "Bitcoin-мережа",
+      "role": "narrower",
+      "titles": {
+        "en": "Bitcoin protocol"
+      }
+    },
+    {
+      "entity_id": "Q55616114",
+      "label": "Kodak KashMiner",
+      "role": "narrower",
+      "titles": {
+        "en": "Kodak KashMiner"
+      }
+    },
+    {
+      "entity_id": "Q56868002",
+      "label": "satoshi",
+      "role": "narrower",
+      "titles": {
+        "en": "Satoshis"
+      }
+    },
+    {
+      "entity_id": "Q134815381",
+      "label": "millibitcoin",
+      "role": "narrower",
+      "titles": {
+        "en": "Millibitcoin"
+      }
+    }
+  ],
+  "optional_members_total": 5,
+  "full_basket_file": "examples/15_bitcoin_2010.basket.json"
+}

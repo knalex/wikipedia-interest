@@ -1,0 +1,1320 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:електромобілі",
+    "en:electric vehicle"
+  ],
+  "targets": [
+    "en",
+    "de",
+    "fr",
+    "ja"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q13629441",
+    "label": "електротранспорт",
+    "description": "vehicle propelled by one or more electric motors",
+    "language_editions_with_article": 52
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Electric vehicle",
+      "included_articles": 1,
+      "included_redirects": 48
+    },
+    "de": {
+      "core_title": "Elektrofahrzeug",
+      "included_articles": 1,
+      "included_redirects": 0
+    },
+    "fr": {
+      "core_title": "Véhicule électrique",
+      "included_articles": 1,
+      "included_redirects": 4
+    },
+    "ja": {
+      "core_title": "電動輸送機器",
+      "included_articles": 1,
+      "included_redirects": 1
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q13629441",
+      "label": "електротранспорт",
+      "role": "core",
+      "titles": {
+        "en": "Electric vehicle",
+        "de": "Elektrofahrzeug",
+        "fr": "Véhicule électrique",
+        "ja": "電動輸送機器"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q752870",
+      "label": "транспортний засіб з двигуном",
+      "role": "broader",
+      "titles": {
+        "en": "Motor vehicle",
+        "de": "Kraftfahrzeug",
+        "fr": "Véhicule à moteur",
+        "ja": "モータービークル"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q5639",
+      "label": "тролейбус",
+      "role": "narrower",
+      "titles": {
+        "en": "Trolleybus",
+        "de": "Oberleitungsbus",
+        "fr": "Trolleybus",
+        "ja": "トロリーバス"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q214893",
+      "label": "Сеґвей",
+      "role": "narrower",
+      "titles": {
+        "en": "Segway",
+        "de": "Segway Personal Transporter",
+        "fr": "Segway PT",
+        "ja": "セグウェイ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q275816",
+      "label": "Місячний автомобіль",
+      "role": "narrower",
+      "titles": {
+        "en": "Lunar Roving Vehicle",
+        "de": "Lunar Roving Vehicle",
+        "fr": "Rover lunaire Apollo",
+        "ja": "LRV (月面車)"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q519302",
+      "label": "Літак на сонячній енергії",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric aircraft",
+        "de": "Elektroflugzeug",
+        "fr": "Avion électrique",
+        "ja": "電動航空機"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q625151",
+      "label": "електровоз",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric locomotive",
+        "de": "Elektrolokomotive",
+        "fr": "Locomotive électrique",
+        "ja": "電気機関車"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q909558",
+      "label": "автомобіль на паливних елементах",
+      "role": "narrower",
+      "titles": {
+        "en": "Fuel cell vehicle",
+        "de": "Brennstoffzellenfahrzeug",
+        "fr": "Véhicule à pile à combustible",
+        "ja": "燃料電池自動車"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q926499",
+      "label": "Електробус",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric bus",
+        "de": "Elektrobus",
+        "fr": "Bus électrique",
+        "ja": "電動バス"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1327077",
+      "label": "Электромотоцикл",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric motorcycles and scooters",
+        "de": "Elektromotorrad",
+        "fr": "Moto électrique",
+        "ja": "電動バイク"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1483388",
+      "label": "електротранспорт",
+      "role": "narrower",
+      "titles": {
+        "en": "Plug-in hybrid",
+        "de": "Plug-in-Hybrid",
+        "fr": "Véhicule hybride rechargeable",
+        "ja": "プラグインハイブリッドカー"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1739514",
+      "label": "Вантажний тролейбус",
+      "role": "narrower",
+      "titles": {
+        "en": "Trolleytruck",
+        "de": "Oberleitungslastkraftwagen",
+        "fr": "Trolley-camion",
+        "ja": "トロリートラック"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2335519",
+      "label": "Роз'єм типу 2",
+      "role": "narrower",
+      "titles": {
+        "en": "Type 2 connector",
+        "de": "IEC 62196 Typ 2",
+        "fr": "Connecteur Type 2",
+        "ja": "タイプ2コネクタ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q7448027",
+      "label": "Моноколесо",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric unicycle",
+        "de": "Elektroeinrad",
+        "fr": "Gyroroue",
+        "ja": "自立安定一輪車"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q11083590",
+      "label": "гібридний електромобіль",
+      "role": "narrower",
+      "titles": {
+        "en": "Hybrid electric vehicle",
+        "de": "Hybridelektrokraftfahrzeug",
+        "fr": "Automobile hybride électrique",
+        "ja": "ハイブリッドカー"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q22672404",
+      "label": "Hyundai Ioniq",
+      "role": "narrower",
+      "titles": {
+        "en": "Hyundai Ioniq",
+        "de": "Hyundai Ioniq",
+        "fr": "Hyundai Ioniq",
+        "ja": "ヒュンダイ・アイオニック"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q30765198",
+      "label": "Volkswagen ID.Buzz",
+      "role": "narrower",
+      "titles": {
+        "en": "Volkswagen ID. Buzz",
+        "de": "VW ID. Buzz",
+        "fr": "Volkswagen ID. Buzz",
+        "ja": "フォルクスワーゲン・ID.Buzz"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q97120016",
+      "label": "Mercedes-Benz EQS",
+      "role": "narrower",
+      "titles": {
+        "en": "Mercedes-Benz EQS",
+        "de": "Mercedes-Benz EQS",
+        "fr": "Mercedes-Benz EQS",
+        "ja": "メルセデス・ベンツ・EQS"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q483373",
+      "label": "електропоїзд",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric multiple unit",
+        "fr": "Rame automotrice électrique",
+        "ja": "電車"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q900762",
+      "label": "акумулятор електромобіля",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric vehicle battery",
+        "de": "Antriebsbatterie",
+        "ja": "電気自動車用蓄電池"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1076882",
+      "label": "Акумуляторний електромобіль",
+      "role": "narrower",
+      "titles": {
+        "en": "Battery electric vehicle",
+        "de": "Batterieelektrisches Fahrzeug",
+        "ja": "二次電池式電気自動車"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1136730",
+      "label": "solar vehicle",
+      "role": "narrower",
+      "titles": {
+        "en": "Solar vehicle",
+        "de": "Solarfahrzeug",
+        "ja": "ソーラーカー"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1280099",
+      "label": "Ebro",
+      "role": "narrower",
+      "titles": {
+        "en": "Ebro trucks",
+        "de": "Ebro (Fahrzeughersteller)",
+        "fr": "Ebro Véhicules Utilitaires"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1326749",
+      "label": "electric vessel",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric boat",
+        "de": "Wasserfahrzeug mit Elektroantrieb",
+        "fr": "Propulsion électrique des navires"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2204743",
+      "label": "Type 1 connector",
+      "role": "narrower",
+      "titles": {
+        "en": "SAE J1772",
+        "de": "SAE J1772",
+        "ja": "SAE J1772"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5357667",
+      "label": "electric vehicle conversion",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric vehicle conversion",
+        "fr": "Conversion d'un véhicule en électrique",
+        "ja": "コンバージョンEV"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q21161871",
+      "label": "гіроскутер",
+      "role": "narrower",
+      "titles": {
+        "en": "Self-balancing scooter",
+        "de": "E-Board",
+        "fr": "Gyroskate"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q42324990",
+      "label": "Volocopter 2X",
+      "role": "narrower",
+      "titles": {
+        "en": "Volocopter 2X",
+        "de": "Volocopter VC200 / 2X",
+        "ja": "ボロコプター2X"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q55637210",
+      "label": "Volkswagen серії ID",
+      "role": "narrower",
+      "titles": {
+        "en": "Volkswagen ID. series",
+        "de": "VW-ID.-Familie",
+        "fr": "Volkswagen ID"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q85387520",
+      "label": "GMC Hummer EV",
+      "role": "narrower",
+      "titles": {
+        "en": "GMC Hummer EV",
+        "de": "GMC Hummer EV",
+        "fr": "GMC Hummer EV"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q105081676",
+      "label": "Megawatt Charging System",
+      "role": "narrower",
+      "titles": {
+        "en": "Megawatt Charging System",
+        "de": "Megawatt Charging System",
+        "fr": "Megawatt Charging System"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q109046996",
+      "label": "Electric tractor",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric tractor",
+        "de": "Elektrotraktor",
+        "fr": "Tracteur agricole électrique"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1326927",
+      "label": "автокар",
+      "role": "narrower",
+      "titles": {
+        "en": "Electrocar",
+        "de": "Elektrokarre"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2399970",
+      "label": "Електросамокат",
+      "role": "narrower",
+      "titles": {
+        "en": "Motorized scooter",
+        "ja": "特定小型原動機付自転車"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q65550518",
+      "label": "Volkswagen ID. Buggy",
+      "role": "narrower",
+      "titles": {
+        "en": "Volkswagen ID. Buggy",
+        "de": "VW ID. Buggy"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q106551740",
+      "label": "Toyota bZ",
+      "role": "narrower",
+      "titles": {
+        "en": "Toyota bZ",
+        "fr": "Toyota beyond Zero"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q111942241",
+      "label": "GB/T charging standard",
+      "role": "narrower",
+      "titles": {
+        "en": "GB/T charging standard",
+        "de": "GB/T Ladestandard"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q127872344",
+      "label": "Lynk & Co Z20",
+      "role": "narrower",
+      "titles": {
+        "en": "Lynk & Co Z20",
+        "fr": "Lynk & Co Z20"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q130488905",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Robovan",
+        "fr": "Tesla Robovan"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q444204",
+      "label": "Carver One",
+      "role": "narrower",
+      "titles": {
+        "de": "Carver One"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2625479",
+      "label": "electric tram",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric tram"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3008012",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "fr": "CyCab"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3122725",
+      "label": "gyropod",
+      "role": "narrower",
+      "titles": {
+        "fr": "Gyropode"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4986058",
+      "label": "BugE",
+      "role": "narrower",
+      "titles": {
+        "en": "BugE"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5357626",
+      "label": "Electric motor manufacturing industry in China",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric motor manufacturing industry in China"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5357657",
+      "label": "electric trike",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric trike"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q16936947",
+      "label": "electric rail motor coach",
+      "role": "narrower",
+      "titles": {
+        "fr": "Automotrice électrique"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q18353131",
+      "label": "electric rickshaw",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric rickshaw"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q29583203",
+      "label": "Electric fire engine",
+      "role": "narrower",
+      "titles": {
+        "en": "Electric fire engine"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q30280458",
+      "label": "FEDDZ",
+      "role": "narrower",
+      "titles": {
+        "de": "FEDDZ"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q41560558",
+      "label": "Thunder Power SUV",
+      "role": "narrower",
+      "titles": {
+        "en": "ThunderPower SUV"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q66024973",
+      "label": "Type 3 connector",
+      "role": "narrower",
+      "titles": {
+        "en": "Type 3 connector"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q104637662",
+      "label": "Enovate ME7",
+      "role": "narrower",
+      "titles": {
+        "en": "Enovate ME7"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q109024294",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "fr": "Eximus IV"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q109364975",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "ja": "超小型自動車"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q117204360",
+      "label": "Moke (revival)",
+      "role": "narrower",
+      "titles": {
+        "en": "Moke (2013)"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q125053872",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "de": "Adler Nature"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q125101803",
+      "label": "Rivian R3",
+      "role": "narrower",
+      "titles": {
+        "en": "Rivian R3"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q127872451",
+      "label": "Cadillac Sollei",
+      "role": "narrower",
+      "titles": {
+        "en": "Cadillac Sollei"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric vehicle",
+      "kind": "article",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric taxi",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "All-electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Transport electrification",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Full Electric Vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Full electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric transportation technology",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Transportation electrification",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Mobi-green",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Mobi-Green",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "All-Terrain Electric Vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Full-electric",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electrification of the automobile",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Pure EV",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "All-electric",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Full-electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric powertrain",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric drive vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Vehicle Symposium",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "EVWorld",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric-powered vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Advanced-technology vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electrification of transport",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electromobility",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "E-transport",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Vehicle electrification",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Pure electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric carmaker",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Advanced vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Office of Low Emission Vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric road vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Emobility",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "E-mobility",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "All-electric taxi",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric vehicle industry",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Pure-electric",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Energy efficiency of electric vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Advantages and disadvantages of electric vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Only-electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "E vehicle",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric mobility",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric submarine",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Environmental impact of electric vehicles",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric van",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric sub",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "ETaxi",
+      "kind": "redirect",
+      "redirect_to": "Electric vehicle",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektrofahrzeug",
+      "kind": "article",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Véhicule électrique",
+      "kind": "article",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Vehicule electrique",
+      "kind": "redirect",
+      "redirect_to": "Véhicule électrique",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Véhicules électriques",
+      "kind": "redirect",
+      "redirect_to": "Véhicule électrique",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Véhicule électrique rechargeable",
+      "kind": "redirect",
+      "redirect_to": "Véhicule électrique",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Véhicule électrique autonome",
+      "kind": "redirect",
+      "redirect_to": "Véhicule électrique",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "電動輸送機器",
+      "kind": "article",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "Electric vehicle",
+      "kind": "redirect",
+      "redirect_to": "電動輸送機器",
+      "entity_id": "Q13629441",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "user_phrase_weak_match",
+      "detail": "фраза користувача 'uk:електромобілі' сама по собі неоднозначна, підходять Q1079037 (Електромобілі на сонячних батареях: electric car with built-in solar cells for power generation; статті в 14 мовних розділах); Q48816237 (Електромобілі в Європі: overview of plug-in electric vehicles in Europe; статті в 5 мовних розділах). Додаткові формулювання обрали Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах)",
+      "question": "Під «електромобілі» ви маєте на увазі електротранспорт (vehicle propelled by one or more electric motors)?",
+      "alternatives": [
+        "Q1079037",
+        "Q48816237"
+      ]
+    },
+    {
+      "code": "core_label_mismatch",
+      "detail": "слова користувача «електромобілі» не схожі на назву вибраного поняття мовою uk: «електротранспорт» — Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах). Можливо, англійське формулювання передало ширше чи інше поняття",
+      "question": "Під «електромобілі» ви маєте на увазі «електротранспорт» (vehicle propelled by one or more electric motors)?",
+      "alternatives": []
+    },
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, de, fr, ja) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "СПОЧАТКУ постав користувачу питання: «Під «електромобілі» ви маєте на увазі «електротранспорт» (vehicle propelled by one or more electric motors)?» Зупинись і чекай відповіді. Причина: слова користувача «електромобілі» не схожі на назву вибраного поняття мовою uk: «електротранспорт» — Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах). Можливо, англійське формулювання передало ширше чи інше поняття. Якщо він має на увазі інше, перезапусти з його уточненим формулюванням або з --entity <QID>.",
+    "Згадай одним рядком, питати не треба: фраза користувача 'uk:електромобілі' сама по собі неоднозначна, підходять Q1079037 (Електромобілі на сонячних батареях: electric car with built-in solar cells for power generation; статті в 14 мовних розділах); Q48816237 (Електромобілі в Європі: overview of plug-in electric vehicles in Europe; статті в 5 мовних розділах). Додаткові формулювання обрали Q13629441 (електротранспорт: vehicle propelled by one or more electric motors; статті в 52 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 16 (напр., тролейбус, Сеґвей, Місячний автомобіль); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

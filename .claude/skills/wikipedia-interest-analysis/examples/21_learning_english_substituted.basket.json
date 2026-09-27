@@ -1,0 +1,1113 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:англійська мова",
+    "en:English as a second or foreign language"
+  ],
+  "targets": [
+    "uk",
+    "pl",
+    "de",
+    "es"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q1860",
+    "label": "англійська мова",
+    "description": "західногерманська мова, яка виникла в Англії",
+    "language_editions_with_article": 318
+  },
+  "coverage": {
+    "uk": {
+      "core_title": "Англійська мова",
+      "included_articles": 1,
+      "included_redirects": 8
+    },
+    "pl": {
+      "core_title": "Język angielski",
+      "included_articles": 1,
+      "included_redirects": 6
+    },
+    "de": {
+      "core_title": "Englische Sprache",
+      "included_articles": 1,
+      "included_redirects": 15
+    },
+    "es": {
+      "core_title": "Idioma inglés",
+      "included_articles": 1,
+      "included_redirects": 25
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q1860",
+      "label": "англійська мова",
+      "role": "core",
+      "titles": {
+        "uk": "Англійська мова",
+        "pl": "Język angielski",
+        "de": "Englische Sprache",
+        "es": "Idioma inglés"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q5329170",
+      "label": "англо-фризькі мови",
+      "role": "broader",
+      "titles": {
+        "uk": "Англо-фризькі мови",
+        "pl": "Języki anglofryzyjskie",
+        "de": "Anglofriesische Sprachen",
+        "es": "Lenguas anglofrisias"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1346342",
+      "label": "англійські мови",
+      "role": "broader",
+      "titles": {
+        "uk": "Англійські мови",
+        "es": "Lenguas ánglicas"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q26746",
+      "label": "Basic English",
+      "role": "narrower",
+      "titles": {
+        "uk": "Бейсік-інґліш",
+        "pl": "Basic English",
+        "de": "Basic English",
+        "es": "Inglés básico"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q36395",
+      "label": "середньоанглійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Середньоанглійська мова",
+        "pl": "Język średnioangielski",
+        "de": "Mittelenglisch",
+        "es": "Inglés medio"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q36699",
+      "label": "Піджин Соломонових Островів",
+      "role": "narrower",
+      "titles": {
+        "uk": "Піджин Соломонових Островів",
+        "pl": "Język neosalomoński",
+        "de": "Pijin",
+        "es": "Pidgin salomonense"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q560583",
+      "label": "граматика англійської мови",
+      "role": "narrower",
+      "titles": {
+        "uk": "Граматика англійської мови",
+        "pl": "Gramatyka języka angielskiego",
+        "de": "Englische Grammatik",
+        "es": "Gramática del inglés"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q751065",
+      "label": "Поросяча латина",
+      "role": "narrower",
+      "titles": {
+        "uk": "Поросяча латина",
+        "pl": "Świńska łacina",
+        "de": "Pig Latin",
+        "es": "Pig Latin"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q939451",
+      "label": "Сингліш",
+      "role": "narrower",
+      "titles": {
+        "uk": "Сингліш",
+        "pl": "Singlish",
+        "de": "Singlish",
+        "es": "Singlés"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1454599",
+      "label": "Спрощена технічна англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Спрощена технічна англійська мова",
+        "pl": "Język angielski uproszczony",
+        "de": "Simplified Technical English",
+        "es": "Inglés Técnico Simplificado"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q784975",
+      "label": "історія англійської мови",
+      "role": "narrower",
+      "titles": {
+        "uk": "Історія англійської мови",
+        "de": "Geschichte der englischen Sprache",
+        "es": "Historia del idioma inglés"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1156228",
+      "label": "South African English",
+      "role": "narrower",
+      "titles": {
+        "pl": "Południowoafrykańska odmiana języka angielskiego",
+        "de": "Südafrikanisches Englisch",
+        "es": "Inglés sudafricano"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1187121",
+      "label": "Денґліш",
+      "role": "narrower",
+      "titles": {
+        "uk": "Денґліш",
+        "pl": "Denglisch",
+        "de": "Denglisch"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1191063",
+      "label": "пуризм в англійській мові",
+      "role": "narrower",
+      "titles": {
+        "uk": "Пуризм в англійській мові",
+        "pl": "Anglish",
+        "es": "Anglish"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q130192",
+      "label": "English as a second or foreign language",
+      "role": "narrower",
+      "titles": {
+        "de": "Englisch als Zweitsprache",
+        "es": "Inglés como segunda lengua"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q603200",
+      "label": "Jamaican English",
+      "role": "narrower",
+      "titles": {
+        "pl": "Jamajska odmiana języka angielskiego",
+        "es": "Inglés jamaiquino"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1068863",
+      "label": "Hong Kong English",
+      "role": "narrower",
+      "titles": {
+        "de": "Hongkong-Englisch",
+        "es": "Inglés hongkonés"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1374908",
+      "label": "Юридична англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Юридична англійська мова",
+        "de": "Rechtsenglisch"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1394359",
+      "label": "Falkland Islands English",
+      "role": "narrower",
+      "titles": {
+        "de": "Falkländisches Englisch",
+        "es": "Inglés malvinense"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1413694",
+      "label": "Philippine English",
+      "role": "narrower",
+      "titles": {
+        "de": "Filipino-Englisch",
+        "es": "Inglés filipino"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1649537",
+      "label": "Пізня сучасна англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Пізня сучасна англійська мова",
+        "de": "Modernes Englisch"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2534474",
+      "label": "Чемпіонат світу з мотокросу на мотоциклах з коляскою",
+      "role": "narrower",
+      "titles": {
+        "de": "Seitenwagen-Motocross-Weltmeisterschaft",
+        "es": "Campeonato Mundial de Sidecarcross"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3368839",
+      "label": "Iyaric",
+      "role": "narrower",
+      "titles": {
+        "pl": "Słownik Rastafari",
+        "es": "Iyárico"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5378621",
+      "label": "English plural",
+      "role": "narrower",
+      "titles": {
+        "pl": "Liczba mnoga w języku angielskim",
+        "es": "Plurales en inglés"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q7876257",
+      "label": "U English",
+      "role": "narrower",
+      "titles": {
+        "uk": "U English",
+        "de": "U English"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q14437894",
+      "label": "Стандартизована англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Стандартизована англійська мова",
+        "pl": "Angielszczyzna standardowa"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q23580217",
+      "label": "Євроанглійська",
+      "role": "narrower",
+      "titles": {
+        "uk": "Євроанглійська",
+        "de": "Euro English"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q8013",
+      "label": "Ебоніка",
+      "role": "narrower",
+      "titles": {
+        "de": "Ebonics"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q429083",
+      "label": "rhyming slang",
+      "role": "narrower",
+      "titles": {
+        "es": "Jerga rimada cockney"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1342549",
+      "label": "International English",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés internacional"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2849614",
+      "label": "Англійська мова в Європі",
+      "role": "narrower",
+      "titles": {
+        "uk": "Англійська мова в Європі"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2920188",
+      "label": "Звичайна англійська мова",
+      "role": "narrower",
+      "titles": {
+        "uk": "Звичайна англійська мова"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3610939",
+      "label": "Singapore English",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés de Singapur"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4874023",
+      "label": "Bay Islands English",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés de las Islas de la Bahía"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5555465",
+      "label": "Ганський піджин англійської мови",
+      "role": "narrower",
+      "titles": {
+        "es": "Pidgin ghanés"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q6840826",
+      "label": "Ольстерська англійська",
+      "role": "narrower",
+      "titles": {
+        "uk": "Ольстерська англійська"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q7033019",
+      "label": "нігерійський англійський",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés nigeriano"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q7053766",
+      "label": "Північноамериканська англійська мова",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés norteamericano"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q12048164",
+      "label": "English adjective",
+      "role": "narrower",
+      "titles": {
+        "pl": "Przymiotnik w języku angielskim"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q21480034",
+      "label": "Simple English",
+      "role": "narrower",
+      "titles": {
+        "es": "Inglés simple"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q29596885",
+      "label": "English prepositions",
+      "role": "narrower",
+      "titles": {
+        "pl": "Przyimek w języku angielskim"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q30916567",
+      "label": "English adverb",
+      "role": "narrower",
+      "titles": {
+        "pl": "Przysłówek w języku angielskim"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Англійська мова",
+      "kind": "article",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Англійською",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Англійська",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "English",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Сучасна англійська",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Англ.",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "English language",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Канадська англійська мова",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Канадський варіант англійської мови",
+      "kind": "redirect",
+      "redirect_to": "Англійська мова",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Język angielski",
+      "kind": "article",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Angielski",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Ang.",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Język angielski brytyjski",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "J. ang.",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Angielszczyzna",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Ang",
+      "kind": "redirect",
+      "redirect_to": "Język angielski",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englische Sprache",
+      "kind": "article",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englische Dialekte",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englischsprachig",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Anglophon",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englisch (Sprache)",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Angelsächsischer Sprachraum",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "English language",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englischsprachige Welt",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englisch",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Anglofon",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englischer Sprachraum",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "ISO 639:eng",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "ISO 639:en",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Varietäten der englischen Sprache",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Anglophonie",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Anglofonie",
+      "kind": "redirect",
+      "redirect_to": "Englische Sprache",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Idioma inglés",
+      "kind": "article",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua inglés",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua inglesa",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Inglés (idioma)",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Anglófona",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Anglohablante",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Anglófono",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "English",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Idioma ingles",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua Inglés",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Angloparlante",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Inglés moderno",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "English language",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Acento de boston",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Anglofono",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Anglofona",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua Ingles",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Ingles moderno",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua ingles",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Ingles (idioma)",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "El idioma ingles",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua Inglesa",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Lengua de Shakespeare",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "La lengua de Shakespeare",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Ingl.",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Idioma Inglés",
+      "kind": "redirect",
+      "redirect_to": "Idioma inglés",
+      "entity_id": "Q1860",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "query_not_in_user_message",
+      "detail": "перший запит «англійська мова» (uk) не знайдено в повідомленнях користувача; результат може стосуватися іншого поняття, ніж те, про яке він питав"
+    },
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах); обрано значно поширеніше Q1860 (англійська мова: західногерманська мова, яка виникла в Англії; статті в 318 мовних розділах)"
+    },
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (uk, pl, de, es) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "СПОЧАТКУ виправ запит: перший запит «англійська мова» (uk) не знайдено в повідомленнях користувача; результат може стосуватися іншого поняття, ніж те, про яке він питав. Перезапусти, давши першим --query слова користувача з його повідомлення без заміни (можна лише початкову форму). Якщо ти змінив їх навмисно, спершу спитай користувача, чи він має на увазі саме це.",
+    "Згадай одним рядком: запит також збігся з Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах); обрано значно поширеніше Q1860 (англійська мова: західногерманська мова, яка виникла в Англії; статті в 318 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 7 (напр., Basic English, середньоанглійська мова, Піджин Соломонових Островів); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

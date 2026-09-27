@@ -1,0 +1,233 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:електромобіль",
+    "en:electric car"
+  ],
+  "targets": [
+    "en",
+    "de",
+    "fr",
+    "ja"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q193692",
+    "label": "електромобіль",
+    "description": "автомобіль, що працює на одному або кількох електродвигунах, що використовують енергію, що зберігається в акумуляторних батареях",
+    "language_editions_with_article": 81
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Electric car",
+      "included_articles": 1,
+      "included_redirects": 17
+    },
+    "de": {
+      "core_title": "Elektroauto",
+      "included_articles": 1,
+      "included_redirects": 6
+    },
+    "fr": {
+      "core_title": "Voiture électrique",
+      "included_articles": 1,
+      "included_redirects": 4
+    },
+    "ja": {
+      "core_title": "電気自動車",
+      "included_articles": 1,
+      "included_redirects": 9
+    }
+  },
+  "warnings": [
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, de, fr, ja) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 27 (напр., EV1, Audi e-tron, Tesla Roadster); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q193692",
+      "label": "електромобіль",
+      "role": "core",
+      "titles": {
+        "en": "Electric car",
+        "de": "Elektroauto",
+        "fr": "Voiture électrique",
+        "ja": "電気自動車"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q1420",
+      "label": "автомобіль",
+      "role": "broader",
+      "titles": {
+        "en": "Car",
+        "de": "Automobil",
+        "fr": "Automobile",
+        "ja": "自動車"
+      }
+    },
+    {
+      "entity_id": "Q1076882",
+      "label": "Акумуляторний електромобіль",
+      "role": "broader",
+      "titles": {
+        "en": "Battery electric vehicle",
+        "de": "Batterieelektrisches Fahrzeug",
+        "ja": "二次電池式電気自動車"
+      }
+    },
+    {
+      "entity_id": "Q1327007",
+      "label": "електротранспорт",
+      "role": "broader",
+      "titles": {
+        "en": "Electromobility",
+        "de": "Elektromobilität"
+      }
+    },
+    {
+      "entity_id": "Q152013",
+      "label": "EV1",
+      "role": "narrower",
+      "titles": {
+        "en": "General Motors EV1",
+        "de": "General Motors EV1",
+        "fr": "General Motors EV1",
+        "ja": "GM・EV1"
+      }
+    },
+    {
+      "entity_id": "Q201894",
+      "label": "Audi e-tron",
+      "role": "narrower",
+      "titles": {
+        "en": "Audi e-tron",
+        "de": "Audi e-tron (Modellbezeichnung)",
+        "fr": "Audi e-tron",
+        "ja": "アウディ・e-tron"
+      }
+    },
+    {
+      "entity_id": "Q210893",
+      "label": "Tesla Roadster",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Roadster (first generation)",
+        "de": "Tesla Roadster (2008)",
+        "fr": "Tesla Roadster (première génération)",
+        "ja": "テスラ・ロードスター"
+      }
+    },
+    {
+      "entity_id": "Q796784",
+      "label": "BMW i",
+      "role": "narrower",
+      "titles": {
+        "en": "BMW i",
+        "de": "BMW i",
+        "fr": "BMW i",
+        "ja": "BMW i"
+      }
+    },
+    {
+      "entity_id": "Q796785",
+      "label": "BMW i3 (2013)",
+      "role": "narrower",
+      "titles": {
+        "en": "BMW i3 (hatchback)",
+        "de": "BMW I01",
+        "fr": "BMW i3",
+        "ja": "BMW・i3"
+      }
+    },
+    {
+      "entity_id": "Q911323",
+      "label": "Nissan Leaf",
+      "role": "narrower",
+      "titles": {
+        "en": "Nissan Leaf",
+        "de": "Nissan Leaf",
+        "fr": "Nissan Leaf",
+        "ja": "日産・リーフ"
+      }
+    },
+    {
+      "entity_id": "Q927395",
+      "label": "Chevrolet Volt",
+      "role": "narrower",
+      "titles": {
+        "en": "Chevrolet Volt",
+        "de": "Chevrolet Volt",
+        "fr": "Chevrolet Volt",
+        "ja": "シボレー・ボルト (ハイブリッドカー)"
+      }
+    },
+    {
+      "entity_id": "Q1129816",
+      "label": "Mitsubishi i MiEV",
+      "role": "narrower",
+      "titles": {
+        "en": "Mitsubishi i-MiEV",
+        "de": "Mitsubishi i-MiEV",
+        "fr": "Mitsubishi i MiEV",
+        "ja": "三菱・i-MiEV"
+      }
+    },
+    {
+      "entity_id": "Q1463050",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Model S",
+        "de": "Tesla Model S",
+        "fr": "Tesla Model S",
+        "ja": "テスラ・モデルS"
+      }
+    },
+    {
+      "entity_id": "Q1516380",
+      "label": "Renault Zoe",
+      "role": "narrower",
+      "titles": {
+        "en": "Renault Zoe",
+        "de": "Renault Zoe",
+        "fr": "Renault Zoe",
+        "ja": "ルノー・ゾエ"
+      }
+    },
+    {
+      "entity_id": "Q1634161",
+      "label": "Tesla Model X",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Model X",
+        "de": "Tesla Model X",
+        "fr": "Tesla Model X",
+        "ja": "テスラ・モデルX"
+      }
+    },
+    {
+      "entity_id": "Q3901207",
+      "label": "Peugeot iOn",
+      "role": "narrower",
+      "titles": {
+        "en": "Peugeot iOn",
+        "de": "Peugeot iOn",
+        "fr": "Peugeot iOn",
+        "ja": "プジョー・イオン"
+      }
+    }
+  ],
+  "optional_members_total": 53,
+  "full_basket_file": "examples/17_electric_car_exact.basket.json"
+}

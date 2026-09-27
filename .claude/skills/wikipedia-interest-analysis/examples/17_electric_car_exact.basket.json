@@ -1,0 +1,1107 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:електромобіль",
+    "en:electric car"
+  ],
+  "targets": [
+    "en",
+    "de",
+    "fr",
+    "ja"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q193692",
+    "label": "електромобіль",
+    "description": "автомобіль, що працює на одному або кількох електродвигунах, що використовують енергію, що зберігається в акумуляторних батареях",
+    "language_editions_with_article": 81
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Electric car",
+      "included_articles": 1,
+      "included_redirects": 17
+    },
+    "de": {
+      "core_title": "Elektroauto",
+      "included_articles": 1,
+      "included_redirects": 6
+    },
+    "fr": {
+      "core_title": "Voiture électrique",
+      "included_articles": 1,
+      "included_redirects": 4
+    },
+    "ja": {
+      "core_title": "電気自動車",
+      "included_articles": 1,
+      "included_redirects": 9
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q193692",
+      "label": "електромобіль",
+      "role": "core",
+      "titles": {
+        "en": "Electric car",
+        "de": "Elektroauto",
+        "fr": "Voiture électrique",
+        "ja": "電気自動車"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q1420",
+      "label": "автомобіль",
+      "role": "broader",
+      "titles": {
+        "en": "Car",
+        "de": "Automobil",
+        "fr": "Automobile",
+        "ja": "自動車"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1076882",
+      "label": "Акумуляторний електромобіль",
+      "role": "broader",
+      "titles": {
+        "en": "Battery electric vehicle",
+        "de": "Batterieelektrisches Fahrzeug",
+        "ja": "二次電池式電気自動車"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1327007",
+      "label": "електротранспорт",
+      "role": "broader",
+      "titles": {
+        "en": "Electromobility",
+        "de": "Elektromobilität"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q152013",
+      "label": "EV1",
+      "role": "narrower",
+      "titles": {
+        "en": "General Motors EV1",
+        "de": "General Motors EV1",
+        "fr": "General Motors EV1",
+        "ja": "GM・EV1"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q201894",
+      "label": "Audi e-tron",
+      "role": "narrower",
+      "titles": {
+        "en": "Audi e-tron",
+        "de": "Audi e-tron (Modellbezeichnung)",
+        "fr": "Audi e-tron",
+        "ja": "アウディ・e-tron"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q210893",
+      "label": "Tesla Roadster",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Roadster (first generation)",
+        "de": "Tesla Roadster (2008)",
+        "fr": "Tesla Roadster (première génération)",
+        "ja": "テスラ・ロードスター"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q796784",
+      "label": "BMW i",
+      "role": "narrower",
+      "titles": {
+        "en": "BMW i",
+        "de": "BMW i",
+        "fr": "BMW i",
+        "ja": "BMW i"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q796785",
+      "label": "BMW i3 (2013)",
+      "role": "narrower",
+      "titles": {
+        "en": "BMW i3 (hatchback)",
+        "de": "BMW I01",
+        "fr": "BMW i3",
+        "ja": "BMW・i3"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q911323",
+      "label": "Nissan Leaf",
+      "role": "narrower",
+      "titles": {
+        "en": "Nissan Leaf",
+        "de": "Nissan Leaf",
+        "fr": "Nissan Leaf",
+        "ja": "日産・リーフ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q927395",
+      "label": "Chevrolet Volt",
+      "role": "narrower",
+      "titles": {
+        "en": "Chevrolet Volt",
+        "de": "Chevrolet Volt",
+        "fr": "Chevrolet Volt",
+        "ja": "シボレー・ボルト (ハイブリッドカー)"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1129816",
+      "label": "Mitsubishi i MiEV",
+      "role": "narrower",
+      "titles": {
+        "en": "Mitsubishi i-MiEV",
+        "de": "Mitsubishi i-MiEV",
+        "fr": "Mitsubishi i MiEV",
+        "ja": "三菱・i-MiEV"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1463050",
+      "label": "",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Model S",
+        "de": "Tesla Model S",
+        "fr": "Tesla Model S",
+        "ja": "テスラ・モデルS"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1516380",
+      "label": "Renault Zoe",
+      "role": "narrower",
+      "titles": {
+        "en": "Renault Zoe",
+        "de": "Renault Zoe",
+        "fr": "Renault Zoe",
+        "ja": "ルノー・ゾエ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1634161",
+      "label": "Tesla Model X",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Model X",
+        "de": "Tesla Model X",
+        "fr": "Tesla Model X",
+        "ja": "テスラ・モデルX"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q3901207",
+      "label": "Peugeot iOn",
+      "role": "narrower",
+      "titles": {
+        "en": "Peugeot iOn",
+        "de": "Peugeot iOn",
+        "fr": "Peugeot iOn",
+        "ja": "プジョー・イオン"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q19580435",
+      "label": "Chevrolet Bolt",
+      "role": "narrower",
+      "titles": {
+        "en": "Chevrolet Bolt",
+        "de": "Chevrolet Bolt",
+        "fr": "Chevrolet Bolt",
+        "ja": "シボレー・ボルトEV"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q42298250",
+      "label": "Tesla Model Y",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Model Y",
+        "de": "Tesla Model Y",
+        "fr": "Tesla Model Y",
+        "ja": "テスラ・モデルY"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q50379367",
+      "label": "Rimac Nevera",
+      "role": "narrower",
+      "titles": {
+        "en": "Rimac Nevera",
+        "de": "Rimac Nevera",
+        "fr": "Rimac Nevera",
+        "ja": "リマック・ネヴェーラ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q56307011",
+      "label": "Porsche Taycan",
+      "role": "narrower",
+      "titles": {
+        "en": "Porsche Taycan",
+        "de": "Porsche Taycan",
+        "fr": "Porsche Taycan",
+        "ja": "ポルシェ・タイカン"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q56319401",
+      "label": "Mercedes-Benz EQC",
+      "role": "narrower",
+      "titles": {
+        "en": "Mercedes-Benz EQC",
+        "de": "Mercedes-Benz N 293",
+        "fr": "Mercedes-Benz EQC",
+        "ja": "メルセデス・ベンツ・EQC"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q56669231",
+      "label": "Audi e-tron quattro",
+      "role": "narrower",
+      "titles": {
+        "en": "Audi Q8 e-tron",
+        "de": "Audi Q8 e-tron",
+        "fr": "Audi Q8 e-tron",
+        "ja": "アウディ・Q8 e-tron"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q63636478",
+      "label": "Volkswagen ID.3",
+      "role": "narrower",
+      "titles": {
+        "en": "Volkswagen ID.3",
+        "de": "VW ID.3",
+        "fr": "Volkswagen ID.3",
+        "ja": "フォルクスワーゲン・ID.3"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q85682835",
+      "label": "Dacia Spring",
+      "role": "narrower",
+      "titles": {
+        "en": "Dacia Spring",
+        "de": "Dacia Spring",
+        "fr": "Dacia Spring",
+        "ja": "ダチア・スプリング"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q86674790",
+      "label": "Nissan Ariya",
+      "role": "narrower",
+      "titles": {
+        "en": "Nissan Ariya",
+        "de": "Nissan Ariya",
+        "fr": "Nissan Ariya",
+        "ja": "日産・アリア"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q86991003",
+      "label": "Fiat 500e (2020)",
+      "role": "narrower",
+      "titles": {
+        "en": "Fiat New 500",
+        "de": "Fiat 500 (2020)",
+        "fr": "Fiat 500 (2020)",
+        "ja": "フィアット・500e"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q97170323",
+      "label": "Cupra Born",
+      "role": "narrower",
+      "titles": {
+        "en": "Cupra Born",
+        "de": "Cupra Born",
+        "fr": "Cupra Born",
+        "ja": "クプラ・ボーン"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q106010973",
+      "label": "Hongqi E-HS9",
+      "role": "narrower",
+      "titles": {
+        "en": "Hongqi E-HS9",
+        "de": "Hongqi E-HS9",
+        "fr": "Hongqi EHS9",
+        "ja": "紅旗・E-HS9"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q106481505",
+      "label": "Toyota bZ4X",
+      "role": "narrower",
+      "titles": {
+        "en": "Toyota bZ4X",
+        "de": "Toyota bZ4X",
+        "fr": "Toyota bZ4X",
+        "ja": "トヨタ・bZ4X"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q106798021",
+      "label": "Subaru Solterra",
+      "role": "narrower",
+      "titles": {
+        "en": "Subaru Solterra",
+        "de": "Subaru Solterra",
+        "fr": "Subaru Solterra",
+        "ja": "スバル・ソルテラ"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q110916004",
+      "label": "Smart 1",
+      "role": "narrower",
+      "titles": {
+        "en": "Smart 1",
+        "de": "Smart Hashtag 1",
+        "fr": "Smart Hashtag 1",
+        "ja": "スマート・＃1"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1267687",
+      "label": "SEAT IBE",
+      "role": "narrower",
+      "titles": {
+        "en": "SEAT IBE",
+        "de": "Seat IBE",
+        "fr": "Seat IBe"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1392476",
+      "label": "тяговий електродвигун",
+      "role": "narrower",
+      "titles": {
+        "en": "Traction motor",
+        "de": "Fahrmotor",
+        "ja": "主電動機"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1421661",
+      "label": "Toyota Highlander",
+      "role": "narrower",
+      "titles": {
+        "en": "Toyota Highlander",
+        "de": "Toyota Highlander",
+        "fr": "Toyota Highlander"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1935273",
+      "label": "milk float",
+      "role": "narrower",
+      "titles": {
+        "en": "Milk float",
+        "de": "Milk float",
+        "ja": "ミルク フロート"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3695595",
+      "label": "Th!nk City",
+      "role": "narrower",
+      "titles": {
+        "en": "Think City",
+        "de": "Think City",
+        "fr": "Th!nk City"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4986139",
+      "label": "Bugatti Type 52",
+      "role": "narrower",
+      "titles": {
+        "en": "Bugatti Type 52",
+        "de": "Bugatti Type 52",
+        "fr": "Bugatti Type 52"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q30753091",
+      "label": "Škoda Enyaq",
+      "role": "narrower",
+      "titles": {
+        "en": "Škoda Enyaq",
+        "de": "Škoda Enyaq",
+        "fr": "Škoda Enyaq iV"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q43253563",
+      "label": "Tesla Roadster",
+      "role": "narrower",
+      "titles": {
+        "en": "Tesla Roadster (second generation)",
+        "de": "Tesla Roadster (zweite Generation)",
+        "fr": "Tesla Roadster (deuxième génération)"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q106793330",
+      "label": "Audi A6 e-tron",
+      "role": "narrower",
+      "titles": {
+        "en": "Audi A6 e-tron",
+        "de": "Audi A6 e-tron",
+        "fr": "Audi A6 e-tron"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1079037",
+      "label": "Електромобілі на сонячних батареях",
+      "role": "narrower",
+      "titles": {
+        "en": "Solar car",
+        "fr": "Voiture solaire"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q13635553",
+      "label": "Gurgel Itaipu",
+      "role": "narrower",
+      "titles": {
+        "en": "Gurgel Itaipu",
+        "fr": "Gurgel Itaipu"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q63978770",
+      "label": "Škoda Citigo-e iV",
+      "role": "narrower",
+      "titles": {
+        "en": "Škoda e-Citigo",
+        "de": "Škoda Citigo-e"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q84699834",
+      "label": "ORA Black Cat",
+      "role": "narrower",
+      "titles": {
+        "en": "Ora Black Cat",
+        "de": "Ora R1"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q108655882",
+      "label": "Letin Mengo",
+      "role": "narrower",
+      "titles": {
+        "en": "Letin Mengo",
+        "de": "Letin Mengo"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4042547",
+      "label": "Lada Rapan",
+      "role": "narrower",
+      "titles": {
+        "de": "Lada Rapan"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q5861472",
+      "label": "Fiat New 500",
+      "role": "narrower",
+      "titles": {
+        "en": "Fiat 500e"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q7205234",
+      "label": "електромобіль із можливістю підзаряджання від електромережі",
+      "role": "narrower",
+      "titles": {
+        "en": "Plug-in electric vehicle"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q25105076",
+      "label": "Chrysler ETV-1",
+      "role": "narrower",
+      "titles": {
+        "en": "Chrysler ETV-1"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q25438979",
+      "label": "Synchronous",
+      "role": "narrower",
+      "titles": {
+        "en": "Synchronous (electric vehicle)"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q107596479",
+      "label": "one-pedal driving",
+      "role": "narrower",
+      "titles": {
+        "de": "One-Pedal-Driving"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q111677072",
+      "label": "BMW i7",
+      "role": "narrower",
+      "titles": {
+        "fr": "BMW i7"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q113624168",
+      "label": "Sero Electric",
+      "role": "narrower",
+      "titles": {
+        "en": "Sero electric"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q141535184",
+      "label": "Toyota C+walk",
+      "role": "narrower",
+      "titles": {
+        "ja": "トヨタ・C+walk"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric car",
+      "kind": "article",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric cars",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Automobile",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric automobiles",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric automotive industry",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Mobi-green car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "All-electric car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric automotive",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric SUV",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric automobile",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric Cars",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electric car charging",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "E-car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Mrph",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Electrical car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Battery-electric car",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "List of best-selling electric cars",
+      "kind": "redirect",
+      "redirect_to": "Electric car",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektroauto",
+      "kind": "article",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "E-Mobil",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektrisches Auto",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "E-Auto",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektroautomobil",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektro-Auto",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Elektro-Pkw",
+      "kind": "redirect",
+      "redirect_to": "Elektroauto",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Voiture électrique",
+      "kind": "article",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Voiture electrique",
+      "kind": "redirect",
+      "redirect_to": "Voiture électrique",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Automobile électrique",
+      "kind": "redirect",
+      "redirect_to": "Voiture électrique",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Voitures électriques",
+      "kind": "redirect",
+      "redirect_to": "Voiture électrique",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "fr",
+      "project": "fr.wikipedia",
+      "title": "Idées reçues sur les voitures électriques",
+      "kind": "redirect",
+      "redirect_to": "Voiture électrique",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "電気自動車",
+      "kind": "article",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "EV車",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "電気自動車ネットワーク",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "電気自動車充電ネットワーク",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "EVネットワーク",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "EV充電ネットワーク",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "エレクトリック・カー",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "エレクトリックカー",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "電池自動車",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "ja",
+      "project": "ja.wikipedia",
+      "title": "ゼロエミッション規制",
+      "kind": "redirect",
+      "redirect_to": "電気自動車",
+      "entity_id": "Q193692",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, de, fr, ja) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 27 (напр., EV1, Audi e-tron, Tesla Roadster); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

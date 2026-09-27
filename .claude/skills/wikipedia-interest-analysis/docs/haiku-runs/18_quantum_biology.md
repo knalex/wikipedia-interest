@@ -1,0 +1,19 @@
+## Користувач
+Чи зростає інтерес до теми "квантова біологія" у шведській Wikipedia?
+
+## Команди агента
+```bash
+cd /home/alex/Interest/wikipedia-interest/.claude/skills/wikipedia-interest-analysis && WIKIPEDIA_RESOLVER_CONTACT=you@example.com python3 scripts/resolve_topic.py \
+  --query "uk:квантова біологія" \
+  --query "en:quantum biology" \
+  --targets sv \
+  --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia?" \
+  --out /tmp/claude-1000/-home-alex-Interest-----/c7af1123-6abc-4b3d-9aa0-04efdd5b9d60/scratchpad/r13/18/basket.json
+```
+
+## Відповідь агента
+Тему визначено. У шведській Wikipedia існує стаття "Kvantbiologi" про квантову біологію (Wikidata: Q1429339). Це поняття задокументовано в 26 мовних розділах Вікіпедії.
+
+**Етап 1 завершено:** кошик статей готовий до збору переглядів.
+
+**Обмеження:** Етап 2 (збір переглядів і графіки трендів) ще в розробці. Коли він буде готовий, я зможу показати, як змінювався інтерес до теми починаючи з 1 липня 2015 року (дата, з якої Wikimedia Pageviews API має дані).

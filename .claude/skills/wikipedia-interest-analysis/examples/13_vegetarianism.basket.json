@@ -1,0 +1,244 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:вегетаріанство",
+    "en:vegetarianism"
+  ],
+  "targets": [
+    "de"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q83364",
+    "label": "вегетаріанство",
+    "description": "Дієта без м'яса і її різновиди",
+    "language_editions_with_article": 100
+  },
+  "coverage": {
+    "de": {
+      "core_title": "Vegetarismus",
+      "included_articles": 1,
+      "included_redirects": 16
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q83364",
+      "label": "вегетаріанство",
+      "role": "core",
+      "titles": {
+        "de": "Vegetarismus"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q32090",
+      "label": "спосіб життя",
+      "role": "broader",
+      "titles": {
+        "de": "Lebensstil"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q49773",
+      "label": "соціальний рух",
+      "role": "broader",
+      "titles": {
+        "de": "Soziale Bewegung"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q181138",
+      "label": "веганізм",
+      "role": "narrower",
+      "titles": {
+        "de": "Veganismus"
+      },
+      "in_all_targets": true,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegetarismus",
+      "kind": "article",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegetarisch",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Lacto-Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Ovo-Lacto-Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Ovo-Vegetarismus",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Ovo-Lakto-Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Laktovegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Pudding-Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Puddingvegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegi",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegetarianer",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Pflanzendiät",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Ovo-Lacto-Vegetarismus",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Veggie",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Vegetarierin",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Ovo-lacto-Vegetarier",
+      "kind": "redirect",
+      "redirect_to": "Vegetarismus",
+      "entity_id": "Q83364",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (de) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 1 (напр., веганізм); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

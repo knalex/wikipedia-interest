@@ -1,0 +1,97 @@
+{
+  "status": "partial",
+  "input_queries": [
+    "uk:інтервальне голодування",
+    "en:intermittent fasting",
+    "pl:post przerywany"
+  ],
+  "targets": [
+    "pl",
+    "cs"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q1666254",
+    "label": "Інтервальне голодування",
+    "description": "a diet that cycles between a period of fasting and non-fasting",
+    "language_editions_with_article": 31
+  },
+  "coverage": {
+    "pl": {
+      "core_title": null,
+      "included_articles": 0,
+      "included_redirects": 0,
+      "fallback": {
+        "phrases_tried": [
+          "post przerywany",
+          "intermittent fasting"
+        ],
+        "exact_title_matches": [],
+        "mentions": [
+          {
+            "phrase": "post przerywany",
+            "total_articles": 3,
+            "sample_titles": [
+              "Insulinooporność",
+              "Nadwaga",
+              "Morsowanie"
+            ]
+          }
+        ]
+      },
+      "broader_with_article": [
+        {
+          "entity_id": "Q44602",
+          "label": "піст",
+          "title": "Post"
+        }
+      ]
+    },
+    "cs": {
+      "core_title": "Přerušovaný půst",
+      "included_articles": 1,
+      "included_redirects": 0
+    }
+  },
+  "warnings": [
+    {
+      "code": "core_missing",
+      "detail": "немає статті, пов'язаної з Q1666254, у розділах: pl"
+    },
+    {
+      "code": "asymmetric_basket",
+      "detail": "у різних мовах вимірюються різні набори понять; порівняння між мовами нерівноцінне"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (pl, cs) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Скажи користувачу: у pl.wikipedia немає статті про «Інтервальне голодування» (Q1666254).",
+    "Фразу «post przerywany» згадано в 3 статтях pl.wikipedia (напр., Insulinooporność, Nadwaga, Morsowanie): тема є лише всередині інших статей.",
+    "Запропонуй ширше поняття Q44602 «піст» (pl: Post) через --include Q44602; попередь, що воно ширше і це не та сама тема."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q1666254",
+      "label": "Інтервальне голодування",
+      "role": "core",
+      "titles": {
+        "cs": "Přerušovaný půst"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q44602",
+      "label": "піст",
+      "role": "broader",
+      "titles": {
+        "pl": "Post",
+        "cs": "Půst"
+      }
+    }
+  ],
+  "optional_members_total": 1,
+  "full_basket_file": "examples/02_intermittent_fasting_pl_phrase.basket.json"
+}

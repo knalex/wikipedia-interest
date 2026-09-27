@@ -1,0 +1,802 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:Зимові Олімпійські ігри 2026",
+    "en:2026 Winter Olympics"
+  ],
+  "targets": [
+    "en",
+    "it"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q4630399",
+    "label": "Зимові Олімпійські ігри 2026",
+    "description": "XXV зимові Олімпійські ігри",
+    "language_editions_with_article": 85
+  },
+  "coverage": {
+    "en": {
+      "core_title": "2026 Winter Olympics",
+      "included_articles": 1,
+      "included_redirects": 46
+    },
+    "it": {
+      "core_title": "XXV Giochi olimpici invernali",
+      "included_articles": 1,
+      "included_redirects": 2
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q4630399",
+      "label": "Зимові Олімпійські ігри 2026",
+      "role": "core",
+      "titles": {
+        "en": "2026 Winter Olympics",
+        "it": "XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q111737756",
+      "label": "Біатлон на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics",
+        "it": "Biathlon ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737757",
+      "label": "Бобслей на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Bobsleigh at the 2026 Winter Olympics",
+        "it": "Bob ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737759",
+      "label": "Керлінг на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Curling at the 2026 Winter Olympics",
+        "it": "Curling ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737760",
+      "label": "Фристайл на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Freestyle skiing at the 2026 Winter Olympics",
+        "it": "Freestyle ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737761",
+      "label": "Гірськолижний спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Alpine skiing at the 2026 Winter Olympics",
+        "it": "Sci alpino ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737763",
+      "label": "Скі-альпінізм на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Ski mountaineering at the 2026 Winter Olympics",
+        "it": "Sci alpinismo ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737764",
+      "label": "Хокей на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Ice hockey at the 2026 Winter Olympics",
+        "it": "Hockey su ghiaccio ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737765",
+      "label": "Сноубординг на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Snowboarding at the 2026 Winter Olympics",
+        "it": "Snowboard ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737766",
+      "label": "Скелетон на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Skeleton at the 2026 Winter Olympics",
+        "it": "Skeleton ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737768",
+      "label": "Шорт-трек на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Short-track speed skating at the 2026 Winter Olympics",
+        "it": "Short track ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737769",
+      "label": "Ковзанярський спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Speed skating at the 2026 Winter Olympics",
+        "it": "Pattinaggio di velocità ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737770",
+      "label": "Фігурне катання на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Figure skating at the 2026 Winter Olympics",
+        "it": "Pattinaggio di figura ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q111737771",
+      "label": "Санний спорт на зимових Олімпійських іграх 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "Luge at the 2026 Winter Olympics",
+        "it": "Slittino ai XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q131370760",
+      "label": "Естафета Олімпійського вогню зимових Олімпійських ігор 2026",
+      "role": "narrower",
+      "titles": {
+        "en": "2026 Winter Olympics torch relay",
+        "it": "Fiamma olimpica dei XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q131934869",
+      "label": "2026 Winter Olympics opening ceremony",
+      "role": "narrower",
+      "titles": {
+        "en": "2026 Winter Olympics opening ceremony",
+        "it": "Cerimonia di apertura dei XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q132183238",
+      "label": "2026 Winter Olympics closing ceremony",
+      "role": "narrower",
+      "titles": {
+        "en": "2026 Winter Olympics closing ceremony",
+        "it": "Cerimonia di chiusura dei XXV Giochi olimpici invernali"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137271513",
+      "label": "Біатлон на зимових Олімпійських іграх 2026 — спринт (жінки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics – Women's sprint",
+        "it": "Biathlon ai XXV Giochi olimpici invernali - 7,5 km sprint femminile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137271518",
+      "label": "Біатлон на зимових Олімпійських іграх 2026 — спринт (чоловіки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics – Men's sprint",
+        "it": "Biathlon ai XXV Giochi olimpici invernali - 10 km sprint maschile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137796575",
+      "label": "Біатлон на зимових Олімпійських іграх 2026 — масстарт (жінки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics – Women's mass start",
+        "it": "Biathlon ai XXV Giochi olimpici invernali - 12,5 km partenza in linea femminile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137796604",
+      "label": "Біатлон на зимових Олімпійських іграх 2026 — масстарт (чоловіки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics – Men's mass start",
+        "it": "Biathlon ai XXV Giochi olimpici invernali - 15 km partenza in linea maschile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137796619",
+      "label": "Біатлон на зимових Олімпійських іграх 2026 — естафета (жінки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Biathlon at the 2026 Winter Olympics – Women's relay",
+        "it": "Biathlon ai XXV Giochi olimpici invernali - Staffetta 4x6 km femminile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137858834",
+      "label": "Лижні перегони на зимових Олімпійських іграх 2026 — естафета 4×7,5 км (жінки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Cross-country skiing at the 2026 Winter Olympics – Women's 4 × 7.5 kilometre relay",
+        "it": "Sci di fondo ai XXV Giochi olimpici invernali - Staffetta femminile"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q137858833",
+      "label": "Лижні перегони на зимових Олімпійських іграх 2026 — естафета 4×7,5 км (чоловіки)",
+      "role": "narrower",
+      "titles": {
+        "en": "Cross-country skiing at the 2026 Winter Olympics – Men's 4 × 7.5 kilometre relay"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Winter Olympics",
+      "kind": "article",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano-Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano-Cortina d'Ampezzo 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Cortina d'Ampezzo 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan-Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan-Cortina d'Ampezzo 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "XXV Olympic Winter Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan-Cortina d'Ampezzo, Italy",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Dreaming together",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Sognando insieme",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Miano-Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Miano Cortina 2026 opening ceremony",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026 opening ceremony",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026 closing ceremony",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Olimpiadi invernali del 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "XXV Giochi olimpici",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Winter Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano–Cortina",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano-Cortina",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan–Cortina 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan–Cortina",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan-Cortina",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026 Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Olympics 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Cortina Milan 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan Cortina Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Winter Olympics 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Winter Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "XXV Winter Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 milan olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milan–Cortina d'Ampezzo 2026",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026 Winter Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Cortina Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Cortina Winter Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Cortina Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "2026 Cortina Winter Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano Cortina 2026 Olympic Winter Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "25th Winter Olympics",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Milano-Cortina 2026 Winter Olympic Games",
+      "kind": "redirect",
+      "redirect_to": "2026 Winter Olympics",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "it",
+      "project": "it.wikipedia",
+      "title": "XXV Giochi olimpici invernali",
+      "kind": "article",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "it",
+      "project": "it.wikipedia",
+      "title": "Olimpiadi invernali 2026",
+      "kind": "redirect",
+      "redirect_to": "XXV Giochi olimpici invernali",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "it",
+      "project": "it.wikipedia",
+      "title": "XXV Olimpiade Invernale",
+      "kind": "redirect",
+      "redirect_to": "XXV Giochi olimpici invernali",
+      "entity_id": "Q4630399",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, it) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 22 (напр., Біатлон на зимових Олімпійських іграх 2026, Бобслей на зимових Олімпійських іграх 2026, Керлінг на зимових Олімпійських іграх 2026); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

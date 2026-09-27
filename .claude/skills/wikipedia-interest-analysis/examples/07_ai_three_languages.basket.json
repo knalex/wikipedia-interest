@@ -1,0 +1,575 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:штучний інтелект",
+    "en:artificial intelligence"
+  ],
+  "targets": [
+    "uk",
+    "pl",
+    "cs"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q11660",
+    "label": "штучний інтелект",
+    "description": "розділ інформатики",
+    "language_editions_with_article": 184
+  },
+  "coverage": {
+    "uk": {
+      "core_title": "Штучний інтелект",
+      "included_articles": 1,
+      "included_redirects": 7
+    },
+    "pl": {
+      "core_title": "Sztuczna inteligencja",
+      "included_articles": 1,
+      "included_redirects": 0
+    },
+    "cs": {
+      "core_title": "Umělá inteligence",
+      "included_articles": 1,
+      "included_redirects": 4
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q11660",
+      "label": "штучний інтелект",
+      "role": "core",
+      "titles": {
+        "uk": "Штучний інтелект",
+        "pl": "Sztuczna inteligencja",
+        "cs": "Umělá inteligence"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q395",
+      "label": "математика",
+      "role": "broader",
+      "titles": {
+        "uk": "Математика",
+        "pl": "Matematyka",
+        "cs": "Matematika"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q21198",
+      "label": "інформатика",
+      "role": "broader",
+      "titles": {
+        "uk": "Інформатика",
+        "pl": "Informatyka",
+        "cs": "Matematická informatika"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1156402",
+      "label": "міркування",
+      "role": "broader",
+      "titles": {
+        "uk": "Міркування",
+        "pl": "Rozumowanie"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q120208",
+      "label": "перспективні технології",
+      "role": "broader",
+      "titles": {
+        "uk": "Перспективні технології"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2539",
+      "label": "машинне навчання",
+      "role": "narrower",
+      "titles": {
+        "uk": "Машинне навчання",
+        "pl": "Uczenie maszynowe",
+        "cs": "Strojové učení"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q30642",
+      "label": "обробка природної мови",
+      "role": "narrower",
+      "titles": {
+        "uk": "Обробка природної мови",
+        "pl": "Przetwarzanie języka naturalnego",
+        "cs": "Zpracování přirozeného jazyka"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q184609",
+      "label": "експертні системи",
+      "role": "narrower",
+      "titles": {
+        "uk": "Експертна система",
+        "pl": "System ekspertowy",
+        "cs": "Expertní systém"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q192776",
+      "label": "штучна нейронна мережа",
+      "role": "narrower",
+      "titles": {
+        "uk": "Штучна нейронна мережа",
+        "pl": "Sieć neuronowa",
+        "cs": "Umělá neuronová síť"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q330268",
+      "label": "Система підтримки рішень",
+      "role": "narrower",
+      "titles": {
+        "uk": "Система підтримки рішень",
+        "pl": "System wspomagania decyzji",
+        "cs": "Systém pro podporu rozhodování"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q1981968",
+      "label": "евристичний алгоритм",
+      "role": "narrower",
+      "titles": {
+        "uk": "Евристичний алгоритм",
+        "pl": "Heurystyka (informatyka)",
+        "cs": "Heuristické algoritmy"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q2264109",
+      "label": "сильний штучний інтелект",
+      "role": "narrower",
+      "titles": {
+        "uk": "Загальний штучний інтелект",
+        "pl": "Ogólna sztuczna inteligencja",
+        "cs": "Obecná umělá inteligence"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q28022144",
+      "label": "Amazon Alexa",
+      "role": "narrower",
+      "titles": {
+        "uk": "Amazon Alexa",
+        "pl": "Amazon Alexa",
+        "cs": "Amazon Alexa"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q116777014",
+      "label": "generative pre-trained transformer",
+      "role": "narrower",
+      "titles": {
+        "uk": "Generative pre-trained transformer",
+        "pl": "Wstępnie przeszkolony transformer generatywny",
+        "cs": "Generative pre-trained transformer"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q203790",
+      "label": "конективізм",
+      "role": "narrower",
+      "titles": {
+        "uk": "Конекціонізм",
+        "pl": "Koneksjonizm"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1122090",
+      "label": "Обчислювальний інтелект",
+      "role": "narrower",
+      "titles": {
+        "uk": "Обчислювальний інтелект",
+        "pl": "Obliczenia inteligentne"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1197129",
+      "label": "еволюційне моделювання",
+      "role": "narrower",
+      "titles": {
+        "uk": "Еволюційне моделювання",
+        "pl": "Obliczenia ewolucyjne"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1207836",
+      "label": "Комп'ютерне ґо",
+      "role": "narrower",
+      "titles": {
+        "uk": "Комп'ютерне ґо",
+        "pl": "Programy komputerowe do gry w go"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1540472",
+      "label": "інженерія знань",
+      "role": "narrower",
+      "titles": {
+        "uk": "Інженерія знань",
+        "pl": "Inżynieria wiedzy"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2072794",
+      "label": "метод рою часток",
+      "role": "narrower",
+      "titles": {
+        "uk": "Метод рою часток",
+        "cs": "Optimalizace hejnem částic"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2555318",
+      "label": "автоматизоване міркування",
+      "role": "narrower",
+      "titles": {
+        "uk": "Автоматизоване міркування",
+        "pl": "Automatyczne rozumowanie"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q2631895",
+      "label": "автоматизоване планування та диспетчеризація",
+      "role": "narrower",
+      "titles": {
+        "uk": "Автоматизоване планування та диспетчеризація",
+        "pl": "Automatyczne planowanie"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4386060",
+      "label": "Когнітивна архітектура",
+      "role": "narrower",
+      "titles": {
+        "pl": "Architektura kognitywna",
+        "cs": "Kognitivní architektury"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q40890078",
+      "label": "поясненний штучний інтелект",
+      "role": "narrower",
+      "titles": {
+        "uk": "Поясненний штучний інтелект",
+        "pl": "Wyjaśnialna sztuczna inteligencja"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q60827595",
+      "label": "AlphaFold",
+      "role": "narrower",
+      "titles": {
+        "uk": "AlphaFold",
+        "cs": "AlphaFold"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1185804",
+      "label": "емоційні обчислення",
+      "role": "narrower",
+      "titles": {
+        "pl": "Informatyka afektywna"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q1362688",
+      "label": "посилення інтелекту",
+      "role": "narrower",
+      "titles": {
+        "uk": "Посилення інтелекту"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q3478658",
+      "label": "подання знань",
+      "role": "narrower",
+      "titles": {
+        "pl": "Reprezentacja wiedzy i rozumowanie"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4117674",
+      "label": "Самоуправління",
+      "role": "narrower",
+      "titles": {
+        "uk": "Самоуправління (інформатика)"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q4781507",
+      "label": "застосування штучного інтелекту",
+      "role": "narrower",
+      "titles": {
+        "uk": "Застосування штучного інтелекту"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q28324961",
+      "label": "штучний інтелект в охороні здоров’я",
+      "role": "narrower",
+      "titles": {
+        "cs": "Umělá inteligence ve zdravotnictví"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q50818671",
+      "label": "Федеративне навчання",
+      "role": "narrower",
+      "titles": {
+        "uk": "Федеративне навчання"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q111598768",
+      "label": "You.com",
+      "role": "narrower",
+      "titles": {
+        "uk": "You.com"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q124559107",
+      "label": "NotebookLM",
+      "role": "narrower",
+      "titles": {
+        "uk": "NotebookLM"
+      },
+      "in_all_targets": false,
+      "included": false
+    },
+    {
+      "entity_id": "Q127449019",
+      "label": "AI washing",
+      "role": "narrower",
+      "titles": {
+        "pl": "AI washing"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Штучний інтелект",
+      "kind": "article",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Штучний Розум",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Машинне мислення",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "AI",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "ШІ",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Машинний \"інтелект\"",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Машинний інтелект",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "uk",
+      "project": "uk.wikipedia",
+      "title": "Когнітивна система (інформатика)",
+      "kind": "redirect",
+      "redirect_to": "Штучний інтелект",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "pl",
+      "project": "pl.wikipedia",
+      "title": "Sztuczna inteligencja",
+      "kind": "article",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "cs",
+      "project": "cs.wikipedia",
+      "title": "Umělá inteligence",
+      "kind": "article",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "cs",
+      "project": "cs.wikipedia",
+      "title": "Artificial intelligence",
+      "kind": "redirect",
+      "redirect_to": "Umělá inteligence",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "cs",
+      "project": "cs.wikipedia",
+      "title": "AI",
+      "kind": "redirect",
+      "redirect_to": "Umělá inteligence",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "cs",
+      "project": "cs.wikipedia",
+      "title": "Úzká umělá inteligence",
+      "kind": "redirect",
+      "redirect_to": "Umělá inteligence",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "cs",
+      "project": "cs.wikipedia",
+      "title": "Artificial Intelligence",
+      "kind": "redirect",
+      "redirect_to": "Umělá inteligence",
+      "entity_id": "Q11660",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (uk, pl, cs) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 9 (напр., машинне навчання, обробка природної мови, експертні системи); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

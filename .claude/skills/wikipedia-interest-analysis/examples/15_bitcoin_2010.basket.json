@@ -1,0 +1,579 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "en:Bitcoin"
+  ],
+  "targets": [
+    "en"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q131723",
+    "label": "біткойн",
+    "description": "система електронних грошей та валютна одиниця, яка використовується в ній",
+    "language_editions_with_article": 140
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Bitcoin",
+      "included_articles": 1,
+      "included_redirects": 47
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q131723",
+      "label": "біткойн",
+      "role": "core",
+      "titles": {
+        "en": "Bitcoin"
+      },
+      "in_all_targets": true,
+      "included": true
+    },
+    {
+      "entity_id": "Q4290",
+      "label": "інвестиція",
+      "role": "broader",
+      "titles": {
+        "en": "Investment"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q17001427",
+      "label": "Bitcoin-мережа",
+      "role": "narrower",
+      "titles": {
+        "en": "Bitcoin protocol"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q55616114",
+      "label": "Kodak KashMiner",
+      "role": "narrower",
+      "titles": {
+        "en": "Kodak KashMiner"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q56868002",
+      "label": "satoshi",
+      "role": "narrower",
+      "titles": {
+        "en": "Satoshis"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q134815381",
+      "label": "millibitcoin",
+      "role": "narrower",
+      "titles": {
+        "en": "Millibitcoin"
+      },
+      "in_all_targets": true,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin",
+      "kind": "article",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Microcoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoins",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "BitCoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "BitCoinJ",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bit coin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoinage",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bit Coin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin-Qt",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoinqt",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin qt",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoind",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "B⃦",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcion",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitocin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcent",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Satoshis",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcents",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "1 BTC",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "1-BTC",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoinj",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "BitcoinJ",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bicoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "MBTC",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "UBTC",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Millicoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "ΜBTC",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Edison's renegade currency",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "BitcoinShop",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin wallet",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin Black Friday",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "₿",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "BITCOIN",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "CheckSequenceVerify",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "CheckLockTimeVerify",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcorn",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Coinbit",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin Ponzi scheme and pyramid scheme concerns",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin (cryptocurrency)",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "CoinCorner",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Laszlo Hanyecz",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bticoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "₿itcoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin difficulty adjustment",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Millibitcoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "MilliBitcoin",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin.org",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "en",
+      "project": "en.wikipedia",
+      "title": "Bitcoin whitepaper",
+      "kind": "redirect",
+      "redirect_to": "Bitcoin",
+      "entity_id": "Q131723",
+      "role": "core",
+      "source": "redirect"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q136095321 (Bitcoin: 2026 American drama film directed by Doug Liman; статті в 4 мовних розділах); обрано значно поширеніше Q131723 (біткойн: система електронних грошей та валютна одиниця, яка використовується в ній; статті в 140 мовних розділах)"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Згадай одним рядком: запит також збігся з Q136095321 (Bitcoin: 2026 American drama film directed by Doug Liman; статті в 4 мовних розділах); обрано значно поширеніше Q131723 (біткойн: система електронних грошей та валютна одиниця, яка використовується в ній; статті в 140 мовних розділах).",
+    "Вужчих понять, що є в усіх вибраних розділах: 4 (напр., Bitcoin-мережа, Kodak KashMiner, satoshi); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk"
+}

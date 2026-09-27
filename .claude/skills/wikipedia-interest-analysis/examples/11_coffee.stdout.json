@@ -1,0 +1,184 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "uk:кава",
+    "en:coffee"
+  ],
+  "targets": [
+    "pl",
+    "cs"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q8486",
+    "label": "кава",
+    "description": "напій, що виготовляється із смажених зерен кавового дерева",
+    "language_editions_with_article": 213
+  },
+  "coverage": {
+    "pl": {
+      "core_title": "Kawa",
+      "included_articles": 1,
+      "included_redirects": 0
+    },
+    "cs": {
+      "core_title": "Káva",
+      "included_articles": 1,
+      "included_redirects": 4
+    }
+  },
+  "warnings": [
+    {
+      "code": "related_truncated",
+      "detail": "понад 50 вужчих понять на одну властивість; перевірено лише перші"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (pl, cs) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Вужчих понять, що є в усіх вибраних розділах: 6 (напр., кава по-турецьки, Ристрето, Копі Лювак); запропонуй --scope extended або --include <QID>, щоб розширити тему."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q8486",
+      "label": "кава",
+      "role": "core",
+      "titles": {
+        "pl": "Kawa",
+        "cs": "Káva"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q742487",
+      "label": "ноотропні препарати",
+      "role": "broader",
+      "titles": {
+        "pl": "Leki nootropowe",
+        "cs": "Nootropikum"
+      }
+    },
+    {
+      "entity_id": "Q473666",
+      "label": "бакалія",
+      "role": "broader",
+      "titles": {
+        "pl": "Sklep kolonialny"
+      }
+    },
+    {
+      "entity_id": "Q1365365",
+      "label": "продукт-стимулянт",
+      "role": "broader",
+      "titles": {
+        "cs": "Pochutiny"
+      }
+    },
+    {
+      "entity_id": "Q2647467",
+      "label": "безалкогольні напої",
+      "role": "broader",
+      "titles": {
+        "pl": "Napój bezalkoholowy"
+      }
+    },
+    {
+      "entity_id": "Q43022",
+      "label": "кава по-турецьки",
+      "role": "narrower",
+      "titles": {
+        "pl": "Kawa po turecku",
+        "cs": "Turecká mokka"
+      }
+    },
+    {
+      "entity_id": "Q59047",
+      "label": "Ристрето",
+      "role": "narrower",
+      "titles": {
+        "pl": "Ristretto",
+        "cs": "Ristretto"
+      }
+    },
+    {
+      "entity_id": "Q213908",
+      "label": "Копі Лювак",
+      "role": "narrower",
+      "titles": {
+        "pl": "Kopi luwak",
+        "cs": "Kopi Luwak"
+      }
+    },
+    {
+      "entity_id": "Q858049",
+      "label": "розчинна кава",
+      "role": "narrower",
+      "titles": {
+        "pl": "Kawa rozpuszczalna",
+        "cs": "Instantní káva"
+      }
+    },
+    {
+      "entity_id": "Q1152551",
+      "label": "Кава американо",
+      "role": "narrower",
+      "titles": {
+        "pl": "Americano (kawa)",
+        "cs": "Caffè americano"
+      }
+    },
+    {
+      "entity_id": "Q5142444",
+      "label": "Кава холодного заварювання",
+      "role": "narrower",
+      "titles": {
+        "pl": "Cold brew",
+        "cs": "Cold brew"
+      }
+    },
+    {
+      "entity_id": "Q59048",
+      "label": "лунго",
+      "role": "narrower",
+      "titles": {
+        "cs": "Lungo"
+      }
+    },
+    {
+      "entity_id": "Q885800",
+      "label": "Блу-Маунтін",
+      "role": "narrower",
+      "titles": {
+        "pl": "Blue Mountain (kawa)"
+      }
+    },
+    {
+      "entity_id": "Q1094149",
+      "label": "specialty coffee",
+      "role": "narrower",
+      "titles": {
+        "cs": "Výběrová káva"
+      }
+    },
+    {
+      "entity_id": "Q1150728",
+      "label": "Кава по-арабськи",
+      "role": "narrower",
+      "titles": {
+        "pl": "Kawa po arabsku"
+      }
+    },
+    {
+      "entity_id": "Q1155703",
+      "label": "Пуровер",
+      "role": "narrower",
+      "titles": {
+        "cs": "Překapávaná káva"
+      }
+    }
+  ],
+  "optional_members_total": 20,
+  "full_basket_file": "examples/11_coffee.basket.json"
+}

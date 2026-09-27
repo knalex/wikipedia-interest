@@ -1,0 +1,31 @@
+{
+  "status": "ambiguous",
+  "input_queries": [
+    "ru:Шевченко",
+    "en:Shevchenko"
+  ],
+  "candidates": [
+    {
+      "entity_id": "Q4522130",
+      "label": "Шевченко",
+      "description": "селище Покровської міської громади Покровського району Донецької області",
+      "language_editions_with_article": 11,
+      "titles": {
+        "pl": "Szewczenko (hromada Pokrowsk)"
+      }
+    },
+    {
+      "entity_id": "Q3019250",
+      "label": "Шевченко",
+      "description": "українське прізвище",
+      "language_editions_with_article": 6,
+      "titles": {}
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (pl, cs) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Покажи кандидатів користувачу і перезапусти з --entity <QID>."
+  ],
+  "reply_language": "uk"
+}

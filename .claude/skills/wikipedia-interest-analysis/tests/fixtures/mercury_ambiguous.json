@@ -1,0 +1,6644 @@
+{
+ "https://www.wikidata.org/w/api.php?action=paraminfo&format=json&modules=wbgetentities": {
+  "paraminfo": {
+   "helpformat": "none",
+   "modules": [
+    {
+     "classname": "Wikibase\\Repo\\Api\\GetEntities",
+     "group": "action",
+     "helpurls": [],
+     "licenselink": "//www.wikidata.org/wiki/Special:Version/License/WikibaseClient",
+     "licensetag": "GPL-2.0-or-later",
+     "name": "wbgetentities",
+     "parameters": [
+      {
+       "highlimit": 500,
+       "index": 1,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "ids",
+       "type": "string"
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 2,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "sites",
+       "type": [
+        "aawiki",
+        "aawikibooks",
+        "aawiktionary",
+        "abstractwiki",
+        "abwiki",
+        "abwiktionary",
+        "acewiki",
+        "adywiki",
+        "afwiki",
+        "afwikibooks",
+        "afwikiquote",
+        "afwiktionary",
+        "akwiki",
+        "akwikibooks",
+        "akwiktionary",
+        "alswiki",
+        "alswikibooks",
+        "alswikiquote",
+        "alswiktionary",
+        "altwiki",
+        "amiwiki",
+        "amwiki",
+        "amwikiquote",
+        "amwiktionary",
+        "angwiki",
+        "angwikibooks",
+        "angwikiquote",
+        "angwikisource",
+        "angwiktionary",
+        "annwiki",
+        "anpwiki",
+        "anwiki",
+        "anwiktionary",
+        "arcwiki",
+        "arwiki",
+        "arwikibooks",
+        "arwikinews",
+        "arwikiquote",
+        "arwikisource",
+        "arwikiversity",
+        "arwiktionary",
+        "arywiki",
+        "arzwiki",
+        "astwiki",
+        "astwikibooks",
+        "astwikiquote",
+        "astwiktionary",
+        "aswiki",
+        "aswikibooks",
+        "aswikiquote",
+        "aswikisource",
+        "aswiktionary",
+        "atjwiki",
+        "avkwiki",
+        "avwiki",
+        "avwiktionary",
+        "awawiki",
+        "aywiki",
+        "aywikibooks",
+        "aywiktionary",
+        "azbwiki",
+        "azwiki",
+        "azwikibooks",
+        "azwikiquote",
+        "azwikisource",
+        "azwiktionary",
+        "banwiki",
+        "banwikisource",
+        "barwiki",
+        "bat_smgwiki",
+        "bawiki",
+        "bawikibooks",
+        "bbcwiki",
+        "bclwiki",
+        "bclwikiquote",
+        "bclwikisource",
+        "bclwiktionary",
+        "bdrwiki",
+        "be_x_oldwiki",
+        "bewiki",
+        "bewikibooks",
+        "bewikiquote",
+        "bewikisource",
+        "bewiktionary",
+        "bewwiki",
+        "bewwiktionary",
+        "bgwiki",
+        "bgwikibooks",
+        "bgwikinews",
+        "bgwikiquote",
+        "bgwikisource",
+        "bgwiktionary",
+        "bhwiki",
+        "bhwiktionary",
+        "biwiki",
+        "biwikibooks",
+        "biwiktionary",
+        "bjnwiki",
+        "bjnwikiquote",
+        "bjnwiktionary",
+        "blkwiki",
+        "blkwiktionary",
+        "bmwiki",
+        "bmwikibooks",
+        "bmwikiquote",
+        "bmwiktionary",
+        "bnwiki",
+        "bnwikibooks",
+        "bnwikiquote",
+        "bnwikisource",
+        "bnwikivoyage",
+        "bnwiktionary",
+        "bolwiki",
+        "bowiki",
+        "bowikibooks",
+        "bowiktionary",
+        "bpywiki",
+        "brwiki",
+        "brwikiquote",
+        "brwikisource",
+        "brwiktionary",
+        "bswiki",
+        "bswikibooks",
+        "bswikinews",
+        "bswikiquote",
+        "bswikisource",
+        "bswiktionary",
+        "btmwiki",
+        "btmwiktionary",
+        "bugwiki",
+        "bxrwiki",
+        "cawiki",
+        "cawikibooks",
+        "cawikinews",
+        "cawikiquote",
+        "cawikisource",
+        "cawiktionary",
+        "cbk_zamwiki",
+        "cdowiki",
+        "cebwiki",
+        "cewiki",
+        "chowiki",
+        "chrwiki",
+        "chrwiktionary",
+        "chwiki",
+        "chwikibooks",
+        "chwiktionary",
+        "chywiki",
+        "ckbwiki",
+        "ckbwiktionary",
+        "commonswiki",
+        "cowiki",
+        "cowikibooks",
+        "cowikiquote",
+        "cowiktionary",
+        "crhwiki",
+        "crwiki",
+        "crwikiquote",
+        "crwiktionary",
+        "csbwiki",
+        "csbwiktionary",
+        "cswiki",
+        "cswikibooks",
+        "cswikinews",
+        "cswikiquote",
+        "cswikisource",
+        "cswikiversity",
+        "cswikivoyage",
+        "cswiktionary",
+        "cuwiki",
+        "cvwiki",
+        "cvwikibooks",
+        "cywiki",
+        "cywikibooks",
+        "cywikiquote",
+        "cywikisource",
+        "cywiktionary",
+        "dagwiki",
+        "dawiki",
+        "dawikibooks",
+        "dawikiquote",
+        "dawikisource",
+        "dawiktionary",
+        "dewiki",
+        "dewikibooks",
+        "dewikinews",
+        "dewikiquote",
+        "dewikisource",
+        "dewikiversity",
+        "dewikivoyage",
+        "dewiktionary",
+        "dgawiki",
+        "dinwiki",
+        "diqwiki",
+        "diqwiktionary",
+        "dsbwiki",
+        "dtpwiki",
+        "dtywiki",
+        "dvwiki",
+        "dvwiktionary",
+        "dzwiki",
+        "dzwiktionary",
+        "eewiki",
+        "elwiki",
+        "elwikibooks",
+        "elwikinews",
+        "elwikiquote",
+        "elwikisource",
+        "elwikiversity",
+        "elwikivoyage",
+        "elwiktionary",
+        "emlwiki",
+        "enwiki",
+        "enwikibooks",
+        "enwikinews",
+        "enwikiquote",
+        "enwikisource",
+        "enwikiversity",
+        "enwikivoyage",
+        "enwiktionary",
+        "eowiki",
+        "eowikibooks",
+        "eowikinews",
+        "eowikiquote",
+        "eowikisource",
+        "eowikivoyage",
+        "eowiktionary",
+        "eswiki",
+        "eswikibooks",
+        "eswikinews",
+        "eswikiquote",
+        "eswikisource",
+        "eswikiversity",
+        "eswikivoyage",
+        "eswiktionary",
+        "etwiki",
+        "etwikibooks",
+        "etwikiquote",
+        "etwikisource",
+        "etwiktionary",
+        "euwiki",
+        "euwikibooks",
+        "euwikiquote",
+        "euwikisource",
+        "euwiktionary",
+        "extwiki",
+        "fatwiki",
+        "fawiki",
+        "fawikibooks",
+        "fawikinews",
+        "fawikiquote",
+        "fawikisource",
+        "fawikivoyage",
+        "fawiktionary",
+        "ffwiki",
+        "fiu_vrowiki",
+        "fiwiki",
+        "fiwikibooks",
+        "fiwikinews",
+        "fiwikiquote",
+        "fiwikisource",
+        "fiwikiversity",
+        "fiwikivoyage",
+        "fiwiktionary",
+        "fjwiki",
+        "fjwiktionary",
+        "fonwiki",
+        "foundationwiki",
+        "fowiki",
+        "fowikisource",
+        "fowiktionary",
+        "frpwiki",
+        "frrwiki",
+        "frwiki",
+        "frwikibooks",
+        "frwikinews",
+        "frwikiquote",
+        "frwikisource",
+        "frwikiversity",
+        "frwikivoyage",
+        "frwiktionary",
+        "furwiki",
+        "fywiki",
+        "fywikibooks",
+        "fywiktionary",
+        "gagwiki",
+        "ganwiki",
+        "gawiki",
+        "gawikibooks",
+        "gawikiquote",
+        "gawiktionary",
+        "gcrwiki",
+        "gdwiki",
+        "gdwiktionary",
+        "glkwiki",
+        "glwiki",
+        "glwikibooks",
+        "glwikiquote",
+        "glwikisource",
+        "glwiktionary",
+        "gnwiki",
+        "gnwikibooks",
+        "gnwiktionary",
+        "gomwiki",
+        "gomwiktionary",
+        "gorwiki",
+        "gorwikiquote",
+        "gorwiktionary",
+        "gotwiki",
+        "gotwikibooks",
+        "gpewiki",
+        "gucwiki",
+        "gurwiki",
+        "guwiki",
+        "guwikibooks",
+        "guwikiquote",
+        "guwikisource",
+        "guwiktionary",
+        "guwwiki",
+        "guwwikinews",
+        "guwwikiquote",
+        "guwwiktionary",
+        "gvwiki",
+        "gvwiktionary",
+        "hakwiki",
+        "hawiki",
+        "hawiktionary",
+        "hawwiki",
+        "hewiki",
+        "hewikibooks",
+        "hewikinews",
+        "hewikiquote",
+        "hewikisource",
+        "hewikivoyage",
+        "hewiktionary",
+        "hifwiki",
+        "hifwiktionary",
+        "hiwiki",
+        "hiwikibooks",
+        "hiwikiquote",
+        "hiwikisource",
+        "hiwikiversity",
+        "hiwikivoyage",
+        "hiwiktionary",
+        "howiki",
+        "hrwiki",
+        "hrwikibooks",
+        "hrwikiquote",
+        "hrwikisource",
+        "hrwiktionary",
+        "hsbwiki",
+        "hsbwiktionary",
+        "htwiki",
+        "htwikisource",
+        "huwiki",
+        "huwikibooks",
+        "huwikinews",
+        "huwikiquote",
+        "huwikisource",
+        "huwiktionary",
+        "hywiki",
+        "hywikibooks",
+        "hywikiquote",
+        "hywikisource",
+        "hywiktionary",
+        "hywwiki",
+        "hzwiki",
+        "iawiki",
+        "iawikibooks",
+        "iawiktionary",
+        "ibawiki",
+        "idwiki",
+        "idwikibooks",
+        "idwikiquote",
+        "idwikisource",
+        "idwikivoyage",
+        "idwiktionary",
+        "iewiki",
+        "iewikibooks",
+        "iewiktionary",
+        "iglwiki",
+        "igwiki",
+        "igwikiquote",
+        "igwiktionary",
+        "iiwiki",
+        "ikwiki",
+        "ikwiktionary",
+        "ilowiki",
+        "inhwiki",
+        "iowiki",
+        "iowiktionary",
+        "isvwiki",
+        "iswiki",
+        "iswikibooks",
+        "iswikiquote",
+        "iswikisource",
+        "iswiktionary",
+        "itwiki",
+        "itwikibooks",
+        "itwikinews",
+        "itwikiquote",
+        "itwikisource",
+        "itwikiversity",
+        "itwikivoyage",
+        "itwiktionary",
+        "iuwiki",
+        "iuwiktionary",
+        "jamwiki",
+        "jawiki",
+        "jawikibooks",
+        "jawikinews",
+        "jawikiquote",
+        "jawikisource",
+        "jawikiversity",
+        "jawikivoyage",
+        "jawiktionary",
+        "jbowiki",
+        "jbowiktionary",
+        "jvwiki",
+        "jvwikisource",
+        "jvwiktionary",
+        "kaawiki",
+        "kaawiktionary",
+        "kabwiki",
+        "kaiwiki",
+        "kajwiki",
+        "kawiki",
+        "kawikibooks",
+        "kawikiquote",
+        "kawikisource",
+        "kawiktionary",
+        "kbdwiki",
+        "kbdwiktionary",
+        "kbpwiki",
+        "kcgwiki",
+        "kcgwiktionary",
+        "kgewiki",
+        "kgwiki",
+        "kiwiki",
+        "kjwiki",
+        "kkwiki",
+        "kkwikibooks",
+        "kkwikiquote",
+        "kkwiktionary",
+        "klwiki",
+        "klwiktionary",
+        "kmwiki",
+        "kmwikibooks",
+        "kmwiktionary",
+        "kncwiki",
+        "knwiki",
+        "knwikibooks",
+        "knwikiquote",
+        "knwikisource",
+        "knwiktionary",
+        "koiwiki",
+        "kowiki",
+        "kowikibooks",
+        "kowikinews",
+        "kowikiquote",
+        "kowikisource",
+        "kowikiversity",
+        "kowiktionary",
+        "krcwiki",
+        "krwiki",
+        "krwikiquote",
+        "kshwiki",
+        "kswiki",
+        "kswikibooks",
+        "kswikiquote",
+        "kswiktionary",
+        "kuswiki",
+        "kuwiki",
+        "kuwikibooks",
+        "kuwikiquote",
+        "kuwiktionary",
+        "kvwiki",
+        "kwwiki",
+        "kwwikiquote",
+        "kwwiktionary",
+        "kywiki",
+        "kywikibooks",
+        "kywikiquote",
+        "kywiktionary",
+        "ladwiki",
+        "lawiki",
+        "lawikibooks",
+        "lawikiquote",
+        "lawikisource",
+        "lawiktionary",
+        "lbewiki",
+        "lbwiki",
+        "lbwikibooks",
+        "lbwikiquote",
+        "lbwiktionary",
+        "lezwiki",
+        "lfnwiki",
+        "lgwiki",
+        "lijwiki",
+        "lijwikisource",
+        "liwiki",
+        "liwikibooks",
+        "liwikinews",
+        "liwikiquote",
+        "liwikisource",
+        "liwiktionary",
+        "lldwiki",
+        "lmowiki",
+        "lmowiktionary",
+        "lnwiki",
+        "lnwikibooks",
+        "lnwiktionary",
+        "lowiki",
+        "lowiktionary",
+        "lrcwiki",
+        "ltgwiki",
+        "ltwiki",
+        "ltwikibooks",
+        "ltwikiquote",
+        "ltwikisource",
+        "ltwiktionary",
+        "lvwiki",
+        "lvwikibooks",
+        "lvwiktionary",
+        "madwiki",
+        "madwikisource",
+        "madwiktionary",
+        "magwiki",
+        "maiwiki",
+        "map_bmswiki",
+        "mdfwiki",
+        "mediawikiwiki",
+        "metawiki",
+        "mgwiki",
+        "mgwikibooks",
+        "mgwiktionary",
+        "mhrwiki",
+        "mhwiki",
+        "mhwiktionary",
+        "minwiki",
+        "minwikibooks",
+        "minwikiquote",
+        "minwikisource",
+        "minwiktionary",
+        "miwiki",
+        "miwikibooks",
+        "miwiktionary",
+        "mkwiki",
+        "mkwikibooks",
+        "mkwikisource",
+        "mkwiktionary",
+        "mlwiki",
+        "mlwikibooks",
+        "mlwikiquote",
+        "mlwikisource",
+        "mlwiktionary",
+        "mniwiki",
+        "mniwiktionary",
+        "mnwiki",
+        "mnwikibooks",
+        "mnwiktionary",
+        "mnwwiki",
+        "mnwwiktionary",
+        "moswiki",
+        "mowiki",
+        "mowiktionary",
+        "mrjwiki",
+        "mrwiki",
+        "mrwikibooks",
+        "mrwikiquote",
+        "mrwikisource",
+        "mrwiktionary",
+        "mswiki",
+        "mswikibooks",
+        "mswikiquote",
+        "mswikisource",
+        "mswiktionary",
+        "mtwiki",
+        "mtwiktionary",
+        "muswiki",
+        "mwlwiki",
+        "myvwiki",
+        "mywiki",
+        "mywikibooks",
+        "mywikisource",
+        "mywiktionary",
+        "mznwiki",
+        "nahwiki",
+        "nahwikibooks",
+        "nahwiktionary",
+        "napwiki",
+        "napwikisource",
+        "nawiki",
+        "nawikibooks",
+        "nawikiquote",
+        "nawiktionary",
+        "nds_nlwiki",
+        "ndswiki",
+        "ndswikibooks",
+        "ndswikiquote",
+        "ndswiktionary",
+        "newiki",
+        "newikibooks",
+        "newiktionary",
+        "newwiki",
+        "ngwiki",
+        "niawiki",
+        "niawiktionary",
+        "nlwiki",
+        "nlwikibooks",
+        "nlwikinews",
+        "nlwikiquote",
+        "nlwikisource",
+        "nlwikivoyage",
+        "nlwiktionary",
+        "nnwiki",
+        "nnwikiquote",
+        "nnwiktionary",
+        "novwiki",
+        "nowiki",
+        "nowikibooks",
+        "nowikinews",
+        "nowikiquote",
+        "nowikisource",
+        "nowiktionary",
+        "nqowiki",
+        "nrmwiki",
+        "nrwiki",
+        "nsowiki",
+        "nupwiki",
+        "nvwiki",
+        "nywiki",
+        "ocwiki",
+        "ocwikibooks",
+        "ocwiktionary",
+        "olowiki",
+        "omwiki",
+        "omwiktionary",
+        "orwiki",
+        "orwikisource",
+        "orwiktionary",
+        "oswiki",
+        "outreachwiki",
+        "pagwiki",
+        "pamwiki",
+        "papwiki",
+        "pawiki",
+        "pawikibooks",
+        "pawikisource",
+        "pawiktionary",
+        "pcdwiki",
+        "pcmwiki",
+        "pcmwikiquote",
+        "pdcwiki",
+        "pflwiki",
+        "pihwiki",
+        "piwiki",
+        "piwiktionary",
+        "plwiki",
+        "plwikibooks",
+        "plwikinews",
+        "plwikiquote",
+        "plwikisource",
+        "plwikivoyage",
+        "plwiktionary",
+        "pmswiki",
+        "pmswikisource",
+        "pnbwiki",
+        "pnbwiktionary",
+        "pntwiki",
+        "pplwiki",
+        "pswiki",
+        "pswikibooks",
+        "pswikivoyage",
+        "pswiktionary",
+        "ptwiki",
+        "ptwikibooks",
+        "ptwikinews",
+        "ptwikiquote",
+        "ptwikisource",
+        "ptwikiversity",
+        "ptwikivoyage",
+        "ptwiktionary",
+        "pwnwiki",
+        "quwiki",
+        "quwikibooks",
+        "quwikiquote",
+        "quwiktionary",
+        "rkiwiki",
+        "rmwiki",
+        "rmwikibooks",
+        "rmwiktionary",
+        "rmywiki",
+        "rnwiki",
+        "rnwiktionary",
+        "roa_rupwiki",
+        "roa_rupwiktionary",
+        "roa_tarawiki",
+        "rowiki",
+        "rowikibooks",
+        "rowikinews",
+        "rowikiquote",
+        "rowikisource",
+        "rowikivoyage",
+        "rowiktionary",
+        "rskwiki",
+        "ruewiki",
+        "ruwiki",
+        "ruwikibooks",
+        "ruwikinews",
+        "ruwikiquote",
+        "ruwikisource",
+        "ruwikiversity",
+        "ruwikivoyage",
+        "ruwiktionary",
+        "rwwiki",
+        "rwwiktionary",
+        "sahwiki",
+        "sahwikiquote",
+        "sahwikisource",
+        "satwiki",
+        "satwiktionary",
+        "sawiki",
+        "sawikibooks",
+        "sawikiquote",
+        "sawikisource",
+        "sawiktionary",
+        "scnwiki",
+        "scnwiktionary",
+        "scowiki",
+        "scwiki",
+        "scwiktionary",
+        "sdwiki",
+        "sdwikinews",
+        "sdwiktionary",
+        "sewiki",
+        "sewikibooks",
+        "sgwiki",
+        "sgwiktionary",
+        "shiwiki",
+        "shnwiki",
+        "shnwikibooks",
+        "shnwikinews",
+        "shnwikivoyage",
+        "shnwiktionary",
+        "shwiki",
+        "shwiktionary",
+        "shywiktionary",
+        "simplewiki",
+        "simplewikibooks",
+        "simplewikiquote",
+        "simplewiktionary",
+        "siwiki",
+        "siwikibooks",
+        "siwiktionary",
+        "skrwiki",
+        "skrwiktionary",
+        "skwiki",
+        "skwikibooks",
+        "skwikiquote",
+        "skwikisource",
+        "skwiktionary",
+        "slwiki",
+        "slwikibooks",
+        "slwikiquote",
+        "slwikisource",
+        "slwikiversity",
+        "slwiktionary",
+        "smnwiki",
+        "smwiki",
+        "smwiktionary",
+        "snwiki",
+        "snwiktionary",
+        "sourceswiki",
+        "sowiki",
+        "sowiktionary",
+        "specieswiki",
+        "sqwiki",
+        "sqwikibooks",
+        "sqwikinews",
+        "sqwikiquote",
+        "sqwiktionary",
+        "srnwiki",
+        "srwiki",
+        "srwikibooks",
+        "srwikinews",
+        "srwikiquote",
+        "srwikisource",
+        "srwiktionary",
+        "sswiki",
+        "sswiktionary",
+        "stqwiki",
+        "stwiki",
+        "stwiktionary",
+        "suwiki",
+        "suwikibooks",
+        "suwikiquote",
+        "suwikisource",
+        "suwiktionary",
+        "svwiki",
+        "svwikibooks",
+        "svwikinews",
+        "svwikiquote",
+        "svwikisource",
+        "svwikiversity",
+        "svwikivoyage",
+        "svwiktionary",
+        "swwiki",
+        "swwikibooks",
+        "swwiktionary",
+        "sylwiki",
+        "szlwiki",
+        "szywiki",
+        "tawiki",
+        "tawikibooks",
+        "tawikinews",
+        "tawikiquote",
+        "tawikisource",
+        "tawiktionary",
+        "taywiki",
+        "tcywiki",
+        "tcywikisource",
+        "tcywiktionary",
+        "tddwiki",
+        "tetwiki",
+        "tewiki",
+        "tewikibooks",
+        "tewikiquote",
+        "tewikisource",
+        "tewiktionary",
+        "tgwiki",
+        "tgwikibooks",
+        "tgwiktionary",
+        "thwiki",
+        "thwikibooks",
+        "thwikinews",
+        "thwikiquote",
+        "thwikisource",
+        "thwiktionary",
+        "tigwiki",
+        "tiwiki",
+        "tiwiktionary",
+        "tkwiki",
+        "tkwikibooks",
+        "tkwikiquote",
+        "tkwiktionary",
+        "tlwiki",
+        "tlwikibooks",
+        "tlwikiquote",
+        "tlwikisource",
+        "tlwiktionary",
+        "tlywiki",
+        "tnwiki",
+        "tnwiktionary",
+        "tokwiki",
+        "towiki",
+        "towiktionary",
+        "tpiwiki",
+        "tpiwiktionary",
+        "trvwiki",
+        "trwiki",
+        "trwikibooks",
+        "trwikinews",
+        "trwikiquote",
+        "trwikisource",
+        "trwikivoyage",
+        "trwiktionary",
+        "tswiki",
+        "tswiktionary",
+        "ttwiki",
+        "ttwikibooks",
+        "ttwikiquote",
+        "ttwiktionary",
+        "tumwiki",
+        "twwiki",
+        "twwiktionary",
+        "tyvwiki",
+        "tywiki",
+        "udmwiki",
+        "ugwiki",
+        "ugwikibooks",
+        "ugwikiquote",
+        "ugwiktionary",
+        "ukwiki",
+        "ukwikibooks",
+        "ukwikinews",
+        "ukwikiquote",
+        "ukwikisource",
+        "ukwikivoyage",
+        "ukwiktionary",
+        "urwiki",
+        "urwikibooks",
+        "urwikiquote",
+        "urwikisource",
+        "urwiktionary",
+        "uzwiki",
+        "uzwikibooks",
+        "uzwikiquote",
+        "uzwiktionary",
+        "vecwiki",
+        "vecwikisource",
+        "vecwiktionary",
+        "vepwiki",
+        "vewiki",
+        "viwiki",
+        "viwikibooks",
+        "viwikiquote",
+        "viwikisource",
+        "viwikivoyage",
+        "viwiktionary",
+        "vlswiki",
+        "vowiki",
+        "vowikibooks",
+        "vowikiquote",
+        "vowiktionary",
+        "warwiki",
+        "wawiki",
+        "wawikibooks",
+        "wawikisource",
+        "wawiktionary",
+        "wikidatawiki",
+        "wikifunctionswiki",
+        "wikimaniawiki",
+        "wowiki",
+        "wowikiquote",
+        "wowiktionary",
+        "wuuwiki",
+        "xalwiki",
+        "xhwiki",
+        "xhwikibooks",
+        "xhwiktionary",
+        "xmfwiki",
+        "yiwiki",
+        "yiwikisource",
+        "yiwiktionary",
+        "yowiki",
+        "yowikibooks",
+        "yowiktionary",
+        "yuewiktionary",
+        "zawiki",
+        "zawikibooks",
+        "zawikiquote",
+        "zawiktionary",
+        "zeawiki",
+        "zghwiki",
+        "zghwiktionary",
+        "zh_classicalwiki",
+        "zh_min_nanwiki",
+        "zh_min_nanwikibooks",
+        "zh_min_nanwikiquote",
+        "zh_min_nanwikisource",
+        "zh_min_nanwiktionary",
+        "zh_yuewiki",
+        "zhwiki",
+        "zhwikibooks",
+        "zhwikinews",
+        "zhwikiquote",
+        "zhwikisource",
+        "zhwikiversity",
+        "zhwikivoyage",
+        "zhwiktionary",
+        "zuwiki",
+        "zuwikibooks",
+        "zuwiktionary"
+       ]
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 3,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "titles",
+       "type": "string"
+      },
+      {
+       "default": "yes",
+       "index": 4,
+       "name": "redirects",
+       "type": [
+        "no",
+        "yes"
+       ]
+      },
+      {
+       "default": "info|sitelinks|aliases|labels|descriptions|claims|datatype",
+       "highlimit": 500,
+       "index": 5,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "props",
+       "type": [
+        "aliases",
+        "claims",
+        "datatype",
+        "descriptions",
+        "info",
+        "labels",
+        "sitelinks",
+        "sitelinks/urls"
+       ]
+      },
+      {
+       "highlimit": 500,
+       "index": 6,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "languages",
+       "type": [
+        "aa",
+        "aae",
+        "ab",
+        "abr",
+        "abs",
+        "ace",
+        "acf",
+        "acm",
+        "ady",
+        "ady-cyrl",
+        "aeb",
+        "aeb-arab",
+        "aeb-latn",
+        "af",
+        "agq",
+        "aig",
+        "ak",
+        "aln",
+        "als",
+        "alt",
+        "am",
+        "ami",
+        "an",
+        "ang",
+        "ann",
+        "anp",
+        "apc",
+        "ar",
+        "arc",
+        "arn",
+        "arq",
+        "ary",
+        "arz",
+        "as",
+        "ase",
+        "ast",
+        "atj",
+        "av",
+        "avk",
+        "awa",
+        "ay",
+        "az",
+        "azb",
+        "ba",
+        "bag",
+        "ban",
+        "ban-bali",
+        "bar",
+        "bas",
+        "bat-smg",
+        "bax",
+        "bbc",
+        "bbc-latn",
+        "bbj",
+        "bcc",
+        "bci",
+        "bcl",
+        "bdr",
+        "be",
+        "be-tarask",
+        "be-x-old",
+        "bew",
+        "bfd",
+        "bfw",
+        "bg",
+        "bgc",
+        "bgn",
+        "bh",
+        "bho",
+        "bi",
+        "bjn",
+        "bkc",
+        "bkh",
+        "bkm",
+        "blk",
+        "bm",
+        "bn",
+        "bo",
+        "bol",
+        "bpy",
+        "bqi",
+        "bqz",
+        "br",
+        "brh",
+        "bs",
+        "btm",
+        "bto",
+        "bug",
+        "bug-bugi",
+        "bxr",
+        "byv",
+        "ca",
+        "cak",
+        "cal",
+        "cbk-zam",
+        "ccp",
+        "cdo",
+        "cdo-hant",
+        "cdo-latn",
+        "ce",
+        "ceb",
+        "ch",
+        "chn",
+        "cho",
+        "chr",
+        "chy",
+        "ckb",
+        "cnh",
+        "co",
+        "cop",
+        "cps",
+        "cpx",
+        "cpx-hans",
+        "cpx-hant",
+        "cpx-latn",
+        "cr",
+        "crh",
+        "crh-cyrl",
+        "crh-latn",
+        "crh-ro",
+        "cs",
+        "csb",
+        "cu",
+        "cv",
+        "cy",
+        "da",
+        "dag",
+        "de",
+        "de-at",
+        "de-ch",
+        "de-formal",
+        "dga",
+        "din",
+        "diq",
+        "dlg",
+        "dsb",
+        "dso",
+        "dtp",
+        "dty",
+        "dua",
+        "dv",
+        "dz",
+        "ee",
+        "efi",
+        "egl",
+        "el",
+        "eml",
+        "en",
+        "en-ca",
+        "en-gb",
+        "en-us",
+        "eo",
+        "es",
+        "es-419",
+        "es-formal",
+        "et",
+        "eto",
+        "etu",
+        "eu",
+        "ewo",
+        "ext",
+        "fa",
+        "fat",
+        "ff",
+        "fi",
+        "fit",
+        "fiu-vro",
+        "fj",
+        "fkv",
+        "fmp",
+        "fo",
+        "fon",
+        "fr",
+        "frc",
+        "frp",
+        "frr",
+        "frs",
+        "fur",
+        "fvr",
+        "fy",
+        "ga",
+        "gaa",
+        "gag",
+        "gan",
+        "gan-hans",
+        "gan-hant",
+        "gcf",
+        "gcr",
+        "gd",
+        "gju-arab",
+        "gju-deva",
+        "gl",
+        "gld",
+        "glk",
+        "gn",
+        "gom",
+        "gom-deva",
+        "gom-latn",
+        "gor",
+        "got",
+        "gpe",
+        "grc",
+        "gsw",
+        "gu",
+        "guc",
+        "gur",
+        "guw",
+        "gv",
+        "gya",
+        "ha",
+        "hak",
+        "hak-hans",
+        "hak-hant",
+        "hak-latn",
+        "haw",
+        "he",
+        "hi",
+        "hif",
+        "hif-latn",
+        "hil",
+        "hke",
+        "hno",
+        "ho",
+        "hoc",
+        "hoc-latn",
+        "hr",
+        "hrx",
+        "hsb",
+        "hsn",
+        "ht",
+        "hu",
+        "hu-formal",
+        "hy",
+        "hyw",
+        "hz",
+        "ia",
+        "iba",
+        "ibb",
+        "id",
+        "ie",
+        "ig",
+        "igl",
+        "ii",
+        "ik",
+        "ike-cans",
+        "ike-latn",
+        "ilo",
+        "inh",
+        "io",
+        "is",
+        "isu",
+        "isv",
+        "isv-cyrl",
+        "isv-latn",
+        "it",
+        "iu",
+        "ja",
+        "jam",
+        "jbo",
+        "jut",
+        "jv",
+        "jv-java",
+        "ka",
+        "kaa",
+        "kab",
+        "kai",
+        "kaj",
+        "kbd",
+        "kbd-cyrl",
+        "kbp",
+        "kcg",
+        "kea",
+        "ker",
+        "kg",
+        "kge",
+        "kgg",
+        "kha",
+        "khw",
+        "ki",
+        "kiu",
+        "kj",
+        "kjh",
+        "kjp",
+        "kk",
+        "kk-arab",
+        "kk-cn",
+        "kk-cyrl",
+        "kk-kz",
+        "kk-latn",
+        "kk-tr",
+        "kl",
+        "km",
+        "kn",
+        "knc",
+        "ko",
+        "ko-kp",
+        "koi",
+        "kr",
+        "krc",
+        "kri",
+        "krj",
+        "krl",
+        "ks",
+        "ks-arab",
+        "ks-deva",
+        "ksf",
+        "ksh",
+        "ksw",
+        "ku",
+        "ku-arab",
+        "ku-latn",
+        "kum",
+        "kus",
+        "kv",
+        "kw",
+        "ky",
+        "la",
+        "lad",
+        "lb",
+        "lbe",
+        "lem",
+        "lez",
+        "lfn",
+        "lg",
+        "li",
+        "lij",
+        "liv",
+        "ljp",
+        "lki",
+        "lkt",
+        "lld",
+        "lmo",
+        "ln",
+        "lns",
+        "lo",
+        "loz",
+        "lrc",
+        "lt",
+        "ltg",
+        "lua",
+        "lus",
+        "luz",
+        "lv",
+        "lzh",
+        "lzz",
+        "mad",
+        "mag",
+        "mai",
+        "map-bms",
+        "mcn",
+        "mcp",
+        "mdf",
+        "mg",
+        "mh",
+        "mhr",
+        "mi",
+        "min",
+        "mk",
+        "ml",
+        "mn",
+        "mnc",
+        "mnc-latn",
+        "mnc-mong",
+        "mni",
+        "mnw",
+        "mo",
+        "mos",
+        "mr",
+        "mrh",
+        "mrj",
+        "ms",
+        "ms-arab",
+        "mt",
+        "mua",
+        "mui",
+        "mul",
+        "mus",
+        "mwl",
+        "my",
+        "myv",
+        "mzn",
+        "na",
+        "nah",
+        "nan",
+        "nan-hani",
+        "nan-hant",
+        "nan-latn-pehoeji",
+        "nan-latn-tailo",
+        "nap",
+        "nb",
+        "nds",
+        "nds-nl",
+        "ne",
+        "new",
+        "ng",
+        "nge",
+        "nia",
+        "nit",
+        "niu",
+        "nl",
+        "nl-informal",
+        "nla",
+        "nmg",
+        "nmz",
+        "nn",
+        "nnh",
+        "nnz",
+        "no",
+        "nod",
+        "nog",
+        "nov",
+        "nqo",
+        "nr",
+        "nrm",
+        "nso",
+        "nup",
+        "nv",
+        "ny",
+        "nyn",
+        "nyo",
+        "nys",
+        "oc",
+        "ojb",
+        "olo",
+        "om",
+        "or",
+        "os",
+        "osa-latn",
+        "ota",
+        "pa",
+        "pag",
+        "pam",
+        "pap",
+        "pap-aw",
+        "pcd",
+        "pcm",
+        "pdc",
+        "pdt",
+        "pfl",
+        "pi",
+        "pih",
+        "pl",
+        "pms",
+        "pnb",
+        "pnt",
+        "ppl",
+        "prg",
+        "ps",
+        "pt",
+        "pt-br",
+        "pwn",
+        "qu",
+        "quc",
+        "qug",
+        "rgn",
+        "rif",
+        "rki",
+        "rm",
+        "rmc",
+        "rmf",
+        "rmy",
+        "rn",
+        "ro",
+        "roa-rup",
+        "roa-tara",
+        "rsk",
+        "ru",
+        "rue",
+        "rup",
+        "ruq",
+        "ruq-cyrl",
+        "ruq-latn",
+        "rut",
+        "rw",
+        "rwr",
+        "ryu",
+        "sa",
+        "sah",
+        "sas",
+        "sat",
+        "sc",
+        "scn",
+        "sco",
+        "sd",
+        "sdc",
+        "sdh",
+        "se",
+        "se-fi",
+        "se-no",
+        "se-se",
+        "sei",
+        "ses",
+        "sg",
+        "sgs",
+        "sh",
+        "sh-cyrl",
+        "sh-latn",
+        "shi",
+        "shi-latn",
+        "shi-tfng",
+        "shn",
+        "shy",
+        "shy-latn",
+        "si",
+        "simple",
+        "sjd",
+        "sje",
+        "sju",
+        "sk",
+        "skr",
+        "skr-arab",
+        "sl",
+        "sli",
+        "sm",
+        "sma",
+        "smj",
+        "smn",
+        "sms",
+        "sn",
+        "so",
+        "sq",
+        "sr",
+        "sr-ec",
+        "sr-el",
+        "srn",
+        "sro",
+        "srq",
+        "ss",
+        "st",
+        "stq",
+        "sty",
+        "su",
+        "sv",
+        "sva",
+        "sw",
+        "syl",
+        "szl",
+        "szy",
+        "ta",
+        "tay",
+        "tcy",
+        "tdd",
+        "te",
+        "tet",
+        "tg",
+        "tg-cyrl",
+        "tg-latn",
+        "th",
+        "thq",
+        "ti",
+        "tig",
+        "tk",
+        "tl",
+        "tly",
+        "tly-cyrl",
+        "tn",
+        "to",
+        "tok",
+        "tpi",
+        "tpv",
+        "tr",
+        "tru",
+        "trv",
+        "ts",
+        "tt",
+        "tt-cyrl",
+        "tt-latn",
+        "ttj",
+        "tum",
+        "tvu",
+        "tw",
+        "ty",
+        "tyv",
+        "tzm",
+        "udm",
+        "ug",
+        "ug-arab",
+        "ug-latn",
+        "uk",
+        "ur",
+        "uz",
+        "uz-cyrl",
+        "uz-latn",
+        "ve",
+        "vec",
+        "vep",
+        "vi",
+        "vls",
+        "vmf",
+        "vmw",
+        "vo",
+        "vot",
+        "vro",
+        "vut",
+        "wa",
+        "wal",
+        "war",
+        "wes",
+        "wls",
+        "wlx",
+        "wo",
+        "wuu",
+        "wuu-hans",
+        "wuu-hant",
+        "wya",
+        "xal",
+        "xh",
+        "xmf",
+        "xsy",
+        "yas",
+        "yat",
+        "yav",
+        "ybb",
+        "yi",
+        "yo",
+        "yrl",
+        "yua",
+        "yue",
+        "yue-hans",
+        "yue-hant",
+        "za",
+        "zea",
+        "zgh",
+        "zgh-latn",
+        "zh",
+        "zh-classical",
+        "zh-cn",
+        "zh-hans",
+        "zh-hant",
+        "zh-hk",
+        "zh-min-nan",
+        "zh-mo",
+        "zh-my",
+        "zh-sg",
+        "zh-tw",
+        "zh-yue",
+        "zu"
+       ]
+      },
+      {
+       "index": 7,
+       "name": "languagefallback",
+       "type": "boolean"
+      },
+      {
+       "index": 8,
+       "name": "normalize",
+       "type": "boolean"
+      },
+      {
+       "allowsduplicates": "",
+       "highlimit": 500,
+       "index": 9,
+       "limit": 50,
+       "lowlimit": 50,
+       "multi": "",
+       "name": "sitefilter",
+       "type": [
+        "aawiki",
+        "aawikibooks",
+        "aawiktionary",
+        "abstractwiki",
+        "abwiki",
+        "abwiktionary",
+        "acewiki",
+        "adywiki",
+        "afwiki",
+        "afwikibooks",
+        "afwikiquote",
+        "afwiktionary",
+        "akwiki",
+        "akwikibooks",
+        "akwiktionary",
+        "alswiki",
+        "alswikibooks",
+        "alswikiquote",
+        "alswiktionary",
+        "altwiki",
+        "amiwiki",
+        "amwiki",
+        "amwikiquote",
+        "amwiktionary",
+        "angwiki",
+        "angwikibooks",
+        "angwikiquote",
+        "angwikisource",
+        "angwiktionary",
+        "annwiki",
+        "anpwiki",
+        "anwiki",
+        "anwiktionary",
+        "arcwiki",
+        "arwiki",
+        "arwikibooks",
+        "arwikinews",
+        "arwikiquote",
+        "arwikisource",
+        "arwikiversity",
+        "arwiktionary",
+        "arywiki",
+        "arzwiki",
+        "astwiki",
+        "astwikibooks",
+        "astwikiquote",
+        "astwiktionary",
+        "aswiki",
+        "aswikibooks",
+        "aswikiquote",
+        "aswikisource",
+        "aswiktionary",
+        "atjwiki",
+        "avkwiki",
+        "avwiki",
+        "avwiktionary",
+        "awawiki",
+        "aywiki",
+        "aywikibooks",
+        "aywiktionary",
+        "azbwiki",
+        "azwiki",
+        "azwikibooks",
+        "azwikiquote",
+        "azwikisource",
+        "azwiktionary",
+        "banwiki",
+        "banwikisource",
+        "barwiki",
+        "bat_smgwiki",
+        "bawiki",
+        "bawikibooks",
+        "bbcwiki",
+        "bclwiki",
+        "bclwikiquote",
+        "bclwikisource",
+        "bclwiktionary",
+        "bdrwiki",
+        "be_x_oldwiki",
+        "bewiki",
+        "bewikibooks",
+        "bewikiquote",
+        "bewikisource",
+        "bewiktionary",
+        "bewwiki",
+        "bewwiktionary",
+        "bgwiki",
+        "bgwikibooks",
+        "bgwikinews",
+        "bgwikiquote",
+        "bgwikisource",
+        "bgwiktionary",
+        "bhwiki",
+        "bhwiktionary",
+        "biwiki",
+        "biwikibooks",
+        "biwiktionary",
+        "bjnwiki",
+        "bjnwikiquote",
+        "bjnwiktionary",
+        "blkwiki",
+        "blkwiktionary",
+        "bmwiki",
+        "bmwikibooks",
+        "bmwikiquote",
+        "bmwiktionary",
+        "bnwiki",
+        "bnwikibooks",
+        "bnwikiquote",
+        "bnwikisource",
+        "bnwikivoyage",
+        "bnwiktionary",
+        "bolwiki",
+        "bowiki",
+        "bowikibooks",
+        "bowiktionary",
+        "bpywiki",
+        "brwiki",
+        "brwikiquote",
+        "brwikisource",
+        "brwiktionary",
+        "bswiki",
+        "bswikibooks",
+        "bswikinews",
+        "bswikiquote",
+        "bswikisource",
+        "bswiktionary",
+        "btmwiki",
+        "btmwiktionary",
+        "bugwiki",
+        "bxrwiki",
+        "cawiki",
+        "cawikibooks",
+        "cawikinews",
+        "cawikiquote",
+        "cawikisource",
+        "cawiktionary",
+        "cbk_zamwiki",
+        "cdowiki",
+        "cebwiki",
+        "cewiki",
+        "chowiki",
+        "chrwiki",
+        "chrwiktionary",
+        "chwiki",
+        "chwikibooks",
+        "chwiktionary",
+        "chywiki",
+        "ckbwiki",
+        "ckbwiktionary",
+        "commonswiki",
+        "cowiki",
+        "cowikibooks",
+        "cowikiquote",
+        "cowiktionary",
+        "crhwiki",
+        "crwiki",
+        "crwikiquote",
+        "crwiktionary",
+        "csbwiki",
+        "csbwiktionary",
+        "cswiki",
+        "cswikibooks",
+        "cswikinews",
+        "cswikiquote",
+        "cswikisource",
+        "cswikiversity",
+        "cswikivoyage",
+        "cswiktionary",
+        "cuwiki",
+        "cvwiki",
+        "cvwikibooks",
+        "cywiki",
+        "cywikibooks",
+        "cywikiquote",
+        "cywikisource",
+        "cywiktionary",
+        "dagwiki",
+        "dawiki",
+        "dawikibooks",
+        "dawikiquote",
+        "dawikisource",
+        "dawiktionary",
+        "dewiki",
+        "dewikibooks",
+        "dewikinews",
+        "dewikiquote",
+        "dewikisource",
+        "dewikiversity",
+        "dewikivoyage",
+        "dewiktionary",
+        "dgawiki",
+        "dinwiki",
+        "diqwiki",
+        "diqwiktionary",
+        "dsbwiki",
+        "dtpwiki",
+        "dtywiki",
+        "dvwiki",
+        "dvwiktionary",
+        "dzwiki",
+        "dzwiktionary",
+        "eewiki",
+        "elwiki",
+        "elwikibooks",
+        "elwikinews",
+        "elwikiquote",
+        "elwikisource",
+        "elwikiversity",
+        "elwikivoyage",
+        "elwiktionary",
+        "emlwiki",
+        "enwiki",
+        "enwikibooks",
+        "enwikinews",
+        "enwikiquote",
+        "enwikisource",
+        "enwikiversity",
+        "enwikivoyage",
+        "enwiktionary",
+        "eowiki",
+        "eowikibooks",
+        "eowikinews",
+        "eowikiquote",
+        "eowikisource",
+        "eowikivoyage",
+        "eowiktionary",
+        "eswiki",
+        "eswikibooks",
+        "eswikinews",
+        "eswikiquote",
+        "eswikisource",
+        "eswikiversity",
+        "eswikivoyage",
+        "eswiktionary",
+        "etwiki",
+        "etwikibooks",
+        "etwikiquote",
+        "etwikisource",
+        "etwiktionary",
+        "euwiki",
+        "euwikibooks",
+        "euwikiquote",
+        "euwikisource",
+        "euwiktionary",
+        "extwiki",
+        "fatwiki",
+        "fawiki",
+        "fawikibooks",
+        "fawikinews",
+        "fawikiquote",
+        "fawikisource",
+        "fawikivoyage",
+        "fawiktionary",
+        "ffwiki",
+        "fiu_vrowiki",
+        "fiwiki",
+        "fiwikibooks",
+        "fiwikinews",
+        "fiwikiquote",
+        "fiwikisource",
+        "fiwikiversity",
+        "fiwikivoyage",
+        "fiwiktionary",
+        "fjwiki",
+        "fjwiktionary",
+        "fonwiki",
+        "foundationwiki",
+        "fowiki",
+        "fowikisource",
+        "fowiktionary",
+        "frpwiki",
+        "frrwiki",
+        "frwiki",
+        "frwikibooks",
+        "frwikinews",
+        "frwikiquote",
+        "frwikisource",
+        "frwikiversity",
+        "frwikivoyage",
+        "frwiktionary",
+        "furwiki",
+        "fywiki",
+        "fywikibooks",
+        "fywiktionary",
+        "gagwiki",
+        "ganwiki",
+        "gawiki",
+        "gawikibooks",
+        "gawikiquote",
+        "gawiktionary",
+        "gcrwiki",
+        "gdwiki",
+        "gdwiktionary",
+        "glkwiki",
+        "glwiki",
+        "glwikibooks",
+        "glwikiquote",
+        "glwikisource",
+        "glwiktionary",
+        "gnwiki",
+        "gnwikibooks",
+        "gnwiktionary",
+        "gomwiki",
+        "gomwiktionary",
+        "gorwiki",
+        "gorwikiquote",
+        "gorwiktionary",
+        "gotwiki",
+        "gotwikibooks",
+        "gpewiki",
+        "gucwiki",
+        "gurwiki",
+        "guwiki",
+        "guwikibooks",
+        "guwikiquote",
+        "guwikisource",
+        "guwiktionary",
+        "guwwiki",
+        "guwwikinews",
+        "guwwikiquote",
+        "guwwiktionary",
+        "gvwiki",
+        "gvwiktionary",
+        "hakwiki",
+        "hawiki",
+        "hawiktionary",
+        "hawwiki",
+        "hewiki",
+        "hewikibooks",
+        "hewikinews",
+        "hewikiquote",
+        "hewikisource",
+        "hewikivoyage",
+        "hewiktionary",
+        "hifwiki",
+        "hifwiktionary",
+        "hiwiki",
+        "hiwikibooks",
+        "hiwikiquote",
+        "hiwikisource",
+        "hiwikiversity",
+        "hiwikivoyage",
+        "hiwiktionary",
+        "howiki",
+        "hrwiki",
+        "hrwikibooks",
+        "hrwikiquote",
+        "hrwikisource",
+        "hrwiktionary",
+        "hsbwiki",
+        "hsbwiktionary",
+        "htwiki",
+        "htwikisource",
+        "huwiki",
+        "huwikibooks",
+        "huwikinews",
+        "huwikiquote",
+        "huwikisource",
+        "huwiktionary",
+        "hywiki",
+        "hywikibooks",
+        "hywikiquote",
+        "hywikisource",
+        "hywiktionary",
+        "hywwiki",
+        "hzwiki",
+        "iawiki",
+        "iawikibooks",
+        "iawiktionary",
+        "ibawiki",
+        "idwiki",
+        "idwikibooks",
+        "idwikiquote",
+        "idwikisource",
+        "idwikivoyage",
+        "idwiktionary",
+        "iewiki",
+        "iewikibooks",
+        "iewiktionary",
+        "iglwiki",
+        "igwiki",
+        "igwikiquote",
+        "igwiktionary",
+        "iiwiki",
+        "ikwiki",
+        "ikwiktionary",
+        "ilowiki",
+        "inhwiki",
+        "iowiki",
+        "iowiktionary",
+        "isvwiki",
+        "iswiki",
+        "iswikibooks",
+        "iswikiquote",
+        "iswikisource",
+        "iswiktionary",
+        "itwiki",
+        "itwikibooks",
+        "itwikinews",
+        "itwikiquote",
+        "itwikisource",
+        "itwikiversity",
+        "itwikivoyage",
+        "itwiktionary",
+        "iuwiki",
+        "iuwiktionary",
+        "jamwiki",
+        "jawiki",
+        "jawikibooks",
+        "jawikinews",
+        "jawikiquote",
+        "jawikisource",
+        "jawikiversity",
+        "jawikivoyage",
+        "jawiktionary",
+        "jbowiki",
+        "jbowiktionary",
+        "jvwiki",
+        "jvwikisource",
+        "jvwiktionary",
+        "kaawiki",
+        "kaawiktionary",
+        "kabwiki",
+        "kaiwiki",
+        "kajwiki",
+        "kawiki",
+        "kawikibooks",
+        "kawikiquote",
+        "kawikisource",
+        "kawiktionary",
+        "kbdwiki",
+        "kbdwiktionary",
+        "kbpwiki",
+        "kcgwiki",
+        "kcgwiktionary",
+        "kgewiki",
+        "kgwiki",
+        "kiwiki",
+        "kjwiki",
+        "kkwiki",
+        "kkwikibooks",
+        "kkwikiquote",
+        "kkwiktionary",
+        "klwiki",
+        "klwiktionary",
+        "kmwiki",
+        "kmwikibooks",
+        "kmwiktionary",
+        "kncwiki",
+        "knwiki",
+        "knwikibooks",
+        "knwikiquote",
+        "knwikisource",
+        "knwiktionary",
+        "koiwiki",
+        "kowiki",
+        "kowikibooks",
+        "kowikinews",
+        "kowikiquote",
+        "kowikisource",
+        "kowikiversity",
+        "kowiktionary",
+        "krcwiki",
+        "krwiki",
+        "krwikiquote",
+        "kshwiki",
+        "kswiki",
+        "kswikibooks",
+        "kswikiquote",
+        "kswiktionary",
+        "kuswiki",
+        "kuwiki",
+        "kuwikibooks",
+        "kuwikiquote",
+        "kuwiktionary",
+        "kvwiki",
+        "kwwiki",
+        "kwwikiquote",
+        "kwwiktionary",
+        "kywiki",
+        "kywikibooks",
+        "kywikiquote",
+        "kywiktionary",
+        "ladwiki",
+        "lawiki",
+        "lawikibooks",
+        "lawikiquote",
+        "lawikisource",
+        "lawiktionary",
+        "lbewiki",
+        "lbwiki",
+        "lbwikibooks",
+        "lbwikiquote",
+        "lbwiktionary",
+        "lezwiki",
+        "lfnwiki",
+        "lgwiki",
+        "lijwiki",
+        "lijwikisource",
+        "liwiki",
+        "liwikibooks",
+        "liwikinews",
+        "liwikiquote",
+        "liwikisource",
+        "liwiktionary",
+        "lldwiki",
+        "lmowiki",
+        "lmowiktionary",
+        "lnwiki",
+        "lnwikibooks",
+        "lnwiktionary",
+        "lowiki",
+        "lowiktionary",
+        "lrcwiki",
+        "ltgwiki",
+        "ltwiki",
+        "ltwikibooks",
+        "ltwikiquote",
+        "ltwikisource",
+        "ltwiktionary",
+        "lvwiki",
+        "lvwikibooks",
+        "lvwiktionary",
+        "madwiki",
+        "madwikisource",
+        "madwiktionary",
+        "magwiki",
+        "maiwiki",
+        "map_bmswiki",
+        "mdfwiki",
+        "mediawikiwiki",
+        "metawiki",
+        "mgwiki",
+        "mgwikibooks",
+        "mgwiktionary",
+        "mhrwiki",
+        "mhwiki",
+        "mhwiktionary",
+        "minwiki",
+        "minwikibooks",
+        "minwikiquote",
+        "minwikisource",
+        "minwiktionary",
+        "miwiki",
+        "miwikibooks",
+        "miwiktionary",
+        "mkwiki",
+        "mkwikibooks",
+        "mkwikisource",
+        "mkwiktionary",
+        "mlwiki",
+        "mlwikibooks",
+        "mlwikiquote",
+        "mlwikisource",
+        "mlwiktionary",
+        "mniwiki",
+        "mniwiktionary",
+        "mnwiki",
+        "mnwikibooks",
+        "mnwiktionary",
+        "mnwwiki",
+        "mnwwiktionary",
+        "moswiki",
+        "mowiki",
+        "mowiktionary",
+        "mrjwiki",
+        "mrwiki",
+        "mrwikibooks",
+        "mrwikiquote",
+        "mrwikisource",
+        "mrwiktionary",
+        "mswiki",
+        "mswikibooks",
+        "mswikiquote",
+        "mswikisource",
+        "mswiktionary",
+        "mtwiki",
+        "mtwiktionary",
+        "muswiki",
+        "mwlwiki",
+        "myvwiki",
+        "mywiki",
+        "mywikibooks",
+        "mywikisource",
+        "mywiktionary",
+        "mznwiki",
+        "nahwiki",
+        "nahwikibooks",
+        "nahwiktionary",
+        "napwiki",
+        "napwikisource",
+        "nawiki",
+        "nawikibooks",
+        "nawikiquote",
+        "nawiktionary",
+        "nds_nlwiki",
+        "ndswiki",
+        "ndswikibooks",
+        "ndswikiquote",
+        "ndswiktionary",
+        "newiki",
+        "newikibooks",
+        "newiktionary",
+        "newwiki",
+        "ngwiki",
+        "niawiki",
+        "niawiktionary",
+        "nlwiki",
+        "nlwikibooks",
+        "nlwikinews",
+        "nlwikiquote",
+        "nlwikisource",
+        "nlwikivoyage",
+        "nlwiktionary",
+        "nnwiki",
+        "nnwikiquote",
+        "nnwiktionary",
+        "novwiki",
+        "nowiki",
+        "nowikibooks",
+        "nowikinews",
+        "nowikiquote",
+        "nowikisource",
+        "nowiktionary",
+        "nqowiki",
+        "nrmwiki",
+        "nrwiki",
+        "nsowiki",
+        "nupwiki",
+        "nvwiki",
+        "nywiki",
+        "ocwiki",
+        "ocwikibooks",
+        "ocwiktionary",
+        "olowiki",
+        "omwiki",
+        "omwiktionary",
+        "orwiki",
+        "orwikisource",
+        "orwiktionary",
+        "oswiki",
+        "outreachwiki",
+        "pagwiki",
+        "pamwiki",
+        "papwiki",
+        "pawiki",
+        "pawikibooks",
+        "pawikisource",
+        "pawiktionary",
+        "pcdwiki",
+        "pcmwiki",
+        "pcmwikiquote",
+        "pdcwiki",
+        "pflwiki",
+        "pihwiki",
+        "piwiki",
+        "piwiktionary",
+        "plwiki",
+        "plwikibooks",
+        "plwikinews",
+        "plwikiquote",
+        "plwikisource",
+        "plwikivoyage",
+        "plwiktionary",
+        "pmswiki",
+        "pmswikisource",
+        "pnbwiki",
+        "pnbwiktionary",
+        "pntwiki",
+        "pplwiki",
+        "pswiki",
+        "pswikibooks",
+        "pswikivoyage",
+        "pswiktionary",
+        "ptwiki",
+        "ptwikibooks",
+        "ptwikinews",
+        "ptwikiquote",
+        "ptwikisource",
+        "ptwikiversity",
+        "ptwikivoyage",
+        "ptwiktionary",
+        "pwnwiki",
+        "quwiki",
+        "quwikibooks",
+        "quwikiquote",
+        "quwiktionary",
+        "rkiwiki",
+        "rmwiki",
+        "rmwikibooks",
+        "rmwiktionary",
+        "rmywiki",
+        "rnwiki",
+        "rnwiktionary",
+        "roa_rupwiki",
+        "roa_rupwiktionary",
+        "roa_tarawiki",
+        "rowiki",
+        "rowikibooks",
+        "rowikinews",
+        "rowikiquote",
+        "rowikisource",
+        "rowikivoyage",
+        "rowiktionary",
+        "rskwiki",
+        "ruewiki",
+        "ruwiki",
+        "ruwikibooks",
+        "ruwikinews",
+        "ruwikiquote",
+        "ruwikisource",
+        "ruwikiversity",
+        "ruwikivoyage",
+        "ruwiktionary",
+        "rwwiki",
+        "rwwiktionary",
+        "sahwiki",
+        "sahwikiquote",
+        "sahwikisource",
+        "satwiki",
+        "satwiktionary",
+        "sawiki",
+        "sawikibooks",
+        "sawikiquote",
+        "sawikisource",
+        "sawiktionary",
+        "scnwiki",
+        "scnwiktionary",
+        "scowiki",
+        "scwiki",
+        "scwiktionary",
+        "sdwiki",
+        "sdwikinews",
+        "sdwiktionary",
+        "sewiki",
+        "sewikibooks",
+        "sgwiki",
+        "sgwiktionary",
+        "shiwiki",
+        "shnwiki",
+        "shnwikibooks",
+        "shnwikinews",
+        "shnwikivoyage",
+        "shnwiktionary",
+        "shwiki",
+        "shwiktionary",
+        "shywiktionary",
+        "simplewiki",
+        "simplewikibooks",
+        "simplewikiquote",
+        "simplewiktionary",
+        "siwiki",
+        "siwikibooks",
+        "siwiktionary",
+        "skrwiki",
+        "skrwiktionary",
+        "skwiki",
+        "skwikibooks",
+        "skwikiquote",
+        "skwikisource",
+        "skwiktionary",
+        "slwiki",
+        "slwikibooks",
+        "slwikiquote",
+        "slwikisource",
+        "slwikiversity",
+        "slwiktionary",
+        "smnwiki",
+        "smwiki",
+        "smwiktionary",
+        "snwiki",
+        "snwiktionary",
+        "sourceswiki",
+        "sowiki",
+        "sowiktionary",
+        "specieswiki",
+        "sqwiki",
+        "sqwikibooks",
+        "sqwikinews",
+        "sqwikiquote",
+        "sqwiktionary",
+        "srnwiki",
+        "srwiki",
+        "srwikibooks",
+        "srwikinews",
+        "srwikiquote",
+        "srwikisource",
+        "srwiktionary",
+        "sswiki",
+        "sswiktionary",
+        "stqwiki",
+        "stwiki",
+        "stwiktionary",
+        "suwiki",
+        "suwikibooks",
+        "suwikiquote",
+        "suwikisource",
+        "suwiktionary",
+        "svwiki",
+        "svwikibooks",
+        "svwikinews",
+        "svwikiquote",
+        "svwikisource",
+        "svwikiversity",
+        "svwikivoyage",
+        "svwiktionary",
+        "swwiki",
+        "swwikibooks",
+        "swwiktionary",
+        "sylwiki",
+        "szlwiki",
+        "szywiki",
+        "tawiki",
+        "tawikibooks",
+        "tawikinews",
+        "tawikiquote",
+        "tawikisource",
+        "tawiktionary",
+        "taywiki",
+        "tcywiki",
+        "tcywikisource",
+        "tcywiktionary",
+        "tddwiki",
+        "tetwiki",
+        "tewiki",
+        "tewikibooks",
+        "tewikiquote",
+        "tewikisource",
+        "tewiktionary",
+        "tgwiki",
+        "tgwikibooks",
+        "tgwiktionary",
+        "thwiki",
+        "thwikibooks",
+        "thwikinews",
+        "thwikiquote",
+        "thwikisource",
+        "thwiktionary",
+        "tigwiki",
+        "tiwiki",
+        "tiwiktionary",
+        "tkwiki",
+        "tkwikibooks",
+        "tkwikiquote",
+        "tkwiktionary",
+        "tlwiki",
+        "tlwikibooks",
+        "tlwikiquote",
+        "tlwikisource",
+        "tlwiktionary",
+        "tlywiki",
+        "tnwiki",
+        "tnwiktionary",
+        "tokwiki",
+        "towiki",
+        "towiktionary",
+        "tpiwiki",
+        "tpiwiktionary",
+        "trvwiki",
+        "trwiki",
+        "trwikibooks",
+        "trwikinews",
+        "trwikiquote",
+        "trwikisource",
+        "trwikivoyage",
+        "trwiktionary",
+        "tswiki",
+        "tswiktionary",
+        "ttwiki",
+        "ttwikibooks",
+        "ttwikiquote",
+        "ttwiktionary",
+        "tumwiki",
+        "twwiki",
+        "twwiktionary",
+        "tyvwiki",
+        "tywiki",
+        "udmwiki",
+        "ugwiki",
+        "ugwikibooks",
+        "ugwikiquote",
+        "ugwiktionary",
+        "ukwiki",
+        "ukwikibooks",
+        "ukwikinews",
+        "ukwikiquote",
+        "ukwikisource",
+        "ukwikivoyage",
+        "ukwiktionary",
+        "urwiki",
+        "urwikibooks",
+        "urwikiquote",
+        "urwikisource",
+        "urwiktionary",
+        "uzwiki",
+        "uzwikibooks",
+        "uzwikiquote",
+        "uzwiktionary",
+        "vecwiki",
+        "vecwikisource",
+        "vecwiktionary",
+        "vepwiki",
+        "vewiki",
+        "viwiki",
+        "viwikibooks",
+        "viwikiquote",
+        "viwikisource",
+        "viwikivoyage",
+        "viwiktionary",
+        "vlswiki",
+        "vowiki",
+        "vowikibooks",
+        "vowikiquote",
+        "vowiktionary",
+        "warwiki",
+        "wawiki",
+        "wawikibooks",
+        "wawikisource",
+        "wawiktionary",
+        "wikidatawiki",
+        "wikifunctionswiki",
+        "wikimaniawiki",
+        "wowiki",
+        "wowikiquote",
+        "wowiktionary",
+        "wuuwiki",
+        "xalwiki",
+        "xhwiki",
+        "xhwikibooks",
+        "xhwiktionary",
+        "xmfwiki",
+        "yiwiki",
+        "yiwikisource",
+        "yiwiktionary",
+        "yowiki",
+        "yowikibooks",
+        "yowiktionary",
+        "yuewiktionary",
+        "zawiki",
+        "zawikibooks",
+        "zawikiquote",
+        "zawiktionary",
+        "zeawiki",
+        "zghwiki",
+        "zghwiktionary",
+        "zh_classicalwiki",
+        "zh_min_nanwiki",
+        "zh_min_nanwikibooks",
+        "zh_min_nanwikiquote",
+        "zh_min_nanwikisource",
+        "zh_min_nanwiktionary",
+        "zh_yuewiki",
+        "zhwiki",
+        "zhwikibooks",
+        "zhwikinews",
+        "zhwikiquote",
+        "zhwikisource",
+        "zhwikiversity",
+        "zhwikivoyage",
+        "zhwiktionary",
+        "zuwiki",
+        "zuwikibooks",
+        "zuwiktionary"
+       ]
+      }
+     ],
+     "path": "wbgetentities",
+     "prefix": "",
+     "readrights": "",
+     "source": "WikibaseClient",
+     "sourcename": "WikibaseClient",
+     "templatedparameters": []
+    }
+   ]
+  }
+ },
+ "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q613883%7CQ1231263%7CQ308%7CQ165745%7CQ925%7CQ60009810%7CQ1150%7CQ107119712%7CQ1274643%7CQ87526778&languages=uk%7Cen&props=sitelinks%7Clabels%7Cdescriptions": {
+  "entities": {
+   "Q107119712": {
+    "descriptions": {},
+    "id": "Q107119712",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q1150": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "Roman god of trade, merchants, thieves and travel"
+     }
+    },
+    "id": "Q1150",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Меркурій"
+     }
+    },
+    "sitelinks": {
+     "afwiki": {
+      "badges": [],
+      "site": "afwiki",
+      "title": "Mercurius (mitologie)"
+     },
+     "alswiki": {
+      "badges": [],
+      "site": "alswiki",
+      "title": "Mercurius"
+     },
+     "anwiki": {
+      "badges": [],
+      "site": "anwiki",
+      "title": "Mercurio (mitolochía)"
+     },
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "ميركوري (أسطورة)"
+     },
+     "arzwiki": {
+      "badges": [],
+      "site": "arzwiki",
+      "title": "ميركيورى(ميثولوجيا)"
+     },
+     "azwiki": {
+      "badges": [],
+      "site": "azwiki",
+      "title": "Merkuri (mifologiya)"
+     },
+     "banwiki": {
+      "badges": [],
+      "site": "banwiki",
+      "title": "Mérkurius (mitologi)"
+     },
+     "bewiki": {
+      "badges": [],
+      "site": "bewiki",
+      "title": "Меркурый (міфалогія)"
+     },
+     "bewikiquote": {
+      "badges": [],
+      "site": "bewikiquote",
+      "title": "Меркурый"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Меркурий (митология)"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "মের্কুরিউস"
+     },
+     "brwiki": {
+      "badges": [],
+      "site": "brwiki",
+      "title": "Merc'her (doue)"
+     },
+     "bswiki": {
+      "badges": [],
+      "site": "bswiki",
+      "title": "Merkur (mitologija)"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Mercuri (mitologia)"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "مێرکوری (میتۆلۆژیا)"
+     },
+     "cowiki": {
+      "badges": [],
+      "site": "cowiki",
+      "title": "Mercuriu (mitolugia)"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Merkur (mytologie)"
+     },
+     "cywiki": {
+      "badges": [],
+      "site": "cywiki",
+      "title": "Mercher (mytholeg)"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Merkur (gud)"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Mercurius"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Μερκούριους"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Mercury (mythology)"
+     },
+     "enwikiquote": {
+      "badges": [],
+      "site": "enwikiquote",
+      "title": "Mercury (mythology)"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Merkuro (dio)"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercurio (mitología)"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Mercurius"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Merkurio (mitologia)"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "مرکوری (اسطوره)"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Mercurius"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercure (mythologie)"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Mearcair (miotaseolaíocht)"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Mercurio (deus)"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "מרקוריוס"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "मरक्युरी"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Merkur (mitologija)"
+     },
+     "huwiki": {
+      "badges": [],
+      "site": "huwiki",
+      "title": "Mercurius"
+     },
+     "iawiki": {
+      "badges": [],
+      "site": "iawiki",
+      "title": "Mercurio (deo)"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Merkurius (mitologi)"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Merkúr (guð)"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Mercurio (divinità)"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Mercurio (divinità)"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "メルクリウス"
+     },
+     "kawiki": {
+      "badges": [],
+      "site": "kawiki",
+      "title": "მერკური (ღმერთი)"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "메르쿠리우스"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Merkûr (mîtolojî)"
+     },
+     "kwwiki": {
+      "badges": [],
+      "site": "kwwiki",
+      "title": "Merher (duw)"
+     },
+     "lawiki": {
+      "badges": [],
+      "site": "lawiki",
+      "title": "Mercurius (deus)"
+     },
+     "lbwiki": {
+      "badges": [],
+      "site": "lbwiki",
+      "title": "Merkur (Mythologie)"
+     },
+     "lijwiki": {
+      "badges": [],
+      "site": "lijwiki",
+      "title": "Mercuio (divinitæ)"
+     },
+     "lmowiki": {
+      "badges": [],
+      "site": "lmowiki",
+      "title": "Mercuri (dia)"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Merkurijus (mitologija)"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Merkurs (mitoloģija)"
+     },
+     "mgwiki": {
+      "badges": [],
+      "site": "mgwiki",
+      "title": "Merkiora (andriamanitra)"
+     },
+     "mkwiki": {
+      "badges": [],
+      "site": "mkwiki",
+      "title": "Меркур (бог)"
+     },
+     "mniwiki": {
+      "badges": [],
+      "site": "mniwiki",
+      "title": "ꯃꯦꯔꯀ꯭ꯌꯨꯔꯤ (ꯈꯣꯌꯨꯝ)"
+     },
+     "mrwiki": {
+      "badges": [],
+      "site": "mrwiki",
+      "title": "मर्क्युरी"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Mercurius"
+     },
+     "mtwiki": {
+      "badges": [],
+      "site": "mtwiki",
+      "title": "Merkurju (mitoloġija)"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Mercurius (mythologie)"
+     },
+     "nnwiki": {
+      "badges": [],
+      "site": "nnwiki",
+      "title": "Guden Merkur"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Merkur (gud)"
+     },
+     "ocwiki": {
+      "badges": [],
+      "site": "ocwiki",
+      "title": "Mercuri (mitologia)"
+     },
+     "pawiki": {
+      "badges": [],
+      "site": "pawiki",
+      "title": "ਮਰਕਰੀ"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Merkury (mitologia)"
+     },
+     "pmswiki": {
+      "badges": [],
+      "site": "pmswiki",
+      "title": "Mercuri (mitologìa)"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Mercúrio (mitologia)"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Mercur (zeu)"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Меркурий (мифология)"
+     },
+     "shwiki": {
+      "badges": [],
+      "site": "shwiki",
+      "title": "Merkur (mitologija)"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Mercury (mythology)"
+     },
+     "skwiki": {
+      "badges": [],
+      "site": "skwiki",
+      "title": "Merkúr (boh)"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Merkur (mitologija)"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Меркур (бог)"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Mercurius"
+     },
+     "swwiki": {
+      "badges": [],
+      "site": "swwiki",
+      "title": "Mercurius"
+     },
+     "tawiki": {
+      "badges": [],
+      "site": "tawiki",
+      "title": "மெர்க்குரி (தொன்மவியல்)"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "เมอร์คิวรี (เทพปกรณัม)"
+     },
+     "tlwiki": {
+      "badges": [],
+      "site": "tlwiki",
+      "title": "Merkuryo (mitolohiya)"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Merkür (mitoloji)"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Меркурій (міфологія)"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Merkuriy (xudo)"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Mercury"
+     },
+     "vlswiki": {
+      "badges": [],
+      "site": "vlswiki",
+      "title": "Mercurius (mythologie)"
+     },
+     "warwiki": {
+      "badges": [],
+      "site": "warwiki",
+      "title": "Mercury (mitolohiya)"
+     },
+     "wuuwiki": {
+      "badges": [],
+      "site": "wuuwiki",
+      "title": "墨丘利"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "墨丘利"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "墨丘利"
+     }
+    },
+    "type": "item"
+   },
+   "Q1231263": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "commune in Savoie, France"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "муніципалітет у департаменті Савоя, Франція"
+     }
+    },
+    "id": "Q1231263",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Меркюрі"
+     }
+    },
+    "sitelinks": {
+     "anwiki": {
+      "badges": [],
+      "site": "anwiki",
+      "title": "Mercury (Saboya)"
+     },
+     "astwiki": {
+      "badges": [],
+      "site": "astwiki",
+      "title": "Mercury (Saboya)"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Mercury (Savoia)"
+     },
+     "cebwiki": {
+      "badges": [],
+      "site": "cebwiki",
+      "title": "Mercury, Savoie"
+     },
+     "cewiki": {
+      "badges": [],
+      "site": "cewiki",
+      "title": "МегӀкуьгӀи (Севваь)"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Mercury (Savoie)"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Μερκυρί"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Mercury, Savoie"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Mercury (Savojo)"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercury (Saboya)"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Mercury (Savoia)"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "huwiki": {
+      "badges": [],
+      "site": "huwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Mercury (Francia)"
+     },
+     "lawiki": {
+      "badges": [],
+      "site": "lawiki",
+      "title": "Mercuriacum (Francia)"
+     },
+     "lldwiki": {
+      "badges": [],
+      "site": "lldwiki",
+      "title": "Mercury"
+     },
+     "lmowiki": {
+      "badges": [],
+      "site": "lmowiki",
+      "title": "Mercury (FR-73)"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Mercury, Savoie"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "ocwiki": {
+      "badges": [],
+      "site": "ocwiki",
+      "title": "Mercury"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Mercury (Sabaudia)"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Mercury (Saboia)"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Mercury, Savoie"
+     },
+     "skwiki": {
+      "badges": [],
+      "site": "skwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Mercury, Savoie"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Mercury, Savoie"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Меркюрі (Савоя)"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "vecwiki": {
+      "badges": [],
+      "site": "vecwiki",
+      "title": "Mercury"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Mercury, Savoie"
+     },
+     "vowiki": {
+      "badges": [],
+      "site": "vowiki",
+      "title": "Mercury (Savoie)"
+     },
+     "warwiki": {
+      "badges": [],
+      "site": "warwiki",
+      "title": "Mercury, Savoie"
+     },
+     "zh_min_nanwiki": {
+      "badges": [],
+      "site": "zh_min_nanwiki",
+      "title": "Mercury (Savoie)"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "梅屈里"
+     }
+    },
+    "type": "item"
+   },
+   "Q1274643": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "American professional women's basketball team"
+     }
+    },
+    "id": "Q1274643",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Phoenix Mercury"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "فينيكس ميركوري"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Phoenix Mercury"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Phoenix Mercury"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Phoenix Mercury"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Phoenix Mercury"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "فینکس مرکوری"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Phoenix Mercury"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercury de Phoenix"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Phoenix Mercury"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "פיניקס מרקורי"
+     },
+     "iowiki": {
+      "badges": [],
+      "site": "iowiki",
+      "title": "Phoenix Mercury"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Phoenix Mercury"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Phoenix Mercury"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "フェニックス・マーキュリー"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "피닉스 머큐리"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Fīniksas \"Mercury\""
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Phoenix Mercury"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Phoenix Mercury"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Phoenix Mercury"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Финикс Меркури"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Phoenix Mercury"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Финикс Меркјури"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Phoenix Mercury"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Phoenix Mercury"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "鳳凰城水星"
+     }
+    },
+    "type": "item"
+   },
+   "Q165745": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "American record label"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "американський лейбл звукозапису"
+     }
+    },
+    "id": "Q165745",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury Records"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Mercury Records"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "تسجيلات ميركوري"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Мъркюри Рекърдс"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Mercury Records"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Mercury Records"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Mercury Records"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Mercury Records"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Mercury Records"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Mercury Records"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercury Records"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Mercury Records"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "مرکوری رکوردز"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Mercury Records"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercury Records"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Mercury Records"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "מרקורי רקורדס"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Mercury Records"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Mercury Records"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Mercury Records"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Mercury Records"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "マーキュリー・レコード"
+     },
+     "kawiki": {
+      "badges": [],
+      "site": "kawiki",
+      "title": "Mercury Records"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "머큐리 레코드"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Mercury Records"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Mercury Records"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Mercury Records"
+     },
+     "nnwiki": {
+      "badges": [],
+      "site": "nnwiki",
+      "title": "Mercury Records"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Mercury Records"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Mercury Records"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Mercury Records"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Mercury Records"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Mercury Records"
+     },
+     "scnwiki": {
+      "badges": [],
+      "site": "scnwiki",
+      "title": "Mercury Records"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Mercury Records"
+     },
+     "skwiki": {
+      "badges": [],
+      "site": "skwiki",
+      "title": "Mercury Records"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Mercury Records"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Mercury Records"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "เมอร์คิวรีเรเคิดส์"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Mercury Records"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Mercury Records"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "水星唱片"
+     }
+    },
+    "type": "item"
+   },
+   "Q308": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "first planet from the Solar System and smallest among all, tellurian and with extreme temperatures"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "найближча до Сонця велика планета Сонячної системи"
+     }
+    },
+    "id": "Q308",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Меркурій"
+     }
+    },
+    "sitelinks": {
+     "abstractwiki": {
+      "badges": [],
+      "site": "abstractwiki",
+      "title": "Q308"
+     },
+     "abwiki": {
+      "badges": [],
+      "site": "abwiki",
+      "title": "Меркури"
+     },
+     "adywiki": {
+      "badges": [],
+      "site": "adywiki",
+      "title": "Меркурий"
+     },
+     "afwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "afwiki",
+      "title": "Mercurius"
+     },
+     "alswiki": {
+      "badges": [],
+      "site": "alswiki",
+      "title": "Merkur (Planet)"
+     },
+     "amwiki": {
+      "badges": [],
+      "site": "amwiki",
+      "title": "ኣጣርድ"
+     },
+     "angwiki": {
+      "badges": [],
+      "site": "angwiki",
+      "title": "Wōden (tungol)"
+     },
+     "annwiki": {
+      "badges": [],
+      "site": "annwiki",
+      "title": "Mekuri"
+     },
+     "anpwiki": {
+      "badges": [],
+      "site": "anpwiki",
+      "title": "बुध ग्रह"
+     },
+     "anwiki": {
+      "badges": [],
+      "site": "anwiki",
+      "title": "Mercurio (planeta)"
+     },
+     "arwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "arwiki",
+      "title": "عطارد"
+     },
+     "arywiki": {
+      "badges": [],
+      "site": "arywiki",
+      "title": "عطارد"
+     },
+     "arzwiki": {
+      "badges": [],
+      "site": "arzwiki",
+      "title": "عطارد"
+     },
+     "astwiki": {
+      "badges": [],
+      "site": "astwiki",
+      "title": "Mercuriu (planeta)"
+     },
+     "aswiki": {
+      "badges": [],
+      "site": "aswiki",
+      "title": "বুধ গ্ৰহ"
+     },
+     "avkwiki": {
+      "badges": [],
+      "site": "avkwiki",
+      "title": "Niskaduz"
+     },
+     "awawiki": {
+      "badges": [],
+      "site": "awawiki",
+      "title": "बुध ग्रह"
+     },
+     "azbwiki": {
+      "badges": [],
+      "site": "azbwiki",
+      "title": "عطارد"
+     },
+     "azwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "azwiki",
+      "title": "Merkuri (planet)"
+     },
+     "banwiki": {
+      "badges": [],
+      "site": "banwiki",
+      "title": "Mérkurius"
+     },
+     "barwiki": {
+      "badges": [],
+      "site": "barwiki",
+      "title": "Merkur (Planet)"
+     },
+     "bat_smgwiki": {
+      "badges": [],
+      "site": "bat_smgwiki",
+      "title": "Merkorėjos (planeta)"
+     },
+     "bawiki": {
+      "badges": [],
+      "site": "bawiki",
+      "title": "Меркурий"
+     },
+     "bclwiki": {
+      "badges": [],
+      "site": "bclwiki",
+      "title": "Merkuryo (planeta)"
+     },
+     "be_x_oldwiki": {
+      "badges": [],
+      "site": "be_x_oldwiki",
+      "title": "Мэркурый"
+     },
+     "bewiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "bewiki",
+      "title": "Меркурый"
+     },
+     "bewwiki": {
+      "badges": [],
+      "site": "bewwiki",
+      "title": "Utarid"
+     },
+     "bgwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "bgwiki",
+      "title": "Меркурий (планета)"
+     },
+     "bhwiki": {
+      "badges": [],
+      "site": "bhwiki",
+      "title": "बुध (ग्रह)"
+     },
+     "bjnwiki": {
+      "badges": [],
+      "site": "bjnwiki",
+      "title": "Merkurius"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "বুধ গ্রহ"
+     },
+     "bnwikiquote": {
+      "badges": [],
+      "site": "bnwikiquote",
+      "title": "বুধ গ্রহ"
+     },
+     "bowiki": {
+      "badges": [],
+      "site": "bowiki",
+      "title": "ལྷག་པ།"
+     },
+     "brwiki": {
+      "badges": [],
+      "site": "brwiki",
+      "title": "Merc'her (planedenn)"
+     },
+     "bswiki": {
+      "badges": [],
+      "site": "bswiki",
+      "title": "Merkur"
+     },
+     "btmwiki": {
+      "badges": [],
+      "site": "btmwiki",
+      "title": "Merkurius"
+     },
+     "bxrwiki": {
+      "badges": [],
+      "site": "bxrwiki",
+      "title": "Һагба (гараг)"
+     },
+     "cawiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "cawiki",
+      "title": "Mercuri (planeta)"
+     },
+     "cdowiki": {
+      "badges": [],
+      "site": "cdowiki",
+      "title": "Cūi-sĭng"
+     },
+     "cebwiki": {
+      "badges": [],
+      "site": "cebwiki",
+      "title": "Merkuryo (planeta)"
+     },
+     "cewiki": {
+      "badges": [],
+      "site": "cewiki",
+      "title": "Меркурий"
+     },
+     "chrwiki": {
+      "badges": [],
+      "site": "chrwiki",
+      "title": "ᎹᎫᎵ"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "زاوە"
+     },
+     "commonswiki": {
+      "badges": [],
+      "site": "commonswiki",
+      "title": "Mercury (planet)"
+     },
+     "cowiki": {
+      "badges": [],
+      "site": "cowiki",
+      "title": "Mercuriu (pianeta)"
+     },
+     "crhwiki": {
+      "badges": [],
+      "site": "crhwiki",
+      "title": "Utarit"
+     },
+     "csbwiki": {
+      "badges": [],
+      "site": "csbwiki",
+      "title": "Merkùri"
+     },
+     "cswiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "cswiki",
+      "title": "Merkur (planeta)"
+     },
+     "cswikibooks": {
+      "badges": [],
+      "site": "cswikibooks",
+      "title": "Sluneční soustava/Merkur"
+     },
+     "cswikinews": {
+      "badges": [],
+      "site": "cswikinews",
+      "title": "Kategorie:Merkur"
+     },
+     "cuwiki": {
+      "badges": [],
+      "site": "cuwiki",
+      "title": "Єрмии"
+     },
+     "cvwiki": {
+      "badges": [],
+      "site": "cvwiki",
+      "title": "Меркурий"
+     },
+     "cywiki": {
+      "badges": [],
+      "site": "cywiki",
+      "title": "Mercher (planed)"
+     },
+     "dawiki": {
+      "badges": [
+       "Q17559452"
+      ],
+      "site": "dawiki",
+      "title": "Merkur (planet)"
+     },
+     "dawikibooks": {
+      "badges": [],
+      "site": "dawikibooks",
+      "title": "Solsystemet/Merkur"
+     },
+     "dewiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "dewiki",
+      "title": "Merkur (Planet)"
+     },
+     "diqwiki": {
+      "badges": [],
+      "site": "diqwiki",
+      "title": "Merkur"
+     },
+     "dsbwiki": {
+      "badges": [],
+      "site": "dsbwiki",
+      "title": "Merkur (planet)"
+     },
+     "dtywiki": {
+      "badges": [],
+      "site": "dtywiki",
+      "title": "बुधग्रह"
+     },
+     "dzwiki": {
+      "badges": [],
+      "site": "dzwiki",
+      "title": "མར་ཀུ་རི"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Ερμής (πλανήτης)"
+     },
+     "emlwiki": {
+      "badges": [],
+      "site": "emlwiki",
+      "title": "Mercûri"
+     },
+     "enwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "enwiki",
+      "title": "Mercury (planet)"
+     },
+     "enwikinews": {
+      "badges": [],
+      "site": "enwikinews",
+      "title": "Category:Mercury (planet)"
+     },
+     "enwikiquote": {
+      "badges": [],
+      "site": "enwikiquote",
+      "title": "Mercury (planet)"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Merkuro (planedo)"
+     },
+     "eowikinews": {
+      "badges": [],
+      "site": "eowikinews",
+      "title": "Kategorio:Merkuro"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercurio (planeta)"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Merkuur"
+     },
+     "etwikiquote": {
+      "badges": [],
+      "site": "etwikiquote",
+      "title": "Merkuur"
+     },
+     "euwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "euwiki",
+      "title": "Merkurio (planeta)"
+     },
+     "extwiki": {
+      "badges": [],
+      "site": "extwiki",
+      "title": "Mercuriu (praneta)"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "عطارد"
+     },
+     "fawikibooks": {
+      "badges": [],
+      "site": "fawikibooks",
+      "title": "فرهنگ نجوم/منظومه شمسی/عطارد"
+     },
+     "fiu_vrowiki": {
+      "badges": [],
+      "site": "fiu_vrowiki",
+      "title": "Merkuur"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Merkurius"
+     },
+     "fjwiki": {
+      "badges": [],
+      "site": "fjwiki",
+      "title": "Mekuri"
+     },
+     "fowiki": {
+      "badges": [],
+      "site": "fowiki",
+      "title": "Merkur"
+     },
+     "frpwiki": {
+      "badges": [],
+      "site": "frpwiki",
+      "title": "Mèrcuro (planèta)"
+     },
+     "frrwiki": {
+      "badges": [],
+      "site": "frrwiki",
+      "title": "Merkurius"
+     },
+     "frwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "frwiki",
+      "title": "Mercure (planète)"
+     },
+     "frwikinews": {
+      "badges": [],
+      "site": "frwikinews",
+      "title": "Catégorie:Mercure"
+     },
+     "frwikiquote": {
+      "badges": [],
+      "site": "frwikiquote",
+      "title": "Mercure (planète)"
+     },
+     "furwiki": {
+      "badges": [],
+      "site": "furwiki",
+      "title": "Mercuri (planet)"
+     },
+     "fywiki": {
+      "badges": [],
+      "site": "fywiki",
+      "title": "Merkuerius (planeet)"
+     },
+     "ganwiki": {
+      "badges": [],
+      "site": "ganwiki",
+      "title": "水星"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Mearcair (pláinéad)"
+     },
+     "gcrwiki": {
+      "badges": [],
+      "site": "gcrwiki",
+      "title": "Mèrkir (planèt)"
+     },
+     "gdwiki": {
+      "badges": [],
+      "site": "gdwiki",
+      "title": "Mearcar (planaid)"
+     },
+     "glkwiki": {
+      "badges": [],
+      "site": "glkwiki",
+      "title": "عۊطارد"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Mercurio (planeta)"
+     },
+     "gnwiki": {
+      "badges": [],
+      "site": "gnwiki",
+      "title": "Pirapane"
+     },
+     "gotwiki": {
+      "badges": [],
+      "site": "gotwiki",
+      "title": "𐍅𐍉𐌳𐌰𐌽𐍃"
+     },
+     "guwiki": {
+      "badges": [],
+      "site": "guwiki",
+      "title": "બુધ (ગ્રહ)"
+     },
+     "gvwiki": {
+      "badges": [],
+      "site": "gvwiki",
+      "title": "Curain"
+     },
+     "hakwiki": {
+      "badges": [],
+      "site": "hakwiki",
+      "title": "Súi-sên"
+     },
+     "hawwiki": {
+      "badges": [],
+      "site": "hawwiki",
+      "title": "Ukalialiʻi"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "כוכב חמה"
+     },
+     "hifwiki": {
+      "badges": [],
+      "site": "hifwiki",
+      "title": "Budhgrah"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "बुध (ग्रह)"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Merkur"
+     },
+     "hsbwiki": {
+      "badges": [],
+      "site": "hsbwiki",
+      "title": "Merkur"
+     },
+     "htwiki": {
+      "badges": [],
+      "site": "htwiki",
+      "title": "Mèki (planèt)"
+     },
+     "huwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "huwiki",
+      "title": "Merkúr"
+     },
+     "hywiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "hywiki",
+      "title": "Մերկուրի (մոլորակ)"
+     },
+     "iawiki": {
+      "badges": [],
+      "site": "iawiki",
+      "title": "Mercurio (planeta)"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Merkurius"
+     },
+     "iewiki": {
+      "badges": [],
+      "site": "iewiki",
+      "title": "Mercur"
+     },
+     "ilowiki": {
+      "badges": [],
+      "site": "ilowiki",
+      "title": "Merkurio"
+     },
+     "inhwiki": {
+      "badges": [],
+      "site": "inhwiki",
+      "title": "Меркурий"
+     },
+     "iowiki": {
+      "badges": [],
+      "site": "iowiki",
+      "title": "Merkuro"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Merkúr (reikistjarna)"
+     },
+     "itwiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "itwiki",
+      "title": "Mercurio (astronomia)"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Mercurio (astronomia)"
+     },
+     "iuwiki": {
+      "badges": [],
+      "site": "iuwiki",
+      "title": "ᒥᕐᑰᕆ"
+     },
+     "jamwiki": {
+      "badges": [],
+      "site": "jamwiki",
+      "title": "Moerkiuri (planit)"
+     },
+     "jawiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "jawiki",
+      "title": "水星"
+     },
+     "jawikibooks": {
+      "badges": [],
+      "site": "jawikibooks",
+      "title": "水星"
+     },
+     "jbowiki": {
+      "badges": [],
+      "site": "jbowiki",
+      "title": "merkurios"
+     },
+     "jvwiki": {
+      "badges": [],
+      "site": "jvwiki",
+      "title": "Merkurius"
+     },
+     "kaawiki": {
+      "badges": [],
+      "site": "kaawiki",
+      "title": "Merkuriy (planeta)"
+     },
+     "kabwiki": {
+      "badges": [],
+      "site": "kabwiki",
+      "title": "Aziweɣ (amtiweg)"
+     },
+     "kawiki": {
+      "badges": [],
+      "site": "kawiki",
+      "title": "მერკური"
+     },
+     "kbpwiki": {
+      "badges": [],
+      "site": "kbpwiki",
+      "title": "Mɛɛrkiiri"
+     },
+     "kcgwiki": {
+      "badges": [],
+      "site": "kcgwiki",
+      "title": "Makyuri"
+     },
+     "kgwiki": {
+      "badges": [],
+      "site": "kgwiki",
+      "title": "Merkure"
+     },
+     "kiwiki": {
+      "badges": [],
+      "site": "kiwiki",
+      "title": "Makiurĩ"
+     },
+     "kkwiki": {
+      "badges": [],
+      "site": "kkwiki",
+      "title": "Меркурий (ғаламшар)"
+     },
+     "kmwiki": {
+      "badges": [],
+      "site": "kmwiki",
+      "title": "ពុធ (ភព)"
+     },
+     "kncwiki": {
+      "badges": [],
+      "site": "kncwiki",
+      "title": "Mercury"
+     },
+     "knwiki": {
+      "badges": [],
+      "site": "knwiki",
+      "title": "ಬುಧ"
+     },
+     "kowiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "kowiki",
+      "title": "수성"
+     },
+     "kowikibooks": {
+      "badges": [],
+      "site": "kowikibooks",
+      "title": "수성"
+     },
+     "kowikiquote": {
+      "badges": [],
+      "site": "kowikiquote",
+      "title": "수성"
+     },
+     "kowikiversity": {
+      "badges": [],
+      "site": "kowikiversity",
+      "title": "수성"
+     },
+     "kshwiki": {
+      "badges": [],
+      "site": "kshwiki",
+      "title": "Merrkuur (Planneet)"
+     },
+     "kswiki": {
+      "badges": [],
+      "site": "kswiki",
+      "title": "بۄد (گرُٛہُد)"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Tîr (gerstêrk)"
+     },
+     "kvwiki": {
+      "badges": [],
+      "site": "kvwiki",
+      "title": "Меркурий"
+     },
+     "kwwiki": {
+      "badges": [],
+      "site": "kwwiki",
+      "title": "Merher (planet)"
+     },
+     "kywiki": {
+      "badges": [],
+      "site": "kywiki",
+      "title": "Меркурий"
+     },
+     "lawiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "lawiki",
+      "title": "Mercurius (planeta)"
+     },
+     "lbwiki": {
+      "badges": [],
+      "site": "lbwiki",
+      "title": "Merkur (Planéit)"
+     },
+     "lezwiki": {
+      "badges": [],
+      "site": "lezwiki",
+      "title": "Меркурий"
+     },
+     "lfnwiki": {
+      "badges": [],
+      "site": "lfnwiki",
+      "title": "Mercurio"
+     },
+     "lijwiki": {
+      "badges": [],
+      "site": "lijwiki",
+      "title": "Mercûrio (astronomia)"
+     },
+     "liwiki": {
+      "badges": [],
+      "site": "liwiki",
+      "title": "Mercurius (planeet)"
+     },
+     "lldwiki": {
+      "badges": [],
+      "site": "lldwiki",
+      "title": "Miercul"
+     },
+     "lmowiki": {
+      "badges": [],
+      "site": "lmowiki",
+      "title": "Mercurio (pianeta)"
+     },
+     "lnwiki": {
+      "badges": [],
+      "site": "lnwiki",
+      "title": "Mekulé"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Merkurijus (planeta)"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Merkurs (planēta)"
+     },
+     "madwiki": {
+      "badges": [],
+      "site": "madwiki",
+      "title": "Mèrkurius"
+     },
+     "magwiki": {
+      "badges": [],
+      "site": "magwiki",
+      "title": "बुध (ग्रह)"
+     },
+     "map_bmswiki": {
+      "badges": [],
+      "site": "map_bmswiki",
+      "title": "Merkurius"
+     },
+     "mdfwiki": {
+      "badges": [],
+      "site": "mdfwiki",
+      "title": "Меркури (шары тяште)"
+     },
+     "mgwiki": {
+      "badges": [],
+      "site": "mgwiki",
+      "title": "Merkiora (planeta)"
+     },
+     "mkwiki": {
+      "badges": [],
+      "site": "mkwiki",
+      "title": "Меркур (планета)"
+     },
+     "mlwiki": {
+      "badges": [],
+      "site": "mlwiki",
+      "title": "ബുധൻ"
+     },
+     "mnwiki": {
+      "badges": [],
+      "site": "mnwiki",
+      "title": "Буд"
+     },
+     "mrwiki": {
+      "badges": [],
+      "site": "mrwiki",
+      "title": "बुध ग्रह"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Utarid"
+     },
+     "mtwiki": {
+      "badges": [],
+      "site": "mtwiki",
+      "title": "Merkurju (pjaneta)"
+     },
+     "mwlwiki": {
+      "badges": [],
+      "site": "mwlwiki",
+      "title": "Marcúrio (planeta)"
+     },
+     "mywiki": {
+      "badges": [],
+      "site": "mywiki",
+      "title": "ဗုဒ္ဓဟူးဂြိုဟ်"
+     },
+     "mznwiki": {
+      "badges": [],
+      "site": "mznwiki",
+      "title": "عطارد"
+     },
+     "nahwiki": {
+      "badges": [],
+      "site": "nahwiki",
+      "title": "Payīnalcītlalli"
+     },
+     "napwiki": {
+      "badges": [],
+      "site": "napwiki",
+      "title": "Mercurio"
+     },
+     "nds_nlwiki": {
+      "badges": [],
+      "site": "nds_nlwiki",
+      "title": "Merkurius (planeet)"
+     },
+     "ndswiki": {
+      "badges": [],
+      "site": "ndswiki",
+      "title": "Merkur (Planet)"
+     },
+     "newiki": {
+      "badges": [],
+      "site": "newiki",
+      "title": "बुधग्रह"
+     },
+     "newwiki": {
+      "badges": [],
+      "site": "newwiki",
+      "title": "सुनगु"
+     },
+     "niawiki": {
+      "badges": [],
+      "site": "niawiki",
+      "title": "Merkurius"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Mercurius (planeet)"
+     },
+     "nnwiki": {
+      "badges": [],
+      "site": "nnwiki",
+      "title": "Planeten Merkur"
+     },
+     "novwiki": {
+      "badges": [],
+      "site": "novwiki",
+      "title": "Merkurie (planete)"
+     },
+     "nowiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "nowiki",
+      "title": "Merkur"
+     },
+     "nqowiki": {
+      "badges": [],
+      "site": "nqowiki",
+      "title": "ߜߐߞߎ"
+     },
+     "nrmwiki": {
+      "badges": [],
+      "site": "nrmwiki",
+      "title": "Mèrtchure"
+     },
+     "nvwiki": {
+      "badges": [],
+      "site": "nvwiki",
+      "title": "Mókiwii"
+     },
+     "ocwiki": {
+      "badges": [],
+      "site": "ocwiki",
+      "title": "Mercuri (planeta)"
+     },
+     "olowiki": {
+      "badges": [],
+      "site": "olowiki",
+      "title": "Merkurius"
+     },
+     "omwiki": {
+      "badges": [],
+      "site": "omwiki",
+      "title": "Meerkurii"
+     },
+     "orwiki": {
+      "badges": [],
+      "site": "orwiki",
+      "title": "ବୁଧ"
+     },
+     "oswiki": {
+      "badges": [],
+      "site": "oswiki",
+      "title": "Меркурий"
+     },
+     "pamwiki": {
+      "badges": [],
+      "site": "pamwiki",
+      "title": "Merkúriu"
+     },
+     "papwiki": {
+      "badges": [],
+      "site": "papwiki",
+      "title": "Merkurio (planeta)"
+     },
+     "pawiki": {
+      "badges": [],
+      "site": "pawiki",
+      "title": "ਬੁੱਧ (ਗ੍ਰਹਿ)"
+     },
+     "pcmwiki": {
+      "badges": [],
+      "site": "pcmwiki",
+      "title": "Mekuri (planet)"
+     },
+     "plwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "plwiki",
+      "title": "Merkury"
+     },
+     "pmswiki": {
+      "badges": [],
+      "site": "pmswiki",
+      "title": "Mercuri (pianeta)"
+     },
+     "pnbwiki": {
+      "badges": [],
+      "site": "pnbwiki",
+      "title": "عطارد"
+     },
+     "pplwiki": {
+      "badges": [],
+      "site": "pplwiki",
+      "title": "Ne kuneshnaj talsital (Ne achtu talsital)"
+     },
+     "pswiki": {
+      "badges": [],
+      "site": "pswiki",
+      "title": "عطارد"
+     },
+     "ptwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "ptwiki",
+      "title": "Mercúrio (planeta)"
+     },
+     "quwiki": {
+      "badges": [],
+      "site": "quwiki",
+      "title": "Qatuylla"
+     },
+     "rmwiki": {
+      "badges": [],
+      "site": "rmwiki",
+      "title": "Mercur (planet)"
+     },
+     "rmywiki": {
+      "badges": [],
+      "site": "rmywiki",
+      "title": "Budor"
+     },
+     "roa_rupwiki": {
+      "badges": [],
+      "site": "roa_rupwiki",
+      "title": "Mercur (planetâ)"
+     },
+     "rowiki": {
+      "badges": [],
+      "site": "rowiki",
+      "title": "Mercur (planetă)"
+     },
+     "rowikibooks": {
+      "badges": [],
+      "site": "rowikibooks",
+      "title": "Sistemul solar/Mercur"
+     },
+     "ruewiki": {
+      "badges": [],
+      "site": "ruewiki",
+      "title": "Меркур (планета)"
+     },
+     "ruwiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "ruwiki",
+      "title": "Меркурий"
+     },
+     "ruwikinews": {
+      "badges": [],
+      "site": "ruwikinews",
+      "title": "Категория:Меркурий"
+     },
+     "ruwikiquote": {
+      "badges": [],
+      "site": "ruwikiquote",
+      "title": "Меркурий"
+     },
+     "sahwiki": {
+      "badges": [],
+      "site": "sahwiki",
+      "title": "Мэндэҥэ"
+     },
+     "satwiki": {
+      "badges": [],
+      "site": "satwiki",
+      "title": "ᱮᱞᱟᱝ ᱮᱸᱜᱮᱞ"
+     },
+     "sawiki": {
+      "badges": [],
+      "site": "sawiki",
+      "title": "बुधः"
+     },
+     "scnwiki": {
+      "badges": [],
+      "site": "scnwiki",
+      "title": "Mircuriu (pianeta)"
+     },
+     "scowiki": {
+      "badges": [],
+      "site": "scowiki",
+      "title": "Mercur (planet)"
+     },
+     "scwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "scwiki",
+      "title": "Mercùriu (praneta)"
+     },
+     "sdwiki": {
+      "badges": [],
+      "site": "sdwiki",
+      "title": "عطارد"
+     },
+     "sewiki": {
+      "badges": [],
+      "site": "sewiki",
+      "title": "Merkurius"
+     },
+     "shiwiki": {
+      "badges": [],
+      "site": "shiwiki",
+      "title": "Azwaq"
+     },
+     "shwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "shwiki",
+      "title": "Merkur"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Mercury (planet)"
+     },
+     "siwiki": {
+      "badges": [],
+      "site": "siwiki",
+      "title": "බුධ"
+     },
+     "skrwiki": {
+      "badges": [],
+      "site": "skrwiki",
+      "title": "عطارد"
+     },
+     "skwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "skwiki",
+      "title": "Merkúr"
+     },
+     "slwiki": {
+      "badges": [],
+      "site": "slwiki",
+      "title": "Merkur"
+     },
+     "smnwiki": {
+      "badges": [],
+      "site": "smnwiki",
+      "title": "Merkurius"
+     },
+     "snwiki": {
+      "badges": [],
+      "site": "snwiki",
+      "title": "Nyamatsatse"
+     },
+     "sowiki": {
+      "badges": [],
+      "site": "sowiki",
+      "title": "Dusaa"
+     },
+     "sqwiki": {
+      "badges": [],
+      "site": "sqwiki",
+      "title": "Merkuri (planet)"
+     },
+     "srwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "srwiki",
+      "title": "Меркур"
+     },
+     "srwikiquote": {
+      "badges": [],
+      "site": "srwikiquote",
+      "title": "Меркур"
+     },
+     "stqwiki": {
+      "badges": [],
+      "site": "stqwiki",
+      "title": "Merkur"
+     },
+     "suwiki": {
+      "badges": [],
+      "site": "suwiki",
+      "title": "Mérkurius"
+     },
+     "svwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "svwiki",
+      "title": "Merkurius"
+     },
+     "swwiki": {
+      "badges": [],
+      "site": "swwiki",
+      "title": "Utaridi"
+     },
+     "szlwiki": {
+      "badges": [],
+      "site": "szlwiki",
+      "title": "Merkury"
+     },
+     "tawiki": {
+      "badges": [],
+      "site": "tawiki",
+      "title": "புதன் (கோள்)"
+     },
+     "tawikibooks": {
+      "badges": [],
+      "site": "tawikibooks",
+      "title": "புதன்"
+     },
+     "tddwiki": {
+      "badges": [],
+      "site": "tddwiki",
+      "title": "ᥛᥣᥱ ᥓᥧᥱ ᥘᥤᥱ"
+     },
+     "tewiki": {
+      "badges": [],
+      "site": "tewiki",
+      "title": "బుధుడు"
+     },
+     "tgwiki": {
+      "badges": [],
+      "site": "tgwiki",
+      "title": "Уторид"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "ดาวพุธ"
+     },
+     "tkwiki": {
+      "badges": [],
+      "site": "tkwiki",
+      "title": "Merkuriý"
+     },
+     "tlwiki": {
+      "badges": [],
+      "site": "tlwiki",
+      "title": "Merkuryo (planeta)"
+     },
+     "tlywiki": {
+      "badges": [],
+      "site": "tlywiki",
+      "title": "Merkuri"
+     },
+     "tokwiki": {
+      "badges": [],
+      "site": "tokwiki",
+      "title": "mun Mekuliju"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Merkür"
+     },
+     "ttwiki": {
+      "badges": [],
+      "site": "ttwiki",
+      "title": "Меркурий (планета)"
+     },
+     "tumwiki": {
+      "badges": [],
+      "site": "tumwiki",
+      "title": "Mekyuri"
+     },
+     "tyvwiki": {
+      "badges": [],
+      "site": "tyvwiki",
+      "title": "Меркурий"
+     },
+     "tywiki": {
+      "badges": [],
+      "site": "tywiki",
+      "title": "Tāèro"
+     },
+     "udmwiki": {
+      "badges": [],
+      "site": "udmwiki",
+      "title": "Меркурий"
+     },
+     "ugwiki": {
+      "badges": [],
+      "site": "ugwiki",
+      "title": "مېركۇرىي"
+     },
+     "ukwiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "ukwiki",
+      "title": "Меркурій (планета)"
+     },
+     "urwiki": {
+      "badges": [],
+      "site": "urwiki",
+      "title": "عطارد"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Merkuriy"
+     },
+     "vecwiki": {
+      "badges": [],
+      "site": "vecwiki",
+      "title": "Mercùrio (astronomia)"
+     },
+     "vepwiki": {
+      "badges": [],
+      "site": "vepwiki",
+      "title": "Merkurii"
+     },
+     "viwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "viwiki",
+      "title": "Sao Thủy"
+     },
+     "viwikiquote": {
+      "badges": [],
+      "site": "viwikiquote",
+      "title": "Sao Thủy"
+     },
+     "vlswiki": {
+      "badges": [],
+      "site": "vlswiki",
+      "title": "Mercurius (planete)"
+     },
+     "vowiki": {
+      "badges": [],
+      "site": "vowiki",
+      "title": "Merkuriy"
+     },
+     "warwiki": {
+      "badges": [],
+      "site": "warwiki",
+      "title": "Merkuryo (planeta)"
+     },
+     "wawiki": {
+      "badges": [],
+      "site": "wawiki",
+      "title": "Mierkeure (planete)"
+     },
+     "wowiki": {
+      "badges": [],
+      "site": "wowiki",
+      "title": "Merkuur"
+     },
+     "wuuwiki": {
+      "badges": [],
+      "site": "wuuwiki",
+      "title": "水星"
+     },
+     "xalwiki": {
+      "badges": [],
+      "site": "xalwiki",
+      "title": "Меркурий һариг"
+     },
+     "xhwiki": {
+      "badges": [],
+      "site": "xhwiki",
+      "title": "I-Mercury (iplanethi)"
+     },
+     "xmfwiki": {
+      "badges": [],
+      "site": "xmfwiki",
+      "title": "მერკური (პლანეტა)"
+     },
+     "yiwiki": {
+      "badges": [],
+      "site": "yiwiki",
+      "title": "מערקור"
+     },
+     "yowiki": {
+      "badges": [],
+      "site": "yowiki",
+      "title": "Mẹ́rkúríù (pálánẹ́tì)"
+     },
+     "zawiki": {
+      "badges": [],
+      "site": "zawiki",
+      "title": "Ndaundeiqraemx"
+     },
+     "zeawiki": {
+      "badges": [],
+      "site": "zeawiki",
+      "title": "Mercurius (planete)"
+     },
+     "zghwiki": {
+      "badges": [],
+      "site": "zghwiki",
+      "title": "ⴰⵣⵡⴰⵇ"
+     },
+     "zh_classicalwiki": {
+      "badges": [],
+      "site": "zh_classicalwiki",
+      "title": "辰星"
+     },
+     "zh_min_nanwiki": {
+      "badges": [],
+      "site": "zh_min_nanwiki",
+      "title": "Chúi-chheⁿ"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "水星"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "水星"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "UNomjubane"
+     }
+    },
+    "type": "item"
+   },
+   "Q60009810": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "male given name"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "чоловіче особове ім’я (Mercury)"
+     }
+    },
+    "id": "Q60009810",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "sitelinks": {},
+    "type": "item"
+   },
+   "Q613883": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "automobile marque of the Ford Motor Company"
+     }
+    },
+    "id": "Q613883",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "Mercury"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "ميركوري"
+     },
+     "arzwiki": {
+      "badges": [],
+      "site": "arzwiki",
+      "title": "ميركورى"
+     },
+     "azbwiki": {
+      "badges": [],
+      "site": "azbwiki",
+      "title": "مرکوری (آرابا)"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Mercury (automòbil)"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Ford Mercury"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Mercury (Automarke)"
+     },
+     "enwiki": {
+      "badges": [],
+      "site": "enwiki",
+      "title": "Mercury (automobile)"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercury (automóviles)"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "مرکوری (خودرو)"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Mercury (automerkki)"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercury (automobile)"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "מרקורי (רכב)"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Mercury (perusahaan otomotif)"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Mercury (azienda)"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "マーキュリー (自動車)"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "머큐리 (자동차)"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Mercury (automobilis)"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Mercury (automerk)"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Mercury (bil)"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Mercury (marka samochodów)"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Mercury (automóveis)"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Mercury (автомобильная марка)"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Mercury (automobile)"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Mercury (bilmärke)"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Mercury (otomobil)"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Mercury"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "水星 (汽车)"
+     }
+    },
+    "type": "item"
+   },
+   "Q87526778": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "planetary, alchemical and gender symbol"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "символ Юнікоду"
+     }
+    },
+    "id": "Q87526778",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury symbol"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "☿"
+     }
+    },
+    "sitelinks": {
+     "arwiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "arwiki",
+      "title": "☿"
+     },
+     "commonswiki": {
+      "badges": [],
+      "site": "commonswiki",
+      "title": "Category:☿"
+     },
+     "enwiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "enwiki",
+      "title": "☿"
+     },
+     "eswiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "eswiki",
+      "title": "☿"
+     },
+     "ptwiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "ptwiki",
+      "title": "☿"
+     },
+     "trwiki": {
+      "badges": [
+       "Q70894304"
+      ],
+      "site": "trwiki",
+      "title": "☿"
+     },
+     "zhwiki": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "zhwiki",
+      "title": "☿"
+     }
+    },
+    "type": "item"
+   },
+   "Q925": {
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "chemical element with symbol Hg and atomic number 80"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "хімічний елемент з атомним номером 80"
+     }
+    },
+    "id": "Q925",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "mercury"
+     },
+     "uk": {
+      "language": "uk",
+      "value": "ртуть"
+     }
+    },
+    "sitelinks": {
+     "afwiki": {
+      "badges": [],
+      "site": "afwiki",
+      "title": "Kwik"
+     },
+     "amwiki": {
+      "badges": [],
+      "site": "amwiki",
+      "title": "ባዜቃ"
+     },
+     "anwiki": {
+      "badges": [],
+      "site": "anwiki",
+      "title": "Mercurio (elemento)"
+     },
+     "arwiki": {
+      "badges": [],
+      "site": "arwiki",
+      "title": "زئبق"
+     },
+     "arywiki": {
+      "badges": [],
+      "site": "arywiki",
+      "title": "زاواق"
+     },
+     "arzwiki": {
+      "badges": [],
+      "site": "arzwiki",
+      "title": "زيبق"
+     },
+     "astwiki": {
+      "badges": [],
+      "site": "astwiki",
+      "title": "Mercuriu (elementu)"
+     },
+     "azbwiki": {
+      "badges": [],
+      "site": "azbwiki",
+      "title": "جیوه"
+     },
+     "azwiki": {
+      "badges": [],
+      "site": "azwiki",
+      "title": "Civə"
+     },
+     "banwiki": {
+      "badges": [],
+      "site": "banwiki",
+      "title": "Rasa (datu)"
+     },
+     "bawiki": {
+      "badges": [],
+      "site": "bawiki",
+      "title": "Терегөмөш"
+     },
+     "bclwiki": {
+      "badges": [],
+      "site": "bclwiki",
+      "title": "Asugi"
+     },
+     "be_x_oldwiki": {
+      "badges": [],
+      "site": "be_x_oldwiki",
+      "title": "Ртуць"
+     },
+     "bewiki": {
+      "badges": [],
+      "site": "bewiki",
+      "title": "Ртуць"
+     },
+     "bgwiki": {
+      "badges": [],
+      "site": "bgwiki",
+      "title": "Живак"
+     },
+     "bhwiki": {
+      "badges": [],
+      "site": "bhwiki",
+      "title": "पारा"
+     },
+     "bnwiki": {
+      "badges": [],
+      "site": "bnwiki",
+      "title": "পারদ"
+     },
+     "bowiki": {
+      "badges": [],
+      "site": "bowiki",
+      "title": "མེར་ཁུ་རི།"
+     },
+     "brwiki": {
+      "badges": [],
+      "site": "brwiki",
+      "title": "Merkur"
+     },
+     "bswiki": {
+      "badges": [],
+      "site": "bswiki",
+      "title": "Živa"
+     },
+     "cawiki": {
+      "badges": [],
+      "site": "cawiki",
+      "title": "Mercuri (element)"
+     },
+     "cdowiki": {
+      "badges": [],
+      "site": "cdowiki",
+      "title": "Cūi-ngṳ̀ng"
+     },
+     "ckbwiki": {
+      "badges": [],
+      "site": "ckbwiki",
+      "title": "جیوە"
+     },
+     "commonswiki": {
+      "badges": [],
+      "site": "commonswiki",
+      "title": "Mercury (element)"
+     },
+     "cowiki": {
+      "badges": [],
+      "site": "cowiki",
+      "title": "Argentuvivu"
+     },
+     "cswiki": {
+      "badges": [],
+      "site": "cswiki",
+      "title": "Rtuť"
+     },
+     "cvwiki": {
+      "badges": [],
+      "site": "cvwiki",
+      "title": "Чĕркĕмĕл"
+     },
+     "cywiki": {
+      "badges": [],
+      "site": "cywiki",
+      "title": "Arian byw (elfen)"
+     },
+     "dagwiki": {
+      "badges": [],
+      "site": "dagwiki",
+      "title": "Zeeba"
+     },
+     "dawiki": {
+      "badges": [],
+      "site": "dawiki",
+      "title": "Kviksølv"
+     },
+     "dewiki": {
+      "badges": [],
+      "site": "dewiki",
+      "title": "Quecksilber"
+     },
+     "dvwiki": {
+      "badges": [],
+      "site": "dvwiki",
+      "title": "ދިރޭރަހަ"
+     },
+     "elwiki": {
+      "badges": [],
+      "site": "elwiki",
+      "title": "Υδράργυρος"
+     },
+     "emlwiki": {
+      "badges": [],
+      "site": "emlwiki",
+      "title": "Mercùri"
+     },
+     "enwiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "enwiki",
+      "title": "Mercury (element)"
+     },
+     "enwikiquote": {
+      "badges": [],
+      "site": "enwikiquote",
+      "title": "Mercury (element)"
+     },
+     "eowiki": {
+      "badges": [],
+      "site": "eowiki",
+      "title": "Hidrargo"
+     },
+     "eowikiquote": {
+      "badges": [],
+      "site": "eowikiquote",
+      "title": "Hidrargo"
+     },
+     "eswiki": {
+      "badges": [],
+      "site": "eswiki",
+      "title": "Mercurio (elemento)"
+     },
+     "etwiki": {
+      "badges": [],
+      "site": "etwiki",
+      "title": "Elavhõbe"
+     },
+     "etwikiquote": {
+      "badges": [],
+      "site": "etwikiquote",
+      "title": "Elavhõbe"
+     },
+     "euwiki": {
+      "badges": [],
+      "site": "euwiki",
+      "title": "Merkurio (elementua)"
+     },
+     "extwiki": {
+      "badges": [],
+      "site": "extwiki",
+      "title": "Mercuriu (elementu)"
+     },
+     "fawiki": {
+      "badges": [],
+      "site": "fawiki",
+      "title": "جیوه"
+     },
+     "fiwiki": {
+      "badges": [],
+      "site": "fiwiki",
+      "title": "Elohopea"
+     },
+     "fowiki": {
+      "badges": [],
+      "site": "fowiki",
+      "title": "Kyksilvur"
+     },
+     "frrwiki": {
+      "badges": [],
+      "site": "frrwiki",
+      "title": "Kwaksalwer"
+     },
+     "frwiki": {
+      "badges": [],
+      "site": "frwiki",
+      "title": "Mercure (chimie)"
+     },
+     "furwiki": {
+      "badges": [],
+      "site": "furwiki",
+      "title": "Mercuri (element)"
+     },
+     "gawiki": {
+      "badges": [],
+      "site": "gawiki",
+      "title": "Mearcair (dúil)"
+     },
+     "gdwiki": {
+      "badges": [],
+      "site": "gdwiki",
+      "title": "Mearcar (meatailt)"
+     },
+     "glwiki": {
+      "badges": [],
+      "site": "glwiki",
+      "title": "Mercurio (elemento)"
+     },
+     "gnwiki": {
+      "badges": [],
+      "site": "gnwiki",
+      "title": "Kuarepotimembe"
+     },
+     "guwiki": {
+      "badges": [],
+      "site": "guwiki",
+      "title": "પારો"
+     },
+     "gvwiki": {
+      "badges": [],
+      "site": "gvwiki",
+      "title": "Mercur"
+     },
+     "hakwiki": {
+      "badges": [],
+      "site": "hakwiki",
+      "title": "Súi-ngiùn"
+     },
+     "hawwiki": {
+      "badges": [],
+      "site": "hawwiki",
+      "title": "Melekulia"
+     },
+     "hewiki": {
+      "badges": [],
+      "site": "hewiki",
+      "title": "כספית"
+     },
+     "hifwiki": {
+      "badges": [],
+      "site": "hifwiki",
+      "title": "Mercury (element)"
+     },
+     "hiwiki": {
+      "badges": [],
+      "site": "hiwiki",
+      "title": "पारा"
+     },
+     "hrwiki": {
+      "badges": [],
+      "site": "hrwiki",
+      "title": "Živa"
+     },
+     "htwiki": {
+      "badges": [],
+      "site": "htwiki",
+      "title": "Mèki (chimi)"
+     },
+     "huwiki": {
+      "badges": [],
+      "site": "huwiki",
+      "title": "Higany"
+     },
+     "hywiki": {
+      "badges": [],
+      "site": "hywiki",
+      "title": "Սնդիկ"
+     },
+     "hywwiki": {
+      "badges": [],
+      "site": "hywwiki",
+      "title": "Սնդիկ"
+     },
+     "iawiki": {
+      "badges": [],
+      "site": "iawiki",
+      "title": "Mercurio (elemento)"
+     },
+     "idwiki": {
+      "badges": [],
+      "site": "idwiki",
+      "title": "Raksa"
+     },
+     "idwikibooks": {
+      "badges": [],
+      "site": "idwikibooks",
+      "title": "Raksa"
+     },
+     "iowiki": {
+      "badges": [],
+      "site": "iowiki",
+      "title": "Merkurio"
+     },
+     "iswiki": {
+      "badges": [],
+      "site": "iswiki",
+      "title": "Kvikasilfur"
+     },
+     "itwiki": {
+      "badges": [],
+      "site": "itwiki",
+      "title": "Mercurio (elemento chimico)"
+     },
+     "itwikiquote": {
+      "badges": [],
+      "site": "itwikiquote",
+      "title": "Mercurio (elemento chimico)"
+     },
+     "jawiki": {
+      "badges": [],
+      "site": "jawiki",
+      "title": "水銀"
+     },
+     "jawikibooks": {
+      "badges": [
+       "Q70893996"
+      ],
+      "site": "jawikibooks",
+      "title": "高校化学 水銀とカドミウム"
+     },
+     "jbowiki": {
+      "badges": [],
+      "site": "jbowiki",
+      "title": "margu"
+     },
+     "kawiki": {
+      "badges": [],
+      "site": "kawiki",
+      "title": "ვერცხლისწყალი"
+     },
+     "kbpwiki": {
+      "badges": [],
+      "site": "kbpwiki",
+      "title": "Mɛrɩkɩrɩ"
+     },
+     "kgewiki": {
+      "badges": [],
+      "site": "kgewiki",
+      "title": "Raksa"
+     },
+     "kiwiki": {
+      "badges": [],
+      "site": "kiwiki",
+      "title": "Mercury"
+     },
+     "kkwiki": {
+      "badges": [],
+      "site": "kkwiki",
+      "title": "Сынап"
+     },
+     "knwiki": {
+      "badges": [],
+      "site": "knwiki",
+      "title": "ಪಾದರಸ"
+     },
+     "koiwiki": {
+      "badges": [],
+      "site": "koiwiki",
+      "title": "Ртуть"
+     },
+     "kowiki": {
+      "badges": [],
+      "site": "kowiki",
+      "title": "수은"
+     },
+     "kuwiki": {
+      "badges": [],
+      "site": "kuwiki",
+      "title": "Zîbeq"
+     },
+     "kvwiki": {
+      "badges": [],
+      "site": "kvwiki",
+      "title": "Тюрк"
+     },
+     "kwwiki": {
+      "badges": [],
+      "site": "kwwiki",
+      "title": "Merkuri"
+     },
+     "kywiki": {
+      "badges": [],
+      "site": "kywiki",
+      "title": "Сымап"
+     },
+     "lawiki": {
+      "badges": [],
+      "site": "lawiki",
+      "title": "Hydrargyrum"
+     },
+     "lbewiki": {
+      "badges": [],
+      "site": "lbewiki",
+      "title": "Хьюму муси"
+     },
+     "lbwiki": {
+      "badges": [],
+      "site": "lbwiki",
+      "title": "Quecksëlwer"
+     },
+     "lijwiki": {
+      "badges": [],
+      "site": "lijwiki",
+      "title": "Mercuio (elemento)"
+     },
+     "liwiki": {
+      "badges": [],
+      "site": "liwiki",
+      "title": "Kwik"
+     },
+     "lmowiki": {
+      "badges": [],
+      "site": "lmowiki",
+      "title": "Mercurio (element chimich)"
+     },
+     "lowiki": {
+      "badges": [],
+      "site": "lowiki",
+      "title": "ເມີຄູຣີ (ອົງປະກອບ)"
+     },
+     "ltwiki": {
+      "badges": [],
+      "site": "ltwiki",
+      "title": "Gyvsidabris"
+     },
+     "lvwiki": {
+      "badges": [],
+      "site": "lvwiki",
+      "title": "Dzīvsudrabs"
+     },
+     "mgwiki": {
+      "badges": [],
+      "site": "mgwiki",
+      "title": "Volavelona"
+     },
+     "mhrwiki": {
+      "badges": [],
+      "site": "mhrwiki",
+      "title": "Майдар"
+     },
+     "miwiki": {
+      "badges": [],
+      "site": "miwiki",
+      "title": "Konuoi"
+     },
+     "mkwiki": {
+      "badges": [],
+      "site": "mkwiki",
+      "title": "Жива"
+     },
+     "mlwiki": {
+      "badges": [],
+      "site": "mlwiki",
+      "title": "രസം (മൂലകം)"
+     },
+     "mniwiki": {
+      "badges": [],
+      "site": "mniwiki",
+      "title": "ꯁꯅꯥ ꯍꯤꯗꯥꯛ"
+     },
+     "mnwiki": {
+      "badges": [],
+      "site": "mnwiki",
+      "title": "Мөнгөн ус"
+     },
+     "mrjwiki": {
+      "badges": [],
+      "site": "mrjwiki",
+      "title": "Ртуть"
+     },
+     "mrwiki": {
+      "badges": [],
+      "site": "mrwiki",
+      "title": "पारा"
+     },
+     "mswiki": {
+      "badges": [],
+      "site": "mswiki",
+      "title": "Raksa"
+     },
+     "myvwiki": {
+      "badges": [],
+      "site": "myvwiki",
+      "title": "Эрексия"
+     },
+     "mywiki": {
+      "badges": [],
+      "site": "mywiki",
+      "title": "ပြဒါး"
+     },
+     "mznwiki": {
+      "badges": [],
+      "site": "mznwiki",
+      "title": "جیوه"
+     },
+     "nahwiki": {
+      "badges": [],
+      "site": "nahwiki",
+      "title": "Yoliamochitl"
+     },
+     "ndswiki": {
+      "badges": [],
+      "site": "ndswiki",
+      "title": "Quecksülver"
+     },
+     "newiki": {
+      "badges": [],
+      "site": "newiki",
+      "title": "पारो"
+     },
+     "newwiki": {
+      "badges": [],
+      "site": "newwiki",
+      "title": "पारो"
+     },
+     "nlwiki": {
+      "badges": [],
+      "site": "nlwiki",
+      "title": "Kwik"
+     },
+     "nnwiki": {
+      "badges": [],
+      "site": "nnwiki",
+      "title": "Kvikksølv"
+     },
+     "novwiki": {
+      "badges": [],
+      "site": "novwiki",
+      "title": "Merkurie (kemial elemente)"
+     },
+     "nowiki": {
+      "badges": [],
+      "site": "nowiki",
+      "title": "Kvikksølv"
+     },
+     "nvwiki": {
+      "badges": [],
+      "site": "nvwiki",
+      "title": "Béésh tózháanii"
+     },
+     "ocwiki": {
+      "badges": [],
+      "site": "ocwiki",
+      "title": "Mercuri (element)"
+     },
+     "olowiki": {
+      "badges": [],
+      "site": "olowiki",
+      "title": "Artugu"
+     },
+     "omwiki": {
+      "badges": [],
+      "site": "omwiki",
+      "title": "Bisha meetaa"
+     },
+     "orwiki": {
+      "badges": [],
+      "site": "orwiki",
+      "title": "ପାରଦ"
+     },
+     "oswiki": {
+      "badges": [],
+      "site": "oswiki",
+      "title": "Джынасу"
+     },
+     "pamwiki": {
+      "badges": [],
+      "site": "pamwiki",
+      "title": "Asugi"
+     },
+     "papwiki": {
+      "badges": [],
+      "site": "papwiki",
+      "title": "Kuik"
+     },
+     "pawiki": {
+      "badges": [],
+      "site": "pawiki",
+      "title": "ਪਾਰਾ"
+     },
+     "plwiki": {
+      "badges": [],
+      "site": "plwiki",
+      "title": "Rtęć"
+     },
+     "plwikiquote": {
+      "badges": [],
+      "site": "plwikiquote",
+      "title": "Rtęć"
+     },
+     "pmswiki": {
+      "badges": [],
+      "site": "pmswiki",
+      "title": "Mercuri (element)"
+     },
+     "pnbwiki": {
+      "badges": [],
+      "site": "pnbwiki",
+      "title": "پارہ"
+     },
+     "pswiki": {
+      "badges": [],
+      "site": "pswiki",
+      "title": "پاره"
+     },
+     "ptwiki": {
+      "badges": [],
+      "site": "ptwiki",
+      "title": "Mercúrio (elemento químico)"
+     },
+     "quwiki": {
+      "badges": [],
+      "site": "quwiki",
+      "title": "Yaku qullqi"
+     },
+     "roa_rupwiki": {
+      "badges": [],
+      "site": "roa_rupwiki",
+      "title": "Ghearyiru"
+     },
+     "rowiki": {
+      "badges": [
+       "Q17437798"
+      ],
+      "site": "rowiki",
+      "title": "Mercur (element)"
+     },
+     "ruwiki": {
+      "badges": [],
+      "site": "ruwiki",
+      "title": "Ртуть"
+     },
+     "ruwikinews": {
+      "badges": [],
+      "site": "ruwikinews",
+      "title": "Категория:Ртуть"
+     },
+     "sawiki": {
+      "badges": [],
+      "site": "sawiki",
+      "title": "पारदः"
+     },
+     "scnwiki": {
+      "badges": [],
+      "site": "scnwiki",
+      "title": "Mercuriu (elementu chìmicu)"
+     },
+     "scowiki": {
+      "badges": [],
+      "site": "scowiki",
+      "title": "Mercur (element)"
+     },
+     "scwiki": {
+      "badges": [],
+      "site": "scwiki",
+      "title": "Mercùriu (elementu chìmicu)"
+     },
+     "sdwiki": {
+      "badges": [],
+      "site": "sdwiki",
+      "title": "مرڪري (پارو)"
+     },
+     "sewiki": {
+      "badges": [],
+      "site": "sewiki",
+      "title": "Eallisilba"
+     },
+     "shwiki": {
+      "badges": [],
+      "site": "shwiki",
+      "title": "Živa"
+     },
+     "simplewiki": {
+      "badges": [],
+      "site": "simplewiki",
+      "title": "Mercury (element)"
+     },
+     "siwiki": {
+      "badges": [],
+      "site": "siwiki",
+      "title": "රසදිය"
+     },
+     "skwiki": {
+      "badges": [],
+      "site": "skwiki",
+      "title": "Ortuť"
+     },
+     "slwiki": {
+      "badges": [
+       "Q17437796"
+      ],
+      "site": "slwiki",
+      "title": "Živo srebro"
+     },
+     "smnwiki": {
+      "badges": [],
+      "site": "smnwiki",
+      "title": "Elleesilbâ"
+     },
+     "sowiki": {
+      "badges": [],
+      "site": "sowiki",
+      "title": "Meerkuri"
+     },
+     "sqwiki": {
+      "badges": [],
+      "site": "sqwiki",
+      "title": "Zhiva"
+     },
+     "srwiki": {
+      "badges": [],
+      "site": "srwiki",
+      "title": "Жива"
+     },
+     "stqwiki": {
+      "badges": [],
+      "site": "stqwiki",
+      "title": "Kwäksäälwer"
+     },
+     "suwiki": {
+      "badges": [],
+      "site": "suwiki",
+      "title": "Cai raksa"
+     },
+     "svwiki": {
+      "badges": [],
+      "site": "svwiki",
+      "title": "Kvicksilver"
+     },
+     "swwiki": {
+      "badges": [],
+      "site": "swwiki",
+      "title": "Zebaki"
+     },
+     "szlwiki": {
+      "badges": [],
+      "site": "szlwiki",
+      "title": "Żywe strzybło"
+     },
+     "tawiki": {
+      "badges": [],
+      "site": "tawiki",
+      "title": "பாதரசம்"
+     },
+     "tewiki": {
+      "badges": [],
+      "site": "tewiki",
+      "title": "పాదరసము"
+     },
+     "tgwiki": {
+      "badges": [],
+      "site": "tgwiki",
+      "title": "Симоб"
+     },
+     "thwiki": {
+      "badges": [],
+      "site": "thwiki",
+      "title": "ปรอท"
+     },
+     "tlwiki": {
+      "badges": [],
+      "site": "tlwiki",
+      "title": "Asoge"
+     },
+     "tokwiki": {
+      "badges": [],
+      "site": "tokwiki",
+      "title": "kiwen Mani telo"
+     },
+     "trwiki": {
+      "badges": [],
+      "site": "trwiki",
+      "title": "Cıva"
+     },
+     "ttwiki": {
+      "badges": [],
+      "site": "ttwiki",
+      "title": "Терекөмеш"
+     },
+     "ugwiki": {
+      "badges": [],
+      "site": "ugwiki",
+      "title": "مېركۇرىي(element)"
+     },
+     "ukwiki": {
+      "badges": [],
+      "site": "ukwiki",
+      "title": "Ртуть"
+     },
+     "urwiki": {
+      "badges": [],
+      "site": "urwiki",
+      "title": "پارہ"
+     },
+     "uzwiki": {
+      "badges": [],
+      "site": "uzwiki",
+      "title": "Simob"
+     },
+     "vepwiki": {
+      "badges": [],
+      "site": "vepwiki",
+      "title": "Artut'"
+     },
+     "viwiki": {
+      "badges": [],
+      "site": "viwiki",
+      "title": "Thủy ngân"
+     },
+     "vowiki": {
+      "badges": [],
+      "site": "vowiki",
+      "title": "Hidrargin"
+     },
+     "warwiki": {
+      "badges": [],
+      "site": "warwiki",
+      "title": "Asoge"
+     },
+     "wawiki": {
+      "badges": [],
+      "site": "wawiki",
+      "title": "Mierkeure (elemint)"
+     },
+     "wuuwiki": {
+      "badges": [],
+      "site": "wuuwiki",
+      "title": "汞"
+     },
+     "xalwiki": {
+      "badges": [],
+      "site": "xalwiki",
+      "title": "Мөңгүсан"
+     },
+     "xhwiki": {
+      "badges": [],
+      "site": "xhwiki",
+      "title": "I-Mercury"
+     },
+     "yiwiki": {
+      "badges": [],
+      "site": "yiwiki",
+      "title": "קוועקזילבער"
+     },
+     "yowiki": {
+      "badges": [],
+      "site": "yowiki",
+      "title": "Fàdákàolómi"
+     },
+     "zawiki": {
+      "badges": [],
+      "site": "zawiki",
+      "title": "Raemxngaenz"
+     },
+     "zh_classicalwiki": {
+      "badges": [],
+      "site": "zh_classicalwiki",
+      "title": "汞"
+     },
+     "zh_min_nanwiki": {
+      "badges": [],
+      "site": "zh_min_nanwiki",
+      "title": "Chúi-gîn"
+     },
+     "zh_yuewiki": {
+      "badges": [],
+      "site": "zh_yuewiki",
+      "title": "水銀"
+     },
+     "zhwiki": {
+      "badges": [],
+      "site": "zhwiki",
+      "title": "汞"
+     },
+     "zuwiki": {
+      "badges": [],
+      "site": "zuwiki",
+      "title": "Isigidi (inhlwa)"
+     }
+    },
+    "type": "item"
+   }
+  },
+  "success": 1
+ },
+ "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&limit=10&search=Mercury&type=item&uselang=en": {
+  "search": [
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q613883",
+    "description": "automobile marque of the Ford Motor Company",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "automobile marque of the Ford Motor Company"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q613883",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 578146,
+    "repository": "wikidata",
+    "title": "Q613883",
+    "url": "//www.wikidata.org/wiki/Q613883"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q1231263",
+    "description": "commune in Savoie, France",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "commune in Savoie, France"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q1231263",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 1172548,
+    "repository": "wikidata",
+    "title": "Q1231263",
+    "url": "//www.wikidata.org/wiki/Q1231263"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q308",
+    "description": "first planet from the Solar System and smallest among all, tellurian and with extreme temperatures",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "first planet from the Solar System and smallest among all, tellurian and with extreme temperatures"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q308",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 495,
+    "repository": "wikidata",
+    "title": "Q308",
+    "url": "//www.wikidata.org/wiki/Q308"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q165745",
+    "description": "American record label",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "American record label"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury Records"
+     }
+    },
+    "id": "Q165745",
+    "label": "Mercury Records",
+    "match": {
+     "language": "en",
+     "text": "Mercury Records",
+     "type": "label"
+    },
+    "pageid": 166349,
+    "repository": "wikidata",
+    "title": "Q165745",
+    "url": "//www.wikidata.org/wiki/Q165745"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q925",
+    "description": "chemical element with symbol Hg and atomic number 80",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "chemical element with symbol Hg and atomic number 80"
+     },
+     "label": {
+      "language": "en",
+      "value": "mercury"
+     }
+    },
+    "id": "Q925",
+    "label": "mercury",
+    "match": {
+     "language": "en",
+     "text": "mercury",
+     "type": "label"
+    },
+    "pageid": 1248,
+    "repository": "wikidata",
+    "title": "Q925",
+    "url": "//www.wikidata.org/wiki/Q925"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q60009810",
+    "description": "male given name",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "male given name"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q60009810",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 59890192,
+    "repository": "wikidata",
+    "title": "Q60009810",
+    "url": "//www.wikidata.org/wiki/Q60009810"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q1150",
+    "description": "Roman god of trade, merchants, thieves and travel",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "Roman god of trade, merchants, thieves and travel"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q1150",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 1512,
+    "repository": "wikidata",
+    "title": "Q1150",
+    "url": "//www.wikidata.org/wiki/Q1150"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q107119712",
+    "display": {
+     "label": {
+      "language": "en",
+      "value": "Mercury"
+     }
+    },
+    "id": "Q107119712",
+    "label": "Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "label"
+    },
+    "pageid": 102368317,
+    "repository": "wikidata",
+    "title": "Q107119712",
+    "url": "//www.wikidata.org/wiki/Q107119712"
+   },
+   {
+    "aliases": [
+     "Mercury"
+    ],
+    "concepturi": "http://www.wikidata.org/entity/Q1274643",
+    "description": "American professional women's basketball team",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "American professional women's basketball team"
+     },
+     "label": {
+      "language": "en",
+      "value": "Phoenix Mercury"
+     }
+    },
+    "id": "Q1274643",
+    "label": "Phoenix Mercury",
+    "match": {
+     "language": "en",
+     "text": "Mercury",
+     "type": "alias"
+    },
+    "pageid": 1215200,
+    "repository": "wikidata",
+    "title": "Q1274643",
+    "url": "//www.wikidata.org/wiki/Q1274643"
+   },
+   {
+    "concepturi": "http://www.wikidata.org/entity/Q87526778",
+    "description": "planetary, alchemical and gender symbol",
+    "display": {
+     "description": {
+      "language": "en",
+      "value": "planetary, alchemical and gender symbol"
+     },
+     "label": {
+      "language": "en",
+      "value": "Mercury symbol"
+     }
+    },
+    "id": "Q87526778",
+    "label": "Mercury symbol",
+    "match": {
+     "language": "en",
+     "text": "Mercury symbol",
+     "type": "label"
+    },
+    "pageid": 86767364,
+    "repository": "wikidata",
+    "title": "Q87526778",
+    "url": "//www.wikidata.org/wiki/Q87526778"
+   }
+  ],
+  "search-continue": 10,
+  "searchinfo": {
+   "search": "Mercury"
+  },
+  "success": 1
+ }
+}

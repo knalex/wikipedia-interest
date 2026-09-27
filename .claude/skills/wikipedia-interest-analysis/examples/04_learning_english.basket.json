@@ -1,0 +1,200 @@
+{
+  "status": "partial",
+  "input_queries": [
+    "uk:вивчення англійської",
+    "en:English as a second or foreign language"
+  ],
+  "targets": [
+    "uk",
+    "pl",
+    "de",
+    "es"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q130192",
+    "label": "English as a second or foreign language",
+    "description": "use of English by speakers with different native languages",
+    "language_editions_with_article": 14
+  },
+  "coverage": {
+    "uk": {
+      "core_title": null,
+      "included_articles": 0,
+      "included_redirects": 0,
+      "fallback": {
+        "phrases_tried": [
+          "вивчення англійської",
+          "English as a second or foreign language",
+          "English as a second language",
+          "English as a foreign language",
+          "English as an additional language",
+          "English for speakers of other languages",
+          "English language learning"
+        ],
+        "exact_title_matches": [],
+        "mentions": [
+          {
+            "phrase": "вивчення англійської",
+            "total_articles": 196,
+            "sample_titles": [
+              "English Club TV",
+              "Міжнародний корпус вивчення англійської мови",
+              "Cambridge University Press"
+            ]
+          }
+        ]
+      },
+      "broader_with_article": [
+        {
+          "entity_id": "Q1860",
+          "label": "англійська мова",
+          "title": "Англійська мова"
+        }
+      ]
+    },
+    "pl": {
+      "core_title": null,
+      "included_articles": 0,
+      "included_redirects": 0,
+      "fallback": {
+        "phrases_tried": [
+          "angielski jako drugi lub obcy język",
+          "English as a second or foreign language",
+          "English as a second language",
+          "English as a foreign language",
+          "English as an additional language",
+          "English for speakers of other languages",
+          "English language learning"
+        ],
+        "exact_title_matches": [],
+        "mentions": [
+          {
+            "phrase": "angielski jako drugi lub obcy język",
+            "total_articles": 0,
+            "sample_titles": []
+          }
+        ]
+      },
+      "broader_with_article": [
+        {
+          "entity_id": "Q1860",
+          "label": "англійська мова",
+          "title": "Język angielski"
+        },
+        {
+          "entity_id": "Q7691272",
+          "label": "teaching English as a second or foreign language",
+          "title": "TEFL"
+        }
+      ]
+    },
+    "de": {
+      "core_title": "Englisch als Zweitsprache",
+      "included_articles": 1,
+      "included_redirects": 1
+    },
+    "es": {
+      "core_title": "Inglés como segunda lengua",
+      "included_articles": 1,
+      "included_redirects": 0
+    }
+  },
+  "members": [
+    {
+      "entity_id": "Q130192",
+      "label": "English as a second or foreign language",
+      "role": "core",
+      "titles": {
+        "de": "Englisch als Zweitsprache",
+        "es": "Inglés como segunda lengua"
+      },
+      "in_all_targets": false,
+      "included": true
+    },
+    {
+      "entity_id": "Q1860",
+      "label": "англійська мова",
+      "role": "broader",
+      "titles": {
+        "uk": "Англійська мова",
+        "pl": "Język angielski",
+        "de": "Englische Sprache",
+        "es": "Idioma inglés"
+      },
+      "in_all_targets": true,
+      "included": false
+    },
+    {
+      "entity_id": "Q7691272",
+      "label": "teaching English as a second or foreign language",
+      "role": "broader",
+      "titles": {
+        "pl": "TEFL",
+        "de": "Englischunterricht"
+      },
+      "in_all_targets": false,
+      "included": false
+    }
+  ],
+  "articles": [
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "Englisch als Zweitsprache",
+      "kind": "article",
+      "entity_id": "Q130192",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    },
+    {
+      "lang": "de",
+      "project": "de.wikipedia",
+      "title": "English as a Second Language",
+      "kind": "redirect",
+      "redirect_to": "Englisch als Zweitsprache",
+      "entity_id": "Q130192",
+      "role": "core",
+      "source": "redirect"
+    },
+    {
+      "lang": "es",
+      "project": "es.wikipedia",
+      "title": "Inglés como segunda lengua",
+      "kind": "article",
+      "entity_id": "Q130192",
+      "role": "core",
+      "source": "wikidata_sitelink"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "user_phrase_weak_match",
+      "detail": "фраза користувача 'uk:вивчення англійської' сама по собі вказує на Q6049847 (Міжнародний корпус вивчення англійської мови: set of text corpora representing varieties of English around the world; статті в 3 мовних розділах). Додаткові формулювання обрали Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах)",
+      "question": "Під «вивчення англійської» ви маєте на увазі English as a second or foreign language (use of English by speakers with different native languages)?",
+      "alternatives": [
+        "Q6049847"
+      ]
+    },
+    {
+      "code": "core_missing",
+      "detail": "немає статті, пов'язаної з Q130192, у розділах: uk, pl"
+    },
+    {
+      "code": "asymmetric_basket",
+      "detail": "у різних мовах вимірюються різні набори понять; порівняння між мовами нерівноцінне"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (uk, pl, de, es) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Згадай одним рядком, питати не треба: фраза користувача 'uk:вивчення англійської' сама по собі вказує на Q6049847 (Міжнародний корпус вивчення англійської мови: set of text corpora representing varieties of English around the world; статті в 3 мовних розділах). Додаткові формулювання обрали Q130192 (English as a second or foreign language: use of English by speakers with different native languages; статті в 14 мовних розділах).",
+    "Скажи користувачу: у uk.wikipedia немає статті про «English as a second or foreign language» (Q130192).",
+    "Фразу «вивчення англійської» згадано в 196 статтях uk.wikipedia (напр., English Club TV, Міжнародний корпус вивчення англійської мови, Cambridge University Press): тема є лише всередині інших статей.",
+    "Запропонуй ширше поняття Q1860 «англійська мова» (uk: Англійська мова) через --include Q1860; попередь, що воно ширше і це не та сама тема.",
+    "Скажи користувачу: у pl.wikipedia немає статті про «English as a second or foreign language» (Q130192).",
+    "Запропонуй ширше поняття Q1860 «англійська мова» (pl: Język angielski) через --include Q1860; попередь, що воно ширше і це не та сама тема.",
+    "Запропонуй ширше поняття Q7691272 «teaching English as a second or foreign language» (pl: TEFL) через --include Q7691272; попередь, що воно ширше і це не та сама тема."
+  ],
+  "reply_language": "uk"
+}

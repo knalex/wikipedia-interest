@@ -1,0 +1,72 @@
+{
+  "status": "resolved",
+  "input_queries": [
+    "en:Python programming"
+  ],
+  "targets": [
+    "en",
+    "de"
+  ],
+  "scope": "core",
+  "core": {
+    "entity_id": "Q28865",
+    "label": "Python",
+    "description": "мова програмування загального призначення",
+    "language_editions_with_article": 122
+  },
+  "coverage": {
+    "en": {
+      "core_title": "Python (programming language)",
+      "included_articles": 1,
+      "included_redirects": 50
+    },
+    "de": {
+      "core_title": "Python (Programmiersprache)",
+      "included_articles": 1,
+      "included_redirects": 5
+    }
+  },
+  "warnings": [
+    {
+      "code": "resolved_by_dominance",
+      "detail": "запит також збігся з Q427130 (IDLE: інтегроване середовище розробки для мови Python; статті в 22 мовних розділах); обрано значно поширеніше Q28865 (Python: мова програмування загального призначення; статті в 122 мовних розділах)"
+    }
+  ],
+  "next_steps": [
+    "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
+    "Перевір, що --targets (en, de) — це саме ті мовні розділи, які назвав користувач, без пропусків; якщо чогось бракує, перезапусти з повним списком.",
+    "Згадай одним рядком: запит також збігся з Q427130 (IDLE: інтегроване середовище розробки для мови Python; статті в 22 мовних розділах); обрано значно поширеніше Q28865 (Python: мова програмування загального призначення; статті в 122 мовних розділах)."
+  ],
+  "reply_language": "uk",
+  "included_members": [
+    {
+      "entity_id": "Q28865",
+      "label": "Python",
+      "role": "core",
+      "titles": {
+        "en": "Python (programming language)",
+        "de": "Python (Programmiersprache)"
+      }
+    }
+  ],
+  "optional_members": [
+    {
+      "entity_id": "Q1231606",
+      "label": "divmod",
+      "role": "narrower",
+      "titles": {
+        "de": "Divmod"
+      }
+    },
+    {
+      "entity_id": "Q6553861",
+      "label": "Синтаксис Python",
+      "role": "narrower",
+      "titles": {
+        "en": "Python syntax and semantics"
+      }
+    }
+  ],
+  "optional_members_total": 2,
+  "full_basket_file": "examples/14_python_typo.basket.json"
+}
