@@ -62,7 +62,7 @@ class FullChain(unittest.TestCase):
 
             _, s3 = call(at.main, ["--views", s2["full_views_file"]])
             self.assertEqual(Path(s3["full_analysis_file"]).resolve().parent, basket.parent)
-            self.assertIn("Створені файли — тека", s3["summary_uk"])
+            self.assertIn(f"{of.FILES_HEADING} {basket.parent}/\nУ ній:", s3["summary_uk"])
 
             _, s4 = call(br.main, ["--analysis", s3["full_analysis_file"], "--views", s2["full_views_file"],
                                    "--today", STAGE2_TODAY])
@@ -71,7 +71,7 @@ class FullChain(unittest.TestCase):
             reply = s4["reply_uk"]
             for name in files:
                 self.assertIn(f"- {name} — ", reply)
-            self.assertEqual(reply.count("Створені файли — тека"), 1)
+            self.assertEqual(reply.count(of.FILES_HEADING), 1)
             self.assertNotIn(at.REPORT_OFFER, reply)
 
 

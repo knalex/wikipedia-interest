@@ -1,0 +1,34 @@
+## Користувач
+Чи зростає інтерес до теми "квантова біологія" у шведській Wikipedia? Зроди короткий звіт у PDF.
+
+## Команди агента
+```bash
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 skills/wikipedia-interest-analysis/scripts/resolve_topic.py --query "uk:квантова біологія" --query "en:quantum biology" --targets sv --user-message "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia? Зроди короткий звіт у PDF."
+WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 skills/wikipedia-interest-analysis/scripts/fetch_pageviews.py --basket wikipedia-interest-output/20260927-151527-Q1429339/basket.json --last 24
+python3 skills/wikipedia-interest-analysis/scripts/analyze_trend.py --views wikipedia-interest-output/20260927-151527-Q1429339/views.json
+python3 skills/wikipedia-interest-analysis/scripts/build_report.py --analysis wikipedia-interest-output/20260927-151527-Q1429339/analysis.json --views wikipedia-interest-output/20260927-151527-Q1429339/views.json --question "Чи зростає інтерес до теми \"квантова біологія\" у шведській Wikipedia? Зроди короткий звіт у PDF."
+```
+
+## Відповідь агента
+Тема: «Квантова біологія» (Q1429339).
+Період: вересень 2024 — серпень 2026 (24 місяці). Джерело: Wikimedia Pageviews API, лише перегляди людей (без ботів), разом із перенаправленнями.
+Порівнюю останні 12 місяців (вересень 2025 — серпень 2026) з попередніми 12 (вересень 2024 — серпень 2025) — так сезонні коливання не спотворюють висновок.
+
+- Шведська Wikipedia (sv): інтерес падає, −27 % (279 переглядів проти 381). Довіра: низька.
+  - Уся sv.wikipedia за той самий час: −2 %; з поправкою на це зміна теми −25 %.
+  - Мало переглядів (у середньому ~23 на місяць): випадкові коливання дають великі відсотки.
+
+Графік: wikipedia-interest-output/20260927-151527-Q1429339/views.svg
+Поріг: зміна менша за ±10 % вважається «без явної зміни».
+Перегляди Wikipedia — непрямий показник інтересу: вони враховують лише читачів Wikipedia цією мовою і залежать від пошукових систем, новин і назв статей.
+
+Звіт на одну сторінку (PDF): wikipedia-interest-output/20260927-151527-Q1429339/report.pdf
+
+Створено теку з результатами: <repo>/wikipedia-interest-output/20260927-151527-Q1429339/
+У ній:
+- basket.json — кошик статей (етап 1)
+- views.json — перегляди по місяцях чи днях (етап 2)
+- analysis.json — аналіз тренду й довіри (етап 3)
+- views.svg — графік (етап 3)
+- report.pdf — звіт на одну сторінку (етап 4)
+(Тека wikipedia-interest-output/ має власний .gitignore, тож у git ці файли не потрапляють.)

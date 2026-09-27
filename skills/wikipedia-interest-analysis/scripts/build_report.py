@@ -21,7 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from analyze_trend import PALETTE, REPORT_OFFER, TREND_WORDS, nice_step, pct, period_phrase  # noqa: E402
 from fetch_pageviews import REPLY_LANGUAGE, number, sentence  # noqa: E402
-from output_files import display, files_block, run_dir_for  # noqa: E402
+from output_files import FILES_HEADING, display, files_block, run_dir_for  # noqa: E402
 from pdf_writer import Page, TrueTypeFont  # noqa: E402
 
 FONT_DIR = Path(__file__).resolve().parent.parent / "assets" / "fonts"
@@ -332,7 +332,7 @@ def main(argv=None):
     page, variant = build(a, views, args.question, today)
     out = Path(args.out) if args.out else run_dir_for(args.analysis, a["topic"]["entity_id"]) / "report.pdf"
     out.write_bytes(page.to_pdf(f"Інтерес до теми «{a['topic']['label']}» у Wikipedia"))
-    summary = a.get("summary_uk", "").split("\n\nСтворені файли —")[0].replace(REPORT_OFFER, "").rstrip()
+    summary = a.get("summary_uk", "").split("\n\n" + FILES_HEADING)[0].replace(REPORT_OFFER, "").rstrip()
     reply = (summary + "\n\n" if summary else "") + f"Звіт на одну сторінку (PDF): {display(out)}"
     files = files_block(out.parent, will_create=[out.name])
     if files:

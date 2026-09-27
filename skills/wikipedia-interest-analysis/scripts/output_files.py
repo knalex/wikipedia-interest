@@ -19,6 +19,7 @@ DEFAULT_DIR_NAME = "wikipedia-interest-output"
 SKILL_DIR = Path(__file__).resolve().parent.parent
 GITIGNORE_TEXT = ("# Файли, які створює навичка wikipedia-interest-analysis (кошики, перегляди, аналіз,\n"
                   "# графіки, звіти). У git не потрапляють; видаляти можна будь-коли.\n*\n")
+FILES_HEADING = "Створено теку з результатами:"
 FILE_DESCRIPTIONS = {
     "basket.json": "кошик статей (етап 1)",
     "views.json": "перегляди по місяцях чи днях (етап 2)",
@@ -100,6 +101,7 @@ def files_block(run_dir, will_create=()) -> str:
     present = [(n, d) for n, d in FILE_DESCRIPTIONS.items() if (run_dir / n).exists() or n in will_create]
     if not present:
         return ""
-    lines = [f"Створені файли — тека {display(run_dir)}/ (у git не потрапляють, є .gitignore):"]
+    lines = [f"{FILES_HEADING} {run_dir.resolve()}/", "У ній:"]
     lines += [f"- {name} — {desc}" for name, desc in present]
+    lines.append(f"(Тека {run_dir.resolve().parent.name}/ має власний .gitignore, тож у git ці файли не потрапляють.)")
     return "\n".join(lines)
