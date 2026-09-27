@@ -9,6 +9,7 @@ description: >-
   через Wikidata — перевірений кошик статей і перенаправлень у кожному мовному розділі), збір
   переглядів через Wikimedia Pageviews API, аналіз тренду з оцінкою довіри, відносним порівнянням мов
   і графіком SVG, звіт на одну сторінку PDF. Ніколи не вгадуй і не перекладай назви статей самостійно.
+license: MIT (LICENSE). Шрифт DejaVu Sans в assets/fonts — власна ліцензія (assets/fonts/LICENSE-DejaVu.txt).
 compatibility: >-
   Python 3.8+ (лише стандартна бібліотека, без залежностей). Етапи 1–2 потребують мережі (Wikidata,
   Wikimedia Pageviews API) і змінної WIKIPEDIA_RESOLVER_CONTACT; етапи 3–4 працюють офлайн.

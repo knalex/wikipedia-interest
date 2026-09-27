@@ -5,4 +5,4 @@ __pycache__/
 # робочі кошики з ручних запусків
 basket.json
 *.basket.json
-!.claude/skills/wikipedia-interest-analysis/examples/*.basket.json
+!skills/wikipedia-interest-analysis/examples/*.basket.json

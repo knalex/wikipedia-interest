@@ -13,7 +13,9 @@
 ```
 .
 ├── README.md                     # коротко про репозиторій і посилання сюди
-└── .claude/skills/wikipedia-interest-analysis/
+├── LICENSE                       # MIT
+├── .claude/skills/wikipedia-interest-analysis → ../../skills/wikipedia-interest-analysis
+└── skills/wikipedia-interest-analysis/
     ├── SKILL.md                  # інструкції для агента
     ├── scripts/                  # увесь код — лише стандартна бібліотека Python 3.8+, без залежностей
     │   ├── resolve_topic.py      # етап 1: тема → кошик статей
@@ -32,10 +34,12 @@
         └── haiku-runs/           # діалоги агента на Haiku за раундами
 ```
 
-Навичка лежить у `.claude/skills/`, щоб Claude Code підхоплював її
-автоматично. Завдання вимагає, щоб усі матеріали й код були в директорії
-навички, тож і хід роботи, і опис завдання лежать у `docs/`; поза навичкою —
-лише короткий `README.md` репозиторію.
+Навичка лежить у `skills/`, як у репозиторії навичок Anthropic
+(`anthropics/skills`). У `.claude/skills/` — символічне посилання на неї, щоб
+Claude Code підхоплював навичку автоматично, коли репозиторій відкрито в ньому.
+Завдання вимагає, щоб усі матеріали й код були в директорії навички, тож і хід
+роботи, і опис завдання лежать у `docs/`; поза навичкою — лише короткий
+`README.md` і `LICENSE`.
 
 ## Етапи
 
@@ -98,7 +102,7 @@ Pageviews API рахує перегляди окремої статті за ї�
 в польськомовній та чеськомовній Wikipedia за останні два роки».*
 
 ```bash
-cd .claude/skills/wikipedia-interest-analysis
+cd skills/wikipedia-interest-analysis
 WIKIPEDIA_RESOLVER_CONTACT="you@example.com" python3 scripts/resolve_topic.py \
   --query "uk:інтервальне голодування" --query "en:intermittent fasting" \
   --targets pl,cs \
