@@ -99,7 +99,9 @@ class RecordedCases(unittest.TestCase):
         self.assertIn("не можна порівнювати", summary)  # дві мови
         self.assertNotIn("series", view["languages"]["cs"])
         self.assertIn("series", full["languages"]["cs"])
-        self.assertTrue(any("summary_uk" in s and "дослівно" in s for s in view["next_steps"]))
+        self.assertTrue(any("analyze_trend.py" in s for s in view["next_steps"]))  # далі — етап 3
+        self.assertIsNotNone(full["languages"]["cs"]["project_series"])  # загальна відвідуваність розділу
+        self.assertNotIn("project_series", view["languages"]["cs"])
 
 
 class Periods(unittest.TestCase):

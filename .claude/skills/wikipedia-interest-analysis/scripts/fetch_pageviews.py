@@ -31,6 +31,7 @@ from resolve_topic import (  # noqa: E402
 )
 
 PAGEVIEWS_API = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article"
+AGGREGATE_API = "https://wikimedia.org/api/rest_v1/metrics/pageviews/aggregate"
 DATA_START = dt.date(2015, 7, 1)
 DEFAULT_LAST = {"monthly": 24, "daily": 90}
 CACHE_ENV_VAR = "WIKIPEDIA_INTEREST_CACHE"
@@ -181,6 +182,12 @@ def article_url(project: str, title: str, granularity: str, start: dt.date, end:
             f"{start.strftime('%Y%m%d')}00/{last_day.strftime('%Y%m%d')}00")
 
 
+def project_url(project: str, granularity: str, start: dt.date, end: dt.date) -> str:
+    last_day = month_end(end) if granularity == "monthly" else end
+    return (f"{AGGREGATE_API}/{project}/all-access/user/{granularity}/"
+            f"{start.strftime('%Y%m%d')}00/{last_day.strftime('%Y%m%d')}00")
+
+
 def fetch_series(client, url: str):
     """{"РРРРММДД": перегляди} або None, якщо API не має даних (404)."""
     try:
@@ -210,7 +217,12 @@ def collect(client, basket: dict, start: dt.date, end: dt.date, granularity: str
                             "views": sum(values),
                             "first_period_with_views": label(keys[with_views[0]], granularity) if with_views else None})
         details.sort(key=lambda d: -d["views"])
+        # Загальна відвідуваність розділу: етап 3 відокремлює зміну теми від зміни всієї Wikipedia.
+        project = fetch_series(client, project_url(f"{lang}.wikipedia", granularity, start, end))
         languages[lang] = {"project": f"{lang}.wikipedia", "articles_count": len(items),
+                           "project_series": None if project is None else [
+                               {"period": label(k, granularity), "views": project.get(k.strftime("%Y%m%d"), 0)}
+                               for k in keys],
                            "total_views": sum(total_series),
                            "series": [{"period": label(k, granularity), "views": v} for k, v in zip(keys, total_series)],
                            "articles": details}
@@ -303,9 +315,8 @@ def summary_uk(result: dict) -> str:
     if notes:
         lines += ["", "Зверніть увагу:"] + [f"- {n}" for n in notes]
     lines.append("")
-    closing = ("Це лише суми переглядів. Чи зростає інтерес, як він змінювався в часі й наскільки цьому можна "
-               "довіряти, покаже аналіз тренду (етап 3), який ще в розробці; тоді ж з'являться графіки й "
-               "рекомендації.")
+    closing = ("Це лише суми переглядів. Чи зростає інтерес і наскільки цьому можна довіряти, показує аналіз "
+               "тренду (етап 3).")
     if len(result["languages"]) > 1:
         closing += (" Абсолютні числа різних мовних розділів не можна порівнювати як міру інтересу: розділи "
                     "мають дуже різну аудиторію, коректне порівняння (відносні зміни) буде на етапі 3.")
@@ -316,15 +327,11 @@ def summary_uk(result: dict) -> str:
 def next_steps(result: dict) -> list:
     return [
         "Відповідай користувачу українською, навіть якщо він писав іншою мовою.",
-        "Перекажи користувачу `summary_uk` дослівно — це вся відповідь етапу 2. Перед ним можна додати лише те, "
-        "що стосується етапу 1 (як ти виправив опечатку, що уточнив), а після нього — питання, якщо користувач "
-        "мусить щось вирішити.",
-        "Нічого не додавай про зміни в часі: не описуй перегляди по місяцях, не називай піків і спадів, не пиши "
-        "«зростає», «падає», «стабільно», «тенденція». Ряд ще не перевірено на зломи й сезонність — це етап 3.",
-        "Не давай рекомендацій (яку мову, аудиторію чи тему обрати) і не порівнюй мови за абсолютними числами, "
-        "навіть якщо користувач просив звіт чи рекомендації: скажи, що вони будуть після етапу 3.",
-        "Графіків ще немає. Якщо користувач просить графік, скажи, що графіки — етап 3 у розробці. Не пиши "
-        "власного коду і не кажи, що графік є.",
+        f"Одразу запусти етап 3: `python3 scripts/analyze_trend.py --views <файл --out цього запуску> "
+        f"--out <шлях>.analysis.json` і перекажи користувачу його `summary_uk`. Цей `summary_uk` окремо не "
+        f"показуй: він лише для випадку, коли етап 3 завершився помилкою.",
+        "Нічого не додавай про зміни в часі від себе: не описуй перегляди по місяцях, не називай піків і спадів — "
+        "це робить етап 3.",
         "Не читай `views.json`, щоб скласти відповідь: це вхід для етапу 3.",
     ]
 
@@ -336,7 +343,8 @@ def compact(result: dict, out_path: str) -> dict:
     view.update({k: v for k, v in result.items() if k not in first and k != "languages"})
     view["languages"] = {}
     for lang, entry in result["languages"].items():
-        view["languages"][lang] = {**{k: v for k, v in entry.items() if k not in ("articles", "series")},
+        view["languages"][lang] = {**{k: v for k, v in entry.items()
+                                      if k not in ("articles", "series", "project_series")},
                                    "top_articles": entry["articles"][:TOP_ARTICLES_STDOUT],
                                    "articles_total": len(entry["articles"])}
     view["full_views_file"] = out_path

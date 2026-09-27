@@ -1,4 +1,56 @@
 {
+ "https://wikimedia.org/api/rest_v1/metrics/pageviews/aggregate/en.wikipedia/all-access/user/monthly/2015070100/2015123100?": {
+  "items": [
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015070100",
+    "views": 7665421980
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015080100",
+    "views": 7634815221
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015090100",
+    "views": 7655695037
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015100100",
+    "views": 7746031887
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015110100",
+    "views": 7524321290
+   },
+   {
+    "access": "all-access",
+    "agent": "user",
+    "granularity": "monthly",
+    "project": "en.wikipedia",
+    "timestamp": "2015120100",
+    "views": 7476287344
+   }
+  ]
+ },
  "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/%CE%9CBTC/monthly/2015070100/2015123100?": {
   "items": [
    {
